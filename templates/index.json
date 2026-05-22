@@ -1,106 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "product_tabs_8UFhfY": {
-      "type": "product-tabs",
-      "blocks": {
-        "tab_zJhbwC": {
-          "type": "tab",
-          "settings": {
-            "title": "SKIN CARE"
-          }
-        },
-        "tab_tNBxrX": {
-          "type": "tab",
-          "settings": {
-            "title": "BODY CARE"
-          }
-        }
-      },
-      "block_order": [
-        "tab_zJhbwC",
-        "tab_tNBxrX"
-      ],
+    "featured_collection_tRzJEy": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.name",
       "settings": {
         "container": "container",
-        "color_schema": "background-1",
-        "layout": "horizontal",
-        "heading": "Featured Products",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "small",
+        "header_layout": "horizontal",
+        "heading": "The core essentials",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
         "heading_color": "",
         "subheading": "",
-        "description": "",
-        "limit": 6,
-        "columns": 4,
-        "column_gap": "double-extra-small",
-        "row_gap": "double-extra-small",
-        "enable_slider": true,
-        "show_nav": true,
-        "show_dots": false,
+        "description": "<p>Meticulously crafted formulas to protect and enhance your investment.</p>",
+        "collection": "frontpage",
+        "limit": 3,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
         "pcard_image_ratio": "",
         "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
         "button_label": "",
         "button_style": "btn--primary",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "highlight_text_with_image_7HqYxB": {
-      "type": "highlight-text-with-image",
-      "blocks": {
-        "image_JPbL7i": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 90,
-            "image_width_mobile": 60
-          }
-        },
-        "image_nq9Veb": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 90,
-            "image_width_mobile": 60
-          }
-        },
-        "image_EDHUJW": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 90,
-            "image_width_mobile": 60
-          }
-        }
-      },
-      "block_order": [
-        "image_JPbL7i",
-        "image_nq9Veb",
-        "image_EDHUJW"
-      ],
-      "custom_css": [
-        ".text-heading {max-width: 74rem; margin: 0 auto;}",
-        "@media (min-width: 1024px) and (max-width: 1279px) {.highlight-text-image__image {--image-width: 80px !important; }}",
-        "@media (min-width: 1280px) {.text-heading {max-width: 93rem; }}"
-      ],
-      "settings": {
-        "container": "container",
-        "color_scheme": "",
-        "heading": "Make you feel [img1] and appear <em>glowing</em> [img2] <em>healthy</em> [img3] <em>and balanced</em>",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h-xl",
-        "text_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -123,6 +64,7 @@
             "heading_color": "",
             "description": "",
             "button_label": "Shop Now",
+            "button_link": "",
             "button_style": "btn--underline",
             "text_alignment": "center",
             "content_spacing": "medium"
@@ -143,6 +85,7 @@
             "heading_color": "",
             "description": "",
             "button_label": "Shop Now",
+            "button_link": "",
             "button_style": "btn--white",
             "vertical_content_padding": 50,
             "vertical_content_padding_mobile": 40
@@ -182,6 +125,7 @@
       "settings": {
         "container": "container",
         "color_schema": "scheme-8",
+        "collection": "",
         "enable_sticky_column": true,
         "section_header_padding_bottom": "large",
         "heading": "Designed to make <em>you feel good.</em>",
@@ -192,6 +136,7 @@
         "subheading": "Our Hand-picked",
         "description": "<p>Our thoughtfully curated beauty essentials are designed to enhance your natural glow, boost confidence, and make every day feel special.</p>",
         "button_label": "Shop Now",
+        "button_link": "",
         "button_style": "btn--primary",
         "limit": 3,
         "column_gap": "double-extra-small",
@@ -215,6 +160,7 @@
         "collection_Xwweka": {
           "type": "collection",
           "settings": {
+            "collection": "",
             "heading": "Skincare For Beach",
             "heading_size": "h3",
             "text": "<p>Protect and nourish your skin with hydrating, sun-ready essentials for a radiant and refreshed beach glow.</p>"
@@ -223,6 +169,7 @@
         "collection_WPJMBT": {
           "type": "collection",
           "settings": {
+            "collection": "",
             "heading": "Detox Skin Nights",
             "heading_size": "h3",
             "text": "<p>Purify and rejuvenate your skin overnight with powerful treatments that restore balance and reveal a healthy glow.</p>"
@@ -231,6 +178,7 @@
         "collection_BUpqi8": {
           "type": "collection",
           "settings": {
+            "collection": "",
             "heading": "Summer Treatments",
             "heading_size": "h3",
             "text": "<p>Keep your skin fresh and hydrated with lightweight, soothing formulas perfect for warm, sunny days and balmy nights.</p>"
@@ -274,30 +222,35 @@
         "featured_collection_kL4Dyg": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Body Care"
           }
         },
         "featured_collection_bJJmkG": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": ""
           }
         },
         "featured_collection_KHXKji": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": ""
           }
         },
         "featured_collection_JjXTxK": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": ""
           }
         },
         "featured_collection_XgrqTA": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": ""
           }
         }
@@ -634,6 +587,7 @@
           "settings": {
             "layout": "horizontal",
             "image_height": "medium",
+            "product": "",
             "width": "50%",
             "before_heading": "Before",
             "before_color_scheme": "",
@@ -661,6 +615,7 @@
             "padding_right": 100,
             "align_content_container": "none",
             "button_label": "Shop this product",
+            "button_link": "",
             "button_style": "btn--primary",
             "width": "50%",
             "mobile_color_scheme": "",
@@ -714,6 +669,7 @@
         "heading_color": "",
         "subheading": "",
         "description": "",
+        "collection": "",
         "limit": 6,
         "columns": 4,
         "column_gap": "double-extra-small",
@@ -772,6 +728,7 @@
             "align_text": "center",
             "content_width": 500,
             "button_label": "Shop The Sale",
+            "button_link": "",
             "button_style": "btn--white",
             "block_custom_class": "",
             "animations": "inherit"
@@ -800,6 +757,7 @@
         "product_Cp9T33": {
           "type": "product",
           "settings": {
+            "product": "",
             "hotspot_color": "light",
             "horizontal": 30,
             "vertical": 51
@@ -808,6 +766,7 @@
         "product_FkqcRJ": {
           "type": "product",
           "settings": {
+            "product": "",
             "hotspot_color": "light",
             "horizontal": 50,
             "vertical": 62
@@ -816,6 +775,7 @@
         "product_BwkEMi": {
           "type": "product",
           "settings": {
+            "product": "",
             "hotspot_color": "light",
             "horizontal": 68,
             "vertical": 61
@@ -862,55 +822,67 @@
         "testimonial_dkXHLB": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_t94aYa": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_gjAVzh": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_CGEMdm": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_tUweFx": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_6VYtEh": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
             "bio": "",
-            "show_image": true
+            "show_image": true,
+            "product": ""
           }
         }
       },
@@ -1029,6 +1001,7 @@
             "heading_color": "",
             "description": "<p>Shoot our team an email & we’ll get<br/> back to you ASAP</p>",
             "button_label": "Contact Us",
+            "button_link": "",
             "button_style": "btn--white",
             "animations": "inherit"
           }
@@ -1160,6 +1133,7 @@
         "subheading": "Follow Us",
         "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
         "button_label": "follow us",
+        "button_link": "",
         "button_style": "btn--primary",
         "image_ratio": "adapt",
         "columns": 4,
@@ -1208,8 +1182,7 @@
     }
   },
   "order": [
-    "product_tabs_8UFhfY",
-    "highlight_text_with_image_7HqYxB",
+    "featured_collection_tRzJEy",
     "uneven_image_cards_K7Ynjh",
     "favorite_collection_hXrDpg",
     "collection_tabs_X9GTqT",

@@ -1,1 +1,141 @@
-{"type":"header","name":"t:sections.header.name","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement_bfeDTn":{"type":"announcement","settings":{"text":"<p>10% OFF your first purchase use code <a href=\"#\" title=\"#\">WELCOME10<\/a><\/p>","link":"","homepage_only":false,"hide_on_page":"","show_on_mobile":false,"show_on_tablet":true,"show_on_desktop":true}},"announcement_EqMdWP":{"type":"announcement","settings":{"text":"<p>New customers save 10% with code WELCOME10<\/p>","link":"","homepage_only":false,"hide_on_page":"","show_on_mobile":true,"show_on_tablet":false,"show_on_desktop":false}}},"block_order":["announcement_bfeDTn","announcement_EqMdWP"],"disabled":true,"custom_css":[".announcement-bar__row {padding: 7px 10px;}","a {font-weight: 500;}"],"settings":{"color_schema":"inverse","show_close_button":false,"enable_carousel":false,"autoplay":false,"autorotate_speed":4}},"header":{"type":"header","settings":{"color_schema":"","layout":"design-5","container":"container","sticky_header":true,"sticky_type":"always","transparent_header":true,"logo":"shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_10_09_39_AM.png","logo_transparent":"shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_09_59_05_AM.png","logo_mobile":"shopify:\/\/shop_images\/ChatGPT_Image_May_22_2026_09_59_05_AM.png","logo_width":105,"logo_mobile_width":86,"main_menu":"main-menu","mobile_menu":"main-menu","menu_dropdown_color_schema":"background-1","dropdown_menu_trigger":"hover","enable_mega_menu":true,"customer_account_menu":"customer-account-main-menu","show_search":true,"show_cart":true,"show_account":true,"show_country_selector":false,"show_language_selector":false,"logo_mobile_position":"center","mobile_show_search":true,"mobile_show_cart":true,"mobile_show_account":true,"mobile_show_social":true,"padding_top":13,"padding_bottom":13}},"banner_logo_DzPBr4":{"type":"banner-logo","blocks":{"title_HDmbPN":{"type":"title","settings":{"title":"Honor the art.<em>   <\/em>Heal the <em>skin<\/em>.","highlight_style":"underline","enable_highlight_text_color":true,"heading_size":"h0"}},"text_Kydt3K":{"type":"text","settings":{"text":"<p>A 3-step healing ritual rooted in New Zealand botanicals, science, and cultural respect.<\/p>"}},"button_iwwNFf":{"type":"button","settings":{"button_label":"Show Now","button_link":"","button_style":"btn--primary","button_size":""}}},"block_order":["title_HDmbPN","text_Kydt3K","button_iwwNFf"],"settings":{"color_schema":"","image":"shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_08_16_20_PM.png","image_mobile":"shopify:\/\/shop_images\/ChatGPT_Image_May_21_2026_08_21_01_PM.png","image_overlay_opacity":0,"animations":"inherit","enable_bg_zoom_effect":true}}},"order":["announcement-bar","header","banner_logo_DzPBr4"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_bfeDTn": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>10% OFF your first purchase use code <a href=\"#\" title=\"#\">WELCOME10</a></p>",
+            "link": "",
+            "homepage_only": false,
+            "hide_on_page": "",
+            "show_on_mobile": false,
+            "show_on_tablet": true,
+            "show_on_desktop": true
+          }
+        },
+        "announcement_EqMdWP": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>New customers save 10% with code WELCOME10</p>",
+            "link": "",
+            "homepage_only": false,
+            "hide_on_page": "",
+            "show_on_mobile": true,
+            "show_on_tablet": false,
+            "show_on_desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "announcement_bfeDTn",
+        "announcement_EqMdWP"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".announcement-bar__row {padding: 7px 10px;}",
+        "a {font-weight: 500;}"
+      ],
+      "settings": {
+        "color_schema": "inverse",
+        "show_close_button": false,
+        "enable_carousel": false,
+        "autoplay": false,
+        "autorotate_speed": 4
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_schema": "",
+        "layout": "design-5",
+        "container": "container",
+        "sticky_header": true,
+        "sticky_type": "always",
+        "transparent_header": true,
+        "logo": "shopify://shop_images/ChatGPT_Image_May_22_2026_10_09_39_AM.png",
+        "logo_transparent": "shopify://shop_images/ChatGPT_Image_May_22_2026_09_59_05_AM.png",
+        "logo_mobile": "shopify://shop_images/ChatGPT_Image_May_22_2026_09_59_05_AM.png",
+        "logo_width": 105,
+        "logo_mobile_width": 86,
+        "main_menu": "main-menu",
+        "mobile_menu": "main-menu",
+        "menu_dropdown_color_schema": "background-1",
+        "dropdown_menu_trigger": "hover",
+        "enable_mega_menu": true,
+        "customer_account_menu": "customer-account-main-menu",
+        "show_search": true,
+        "show_cart": true,
+        "show_account": true,
+        "show_country_selector": false,
+        "show_language_selector": false,
+        "logo_mobile_position": "center",
+        "mobile_show_search": true,
+        "mobile_show_cart": true,
+        "mobile_show_account": true,
+        "mobile_show_social": true,
+        "padding_top": 13,
+        "padding_bottom": 13
+      }
+    },
+    "banner_logo_DzPBr4": {
+      "type": "banner-logo",
+      "blocks": {
+        "title_HDmbPN": {
+          "type": "title",
+          "settings": {
+            "title": "Honor the <em>art.   </em>Heal the <em>skin.</em>",
+            "highlight_style": "underline",
+            "enable_highlight_text_color": true,
+            "heading_size": "h0"
+          }
+        },
+        "text_Kydt3K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A 3-step healing ritual rooted in New Zealand botanicals, science, and cultural respect.</p>"
+          }
+        },
+        "button_iwwNFf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the Ritual",
+            "button_link": "shopify://collections/all",
+            "button_style": "btn--secondary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_HDmbPN",
+        "text_Kydt3K",
+        "button_iwwNFf"
+      ],
+      "settings": {
+        "color_schema": "inverse",
+        "image": "shopify://shop_images/ChatGPT_Image_May_21_2026_08_16_20_PM.png",
+        "image_mobile": "shopify://shop_images/ChatGPT_Image_May_21_2026_08_21_01_PM.png",
+        "image_overlay_opacity": 0,
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "banner_logo_DzPBr4"
+  ]
+}
