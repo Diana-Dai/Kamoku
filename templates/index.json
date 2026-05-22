@@ -1,0 +1,1228 @@
+{
+  "sections": {
+    "product_tabs_8UFhfY": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_zJhbwC": {
+          "type": "tab",
+          "settings": {
+            "title": "SKIN CARE"
+          }
+        },
+        "tab_tNBxrX": {
+          "type": "tab",
+          "settings": {
+            "title": "BODY CARE"
+          }
+        }
+      },
+      "block_order": [
+        "tab_zJhbwC",
+        "tab_tNBxrX"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "layout": "horizontal",
+        "heading": "Featured Products",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "limit": 6,
+        "columns": 4,
+        "column_gap": "double-extra-small",
+        "row_gap": "double-extra-small",
+        "enable_slider": true,
+        "show_nav": true,
+        "show_dots": false,
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "highlight_text_with_image_7HqYxB": {
+      "type": "highlight-text-with-image",
+      "blocks": {
+        "image_JPbL7i": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 90,
+            "image_width_mobile": 60
+          }
+        },
+        "image_nq9Veb": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 90,
+            "image_width_mobile": 60
+          }
+        },
+        "image_EDHUJW": {
+          "type": "image",
+          "settings": {
+            "image_link": "",
+            "image_width": 90,
+            "image_width_mobile": 60
+          }
+        }
+      },
+      "block_order": [
+        "image_JPbL7i",
+        "image_nq9Veb",
+        "image_EDHUJW"
+      ],
+      "custom_css": [
+        ".text-heading {max-width: 74rem; margin: 0 auto;}",
+        "@media (min-width: 1024px) and (max-width: 1279px) {.highlight-text-image__image {--image-width: 80px !important; }}",
+        "@media (min-width: 1280px) {.text-heading {max-width: 93rem; }}"
+      ],
+      "settings": {
+        "container": "container",
+        "color_scheme": "",
+        "heading": "Make you feel [img1] and appear <em>glowing</em> [img2] <em>healthy</em> [img3] <em>and balanced</em>",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "text_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "uneven_image_cards_K7Ynjh": {
+      "type": "uneven-image-cards",
+      "blocks": {
+        "image_with_text_CBnmn7": {
+          "type": "image_with_text",
+          "settings": {
+            "image_ratio": "adapt",
+            "sub_heading": "",
+            "heading": "Focus on Summer",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h3",
+            "heading_color": "",
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--underline",
+            "text_alignment": "center",
+            "content_spacing": "medium"
+          }
+        },
+        "image_card_ieEBwH": {
+          "type": "image_card",
+          "settings": {
+            "layout": "layout5",
+            "text_color": "#ffffff",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 0,
+            "sub_heading": "",
+            "heading": "For Naturally Resilient Skin",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h1",
+            "heading_color": "",
+            "description": "",
+            "button_label": "Shop Now",
+            "button_style": "btn--white",
+            "vertical_content_padding": 50,
+            "vertical_content_padding_mobile": 40
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_CBnmn7",
+        "image_card_ieEBwH"
+      ],
+      "settings": {
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h1",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "vertical_alignment": "center",
+        "padding_top": 86,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "favorite_collection_hXrDpg": {
+      "type": "favorite-collection",
+      "custom_css": [
+        "@media (min-width: 768px) {.section__header--text {max-width: 47rem; }}"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-8",
+        "enable_sticky_column": true,
+        "section_header_padding_bottom": "large",
+        "heading": "Designed to make <em>you feel good.</em>",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "Our Hand-picked",
+        "description": "<p>Our thoughtfully curated beauty essentials are designed to enhance your natural glow, boost confidence, and make every day feel special.</p>",
+        "button_label": "Shop Now",
+        "button_style": "btn--primary",
+        "limit": 3,
+        "column_gap": "double-extra-small",
+        "row_gap": "large",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_tabs_X9GTqT": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_Xwweka": {
+          "type": "collection",
+          "settings": {
+            "heading": "Skincare For Beach",
+            "heading_size": "h3",
+            "text": "<p>Protect and nourish your skin with hydrating, sun-ready essentials for a radiant and refreshed beach glow.</p>"
+          }
+        },
+        "collection_WPJMBT": {
+          "type": "collection",
+          "settings": {
+            "heading": "Detox Skin Nights",
+            "heading_size": "h3",
+            "text": "<p>Purify and rejuvenate your skin overnight with powerful treatments that restore balance and reveal a healthy glow.</p>"
+          }
+        },
+        "collection_BUpqi8": {
+          "type": "collection",
+          "settings": {
+            "heading": "Summer Treatments",
+            "heading_size": "h3",
+            "text": "<p>Keep your skin fresh and hydrated with lightweight, soothing formulas perfect for warm, sunny days and balmy nights.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Xwweka",
+        "collection_WPJMBT",
+        "collection_BUpqi8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "accent",
+        "heading": "Time to achieve <em>more with less</em>",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "Our Collections",
+        "description": "",
+        "image_position": "right",
+        "image_ratio": "adapt",
+        "prefix_header": "ordinal_number",
+        "trigger_behavior": "hover",
+        "autoplay": true,
+        "autoplay_duration": 5,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collection_list_aLDhXA": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_kL4Dyg": {
+          "type": "featured_collection",
+          "settings": {
+            "title": "Body Care"
+          }
+        },
+        "featured_collection_bJJmkG": {
+          "type": "featured_collection",
+          "settings": {
+            "title": ""
+          }
+        },
+        "featured_collection_KHXKji": {
+          "type": "featured_collection",
+          "settings": {
+            "title": ""
+          }
+        },
+        "featured_collection_JjXTxK": {
+          "type": "featured_collection",
+          "settings": {
+            "title": ""
+          }
+        },
+        "featured_collection_XgrqTA": {
+          "type": "featured_collection",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_kL4Dyg",
+        "featured_collection_bJJmkG",
+        "featured_collection_KHXKji",
+        "featured_collection_JjXTxK",
+        "featured_collection_XgrqTA"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "large",
+        "section_header_content_spacing": "medium",
+        "header_layout": "vertical",
+        "heading": "The Luxury of the Uncomplicated",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "title_font": "heading",
+        "title_size": "h6",
+        "card_style": "6",
+        "text_alignment": "left",
+        "text_color": "#222222",
+        "image_ratio": "adapt",
+        "show_count": false,
+        "inline_count": false,
+        "columns": 5,
+        "column_gap": "small",
+        "row_gap": "medium",
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_url": "",
+        "button_style": "btn--primary",
+        "enable_slider": false,
+        "show_dots": false,
+        "show_nav": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "scrolling_promotion_hqmXhT": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_T9fpfn": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping",
+            "font_family": "heading",
+            "text_size": 34,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "divider_thUczM": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_tDRRbe": {
+          "type": "announcement",
+          "settings": {
+            "text": "<em>30 Days Free Returns</em>",
+            "font_family": "heading",
+            "text_size": 34,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "divider_yGqbRD": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_gkbW9y": {
+          "type": "announcement",
+          "settings": {
+            "text": "Fast Delivery",
+            "font_family": "heading",
+            "text_size": 34,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "divider_jFxCpw": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_iNPwCT": {
+          "type": "announcement",
+          "settings": {
+            "text": "<em>Secure Payment</em>",
+            "font_family": "heading",
+            "text_size": 34,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "divider_dT9nDr": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "announcement_T9fpfn",
+        "divider_thUczM",
+        "announcement_tDRRbe",
+        "divider_yGqbRD",
+        "announcement_gkbW9y",
+        "divider_jFxCpw",
+        "announcement_iNPwCT",
+        "divider_dT9nDr"
+      ],
+      "settings": {
+        "container": "container-full",
+        "color_schema": "scheme-7",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "alignment": "center",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.2,
+        "item_gap": 30,
+        "item_gap_mobile": 20,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "use_custom_mobile_padding": true,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "press_cqLPj3": {
+      "type": "press",
+      "blocks": {
+        "press_EdKygw": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Glow naturally with skincare that nourishes, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_Lj4Ed9": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Detox nights call for treatments that purify, restore, and leave you glowing.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_DeXfCL": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Feel confident with beauty essentials crafted to enhance your natural radiance.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_JcxVbL": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Refresh and restore with soothing skincare for your summer adventures.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_LEXyeU": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Unlock your glow with skincare that pampers, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_8xAyiR": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Glow naturally with skincare that nourishes, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_TzhCVG": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Detox nights call for treatments that purify, restore, and leave you glowing.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_83cHJm": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Feel confident with beauty essentials crafted to enhance your natural radiance.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_hiMxPH": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Refresh and restore with soothing skincare for your summer adventures.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_wWLd73": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Unlock your glow with skincare that pampers, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_EdKygw",
+        "press_Lj4Ed9",
+        "press_DeXfCL",
+        "press_JcxVbL",
+        "press_LEXyeU",
+        "press_8xAyiR",
+        "press_TzhCVG",
+        "press_83cHJm",
+        "press_hiMxPH",
+        "press_wWLd73"
+      ],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "Our Press",
+        "description": "",
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "custom_content_4Y7LQm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_comparsion_MKPzdU": {
+          "type": "image_comparsion",
+          "settings": {
+            "layout": "horizontal",
+            "image_height": "medium",
+            "width": "50%",
+            "before_heading": "Before",
+            "before_color_scheme": "",
+            "before_heading_plain_text": true,
+            "after_heading": "After",
+            "after_color_scheme": "",
+            "after_heading_plain_text": true,
+            "block_custom_class": ""
+          }
+        },
+        "text_yzDt4M": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "The balance of <em>high-performance</em>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": "",
+            "subheading": "Wear it four way",
+            "text": "<p>Experience the perfect blend of advanced formulas and skin-loving ingredients, delivering powerful results while maintaining harmony for a healthy, radiant complexion.</p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 100,
+            "padding_right": 100,
+            "align_content_container": "none",
+            "button_label": "Shop this product",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 0,
+            "mobile_padding_right": 0,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_comparsion_MKPzdU",
+        "text_yzDt4M"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "column_gap": "none",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 70,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "featured_collection_eLzcFn": {
+      "type": "featured-collection",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "header_layout": "vertical",
+        "heading": "The Elegance of Effortless Beauty",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "limit": 6,
+        "columns": 4,
+        "column_gap": "double-extra-small",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": true,
+        "show_nav": true,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 70,
+        "padding_bottom": 100,
+        "show_section_divider": true,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "promotion_banner_a4868f": {
+      "type": "promotion-banner",
+      "blocks": {
+        "text_j9rmNX": {
+          "type": "text",
+          "settings": {
+            "title": "<p><em>Sale Up To 30%</em></p>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": "#ffe68c",
+            "subheading": "Saving up to $30",
+            "text": "<p>*Ends April 120 2025, 12:00 PST. T&C's Apply</p>",
+            "align_text": "center",
+            "content_width": 500,
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_QTfLRC": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Seasonal Savings Event</p>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": "",
+            "subheading": "",
+            "text": "<p>Up to 30% Off on Must-Have Styles !</p>",
+            "align_text": "center",
+            "content_width": 500,
+            "button_label": "Shop The Sale",
+            "button_style": "btn--white",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_j9rmNX",
+        "text_QTfLRC"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-5",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "products_bundle_kwD9NH": {
+      "type": "products-bundle",
+      "blocks": {
+        "product_Cp9T33": {
+          "type": "product",
+          "settings": {
+            "hotspot_color": "light",
+            "horizontal": 30,
+            "vertical": 51
+          }
+        },
+        "product_FkqcRJ": {
+          "type": "product",
+          "settings": {
+            "hotspot_color": "light",
+            "horizontal": 50,
+            "vertical": 62
+          }
+        },
+        "product_BwkEMi": {
+          "type": "product",
+          "settings": {
+            "hotspot_color": "light",
+            "horizontal": 68,
+            "vertical": 61
+          }
+        }
+      },
+      "block_order": [
+        "product_Cp9T33",
+        "product_FkqcRJ",
+        "product_BwkEMi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-10",
+        "image_position": "right",
+        "desktop_content_position": "center",
+        "subheading": "<p>product bundle</p>",
+        "heading": "<p>Favorite <em>Packs</em></p>",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "padding_left": 50,
+        "padding_right": 100,
+        "align_content_container": "none",
+        "mobile_padding_left": 0,
+        "mobile_padding_right": 0,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 48,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "testimonials_FcqFjd": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_dkXHLB": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
+            "author": "Jared S.",
+            "bio": "",
+            "show_image": true
+          }
+        },
+        "testimonial_t94aYa": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
+            "author": "Alisa A.",
+            "bio": "",
+            "show_image": true
+          }
+        },
+        "testimonial_gjAVzh": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
+            "author": "Sophie R.",
+            "bio": "",
+            "show_image": true
+          }
+        },
+        "testimonial_CGEMdm": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
+            "author": "Jared S.",
+            "bio": "",
+            "show_image": true
+          }
+        },
+        "testimonial_tUweFx": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
+            "author": "Alisa A.",
+            "bio": "",
+            "show_image": true
+          }
+        },
+        "testimonial_6VYtEh": {
+          "type": "testimonial",
+          "settings": {
+            "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
+            "author": "Sophie R.",
+            "bio": "",
+            "show_image": true
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_dkXHLB",
+        "testimonial_t94aYa",
+        "testimonial_gjAVzh",
+        "testimonial_CGEMdm",
+        "testimonial_tUweFx",
+        "testimonial_6VYtEh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-7",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Real People, Real Results",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "description": "",
+        "design": "unbalanced",
+        "stars_color": "#222222",
+        "card_color_schema": "scheme-6",
+        "columns": 4,
+        "column_gap": "medium",
+        "enable_slider": true,
+        "show_dots": true,
+        "show_nav": true,
+        "autoplay": true,
+        "autoplay_timeout": 4,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_FCfpmk": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "heading_gzLNKk": {
+          "type": "heading",
+          "settings": {
+            "text": "Discover more in our FAQs",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": "",
+            "sub_heading": ""
+          }
+        },
+        "content_gxek9M": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How long does it take to process an order?",
+            "content": "<p>Orders are processed within 1-2 business days. You'll receive a confirmation once it ships. During holidays or peak times, processing may take slightly longer than usual.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": true
+          }
+        },
+        "content_a4gAFx": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Do you ship internationally?",
+            "content": "<p>Yes, we ship internationally! Delivery times and rates vary by location. Additional customs fees or duties may apply, depending on your country's regulations.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_rgGA7q": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What is your return policy?",
+            "content": "<p>We accept returns within 30 days of purchase. Items must be unused and in original packaging. Refunds are processed once the return is received and inspected.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_6yxfN4": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Can I modify or cancel my order after placing it?",
+            "content": "<p>Orders can be modified or canceled within a short window after purchase. Once processed, changes may not be possible. Contact us as soon as possible for assistance.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "image_card_w8hfGh": {
+          "type": "image_card",
+          "settings": {
+            "image_position": "right",
+            "image_alignment": "center",
+            "image_width": 37,
+            "layout": "layout6",
+            "text_color": "#ffffff",
+            "image_ratio": "adapt",
+            "image_overlay_opacity": 30,
+            "sub_heading": "",
+            "heading": "Still need help?",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": "",
+            "description": "<p>Shoot our team an email & we’ll get<br/> back to you ASAP</p>",
+            "button_label": "Contact Us",
+            "button_style": "btn--white",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gzLNKk",
+        "content_gxek9M",
+        "content_a4gAFx",
+        "content_rgGA7q",
+        "content_6yxfN4",
+        "image_card_w8hfGh"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h1",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "item_heading_font": "heading",
+        "item_heading_size": "h4",
+        "column_gap": "extra-large",
+        "content_width": "full",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit"
+      }
+    },
+    "gallery_images_n7N9gp": {
+      "type": "gallery-images",
+      "blocks": {
+        "image_hQzAtj": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_bWKed8": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_6PmFiW": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_XtaE3H": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_qiWqB9": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_NGKGkA": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_cEjarh": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_Lxaz6J": {
+          "type": "image",
+          "settings": {
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hQzAtj",
+        "image_bWKed8",
+        "image_6PmFiW",
+        "image_XtaE3H",
+        "image_qiWqB9",
+        "image_NGKGkA",
+        "image_cEjarh",
+        "image_Lxaz6J"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "On Instagram",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h1",
+        "heading_color": "",
+        "subheading": "Follow Us",
+        "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
+        "button_label": "follow us",
+        "button_style": "btn--primary",
+        "image_ratio": "adapt",
+        "columns": 4,
+        "column_gap": "double-extra-small",
+        "layout": "metro",
+        "metro_item_color_schema": "scheme-9",
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "165422614227341852": {
+      "type": "newsletter",
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "heading": "Join the Cosmo Club",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "subheading": "<p>Subscribe for store updates and discounts.</p>",
+        "description": "<p>By subscribing you agree to the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Use </a>& <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy.</a></p>",
+        "email_placeholder": "Enter your email",
+        "hide_label": true,
+        "form_position": "center",
+        "text_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    }
+  },
+  "order": [
+    "product_tabs_8UFhfY",
+    "highlight_text_with_image_7HqYxB",
+    "uneven_image_cards_K7Ynjh",
+    "favorite_collection_hXrDpg",
+    "collection_tabs_X9GTqT",
+    "collection_list_aLDhXA",
+    "scrolling_promotion_hqmXhT",
+    "press_cqLPj3",
+    "custom_content_4Y7LQm",
+    "featured_collection_eLzcFn",
+    "promotion_banner_a4868f",
+    "products_bundle_kwD9NH",
+    "testimonials_FcqFjd",
+    "collapsible_tabs_FCfpmk",
+    "gallery_images_n7N9gp",
+    "165422614227341852"
+  ]
+}
