@@ -388,6 +388,11 @@
     </div>
 
     <div class="product-card__info{% if is_complementary %} text-left{% else %} text-{{ settings.pcard_content_alignment }}{% endif %}">
+      {%- if product.metafields.custom.stage -%}
+        <span class="product-card__stage">
+          {{- product.metafields.custom.stage -}}
+        </span>
+      {%- endif -%}
       {%- if show_vendor -%}
         <span class="product-card__vendor text-upper">
           {{- product.vendor -}}
