@@ -7103,3 +7103,7 @@ shopify-account::part(signed-out-avatar) {
 .f-drawer-mobile-nav .f-disclosure-list {
   height: auto;
 }
+
+.product-card__stage{
+  margin: 10px 0;
+}

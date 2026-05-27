@@ -65,8 +65,8 @@
         "sticky_header": true,
         "sticky_type": "always",
         "transparent_header": true,
-        "logo": "shopify://shop_images/ChatGPT_Image_May_22_2026_10_09_39_AM.png",
-        "logo_transparent": "shopify://shop_images/ChatGPT_Image_May_22_2026_09_59_05_AM.png",
+        "logo": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_17_11_PM.png",
+        "logo_transparent": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_24_56_PM.png",
         "logo_mobile": "shopify://shop_images/ChatGPT_Image_May_22_2026_09_59_05_AM.png",
         "logo_width": 105,
         "logo_mobile_width": 86,
@@ -96,9 +96,9 @@
         "title_HDmbPN": {
           "type": "title",
           "settings": {
-            "title": "Honor the <em>art.   </em>Heal the <em>skin.</em>",
+            "title": "Honor the <em>art</em>. <em>  </em>Heal the <em>skin</em>.",
             "highlight_style": "underline",
-            "enable_highlight_text_color": true,
+            "enable_highlight_text_color": false,
             "heading_size": "h0"
           }
         },

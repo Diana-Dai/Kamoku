@@ -388,6 +388,7 @@
     </div>
 
     <div class="product-card__info{% if is_complementary %} text-left{% else %} text-{{ settings.pcard_content_alignment }}{% endif %}">
+
       {%- if show_vendor -%}
         <span class="product-card__vendor text-upper">
           {{- product.vendor -}}
@@ -396,6 +397,11 @@
       <h3 class="product-card__title text-product-title {{ product_title_class }}">
         {{- product.title -}}
       </h3>
+            {%- if product.metafields.custom.stage -%}
+        <p class="product-card__stage">
+          {{- product.metafields.custom.stage -}}
+        </p>
+      {%- endif -%}
       {% if settings.pcard_show_review_badge %}
         <div class="product-card__reviews">
           {%- render 'product-rating', product: product -%}
