@@ -7112,6 +7112,10 @@ shopify-account::part(signed-out-avatar) {
   margin: 15px 0;
   font-style: italic;
 }
+.template-product .f-product-single__block{
+  margin: 8px 0;
+  
+}
 .f-collection-tab__content-wrap{
       padding-left: 15px;
     padding-right: 15px;
