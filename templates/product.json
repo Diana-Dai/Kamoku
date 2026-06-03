@@ -12,6 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_gynG9g": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "STAGE {{ product.metafields.custom.stage_ndex.value }}",
+            "text_style": "subtitle"
+          }
+        },
         "badge_8hgTjY": {
           "type": "badge",
           "settings": {}
@@ -27,14 +35,6 @@
           "settings": {
             "show_sale_badge": true,
             "sale_badge_type": "percentage"
-          }
-        },
-        "text_gynG9g": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "{{ product.metafields.custom.stage.value }}",
-            "text_style": "body"
           }
         },
         "5d5f2fed-55f0-4ee0-b094-80d275d5d781": {
@@ -134,10 +134,10 @@
         }
       },
       "block_order": [
+        "text_gynG9g",
         "badge_8hgTjY",
         "title",
         "price",
-        "text_gynG9g",
         "5d5f2fed-55f0-4ee0-b094-80d275d5d781",
         "description",
         "variant_picker",
