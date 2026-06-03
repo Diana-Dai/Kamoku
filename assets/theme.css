@@ -7120,3 +7120,7 @@ shopify-account::part(signed-out-avatar) {
       letter-spacing: 3px;
     font-size: 1rem;
 }
+
+.template-product .f-product-single__block .product-card__stage_index{
+  display:none;
+}
