@@ -5809,6 +5809,8 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
 }
 .product-card--list .product-card__info .f-price {
   justify-content: flex-start;
+  font-size: var(--font-h6-size);
+
 }
 .product-card--list .product-card__info .f-price__regular {
   margin: 0;
