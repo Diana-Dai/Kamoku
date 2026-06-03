@@ -7114,3 +7114,9 @@ shopify-account::part(signed-out-avatar) {
       padding-left: 15px;
     padding-right: 15px;
 }
+
+
+.text-subtext *{
+      letter-spacing: 3px;
+    font-size: 1rem;
+}
