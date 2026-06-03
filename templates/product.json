@@ -94,7 +94,6 @@
         },
         "complementary_WGHcVt": {
           "type": "complementary",
-          "disabled": true,
           "settings": {
             "block_heading": "BUY IT WITH",
             "make_collapsible_row": false,
