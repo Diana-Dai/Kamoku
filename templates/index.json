@@ -124,7 +124,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_schema": "scheme-8",
+        "color_schema": "background-2",
         "collection": "",
         "enable_sticky_column": true,
         "section_header_padding_bottom": "large",
