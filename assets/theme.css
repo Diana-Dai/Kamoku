@@ -7112,7 +7112,7 @@ shopify-account::part(signed-out-avatar) {
   margin: 15px 0;
   font-style: italic;
 }
-.template-product .f-product-single__block{
+.template-product .f-product-single__block .product-card__stage{
   margin: 8px 0;
   
 }
