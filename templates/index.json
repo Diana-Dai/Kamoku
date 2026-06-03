@@ -128,7 +128,7 @@
         "collection": "",
         "enable_sticky_column": true,
         "section_header_padding_bottom": "large",
-        "heading": "Designed to make you<em> feel good.</em>",
+        "heading": "Designed to make you <em> feel good.</em>",
         "highlight_style": "drawer_line",
         "enable_highlight_text_color": true,
         "heading_size": "h-xl",
