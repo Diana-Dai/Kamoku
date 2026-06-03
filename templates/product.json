@@ -44,9 +44,11 @@
             "star_size": 12
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "richtext_APTFht": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.short_description | metafield_tag }}</p>"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -138,7 +140,7 @@
         "title",
         "price",
         "5d5f2fed-55f0-4ee0-b094-80d275d5d781",
-        "description",
+        "richtext_APTFht",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
