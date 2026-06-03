@@ -388,10 +388,17 @@
     </div>
 
     <div class="product-card__info{% if is_complementary %} text-left{% else %} text-{{ settings.pcard_content_alignment }}{% endif %}">
+<<<<<<< HEAD
       {%- if product.metafields.custom.stage_ndex -%}
         <p class="product-card__stage_index">
           {{- product.metafields.custom.stage_ndex -}}
         </p>
+=======
+      {%- if product.metafields.custom.stage -%}
+        <span class="product-card__stage">
+          {{- product.metafields.custom.stage -}}
+        </span>
+>>>>>>> cedb78f9456d56329493bdaf233c7a1c15800050
       {%- endif -%}
       {%- if show_vendor -%}
         <span class="product-card__vendor text-upper">
