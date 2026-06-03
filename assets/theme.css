@@ -5081,7 +5081,7 @@ shopify-accelerated-checkout-cart {
   line-height: 1.5;
   color: var(--color-product-price);
   position: relative;
-  font-size: var(--font-h2-size);
+  font-size: var(--font-h3-size);
   margin-top: 10px;
 }
 .f-price__badges {
