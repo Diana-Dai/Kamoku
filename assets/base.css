@@ -1172,3 +1172,9 @@ responsive-image img {
     transform: scale(1.2) rotate(5deg) translateZ(0);
   }
 }
+
+
+.text-subtext{
+      letter-spacing: 3px;
+    font-size: 1rem;
+}
