@@ -359,34 +359,34 @@
       },
       "background-2": {
         "settings": {
-          "primary_accent": "#e17855",
+          "primary_accent": "#9aa791",
           "border": "#eeeeee",
           "text": "#222222",
           "heading": "#222222",
-          "highlight_text": "#e97750",
+          "highlight_text": "#9aa791",
           "color_main_bg": "#efece7",
           "color_secondary_bg": "#efece7",
-          "button": "#e17855",
+          "button": "#9aa791",
           "button_label": "#ffffff",
           "secondary_button": "#f8f6f4",
           "secondary_button_border": "#ededed",
           "secondary_button_label": "#222222",
-          "button_hover": "#d6613b",
+          "button_hover": "#9aa791",
           "button_label_hover": "#ffffff",
           "form_field": "#ffffff",
           "form_field_label": "#222222",
           "price_regular": "#222222",
-          "tooltip": "#e17855",
+          "tooltip": "#9aa791",
           "tooltip_label": "#ffffff"
         }
       },
       "inverse": {
         "settings": {
-          "primary_accent": "#9aa791",
+          "primary_accent": "#c2d3cd",
           "border": "#ffffff",
           "text": "#ffffff",
           "heading": "#ffffff",
-          "highlight_text": "#9aa791",
+          "highlight_text": "#c2d3cd",
           "color_main_bg": "#444444",
           "color_secondary_bg": "#111111",
           "button": "#ffffff",
@@ -400,18 +400,18 @@
           "form_field_label": "#444444",
           "price_regular": "#ffffff",
           "tooltip": "#ffffff",
-          "tooltip_label": "#e17855"
+          "tooltip_label": "#c2d3cd"
         }
       },
       "accent": {
         "settings": {
-          "primary_accent": "#e17855",
+          "primary_accent": "#c2d3cd",
           "border": "#ffffff",
           "text": "#ffffff",
           "heading": "#ffffff",
-          "highlight_text": "#e97750",
+          "highlight_text": "#c2d3cd",
           "color_main_bg": "#000000",
-          "color_secondary_bg": "#e17855",
+          "color_secondary_bg": "#c2d3cd",
           "button": "#ffffff",
           "button_label": "#222222",
           "secondary_button": "#ededed",
@@ -420,10 +420,10 @@
           "button_hover": "#ffffff",
           "button_label_hover": "#222222",
           "form_field": "#ffffff",
-          "form_field_label": "#e17855",
+          "form_field_label": "#c2d3cd",
           "price_regular": "#ffffff",
           "tooltip": "#ffffff",
-          "tooltip_label": "#e17855"
+          "tooltip_label": "#c2d3cd"
         }
       },
       "scheme-5": {
