@@ -40,8 +40,8 @@
         "button_style": "btn--primary",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 45,
+        "padding_bottom": 45,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -108,8 +108,8 @@
         "subheading": "",
         "description": "",
         "vertical_alignment": "center",
-        "padding_top": 86,
-        "padding_bottom": 100,
+        "padding_top": 45,
+        "padding_bottom": 45,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -973,6 +973,7 @@
     "rich_text_GiX8ff",
     "165422614227341852",
     "rich_text_7xcidK",
-    "uneven_image_cards_K7Ynjh"
+    "uneven_image_cards_K7Ynjh",
+    "favorite_collection_hXrDpg"
   ]
 }
