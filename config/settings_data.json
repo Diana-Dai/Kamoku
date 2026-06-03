@@ -24,10 +24,10 @@
     "type_header_font": "manrope_n4",
     "heading_scale": 100,
     "heading_mobile_scale": 80,
-    "highlight_text_font": "heading",
-    "highlight_text_custom_font": "kaushan_script_n4",
+    "highlight_text_font": "custom",
+    "highlight_text_custom_font": "marcellus_n4",
     "mega_title_font": "heading",
-    "mega_title_custom_font": "libre_baskerville_n4",
+    "mega_title_custom_font": "marcellus_n4",
     "mega_title_scale": 480,
     "upper_mega_title": false,
     "subheading_scale": 100,
@@ -379,11 +379,11 @@
       },
       "inverse": {
         "settings": {
-          "primary_accent": "#9aa791",
+          "primary_accent": "#c2d3cd",
           "border": "#ffffff",
           "text": "#ffffff",
           "heading": "#ffffff",
-          "highlight_text": "#9aa791",
+          "highlight_text": "#c2d3cd",
           "color_main_bg": "#444444",
           "color_secondary_bg": "#111111",
           "button": "#ffffff",
@@ -397,7 +397,7 @@
           "form_field_label": "#444444",
           "price_regular": "#ffffff",
           "tooltip": "#ffffff",
-          "tooltip_label": "#e17855"
+          "tooltip_label": "#c2d3cd"
         }
       },
       "accent": {
