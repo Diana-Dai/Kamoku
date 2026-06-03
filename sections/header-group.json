@@ -96,8 +96,8 @@
         "title_HDmbPN": {
           "type": "title",
           "settings": {
-            "title": "Honor the <em>art.   </em>Heal the <em>skin</em>.",
-            "highlight_style": "underline",
+            "title": "Honor the art<em>.   </em>Heal the skin.",
+            "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h0"
           }
