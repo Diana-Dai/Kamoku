@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer.name",
@@ -7,6 +16,7 @@
       "blocks": {
         "text_D9xAmH": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "We use natural skincare ingredients to keep your skin smooth and hydrated",
             "heading_size": "h3",
@@ -21,7 +31,8 @@
           "settings": {
             "heading": "PRESETS",
             "heading_size": "h6",
-            "width": 16,
+            "menu": "footer",
+            "width": 33,
             "open_default_collapsible_tab": false,
             "show_divider": true
           }
@@ -31,7 +42,8 @@
           "settings": {
             "heading": "ABOUT",
             "heading_size": "h6",
-            "width": 16,
+            "menu": "footer",
+            "width": 33,
             "open_default_collapsible_tab": false,
             "show_divider": true
           }
@@ -41,7 +53,8 @@
           "settings": {
             "heading": "SHOP",
             "heading_size": "h6",
-            "width": 16,
+            "menu": "footer",
+            "width": 33,
             "open_default_collapsible_tab": false,
             "show_divider": true
           }
@@ -65,7 +78,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_schema": "accent",
+        "color_schema": "inverse",
         "show_copyright": true,
         "show_divider": false,
         "enable_follow_on_shop": false,
@@ -74,7 +87,7 @@
         "enable_country_selector": true,
         "enable_language_selector": true,
         "show_payments": true,
-        "bottom_menu": "bottom-footer-menu",
+        "bottom_menu": "",
         "animations": "inherit"
       }
     },
@@ -90,7 +103,8 @@
         "mobile-sticky-bar-1": {
           "type": "products",
           "settings": {
-            "text": "Products"
+            "text": "Products",
+            "collection": ""
           }
         },
         "mobile-sticky-bar-2": {
@@ -171,7 +185,9 @@
         "show_teaser": false,
         "teaser_button_text": "Newsletter",
         "teaser_popup_bg": "#1437aa",
-        "teaser_popup_text": "#ffffff"
+        "teaser_popup_text": "#ffffff",
+        "inherit_color_scheme": true,
+        "color_schema": ""
       }
     },
     "age-verifier-popup": {

@@ -265,8 +265,8 @@
 }
 
 .f-section-padding {
-  padding-top: var(--section-padding-top-mobile, min(4.8rem, var(--section-padding-top, 0) * 0.75));
-  padding-bottom: var(--section-padding-bottom-mobile, min(4.8rem, var(--section-padding-bottom, 0) * 0.75));
+  padding-top: var(--section-padding-top-mobile, min(6.8rem, var(--section-padding-top, 0) * 0.75));
+  padding-bottom: var(--section-padding-bottom-mobile, min(6.8rem, var(--section-padding-bottom, 0) * 0.75));
 }
 
 @media screen and (min-width: 768px) {
@@ -5081,6 +5081,8 @@ shopify-accelerated-checkout-cart {
   line-height: 1.5;
   color: var(--color-product-price);
   position: relative;
+  font-size: var(--font-h5-size);
+  margin-top: 10px;
 }
 .f-price__badges {
   align-items: center;
@@ -7105,5 +7107,10 @@ shopify-account::part(signed-out-avatar) {
 }
 
 .product-card__stage{
-  margin: 10px 0;
+  margin: 15px 0;
+  font-style: italic;
+}
+.f-collection-tab__content-wrap{
+      padding-left: 15px;
+    padding-right: 15px;
 }

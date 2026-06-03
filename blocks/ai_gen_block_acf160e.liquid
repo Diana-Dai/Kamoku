@@ -1,0 +1,953 @@
+{% doc %}
+  @prompt
+    A high-end ultra-minimalist ecommerce product section for a luxury tattoo aftercare brand inspired by Aesop, Le Labo, and modern editorial skincare design. Split-layout composition with a large lifestyle product photograph on the left and refined product information on the right.
+    
+    LEFT SIDE:
+    A cinematic editorial product scene featuring muted sage green skincare packaging with a frosted glass jar and matching box labeled “TAMOKO”. Products placed on a raw textured limestone slab with subtle imperfections and tactile stone grain. Soft natural sunlight casts organic shadows from botanical leaves across the scene. A smooth cream smear sits naturally in the foreground. Slight condensation on the jar for realism. Warm neutral tones, muted beige, warm greys, soft olive green, matte textures, luxury skincare aesthetic, shallow depth of field, realistic shadows, premium apothecary atmosphere.
+    
+    RIGHT SIDE:
+    Clean luxury ecommerce layout with elegant typography and large negative space. Editorial serif headline reading “The Recovery Bundle”. Minimal sans-serif body typography. Price displayed in refined luxury style. Thin dividers and vertically centered spacing. Three minimalist product rows with subtle icons and descriptions. Large rounded charcoal-black CTA button centered horizontally. Extremely clean alignment and spacing inspired by premium skincare websites.
+    
+    BOTTOM SECTION:
+    Minimal icon row with subtle line icons and muted captions representing botanical ingredients, circadian rhythm recovery, tattoo-safe formulation, and ethical sourcing.
+    
+    STYLE:
+    Luxury editorial web design, ultra-minimalist UI, premium skincare branding, calm sophisticated atmosphere, tactile materials, cinematic natural light, muted organic palette, soft shadows, elegant spacing, high-end Shopify landing page aesthetic, photorealistic, 8k, modern wellness branding, intentional healing ritual aesthetic.
+    
+    NO:
+    No bright colors, no neon, no harsh contrast, no busy background, no glossy plastic, no cyberpunk, no stock-photo feeling, no clutter.,  compare at price , Three minimalist product rows with subtle icons and descriptions. 
+    
+    we should be able to select products and add product image on the left side
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-luxury-product-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding }}px 0;
+  }
+
+  .ai-luxury-product__container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.container_width }}px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-luxury-product__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.grid_gap }}px;
+    align-items: center;
+  }
+
+  .ai-luxury-product__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    aspect-ratio: {{ block.settings.image_aspect_ratio }};
+    overflow: hidden;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-luxury-product__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-luxury-product__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: {{ block.settings.placeholder_bg }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-luxury-product__image-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    opacity: 0.3;
+  }
+
+  .ai-luxury-product__content-{{ ai_gen_id }} {
+    padding: {{ block.settings.content_padding }}px;
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.content_spacing }}px;
+  }
+
+  .ai-luxury-product__heading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.2;
+    color: {{ block.settings.heading_color }};
+    margin: 0;
+    letter-spacing: {{ block.settings.heading_letter_spacing }}px;
+  }
+
+  .ai-luxury-product__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    line-height: 1.6;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    opacity: 0.85;
+  }
+
+  .ai-luxury-product__price-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ai-luxury-product__price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    color: {{ block.settings.text_color }};
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-luxury-product__compare-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.compare_price_size }}px;
+    color: {{ block.settings.compare_price_color }};
+    text-decoration: line-through;
+    opacity: 0.6;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-luxury-product__divider-{{ ai_gen_id }} {
+    width: 100%;
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin: {{ block.settings.divider_spacing }}px 0;
+  }
+
+  .ai-luxury-product__products-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: {{ block.settings.product_row_spacing }}px;
+  }
+
+  .ai-luxury-product__product-row-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: {{ block.settings.product_row_gap }}px;
+    padding: {{ block.settings.product_row_padding }}px 0;
+  }
+
+  .ai-luxury-product__product-image-wrapper-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.product_image_size }}px;
+    height: {{ block.settings.product_image_size }}px;
+    border-radius: {{ block.settings.product_image_radius }}px;
+    overflow: hidden;
+    background-color: {{ block.settings.placeholder_bg }};
+  }
+
+  .ai-luxury-product__product-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-luxury-product__product-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-luxury-product__product-image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-luxury-product__product-content-{{ ai_gen_id }} {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .ai-luxury-product__product-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.product_title_size }}px;
+    font-weight: 500;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    letter-spacing: 0.3px;
+  }
+
+  .ai-luxury-product__product-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.product_description_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.7;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .ai-luxury-product__button-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: {{ block.settings.button_padding_vertical }}px {{ block.settings.button_padding_horizontal }}px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.button_font_size }}px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ai-luxury-product__button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg }};
+    color: {{ block.settings.button_hover_text }};
+  }
+
+  .ai-luxury-product__icons-row-{{ ai_gen_id }} {
+    display: flex;
+    justify-content: center;
+    gap: {{ block.settings.bottom_icons_gap }}px;
+    padding-top: {{ block.settings.bottom_icons_padding }}px;
+    margin-top: {{ block.settings.bottom_icons_margin }}px;
+    border-top: 1px solid {{ block.settings.divider_color }};
+  }
+
+  .ai-luxury-product__icon-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 120px;
+    text-align: center;
+  }
+
+  .ai-luxury-product__icon-item-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.bottom_icon_size }}px;
+    height: {{ block.settings.bottom_icon_size }}px;
+    color: {{ block.settings.icon_color }};
+  }
+
+  .ai-luxury-product__icon-item-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.bottom_icon_text_size }}px;
+    color: {{ block.settings.text_color }};
+    opacity: 0.7;
+    line-height: 1.4;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-luxury-product__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .ai-luxury-product__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.75 }}px;
+    }
+
+    .ai-luxury-product__content-{{ ai_gen_id }} {
+      padding: 20px 0;
+    }
+
+    .ai-luxury-product__icons-row-{{ ai_gen_id }} {
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .ai-luxury-product__icon-item-{{ ai_gen_id }} {
+      flex: 1 1 calc(50% - 12px);
+      min-width: 100px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-luxury-product-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-luxury-product__container-{{ ai_gen_id }}">
+    <div class="ai-luxury-product__grid-{{ ai_gen_id }}">
+      <div class="ai-luxury-product__image-wrapper-{{ ai_gen_id }}">
+        {% if block.settings.main_image %}
+          <img
+            src="{{ block.settings.main_image | image_url: width: 1200 }}"
+            alt="{{ block.settings.main_image.alt | escape }}"
+            class="ai-luxury-product__image-{{ ai_gen_id }}"
+            loading="lazy"
+            width="{{ block.settings.main_image.width }}"
+            height="{{ block.settings.main_image.height }}"
+          >
+        {% else %}
+          <div class="ai-luxury-product__image-placeholder-{{ ai_gen_id }}">
+            {{ 'product-1' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="ai-luxury-product__content-{{ ai_gen_id }}">
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-luxury-product__heading-{{ ai_gen_id }}">
+            {{ block.settings.heading }}
+          </h2>
+        {% endif %}
+
+        {% if block.settings.description != blank %}
+          <div class="ai-luxury-product__description-{{ ai_gen_id }}">
+            {{ block.settings.description }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_price %}
+          <div class="ai-luxury-product__price-wrapper-{{ ai_gen_id }}">
+            {% if block.settings.price != blank %}
+              <div class="ai-luxury-product__price-{{ ai_gen_id }}">
+                {{ block.settings.price }}
+              </div>
+            {% endif %}
+            {% if block.settings.show_compare_price and block.settings.compare_price != blank %}
+              <div class="ai-luxury-product__compare-price-{{ ai_gen_id }}">
+                {{ block.settings.compare_price }}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="ai-luxury-product__divider-{{ ai_gen_id }}"></div>
+
+        <div class="ai-luxury-product__products-{{ ai_gen_id }}">
+          {% for i in (1..3) %}
+            {% liquid
+              assign product_key = 'product_' | append: i
+              assign product = block.settings[product_key]
+            %}
+            
+            {% if product != blank %}
+              <div class="ai-luxury-product__product-row-{{ ai_gen_id }}">
+                <div class="ai-luxury-product__product-image-wrapper-{{ ai_gen_id }}">
+                  {% if product.featured_image %}
+                    <img
+                      src="{{ product.featured_image | image_url: width: 200 }}"
+                      alt="{{ product.featured_image.alt | escape }}"
+                      class="ai-luxury-product__product-image-{{ ai_gen_id }}"
+                      loading="lazy"
+                      width="200"
+                      height="200"
+                    >
+                  {% else %}
+                    <div class="ai-luxury-product__product-image-placeholder-{{ ai_gen_id }}">
+                      {{ 'product-1' | placeholder_svg_tag }}
+                    </div>
+                  {% endif %}
+                </div>
+                <div class="ai-luxury-product__product-content-{{ ai_gen_id }}">
+                  <h3 class="ai-luxury-product__product-title-{{ ai_gen_id }}">
+                    {{ product.title }}
+                  </h3>
+                  {% if product.description != blank %}
+                    <p class="ai-luxury-product__product-description-{{ ai_gen_id }}">
+                      {{ product.description | strip_html | truncate: 80 }}
+                    </p>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        <div class="ai-luxury-product__divider-{{ ai_gen_id }}"></div>
+
+        {% if block.settings.button_text != blank %}
+          <a
+            href="{{ block.settings.button_link }}"
+            class="ai-luxury-product__button-{{ ai_gen_id }}"
+          >
+            {{ block.settings.button_text }}
+          </a>
+        {% endif %}
+
+        {% if block.settings.show_bottom_icons %}
+          <div class="ai-luxury-product__icons-row-{{ ai_gen_id }}">
+            {% if block.settings.bottom_icon_1_text != blank %}
+              <div class="ai-luxury-product__icon-item-{{ ai_gen_id }}">
+                <div class="ai-luxury-product__icon-item-icon-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                  </svg>
+                </div>
+                <p class="ai-luxury-product__icon-item-text-{{ ai_gen_id }}">
+                  {{ block.settings.bottom_icon_1_text }}
+                </p>
+              </div>
+            {% endif %}
+
+            {% if block.settings.bottom_icon_2_text != blank %}
+              <div class="ai-luxury-product__icon-item-{{ ai_gen_id }}">
+                <div class="ai-luxury-product__icon-item-icon-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                  </svg>
+                </div>
+                <p class="ai-luxury-product__icon-item-text-{{ ai_gen_id }}">
+                  {{ block.settings.bottom_icon_2_text }}
+                </p>
+              </div>
+            {% endif %}
+
+            {% if block.settings.bottom_icon_3_text != blank %}
+              <div class="ai-luxury-product__icon-item-{{ ai_gen_id }}">
+                <div class="ai-luxury-product__icon-item-icon-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                  </svg>
+                </div>
+                <p class="ai-luxury-product__icon-item-text-{{ ai_gen_id }}">
+                  {{ block.settings.bottom_icon_3_text }}
+                </p>
+              </div>
+            {% endif %}
+
+            {% if block.settings.bottom_icon_4_text != blank %}
+              <div class="ai-luxury-product__icon-item-{{ ai_gen_id }}">
+                <div class="ai-luxury-product__icon-item-icon-{{ ai_gen_id }}">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                  </svg>
+                </div>
+                <p class="ai-luxury-product__icon-item-text-{{ ai_gen_id }}">
+                  {{ block.settings.bottom_icon_4_text }}
+                </p>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Luxury product showcase",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "label": "Container width",
+      "min": 800,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 0,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "label": "Grid gap",
+      "min": 20,
+      "max": 120,
+      "step": 10,
+      "unit": "px",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "content_padding",
+      "label": "Content padding",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "content_spacing",
+      "label": "Content spacing",
+      "min": 10,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Main image"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main image"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "1 / 1",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "4 / 5",
+          "label": "Portrait (4:5)"
+        },
+        {
+          "value": "3 / 4",
+          "label": "Portrait (3:4)"
+        },
+        {
+          "value": "16 / 9",
+          "label": "Landscape (16:9)"
+        }
+      ],
+      "default": "4 / 5"
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Image border radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "<p>The Recovery Bundle</p>"
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "serif"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 24,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "heading_letter_spacing",
+      "label": "Heading letter spacing",
+      "min": -2,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>A curated collection of botanical aftercare essentials designed to support your skin's natural healing process.</p>"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Pricing"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "label": "Show price",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "Sale price",
+      "default": "$125.00"
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "label": "Sale price size",
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "checkbox",
+      "id": "show_compare_price",
+      "label": "Show compare at price",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "compare_price",
+      "label": "Compare at price",
+      "default": "$175.00"
+    },
+    {
+      "type": "range",
+      "id": "compare_price_size",
+      "label": "Compare price size",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "compare_price_color",
+      "label": "Compare price color",
+      "default": "#888888"
+    },
+    {
+      "type": "header",
+      "content": "Product rows"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "product_3",
+      "label": "Product 3"
+    },
+    {
+      "type": "range",
+      "id": "product_row_spacing",
+      "label": "Row spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "product_row_gap",
+      "label": "Row gap",
+      "min": 10,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "product_row_padding",
+      "label": "Row padding",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "product_image_size",
+      "label": "Product image size",
+      "min": 40,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "product_image_radius",
+      "label": "Product image radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "product_title_size",
+      "label": "Product title size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "product_description_size",
+      "label": "Product description size",
+      "min": 11,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Add to Cart"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "button_font_size",
+      "label": "Button font size",
+      "min": 11,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "button_padding_vertical",
+      "label": "Button vertical padding",
+      "min": 10,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_padding_horizontal",
+      "label": "Button horizontal padding",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Bottom icons"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_bottom_icons",
+      "label": "Show bottom icons",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "bottom_icons_gap",
+      "label": "Icons gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "bottom_icons_padding",
+      "label": "Icons padding top",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "bottom_icons_margin",
+      "label": "Icons margin top",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "bottom_icon_size",
+      "label": "Bottom icon size",
+      "min": 20,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "bottom_icon_text_size",
+      "label": "Bottom icon text size",
+      "min": 10,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "text",
+      "id": "bottom_icon_1_text",
+      "label": "Icon 1 text",
+      "default": "Botanical ingredients"
+    },
+    {
+      "type": "text",
+      "id": "bottom_icon_2_text",
+      "label": "Icon 2 text",
+      "default": "Circadian recovery"
+    },
+    {
+      "type": "text",
+      "id": "bottom_icon_3_text",
+      "label": "Icon 3 text",
+      "default": "Tattoo-safe"
+    },
+    {
+      "type": "text",
+      "id": "bottom_icon_4_text",
+      "label": "Icon 4 text",
+      "default": "Ethically sourced"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#fcfaf7"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icons",
+      "default": "#9aa791"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider",
+      "default": "#e6e4e2"
+    },
+    {
+      "type": "range",
+      "id": "divider_spacing",
+      "label": "Divider spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg",
+      "label": "Button hover background",
+      "default": "#9aa791"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text",
+      "label": "Button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "placeholder_bg",
+      "label": "Placeholder background",
+      "default": "#efece7"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Luxury product showcase"
+    }
+  ]
+}
+{% endschema %}

@@ -388,7 +388,11 @@
     </div>
 
     <div class="product-card__info{% if is_complementary %} text-left{% else %} text-{{ settings.pcard_content_alignment }}{% endif %}">
-
+      {%- if product.metafields.custom.stage_ndex -%}
+        <p class="product-card__stage_index">
+          {{- product.metafields.custom.stage_ndex -}}
+        </p>
+      {%- endif -%}
       {%- if show_vendor -%}
         <span class="product-card__vendor text-upper">
           {{- product.vendor -}}
@@ -397,9 +401,14 @@
       <h3 class="product-card__title text-product-title {{ product_title_class }}">
         {{- product.title -}}
       </h3>
-            {%- if product.metafields.custom.stage -%}
+      {%- if product.metafields.custom.stage -%}
         <p class="product-card__stage">
           {{- product.metafields.custom.stage -}}
+        </p>
+      {%- endif -%}
+      {%- if product.metafields.custom.short_description -%}
+        <p class="product-card__short_descriptionstage">
+          {{- product.metafields.custom.short_description -}}
         </p>
       {%- endif -%}
       {% if settings.pcard_show_review_badge %}

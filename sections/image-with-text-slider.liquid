@@ -65,9 +65,11 @@
 ></script>
 <div
   id="{{ section_id }}"
+    style="--section-padding-top: {{ section.settings.padding_top }}px; --section-padding-bottom: {{ section.settings.padding_bottom }}px;"
+
   data-section-type="slider"
   data-section-id="{{ section.id }}"
-  class="f-slider{{ custom_class }}"
+  class="f-section-padding f-slider{{ custom_class }}"
   role="region"
   aria-roledescription="{{ 'sections.image-with-text-slider.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -347,6 +349,26 @@
     {
       "type": "header",
       "content": "t:sections.common.general.name"
+    },
+        {
+      "type": "range",
+      "id": "padding_top",
+      "label": "t:sections.common.section_padding.top_padding.label",
+      "default": 40,
+      "min": 0,
+      "max": 300,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "t:sections.common.section_padding.bottom_padding.label",
+      "default": 40,
+      "min": 0,
+      "max": 300,
+      "step": 5,
+      "unit": "px"
     },
     {
       "type": "paragraph",

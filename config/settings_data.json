@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "favicon": "shopify://shop_images/favico.png",
     "container_width": 1340,
     "section_header_alignment": "center",
     "page_transition": true,
@@ -19,24 +20,24 @@
     "color_badge_new": "#336a6e",
     "color_badge_soldout": "#b7b7b7",
     "color_cart_bubble": "#e97750",
-    "type_body_font": "host_grotesk_n4",
+    "type_body_font": "sans_serif_n4",
     "body_scale": 100,
-    "type_header_font": "manrope_n4",
+    "type_header_font": "marcellus_n4",
     "heading_scale": 100,
     "heading_mobile_scale": 80,
     "highlight_text_font": "custom",
-    "highlight_text_custom_font": "libre_baskerville_i4",
-    "mega_title_font": "custom",
+    "highlight_text_custom_font": "marcellus_n4",
+    "mega_title_font": "heading",
     "mega_title_custom_font": "libre_baskerville_n4",
     "mega_title_scale": 480,
     "upper_mega_title": false,
     "subheading_scale": 100,
     "subheading_font": "body",
     "subheading_font_weight": "500",
-    "subheading_letter_spacing": 1,
+    "subheading_letter_spacing": 2,
     "subheading_transform": "uppercase",
     "pcard_title_scale": 140,
-    "pcard_title_font": "body",
+    "pcard_title_font": "heading",
     "pcard_title_font_weight": "500",
     "menu_font_weight": "500",
     "upper_navigation": true,
@@ -325,7 +326,9 @@
           "show_on_mobile": true,
           "show_atc_button": true,
           "show_dynamic_checkout_buttons": false,
-          "show_quantity": true
+          "show_quantity": true,
+          "inherit_color_scheme": true,
+          "color_schema": ""
         }
       }
     },
@@ -350,7 +353,7 @@
           "form_field": "#fcfaf7",
           "form_field_label": "#222222",
           "price_regular": "#222222",
-          "tooltip": "#e17855",
+          "tooltip": "#9aa791",
           "tooltip_label": "#ffffff"
         }
       },
@@ -407,7 +410,7 @@
           "text": "#ffffff",
           "heading": "#ffffff",
           "highlight_text": "#e97750",
-          "color_main_bg": "#192d39",
+          "color_main_bg": "#000000",
           "color_secondary_bg": "#e17855",
           "button": "#ffffff",
           "button_label": "#222222",
