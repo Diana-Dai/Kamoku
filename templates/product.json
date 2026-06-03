@@ -38,15 +38,7 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
-        },
-        "c3fe57e7-f87d-482d-a723-0b40a6f4ff8d": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "text": "<p><em>This is a demonstration store. This product, and its image and text, is placeholder only.</em></p>"
-          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -94,6 +86,7 @@
         },
         "complementary_WGHcVt": {
           "type": "complementary",
+          "disabled": true,
           "settings": {
             "block_heading": "BUY IT WITH",
             "make_collapsible_row": false,
@@ -109,6 +102,7 @@
         },
         "collapsible_tab_YfYLeV": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "CORE FEATURES",
@@ -120,6 +114,7 @@
         },
         "44a0cb66-4d76-437d-a088-4170647fb088": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "INGREDIENTS",
@@ -136,7 +131,6 @@
         "price",
         "5d5f2fed-55f0-4ee0-b094-80d275d5d781",
         "description",
-        "c3fe57e7-f87d-482d-a723-0b40a6f4ff8d",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
