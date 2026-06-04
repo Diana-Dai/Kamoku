@@ -362,8 +362,8 @@
         "text_RfEgrF"
       ],
       "custom_css": [
-        "h5 {list-style: none; padding-left: 0; padding-top: 2rem;}",
-        "h5 + p {padding-bottom: 1rem; border-bottom: 1px solid #ded7cc; font-family: var(--font-heading-family);}"
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #ded7cc; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
