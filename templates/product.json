@@ -242,7 +242,7 @@
         "content_in_container": false,
         "content_position": "center",
         "text_alignment": "center",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "hero_height_mobile": "large",
         "content_position_mobile": "center",
         "show_text_below": true,
@@ -353,13 +353,17 @@
         "text_RfEgrF": {
           "type": "text",
           "settings": {
-            "text": "<p>Formulated with New Zealand botanicals and backed by healing science, cleanse wash respects the integrity of fresh ink while keeping infection at bay.</p><p></p><ul><li>Removes debris without stripping</li><li>Gentle enough for sensitive skin</li><li>Reduces infection risk naturally</li></ul>"
+            "text": "<p>Formulated with New Zealand botanicals and backed by healing science, cleanse wash respects the integrity of fresh ink while keeping infection at bay.</p><p></p><h5>Removes debris without stripping</h5><p>Lifts plasma and ink residue while preserving the skin's natural protective barrier.</p><h5>Gentle enough for sensitive skin</h5><p>No harsh sulfates or synthetic fragrances that irritate healing tattoos.</p><h5>Reduces infection risk naturally</h5><p>Botanical antimicrobials work with your skin's own healing response.</p>"
           }
         }
       },
       "block_order": [
         "heading_9eqLyE",
         "text_RfEgrF"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 2rem;}",
+        "h5 + p{padding-bottom: 1rem; border-bottom: 1px solid #ded7cc; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
