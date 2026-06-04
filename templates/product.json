@@ -163,6 +163,74 @@
         "show_featured_media": true
       }
     },
+    "collapsible_tabs_3AL9CK": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_7w4KrG": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "pH Optimization (5.5)",
+            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_7M6cXe": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Trauma-Safe Testing Data",
+            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_hCkG8x": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Allergy Screening",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_7w4KrG",
+        "content_7M6cXe",
+        "content_hCkG8x"
+      ],
+      "name": "Collapsible tabs",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Specifications",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "item_heading_font": "body",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "full",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "rich_text_tMaMPn": {
       "type": "rich-text",
       "blocks": {
@@ -615,6 +683,7 @@
   },
   "order": [
     "main",
+    "collapsible_tabs_3AL9CK",
     "rich_text_tMaMPn",
     "custom_content_4Y7LQm",
     "multicolumn_eX6pK6",
