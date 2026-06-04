@@ -97,9 +97,9 @@
         "complementary_WGHcVt": {
           "type": "complementary",
           "settings": {
-            "block_heading": "BUY IT WITH",
+            "block_heading": "Buy it with",
             "make_collapsible_row": true,
-            "icon": "heart",
+            "icon": "none",
             "product_list_limit": 3,
             "products_per_page": 2,
             "enable_slider": false,
