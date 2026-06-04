@@ -310,7 +310,7 @@
       "custom_css": [],
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "large",
         "section_header_content_spacing": "medium",
         "heading": "When to use cleanse wash",
@@ -367,7 +367,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "color_schema": "background-1",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
@@ -427,7 +427,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "color_schema": "",
         "image": "shopify://shop_images/tactile.png",
         "image_width": "50%",
@@ -595,7 +595,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "",
@@ -609,8 +609,8 @@
         "row_gap": "medium",
         "enable_swipe_mobile": false,
         "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
