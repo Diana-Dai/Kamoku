@@ -391,6 +391,66 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_8E97jX": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_aiWeLX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tactile Interaction"
+          }
+        },
+        "heading_m7GWaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"A cooling, viscous gel that transforms into a delicate, low-foam emulsion. It glides effortlessly over tender skin without catching or pulling.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_dnyEhA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>NON-STRIPPING</li><li>SOOTHING</li><li>UNSCENTED</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aiWeLX",
+        "heading_m7GWaD",
+        "text_dnyEhA"
+      ],
+      "custom_css": [
+        "ul{padding-left: 0; list-style: none; display: flex; gap:20px;}",
+        "ul li{letter-spacing: 2px; border: 1px solid #9AA791; padding: 1rem 2rem; border-radius: 20px; background: #9AA791; color:white;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "shopify://shop_images/tactile.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "custom_content_4Y7LQm": {
       "type": "custom-content",
       "blocks": {
@@ -762,6 +822,7 @@
     "hero_L8ErTV",
     "multicolumn_eX6pK6",
     "image_with_text_nQJWVP",
+    "image_with_text_8E97jX",
     "custom_content_4Y7LQm",
     "testimonials_FcqFjd",
     "product-recommendations",
