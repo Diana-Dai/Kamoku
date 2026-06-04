@@ -338,30 +338,48 @@
         "animations": "inherit"
       }
     },
-    "rich_text_tMaMPn": {
-      "type": "rich-text",
+    "image_with_text_nQJWVP": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_ce9BMK": {
+        "heading_9eqLyE": {
           "type": "heading",
           "settings": {
-            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "heading": "What makes this cleanser work",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
+            "heading_size": "h2"
+          }
+        },
+        "text_RfEgrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Formulated with New Zealand botanicals and backed by healing science, cleanse wash respects the integrity of fresh ink while keeping infection at bay.</p><p></p><ul><li>Removes debris without stripping</li><li>Gentle enough for sensitive skin</li><li>Reduces infection risk naturally</li></ul>"
           }
         }
       },
       "block_order": [
-        "heading_ce9BMK"
+        "heading_9eqLyE",
+        "text_RfEgrF"
       ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container",
-        "color_schema": "scheme-7",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -701,6 +719,37 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ce9BMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ce9BMK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
@@ -708,10 +757,11 @@
     "collapsible_tabs_3AL9CK",
     "hero_L8ErTV",
     "multicolumn_eX6pK6",
-    "rich_text_tMaMPn",
+    "image_with_text_nQJWVP",
     "custom_content_4Y7LQm",
     "testimonials_FcqFjd",
     "product-recommendations",
-    "gallery_images_n7N9gp"
+    "gallery_images_n7N9gp",
+    "rich_text_tMaMPn"
   ]
 }
