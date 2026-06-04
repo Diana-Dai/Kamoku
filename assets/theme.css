@@ -5238,9 +5238,9 @@ shopify-accelerated-checkout-cart {
 .collapsible__item[data-destroy=true] .f-facets__block-header {
   pointer-events: none;
 }
-.collapsible__item[open=true] .collapsible__button {
+/* .collapsible__item[open=true] .collapsible__button {
   border-color: var(--color-text-heading);
-}
+} */
 
 [data-collapsible-icon] {
   position: absolute;
