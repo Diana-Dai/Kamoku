@@ -1286,6 +1286,8 @@ product-modal .f-modal__content {
 }
 .f-complementary-products .product-card {
   padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
 }
 .f-complementary-products .product-card__title {
   line-height: 2.6rem;
