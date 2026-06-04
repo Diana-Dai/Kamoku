@@ -231,6 +231,113 @@
         "animations": "inherit"
       }
     },
+    "hero_L8ErTV": {
+      "type": "hero",
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_06_22_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "multicolumn_eX6pK6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Kbrb6z": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p><em>01</em></p><h5>Days one and two</h5><p>Fresh ink needs immediate, careful attention to prevent infection and preserve color clarity.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Ga4FJ3": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>02</em></p><h5>Morning and evening</h5><p>Use after waking and before bed, or more often if your tattoo continues to weep.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_GemAqb": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>03</em></p><h5>As needed throughout</h5><p>If plasma builds up during the day, a quick gentle wash keeps the skin clean and breathing.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_Kbrb6z",
+        "column_Ga4FJ3",
+        "column_GemAqb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "large",
+        "section_header_content_spacing": "medium",
+        "heading": "When to use cleanse wash",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "",
+        "description": "<p>This is your first line of defense. During the first 48 hours, your tattoo weeps plasma and ink debris. Cleanse wash removes this gently, without disrupting the delicate healing that's already begun.</p>",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "large",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "rich_text_tMaMPn": {
       "type": "rich-text",
       "blocks": {
@@ -341,91 +448,6 @@
         "divider_width": "container",
         "custom_id": "",
         "custom_class": ""
-      }
-    },
-    "multicolumn_eX6pK6": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Kbrb6z": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p><em>01</em></p><h5>Days one and two</h5><p>Fresh ink needs immediate, careful attention to prevent infection and preserve color clarity.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_Ga4FJ3": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<p><em>02</em></p><h5>Morning and evening</h5><p>Use after waking and before bed, or more often if your tattoo continues to weep.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_GemAqb": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<p><em>03</em></p><h5>As needed throughout</h5><p>If plasma builds up during the day, a quick gentle wash keeps the skin clean and breathing.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "column_Kbrb6z",
-        "column_Ga4FJ3",
-        "column_GemAqb"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "section_header_padding_bottom": "large",
-        "section_header_content_spacing": "medium",
-        "heading": "When to use cleanse wash",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h-xl",
-        "heading_color": "",
-        "subheading": "",
-        "description": "<p>This is your first line of defense. During the first 48 hours, your tattoo weeps plasma and ink debris. Cleanse wash removes this gently, without disrupting the delicate healing that's already begun.</p>",
-        "layout": "vertical",
-        "text_alignment": "center",
-        "image_width": "fullwidth",
-        "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "large",
-        "row_gap": "large",
-        "enable_swipe_mobile": true,
-        "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "testimonials_FcqFjd": {
@@ -684,9 +706,10 @@
   "order": [
     "main",
     "collapsible_tabs_3AL9CK",
+    "hero_L8ErTV",
+    "multicolumn_eX6pK6",
     "rich_text_tMaMPn",
     "custom_content_4Y7LQm",
-    "multicolumn_eX6pK6",
     "testimonials_FcqFjd",
     "product-recommendations",
     "gallery_images_n7N9gp"
