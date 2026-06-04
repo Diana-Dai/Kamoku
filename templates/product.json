@@ -194,88 +194,6 @@
         "animations": "inherit"
       }
     },
-    "multicolumn_eX6pK6": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Kbrb6z": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image_link": "",
-            "title": "Our Recycled Fabric",
-            "heading_size": "h3",
-            "text": "<p>Crafted from recycled materials, our fabric blends sustainability with premium quality.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_Ga4FJ3": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image_link": "",
-            "title": "Sustainability",
-            "heading_size": "h3",
-            "text": "<p>We prioritize eco-friendly practices, using materials and methods that reduce waste.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_GemAqb": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image_link": "",
-            "title": "Disruptive Design",
-            "heading_size": "h3",
-            "text": "<p>Innovation meets style—bold, functional designs that challenge the ordinary and inspire.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "column_Kbrb6z",
-        "column_Ga4FJ3",
-        "column_GemAqb"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "section_header_padding_bottom": "large",
-        "section_header_content_spacing": "medium",
-        "heading": "Mindful care, <em>healthier soul</em>",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h-xl",
-        "heading_color": "",
-        "subheading": "Balanced Beauty",
-        "description": "<p>We use natural skincare ingredients to nourish, hydrate, and keep <br/>your skin smooth while supporting healthy aging.</p>",
-        "layout": "vertical",
-        "text_alignment": "left",
-        "image_width": "fullwidth",
-        "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "large",
-        "row_gap": "large",
-        "enable_swipe_mobile": true,
-        "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "custom_content_4Y7LQm": {
       "type": "custom-content",
       "blocks": {
@@ -331,7 +249,7 @@
       ],
       "custom_css": [
         "ul {list-style: none; padding-left: 0; padding-top: 2rem;}",
-        "ul li{padding-bottom: 1rem;}"
+        "ul li {padding-bottom: 1rem;}"
       ],
       "settings": {
         "container": "container",
@@ -355,6 +273,91 @@
         "divider_width": "container",
         "custom_id": "",
         "custom_class": ""
+      }
+    },
+    "multicolumn_eX6pK6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Kbrb6z": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p><em>01</em></p><h3>Soothing Cleansing</h3><p>pH balanced to the skin's natural mantle, preventing the 'tightness' associated with traditional surfactants.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Ga4FJ3": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>02</em></p><h3>Reduces Irritation</h3><p>Botanical anti-inflammatories calm redness and heat during the critical first 48 hours of recovery.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_GemAqb": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>03</em></p><h3>Zero Pigment Bleed</h3><p>Clinical grade formula ensures pigment retention by preventing over-hydration of the dermis.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_Kbrb6z",
+        "column_Ga4FJ3",
+        "column_GemAqb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "large",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "left",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "large",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "testimonials_FcqFjd": {
@@ -613,8 +616,8 @@
   "order": [
     "main",
     "rich_text_tMaMPn",
-    "multicolumn_eX6pK6",
     "custom_content_4Y7LQm",
+    "multicolumn_eX6pK6",
     "testimonials_FcqFjd",
     "product-recommendations",
     "gallery_images_n7N9gp"
