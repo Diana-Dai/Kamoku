@@ -406,7 +406,7 @@
             "heading": "\"A cooling, viscous gel that transforms into a delicate, low-foam emulsion. It glides effortlessly over tender skin without catching or pulling.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
-            "heading_size": "h2"
+            "heading_size": "h3"
           }
         },
         "text_dnyEhA": {
@@ -510,7 +510,7 @@
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "The Composition",
