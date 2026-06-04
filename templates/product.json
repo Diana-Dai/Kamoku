@@ -163,6 +163,37 @@
         "show_featured_media": true
       }
     },
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ce9BMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ce9BMK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-7",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "multicolumn_eX6pK6": {
       "type": "multicolumn",
       "blocks": {
@@ -243,6 +274,81 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
+      }
+    },
+    "custom_content_4Y7LQm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_comparsion_MKPzdU": {
+          "type": "image_comparsion",
+          "settings": {
+            "layout": "horizontal",
+            "image_height": "medium",
+            "product": "",
+            "width": "50%",
+            "before_heading": "Before",
+            "before_color_scheme": "",
+            "before_heading_plain_text": true,
+            "after_heading": "After",
+            "after_color_scheme": "",
+            "after_heading_plain_text": true,
+            "block_custom_class": ""
+          }
+        },
+        "text_yzDt4M": {
+          "type": "text",
+          "settings": {
+            "color_scheme": "",
+            "title": "The balance of <em>high-performance</em>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": "",
+            "subheading": "Wear it four way",
+            "text": "<p>Experience the perfect blend of advanced formulas and skin-loving ingredients, delivering powerful results while maintaining harmony for a healthy, radiant complexion.</p>",
+            "alignment": "center",
+            "align_text": "left",
+            "padding_left": 100,
+            "padding_right": 100,
+            "align_content_container": "none",
+            "button_label": "Shop this product",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "width": "50%",
+            "mobile_color_scheme": "",
+            "mobile_padding_left": 0,
+            "mobile_padding_right": 0,
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "image_comparsion_MKPzdU",
+        "text_yzDt4M"
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "column_gap": "none",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
       }
     },
     "testimonials_FcqFjd": {
@@ -352,81 +458,6 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      }
-    },
-    "custom_content_4Y7LQm": {
-      "type": "custom-content",
-      "blocks": {
-        "image_comparsion_MKPzdU": {
-          "type": "image_comparsion",
-          "settings": {
-            "layout": "horizontal",
-            "image_height": "medium",
-            "product": "",
-            "width": "50%",
-            "before_heading": "Before",
-            "before_color_scheme": "",
-            "before_heading_plain_text": true,
-            "after_heading": "After",
-            "after_color_scheme": "",
-            "after_heading_plain_text": true,
-            "block_custom_class": ""
-          }
-        },
-        "text_yzDt4M": {
-          "type": "text",
-          "settings": {
-            "color_scheme": "",
-            "title": "The balance of <em>high-performance</em>",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h-xl",
-            "heading_color": "",
-            "subheading": "Wear it four way",
-            "text": "<p>Experience the perfect blend of advanced formulas and skin-loving ingredients, delivering powerful results while maintaining harmony for a healthy, radiant complexion.</p>",
-            "alignment": "center",
-            "align_text": "left",
-            "padding_left": 100,
-            "padding_right": 100,
-            "align_content_container": "none",
-            "button_label": "Shop this product",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "width": "50%",
-            "mobile_color_scheme": "",
-            "mobile_padding_left": 0,
-            "mobile_padding_right": 0,
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "image_comparsion_MKPzdU",
-        "text_yzDt4M"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "column_gap": "none",
-        "row_gap": "medium",
-        "enable_swipe_mobile": false,
-        "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": ""
       }
     },
     "product-recommendations": {
@@ -575,6 +606,7 @@
   },
   "order": [
     "main",
+    "rich_text_tMaMPn",
     "multicolumn_eX6pK6",
     "custom_content_4Y7LQm",
     "testimonials_FcqFjd",
