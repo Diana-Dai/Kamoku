@@ -422,8 +422,8 @@
         "text_dnyEhA"
       ],
       "custom_css": [
-        "ul{padding-left: 0; list-style: none; display: flex; gap:20px;}",
-        "ul li{letter-spacing: 2px; border: 1px solid #9AA791; padding: 1rem 2rem; border-radius: 20px; background: #9AA791; color:white;}"
+        "ul {padding-left: 0; list-style: none; display: flex; gap: 20px;}",
+        "ul li {letter-spacing: 2px; border: 1px solid #9aa791; padding: 1rem 2rem; border-radius: 20px; background: #9aa791; color: white;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -440,10 +440,95 @@
         "align_content_container": "none",
         "mobile_padding_left": 15,
         "mobile_padding_right": 15,
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "padding_top_mobile": 60,
         "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_4ijHwd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YKwe4k": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "image_link": "",
+            "title": "Manuka Honey Extract",
+            "heading_size": "h3",
+            "text": "<p>A natural humectant with therapeutic antibacterial properties that accelerate tissue regeneration.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Qrwc4r": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Kawakawa_Leaf.png",
+            "image_link": "",
+            "title": "Kawakawa Leaf",
+            "heading_size": "h3",
+            "text": "<p>A sacred medicinal plant used for centuries to calm inflammation and soothe damaged skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_pRyBER": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Panthenol.png",
+            "image_link": "",
+            "title": "Panthenol",
+            "heading_size": "h3",
+            "text": "<p>Pro-vitamin B5 acts as a protective film, keeping moisture locked in during the repair phase.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_YKwe4k",
+        "column_Qrwc4r",
+        "column_pRyBER"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "The Composition",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -823,6 +908,7 @@
     "multicolumn_eX6pK6",
     "image_with_text_nQJWVP",
     "image_with_text_8E97jX",
+    "multicolumn_4ijHwd",
     "custom_content_4Y7LQm",
     "testimonials_FcqFjd",
     "product-recommendations",
