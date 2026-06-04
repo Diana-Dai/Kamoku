@@ -7122,7 +7122,7 @@ shopify-account::part(signed-out-avatar) {
 }
 
 
-.text-subtext *{
+.f-product__text.text-subtext *{
       letter-spacing: 3px;
     font-size: 1rem;
 }
