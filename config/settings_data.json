@@ -338,7 +338,7 @@
         "settings": {
           "primary_accent": "#9aa791",
           "border": "#e6e4e2",
-          "text": "#222222",
+          "text": "#5d5c5c",
           "heading": "#222222",
           "highlight_text": "#9aa791",
           "color_main_bg": "#fcfaf7",
@@ -361,7 +361,7 @@
         "settings": {
           "primary_accent": "#9aa791",
           "border": "#eeeeee",
-          "text": "#222222",
+          "text": "#5d5c5c",
           "heading": "#222222",
           "highlight_text": "#9aa791",
           "color_main_bg": "#efece7",

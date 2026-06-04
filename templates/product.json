@@ -363,12 +363,12 @@
       ],
       "custom_css": [
         "h5 {list-style: none; padding-left: 0; padding-top: 2rem;}",
-        "h5 + p{padding-bottom: 1rem; border-bottom: 1px solid #ded7cc; font-family: var(--font-heading-family);}"
+        "h5 + p {padding-bottom: 1rem; border-bottom: 1px solid #ded7cc; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-1",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "left",
