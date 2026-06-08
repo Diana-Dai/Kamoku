@@ -338,8 +338,8 @@
         "settings": {
           "primary_accent": "#8b8c75",
           "border": "#aa9f90",
-          "text": "#5d5c5c",
-          "heading": "#222222",
+          "text": "#222222",
+          "heading": "#000000",
           "highlight_text": "#9aa791",
           "color_main_bg": "#ded8c8",
           "color_secondary_bg": "#efece7",
@@ -361,8 +361,8 @@
         "settings": {
           "primary_accent": "#9aa791",
           "border": "#eeeeee",
-          "text": "#5d5c5c",
-          "heading": "#222222",
+          "text": "#222222",
+          "heading": "#000000",
           "highlight_text": "#9aa791",
           "color_main_bg": "#c4baac",
           "color_secondary_bg": "#efece7",
@@ -407,8 +407,8 @@
         "settings": {
           "primary_accent": "#aa9f90",
           "border": "#c9bfb0",
-          "text": "#5d5c5c",
-          "heading": "#222222",
+          "text": "#222222",
+          "heading": "#000000",
           "highlight_text": "#767960",
           "color_main_bg": "#c9bfb0",
           "color_secondary_bg": "#c9bfb0",
