@@ -337,7 +337,7 @@
       "background-1": {
         "settings": {
           "primary_accent": "#9aa791",
-          "border": "#e6e4e2",
+          "border": "#aa9f90",
           "text": "#5d5c5c",
           "heading": "#222222",
           "highlight_text": "#9aa791",
@@ -346,7 +346,7 @@
           "button": "#9aa791",
           "button_label": "#fcfaf7",
           "secondary_button": "#ffffff",
-          "secondary_button_border": "#ededed",
+          "secondary_button_border": "#a89b8c",
           "secondary_button_label": "#222222",
           "button_hover": "#222222",
           "button_label_hover": "#ffffff",
