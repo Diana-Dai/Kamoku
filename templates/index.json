@@ -237,7 +237,7 @@
             "product_title_size": 14,
             "product_description_size": 13,
             "button_text": "Secure your system",
-            "button_link": "",
+            "button_link": "shopify://products/the-complete-healing-system",
             "button_font_size": 13,
             "button_padding_vertical": 16,
             "button_padding_horizontal": 50,
