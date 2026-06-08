@@ -96,7 +96,7 @@
         "title_HDmbPN": {
           "type": "title",
           "settings": {
-            "title": "Honor the <em>art</em>. <em>  </em>Heal the <em>skin</em>.",
+            "title": "Born from the <em>Pacific</em>. Built for tattooed <em>skin</em>.",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h0"
@@ -105,13 +105,13 @@
         "text_Kydt3K": {
           "type": "text",
           "settings": {
-            "text": "<p>A 3-step healing ritual rooted in New Zealand botanicals, science, and cultural respect.</p>"
+            "text": "<p>A complete healing system powered by New Zealand botanicals and modern skin science.</p>"
           }
         },
         "button_iwwNFf": {
           "type": "button",
           "settings": {
-            "button_label": "Shop the Ritual",
+            "button_label": "Shop the SYSTEM",
             "button_link": "shopify://collections/all",
             "button_style": "btn--secondary",
             "button_size": ""

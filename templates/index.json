@@ -14,7 +14,7 @@
       "name": "t:sections.featured-collection.name",
       "settings": {
         "container": "container-fluid",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "large",
         "section_header_content_spacing": "medium",
         "header_layout": "horizontal",
