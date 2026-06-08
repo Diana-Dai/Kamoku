@@ -421,7 +421,7 @@
           "button_label_hover": "#222222",
           "form_field": "#ffffff",
           "form_field_label": "#c2d3cd",
-          "price_regular": "#ffffff",
+          "price_regular": "#040402",
           "tooltip": "#ffffff",
           "tooltip_label": "#c2d3cd"
         }
