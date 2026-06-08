@@ -163,67 +163,41 @@
         "show_featured_media": true
       }
     },
-    "collapsible_tabs_3AL9CK": {
-      "type": "collapsible-tabs",
+    "rich_text_K88amW": {
+      "type": "rich-text",
       "blocks": {
-        "content_7w4KrG": {
-          "type": "content",
+        "heading_VHk8X9": {
+          "type": "heading",
           "settings": {
-            "icon": "none",
-            "title": "pH Optimization (5.5)",
-            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
+            "heading": "Rooted in Aotearoa.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h0",
+            "heading_color": ""
           }
         },
-        "content_7M6cXe": {
-          "type": "content",
+        "text_Hf8RFH": {
+          "type": "text",
           "settings": {
-            "icon": "none",
-            "title": "Trauma-Safe Testing Data",
-            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_hCkG8x": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Allergy Screening",
-            "content": "<p>Triple-screened for potential allergens. Free from synthetic fragrances, nickel, parabens, and essential oils that can provoke contact dermatitis in open wounds.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
+            "text": "<h4>Inspired by generations of Polynesian healing traditions and modern skin science.</h4><p></p><p>From the ocean to the mountains, Aotearoa New Zealand provides powerful native botanicals used for centuries to restore, protect, and heal.</p>"
           }
         }
       },
       "block_order": [
-        "content_7w4KrG",
-        "content_7M6cXe",
-        "content_hCkG8x"
+        "heading_VHk8X9",
+        "text_Hf8RFH"
       ],
-      "name": "Collapsible tabs",
+      "custom_css": [
+        "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
+        "p {max-width: 500px; margin: 0 auto; opacity: 0.7;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "Specifications",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "item_heading_font": "body",
-        "item_heading_size": "h6",
-        "column_gap": "medium",
-        "content_width": "full",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "container": "container-narrow",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -251,91 +225,6 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": true
-      }
-    },
-    "multicolumn_eX6pK6": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_Kbrb6z": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p><em>01</em></p><h5>Days one and two</h5><p>Fresh ink needs immediate, careful attention to prevent infection and preserve color clarity.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_Ga4FJ3": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<p><em>02</em></p><h5>Morning and evening</h5><p>Use after waking and before bed, or more often if your tattoo continues to weep.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_GemAqb": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image": "shopify://shop_images/screen.png",
-            "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<p><em>03</em></p><h5>As needed throughout</h5><p>If plasma builds up during the day, a quick gentle wash keeps the skin clean and breathing.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "column_Kbrb6z",
-        "column_Ga4FJ3",
-        "column_GemAqb"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-2",
-        "section_header_padding_bottom": "large",
-        "section_header_content_spacing": "small",
-        "heading": "When to use cleanse wash",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h-xl",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "layout": "vertical",
-        "text_alignment": "center",
-        "image_width": "fullwidth",
-        "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "large",
-        "row_gap": "large",
-        "enable_swipe_mobile": true,
-        "column_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "image_with_text_nQJWVP": {
@@ -377,68 +266,6 @@
         "row_gap": "medium",
         "padding_left": 0,
         "padding_right": 20,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_8E97jX": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_aiWeLX": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Tactile Interaction"
-          }
-        },
-        "heading_m7GWaD": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"A cooling, viscous gel that transforms into a delicate, low-foam emulsion. It glides effortlessly over tender skin without catching or pulling.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h3"
-          }
-        },
-        "text_dnyEhA": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>NON-STRIPPING</li><li>SOOTHING</li><li>UNSCENTED</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_aiWeLX",
-        "heading_m7GWaD",
-        "text_dnyEhA"
-      ],
-      "custom_css": [
-        "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
-        "ul li {letter-spacing: 2px; border: 1px solid #9aa791; padding: 1rem 2rem; border-radius: 20px; background: #9aa791; color: white;}",
-        ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
-        "h2 {padding: 4rem 0;}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "image": "shopify://shop_images/tactile.png",
-        "image_width": "50%",
-        "image_position": "right",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 20,
-        "padding_right": 0,
         "align_content_container": "none",
         "mobile_padding_left": 15,
         "mobile_padding_right": 15,
@@ -538,6 +365,153 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_8E97jX": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_aiWeLX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tactile Interaction"
+          }
+        },
+        "heading_m7GWaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"A cooling, viscous gel that transforms into a delicate, low-foam emulsion. It glides effortlessly over tender skin without catching or pulling.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h3"
+          }
+        },
+        "text_dnyEhA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>NON-STRIPPING</li><li>SOOTHING</li><li>UNSCENTED</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aiWeLX",
+        "heading_m7GWaD",
+        "text_dnyEhA"
+      ],
+      "custom_css": [
+        "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
+        "ul li {letter-spacing: 2px; border: 1px solid #9aa791; padding: 1rem 2rem; border-radius: 20px; background: #9aa791; color: white;}",
+        ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
+        "h2 {padding: 4rem 0;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/tactile.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 20,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_eX6pK6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Kbrb6z": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p><em>01</em></p><h5>Days one and two</h5><p>Fresh ink needs immediate, careful attention to prevent infection and preserve color clarity.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Ga4FJ3": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>02</em></p><h5>Morning and evening</h5><p>Use after waking and before bed, or more often if your tattoo continues to weep.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_GemAqb": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<p><em>03</em></p><h5>As needed throughout</h5><p>If plasma builds up during the day, a quick gentle wash keeps the skin clean and breathing.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_Kbrb6z",
+        "column_Ga4FJ3",
+        "column_GemAqb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "section_header_padding_bottom": "large",
+        "section_header_content_spacing": "small",
+        "heading": "When to use cleanse wash",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "large",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "custom_content_4Y7LQm": {
       "type": "custom-content",
       "blocks": {
@@ -562,7 +536,7 @@
         "text_yzDt4M": {
           "type": "text",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "accent",
             "title": "<em>92%</em> Recovery Acceleration",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
@@ -611,7 +585,7 @@
         "row_gap": "medium",
         "enable_swipe_mobile": false,
         "column_mobile": "1",
-        "padding_top": 0,
+        "padding_top": 100,
         "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "container",
@@ -839,7 +813,7 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "color_schema": "background-1",
+        "color_schema": "accent",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "On Instagram",
@@ -901,16 +875,85 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "collapsible_tabs_3AL9CK": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_7w4KrG": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "pH Optimization (5.5)",
+            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_7M6cXe": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Trauma-Safe Testing Data",
+            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_hCkG8x": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Allergy Screening",
+            "content": "<p>Triple-screened for potential allergens. Free from synthetic fragrances, nickel, parabens, and essential oils that can provoke contact dermatitis in open wounds.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_7w4KrG",
+        "content_7M6cXe",
+        "content_hCkG8x"
+      ],
+      "name": "Collapsible tabs",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Specifications",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "item_heading_font": "body",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "full",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
-    "collapsible_tabs_3AL9CK",
+    "rich_text_K88amW",
     "hero_L8ErTV",
-    "multicolumn_eX6pK6",
     "image_with_text_nQJWVP",
-    "image_with_text_8E97jX",
     "multicolumn_4ijHwd",
+    "image_with_text_8E97jX",
+    "multicolumn_eX6pK6",
+    "collapsible_tabs_3AL9CK",
     "custom_content_4Y7LQm",
     "testimonials_FcqFjd",
     "product-recommendations",
