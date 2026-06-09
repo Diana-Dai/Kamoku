@@ -287,25 +287,8 @@
   }
 
   .ai-recovery-system-cta-{{ ai_gen_id }} {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 40px;
     background-color: {{ block.settings.button_bg_color }};
     color: {{ block.settings.button_text_color }};
-    font-size: {{ block.settings.button_text_size }}px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: {{ block.settings.button_border_radius }}px;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-  }
-
-  .ai-recovery-system-cta-{{ ai_gen_id }}:hover {
-    background-color: {{ block.settings.button_hover_bg_color }};
-    color: {{ block.settings.button_hover_text_color }};
   }
 
   .ai-recovery-system-shipping-{{ ai_gen_id }} {
@@ -520,15 +503,15 @@
         {% if block.settings.cta_text != blank %}
           <div>
             {% if block.settings.bundle_product != blank %}
-              <a href="{{ block.settings.bundle_product.url }}" class="ai-recovery-system-cta-{{ ai_gen_id }}">
+              <a href="{{ block.settings.bundle_product.url }}" class=" btn btn--primary">
                 {{ block.settings.cta_text }}
               </a>
             {% elsif block.settings.cta_link != blank %}
-              <a href="{{ block.settings.cta_link }}" class="ai-recovery-system-cta-{{ ai_gen_id }}">
+              <a href="{{ block.settings.cta_link }}" class="btn btn--primary">
                 {{ block.settings.cta_text }}
               </a>
             {% else %}
-              <a href="#" class="ai-recovery-system-cta-{{ ai_gen_id }}">
+              <a href="#" class="btn btn--primary">
                 {{ block.settings.cta_text }}
               </a>
             {% endif %}
