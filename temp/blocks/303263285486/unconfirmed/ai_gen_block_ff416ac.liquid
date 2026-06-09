@@ -1,6 +1,1170 @@
+{% doc %}
+  @prompt
+    Create a premium Shopify section called "Complete Recovery System" that automatically pulls products selected from the Shopify Theme Editor.
+    
+    IMPORTANT:
+    This section must NOT use hardcoded products.
+    Allow the merchant to select exactly 3 products from the Shopify store using Product Picker blocks in the Theme Editor.
+    
+    Section settings:
+    - Bundle title
+    - Bundle description
+    - Bundle CTA text
+    - Bundle CTA link
+    - Optional bundle savings text (e.g. "SAVE $27")
+    - Optional free shipping text
+    
+    Product blocks:
+    - Product 1 (Step 01)
+    - Product 2 (Step 02)
+    - Product 3 (Step 03)
+    
+    Each block should use a Shopify product selector so merchants can choose any product from the store.
+    
+    --------------------------------------------------
+    
+    DESIGN STYLE
+    
+    Luxury skincare / premium wellness aesthetic.
+    
+    - Warm ivory background
+    - Soft editorial photography style
+    - Large horizontal layout
+    - Elegant serif heading
+    - Refined muted color palette
+    - Premium DTC brand feel
+    - Minimalist luxury design
+    - Soft shadows
+    - Sophisticated spacing
+    - High-end Shopify storefront aesthetic
+    
+    --------------------------------------------------
+    
+    LAYOUT
+    
+    Desktop:
+    Two-column layout.
+    
+    LEFT SIDE (Bundle Information)
+    
+    Small eyebrow text:
+    "NOT SURE WHERE TO START?"
+    
+    Large elegant serif headline:
+    "Complete Recovery System"
+    
+    Short supporting description.
+    
+    Price area:
+    - Bundle price
+    - Compare-at price
+    - Optional savings badge
+    
+    Primary CTA button:
+    "EXPLORE THE BUNDLE"
+    
+    Below CTA:
+    Free shipping note.
+    
+    --------------------------------------------------
+    
+    RIGHT SIDE (3-Step Product System)
+    
+    Display the three selected Shopify products as a visual progression.
+    
+    Layout:
+    
+    Product 1 → Product 2 → Product 3
+    
+    Between each product:
+    - Minimal arrow icon
+    - Spacious alignment
+    - Clear visual flow
+    
+    Each product card should automatically pull:
+    
+    - Product image
+    - Product title
+    - Product metafield or custom step label
+    - Product metafield or custom short description
+    
+    --------------------------------------------------
+    
+    PRODUCT STRUCTURE
+    
+    STEP 01
+    
+    Display:
+    01
+    
+    Custom label example:
+    SOOTHE
+    
+    Pull from selected Shopify product:
+    - Featured image
+    - Product title
+    
+    Optional metafields:
+    - Day range
+    - Benefit text
+    
+    Example:
+    
+    01 SOOTHE
+    Hydro Gel
+    Day 1–3
+    Cool, calm and protect the skin.
+    
+    --------------------------------------------------
+    
+    STEP 02
+    
+    Display:
+    02
+    
+    Custom label example:
+    REGENERATE
+    
+    Pull from selected Shopify product.
+    
+    Example:
+    
+    02 REGENERATE
+    Recovery Mist
+    Day 4–10
+    Repair, regenerate and relieve itch.
+    
+    --------------------------------------------------
+    
+    STEP 03
+    
+    Display:
+    03
+    
+    Custom label example:
+    MAINTAIN
+    
+    Pull from selected Shopify product.
+    
+    Example:
+    
+    03 MAINTAIN
+    Daily Care Balm
+    Day 11+
+    Strengthen barrier and lock in moisture.
+    
+    --------------------------------------------------
+    
+    BOTTOM BENEFITS BAR
+    
+    Full-width benefits strip beneath the section.
+    
+    4 columns.
+    
+    Each benefit includes:
+    - Minimal line icon
+    - Small uppercase title
+    - Supporting description
+    
+    Examples:
+    
+    CIRCADIAN ALIGNED
+    Works with your skin's natural rhythm.
+    
+    BIOLOGICAL SEQUENCE
+    Each stage supports the next.
+    
+    CLINICALLY TESTED
+    Safe and effective for new tattoos.
+    
+    CONSCIOUS BY DESIGN
+    Minimal impact. Maximum care.
+    
+    Allow all benefit content to be editable from Theme Editor.
+    
+    --------------------------------------------------
+    
+    SHOPIFY REQUIREMENTS
+    
+    - Shopify Online Store 2.0 compatible
+    - Merchant selects products directly from Shopify Product Picker
+    - Pull product images dynamically
+    - Pull product titles dynamically
+    - Optional metafield support for:
+      - Step Name
+      - Day Range
+      - Benefit Description
+    - Fully responsive
+    - Mobile: stack products vertically
+    - Desktop: horizontal progression layout
+    - Maintain premium luxury aesthetic
+    - Optimized for Dawn theme and Shopify AI generation
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-recovery-system-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    background-color: {{ block.settings.background_color }};
+    padding: {{ block.settings.section_padding_top }}px 0 0;
+  }
+
+  .ai-recovery-system-container-{{ ai_gen_id }} {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-recovery-system-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    margin-bottom: {{ block.settings.section_padding_bottom }}px;
+  }
+
+  .ai-recovery-system-left-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .ai-recovery-system-eyebrow-{{ ai_gen_id }} {
+    font-family: {{ block.settings.eyebrow_font }}, sans-serif;
+    font-size: {{ block.settings.eyebrow_size }}px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: {{ block.settings.eyebrow_color }};
+    margin: 0;
+  }
+
+  .ai-recovery-system-heading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.2;
+    color: {{ block.settings.heading_color }};
+    margin: 0;
+  }
+
+  .ai-recovery-system-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    line-height: 1.6;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-recovery-system-price-area-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .ai-recovery-system-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-recovery-system-compare-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size | times: 0.9 }}px;
+    color: {{ block.settings.compare_price_color }};
+    text-decoration: line-through;
+  }
+
+  .ai-recovery-system-savings-{{ ai_gen_id }} {
+    background-color: {{ block.settings.savings_bg_color }};
+    color: {{ block.settings.savings_text_color }};
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .ai-recovery-system-cta-{{ ai_gen_id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 40px;
+    background-color: {{ block.settings.button_bg_color }};
+    color: {{ block.settings.button_text_color }};
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ai-recovery-system-cta-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_bg_color }};
+    color: {{ block.settings.button_hover_text_color }};
+  }
+
+  .ai-recovery-system-shipping-{{ ai_gen_id }} {
+    font-size: 14px;
+    color: {{ block.settings.shipping_text_color }};
+    margin-top: 12px;
+  }
+
+  .ai-recovery-system-right-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .ai-recovery-system-product-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 200px;
+  }
+
+  .ai-recovery-system-step-number-{{ ai_gen_id }} {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: {{ block.settings.step_number_color }};
+  }
+
+  .ai-recovery-system-step-label-{{ ai_gen_id }} {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: {{ block.settings.step_label_color }};
+    margin-bottom: 8px;
+  }
+
+  .ai-recovery-system-product-image-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .ai-recovery-system-product-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-recovery-system-product-image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-recovery-system-product-title-{{ ai_gen_id }} {
+    font-size: 16px;
+    font-weight: 500;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+  }
+
+  .ai-recovery-system-product-meta-{{ ai_gen_id }} {
+    font-size: 13px;
+    color: {{ block.settings.meta_text_color }};
+    line-height: 1.5;
+  }
+
+  .ai-recovery-system-arrow-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    color: {{ block.settings.arrow_color }};
+  }
+
+  .ai-recovery-system-arrow-{{ ai_gen_id }} svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ai-recovery-system-benefits-{{ ai_gen_id }} {
+    background-color: {{ block.settings.benefits_bg_color }};
+    padding: {{ block.settings.benefits_padding }}px 20px;
+  }
+
+  .ai-recovery-system-benefits-grid-{{ ai_gen_id }} {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+  }
+
+  .ai-recovery-system-benefit-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .ai-recovery-system-benefit-icon-{{ ai_gen_id }} {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    color: {{ block.settings.benefit_icon_color }};
+  }
+
+  .ai-recovery-system-benefit-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .ai-recovery-system-benefit-title-{{ ai_gen_id }} {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: {{ block.settings.benefit_title_color }};
+    margin: 0;
+  }
+
+  .ai-recovery-system-benefit-description-{{ ai_gen_id }} {
+    font-size: 14px;
+    line-height: 1.5;
+    color: {{ block.settings.benefit_text_color }};
+    margin: 0;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-recovery-system-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+
+    .ai-recovery-system-right-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .ai-recovery-system-arrow-{{ ai_gen_id }} {
+      transform: rotate(90deg);
+    }
+
+    .ai-recovery-system-product-{{ ai_gen_id }} {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .ai-recovery-system-benefits-grid-{{ ai_gen_id }} {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+    }
+
+    .ai-recovery-system-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.7 }}px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-recovery-system-benefits-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
+{% endstyle %}
+
+<ai-recovery-system-{{ ai_gen_id }} class="ai-recovery-system-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-recovery-system-container-{{ ai_gen_id }}">
+    <div class="ai-recovery-system-grid-{{ ai_gen_id }}">
+      <div class="ai-recovery-system-left-{{ ai_gen_id }}">
+        {% if block.settings.eyebrow_text != blank %}
+          <p class="ai-recovery-system-eyebrow-{{ ai_gen_id }}">{{ block.settings.eyebrow_text }}</p>
+        {% endif %}
+
+        {% if block.settings.heading != blank %}
+          <h2 class="ai-recovery-system-heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+        {% endif %}
+
+        {% if block.settings.description != blank %}
+          <div class="ai-recovery-system-description-{{ ai_gen_id }}">{{ block.settings.description }}</div>
+        {% endif %}
+
+        {% if block.settings.bundle_price != blank or block.settings.compare_price != blank %}
+          <div class="ai-recovery-system-price-area-{{ ai_gen_id }}">
+            {% if block.settings.bundle_price != blank %}
+              <span class="ai-recovery-system-price-{{ ai_gen_id }}">{{ block.settings.bundle_price }}</span>
+            {% endif %}
+            {% if block.settings.compare_price != blank %}
+              <span class="ai-recovery-system-compare-price-{{ ai_gen_id }}">{{ block.settings.compare_price }}</span>
+            {% endif %}
+            {% if block.settings.savings_text != blank %}
+              <span class="ai-recovery-system-savings-{{ ai_gen_id }}">{{ block.settings.savings_text }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if block.settings.cta_text != blank %}
+          <div>
+            <a href="{{ block.settings.cta_link }}" class="ai-recovery-system-cta-{{ ai_gen_id }}">
+              {{ block.settings.cta_text }}
+            </a>
+            {% if block.settings.shipping_text != blank %}
+              <p class="ai-recovery-system-shipping-{{ ai_gen_id }}">{{ block.settings.shipping_text }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="ai-recovery-system-right-{{ ai_gen_id }}">
+        {% if block.settings.product_1 != blank %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">01</div>
+              {% if block.settings.step_1_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_1_label }}</div>
+              {% endif %}
+            </div>
+            {% if block.settings.product_1.featured_image %}
+              <img
+                src="{{ block.settings.product_1.featured_image | image_url: width: 400 }}"
+                alt="{{ block.settings.product_1.featured_image.alt | escape }}"
+                class="ai-recovery-system-product-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            {% else %}
+              <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">{{ block.settings.product_1.title }}</h3>
+            {% if block.settings.step_1_meta != blank %}
+              <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_1_meta }}</div>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">01</div>
+              {% if block.settings.step_1_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_1_label }}</div>
+              {% endif %}
+            </div>
+            <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+              {{ 'product-1' | placeholder_svg_tag }}
+            </div>
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">Select Product 1</h3>
+          </div>
+        {% endif %}
+
+        <div class="ai-recovery-system-arrow-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+
+        {% if block.settings.product_2 != blank %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">02</div>
+              {% if block.settings.step_2_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_2_label }}</div>
+              {% endif %}
+            </div>
+            {% if block.settings.product_2.featured_image %}
+              <img
+                src="{{ block.settings.product_2.featured_image | image_url: width: 400 }}"
+                alt="{{ block.settings.product_2.featured_image.alt | escape }}"
+                class="ai-recovery-system-product-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            {% else %}
+              <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">{{ block.settings.product_2.title }}</h3>
+            {% if block.settings.step_2_meta != blank %}
+              <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_2_meta }}</div>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">02</div>
+              {% if block.settings.step_2_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_2_label }}</div>
+              {% endif %}
+            </div>
+            <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+              {{ 'product-1' | placeholder_svg_tag }}
+            </div>
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">Select Product 2</h3>
+          </div>
+        {% endif %}
+
+        <div class="ai-recovery-system-arrow-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+
+        {% if block.settings.product_3 != blank %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">03</div>
+              {% if block.settings.step_3_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_3_label }}</div>
+              {% endif %}
+            </div>
+            {% if block.settings.product_3.featured_image %}
+              <img
+                src="{{ block.settings.product_3.featured_image | image_url: width: 400 }}"
+                alt="{{ block.settings.product_3.featured_image.alt | escape }}"
+                class="ai-recovery-system-product-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            {% else %}
+              <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+                {{ 'product-1' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">{{ block.settings.product_3.title }}</h3>
+            {% if block.settings.step_3_meta != blank %}
+              <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_3_meta }}</div>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="ai-recovery-system-product-{{ ai_gen_id }}">
+            <div>
+              <div class="ai-recovery-system-step-number-{{ ai_gen_id }}">03</div>
+              {% if block.settings.step_3_label != blank %}
+                <div class="ai-recovery-system-step-label-{{ ai_gen_id }}">{{ block.settings.step_3_label }}</div>
+              {% endif %}
+            </div>
+            <div class="ai-recovery-system-product-image-placeholder-{{ ai_gen_id }}">
+              {{ 'product-1' | placeholder_svg_tag }}
+            </div>
+            <h3 class="ai-recovery-system-product-title-{{ ai_gen_id }}">Select Product 3</h3>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="ai-recovery-system-benefits-{{ ai_gen_id }}">
+    <div class="ai-recovery-system-benefits-grid-{{ ai_gen_id }}">
+      {% if block.settings.benefit_1_title != blank %}
+        <div class="ai-recovery-system-benefit-{{ ai_gen_id }}">
+          <div class="ai-recovery-system-benefit-icon-{{ ai_gen_id }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <h4 class="ai-recovery-system-benefit-title-{{ ai_gen_id }}">{{ block.settings.benefit_1_title }}</h4>
+          {% if block.settings.benefit_1_description != blank %}
+            <p class="ai-recovery-system-benefit-description-{{ ai_gen_id }}">{{ block.settings.benefit_1_description }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if block.settings.benefit_2_title != blank %}
+        <div class="ai-recovery-system-benefit-{{ ai_gen_id }}">
+          <div class="ai-recovery-system-benefit-icon-{{ ai_gen_id }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <h4 class="ai-recovery-system-benefit-title-{{ ai_gen_id }}">{{ block.settings.benefit_2_title }}</h4>
+          {% if block.settings.benefit_2_description != blank %}
+            <p class="ai-recovery-system-benefit-description-{{ ai_gen_id }}">{{ block.settings.benefit_2_description }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if block.settings.benefit_3_title != blank %}
+        <div class="ai-recovery-system-benefit-{{ ai_gen_id }}">
+          <div class="ai-recovery-system-benefit-icon-{{ ai_gen_id }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h4 class="ai-recovery-system-benefit-title-{{ ai_gen_id }}">{{ block.settings.benefit_3_title }}</h4>
+          {% if block.settings.benefit_3_description != blank %}
+            <p class="ai-recovery-system-benefit-description-{{ ai_gen_id }}">{{ block.settings.benefit_3_description }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if block.settings.benefit_4_title != blank %}
+        <div class="ai-recovery-system-benefit-{{ ai_gen_id }}">
+          <div class="ai-recovery-system-benefit-icon-{{ ai_gen_id }}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <h4 class="ai-recovery-system-benefit-title-{{ ai_gen_id }}">{{ block.settings.benefit_4_title }}</h4>
+          {% if block.settings.benefit_4_description != blank %}
+            <p class="ai-recovery-system-benefit-description-{{ ai_gen_id }}">{{ block.settings.benefit_4_description }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</ai-recovery-system-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AiRecoverySystem{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+      }
+    }
+
+    customElements.define('ai-recovery-system-{{ ai_gen_id }}', AiRecoverySystem{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Complete recovery system",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Bundle information"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Eyebrow text",
+      "default": "NOT SURE WHERE TO START?"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Complete Recovery System"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>A comprehensive three-step system designed to support your skin through every stage of recovery.</p>"
+    },
+    {
+      "type": "text",
+      "id": "bundle_price",
+      "label": "Bundle price",
+      "default": "$89.00"
+    },
+    {
+      "type": "text",
+      "id": "compare_price",
+      "label": "Compare at price",
+      "default": "$116.00"
+    },
+    {
+      "type": "text",
+      "id": "savings_text",
+      "label": "Savings text"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA text",
+      "default": "EXPLORE THE BUNDLE"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA link"
+    },
+    {
+      "type": "text",
+      "id": "shipping_text",
+      "label": "Shipping text"
+    },
+    {
+      "type": "header",
+      "content": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_1",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "step_1_label",
+      "label": "Step label",
+      "default": "SOOTHE"
+    },
+    {
+      "type": "textarea",
+      "id": "step_1_meta",
+      "label": "Meta information",
+      "default": "Day 1–3\nCool, calm and protect the skin."
+    },
+    {
+      "type": "header",
+      "content": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "product_2",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "step_2_label",
+      "label": "Step label",
+      "default": "REGENERATE"
+    },
+    {
+      "type": "textarea",
+      "id": "step_2_meta",
+      "label": "Meta information",
+      "default": "Day 4–10\nRepair, regenerate and relieve itch."
+    },
+    {
+      "type": "header",
+      "content": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "product_3",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "step_3_label",
+      "label": "Step label",
+      "default": "MAINTAIN"
+    },
+    {
+      "type": "textarea",
+      "id": "step_3_meta",
+      "label": "Meta information",
+      "default": "Day 11+\nStrengthen barrier and lock in moisture."
+    },
+    {
+      "type": "header",
+      "content": "Benefits"
+    },
+    {
+      "type": "text",
+      "id": "benefit_1_title",
+      "label": "Benefit 1 title",
+      "default": "CIRCADIAN ALIGNED"
+    },
+    {
+      "type": "text",
+      "id": "benefit_1_description",
+      "label": "Benefit 1 description",
+      "default": "Works with your skin's natural rhythm."
+    },
+    {
+      "type": "text",
+      "id": "benefit_2_title",
+      "label": "Benefit 2 title",
+      "default": "BIOLOGICAL SEQUENCE"
+    },
+    {
+      "type": "text",
+      "id": "benefit_2_description",
+      "label": "Benefit 2 description",
+      "default": "Each stage supports the next."
+    },
+    {
+      "type": "text",
+      "id": "benefit_3_title",
+      "label": "Benefit 3 title",
+      "default": "CLINICALLY TESTED"
+    },
+    {
+      "type": "text",
+      "id": "benefit_3_description",
+      "label": "Benefit 3 description",
+      "default": "Safe and effective for new tattoos."
+    },
+    {
+      "type": "text",
+      "id": "benefit_4_title",
+      "label": "Benefit 4 title",
+      "default": "CONSCIOUS BY DESIGN"
+    },
+    {
+      "type": "text",
+      "id": "benefit_4_description",
+      "label": "Benefit 4 description",
+      "default": "Minimal impact. Maximum care."
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Top padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Bottom padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "benefits_padding",
+      "label": "Benefits padding",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#fcfaf7"
+    },
+    {
+      "type": "color",
+      "id": "eyebrow_color",
+      "label": "Eyebrow",
+      "default": "#8b8c75"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "compare_price_color",
+      "label": "Compare price",
+      "default": "#999999"
+    },
+    {
+      "type": "color",
+      "id": "savings_bg_color",
+      "label": "Savings background",
+      "default": "#8b8c75"
+    },
+    {
+      "type": "color",
+      "id": "savings_text_color",
+      "label": "Savings text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Button hover background",
+      "default": "#8b8c75"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "shipping_text_color",
+      "label": "Shipping text",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "step_number_color",
+      "label": "Step number",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "step_label_color",
+      "label": "Step label",
+      "default": "#8b8c75"
+    },
+    {
+      "type": "color",
+      "id": "meta_text_color",
+      "label": "Meta text",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "arrow_color",
+      "label": "Arrow",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "benefits_bg_color",
+      "label": "Benefits background",
+      "default": "#ded8c8"
+    },
+    {
+      "type": "color",
+      "id": "benefit_icon_color",
+      "label": "Benefit icon",
+      "default": "#8b8c75"
+    },
+    {
+      "type": "color",
+      "id": "benefit_title_color",
+      "label": "Benefit title",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "benefit_text_color",
+      "label": "Benefit text",
+      "default": "#666666"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "select",
+      "id": "eyebrow_font",
+      "label": "Eyebrow font",
+      "options": [
+        {
+          "value": "sans-serif",
+          "label": "Sans serif"
+        },
+        {
+          "value": "serif",
+          "label": "Serif"
+        }
+      ],
+      "default": "sans-serif"
+    },
+    {
+      "type": "range",
+      "id": "eyebrow_size",
+      "label": "Eyebrow size",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "marcellus_n4"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 24,
+      "max": 72,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "label": "Price size",
+      "min": 16,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "label": "Button text size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Complete recovery system"
+    }
+  ]
+}
 {% endschema %}
