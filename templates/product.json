@@ -169,7 +169,7 @@
         "heading_VHk8X9": {
           "type": "heading",
           "settings": {
-            "heading": "Rooted in Aotearoa.",
+            "heading": "Inspired by the Pacific",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h0",
@@ -179,7 +179,7 @@
         "text_Hf8RFH": {
           "type": "text",
           "settings": {
-            "text": "<h4>Inspired by generations of Polynesian healing traditions and modern skin science.</h4><p></p><p>From the ocean to the mountains, Aotearoa New Zealand provides powerful native botanicals used for centuries to restore, protect, and heal.</p>"
+            "text": "<h5>Drawing inspiration from Polynesian tattoo traditions, New Zealand botanicals, and modern skin science, Kamoku was created to support the healing journey that follows the art.</h5><h5></h5><p></p>"
           }
         }
       },
@@ -267,17 +267,17 @@
             "eyebrow_color": "#8b8c75",
             "heading_color": "#000000",
             "text_color": "#222222",
-            "compare_price_color": "#999999",
+            "compare_price_color": "#ded8c8",
             "savings_bg_color": "#8b8c75",
             "savings_text_color": "#ffffff",
             "button_bg_color": "#222222",
             "button_text_color": "#ffffff",
             "button_hover_bg_color": "#8b8c75",
             "button_hover_text_color": "#ffffff",
-            "shipping_text_color": "#666666",
+            "shipping_text_color": "#212121",
             "step_number_color": "#222222",
             "step_label_color": "#8b8c75",
-            "meta_text_color": "#666666",
+            "meta_text_color": "#212121",
             "arrow_color": "#cccccc",
             "benefits_bg_color": "#ded8c8",
             "benefit_icon_color": "#8b8c75",
