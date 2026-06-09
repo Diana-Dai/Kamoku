@@ -549,6 +549,7 @@
             {% if block.settings.step_1_meta != blank %}
               <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_1_meta }}</div>
             {% endif %}
+             <a href="{{ block.settings.product_1.url }}">Learn more</a>
           </div>
         {% else %}
           <div class="ai-recovery-system-product-{{ ai_gen_id }}">
@@ -598,6 +599,8 @@
             {% if block.settings.step_2_meta != blank %}
               <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_2_meta }}</div>
             {% endif %}
+             <a href="{{ block.settings.product_2.url }}">Learn more</a>
+
           </div>
         {% else %}
           <div class="ai-recovery-system-product-{{ ai_gen_id }}">
@@ -647,6 +650,8 @@
             {% if block.settings.step_3_meta != blank %}
               <div class="ai-recovery-system-product-meta-{{ ai_gen_id }}">{{ block.settings.step_3_meta }}</div>
             {% endif %}
+             <a href="{{ block.settings.product_3.url }}">Learn more</a>
+
           </div>
         {% else %}
           <div class="ai-recovery-system-product-{{ ai_gen_id }}">
