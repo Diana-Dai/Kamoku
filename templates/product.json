@@ -470,7 +470,7 @@
       ],
       "custom_css": [
         "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
-        "ul li {letter-spacing: 2px; border: 1px solid #9aa791; padding: 1rem 2rem; border-radius: 20px; background: #9aa791; color: white;}",
+        "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
         ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
         "h2 {padding: 4rem 0;}"
       ],
