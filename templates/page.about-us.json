@@ -58,9 +58,9 @@
         "heading_H38yXL": {
           "type": "heading",
           "settings": {
-            "heading": "Most tattoo aftercare products were created as treatments. We wanted to create a system.",
+            "heading": "Most tattoo aftercare products were created as treatments. We wanted to <em>create a system.</em>",
             "highlight_style": "none",
-            "enable_highlight_text_color": false,
+            "enable_highlight_text_color": true,
             "heading_size": "h2"
           }
         },
