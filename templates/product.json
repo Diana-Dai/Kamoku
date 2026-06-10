@@ -111,23 +111,32 @@
         },
         "collapsible_tab_YfYLeV": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "heading": "CORE FEATURES",
-            "content": "",
+            "heading": "pH Optimization (5.5)",
+            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
             "liquid": "{{ product.description }}",
             "page": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "44a0cb66-4d76-437d-a088-4170647fb088": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "heading": "INGREDIENTS",
-            "content": "<p>Use this accordion to add info such as Ingredients, Features, and Usage.</p>",
+            "heading": "Trauma-Safe Testing Data",
+            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_8Q3FGx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Allergy Screening",
+            "content": "<p>Triple-screened for potential allergens. Free from synthetic fragrances, nickel, parabens, and essential oils that can provoke contact dermatitis in open wounds.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -148,7 +157,8 @@
         "shipping_TqiCge",
         "complementary_WGHcVt",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088"
+        "44a0cb66-4d76-437d-a088-4170647fb088",
+        "collapsible_tab_8Q3FGx"
       ],
       "custom_css": [],
       "settings": {
@@ -627,6 +637,7 @@
         "content_7M6cXe",
         "content_hCkG8x"
       ],
+      "disabled": true,
       "name": "Collapsible tabs",
       "settings": {
         "container": "container",
