@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -17,7 +26,7 @@
         "1654229094960f6bc7-0": {
           "type": "title",
           "settings": {
-            "title": "We empower your skin to thrive with the <em>goodness of nature.</em>",
+            "title": "Not all healing happens at once.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h-xl",
@@ -94,6 +103,7 @@
         "column_mxLKAB": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "image_link": "",
             "title": "Natural and organic Ingredients",
             "heading_size": "h4",
@@ -107,6 +117,7 @@
         "column_7XzBLY": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "image_link": "",
             "title": "Eco-friendly packaging",
             "heading_size": "h4",
@@ -120,6 +131,7 @@
         "column_AAnXCT": {
           "type": "column",
           "settings": {
+            "show_image": true,
             "image_link": "",
             "title": "Cruelty-free and vegan formulas",
             "heading_size": "h4",
@@ -232,6 +244,7 @@
             "heading_color": "",
             "description": "",
             "button_label": "",
+            "button_link": "",
             "button_style": "btn--white",
             "animations": "inherit"
           }
