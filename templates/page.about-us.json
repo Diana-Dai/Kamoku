@@ -26,7 +26,7 @@
         "1654229094960f6bc7-0": {
           "type": "title",
           "settings": {
-            "title": "Not all healing happens at once.",
+            "title": "Rooted in Aotearoa.Designed for recovery.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h-xl",
@@ -38,11 +38,10 @@
         "28cce02c-9847-4275-855b-b3e2588d36fc",
         "1654229094960f6bc7-0"
       ],
-      "custom_css": [
-        ".f-hero__content {max-width: 56rem;}"
-      ],
+      "custom_css": [],
       "settings": {
         "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_53_PM.png",
         "image_overlay_opacity": 30,
         "hero_height": "adapt",
         "content_in_container": true,
