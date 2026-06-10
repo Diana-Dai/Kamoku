@@ -52,6 +52,44 @@
         "enable_bg_zoom_effect": true
       }
     },
+    "16542293891a0a2e2c": {
+      "type": "rich-text",
+      "blocks": {
+        "165422938904a7f60d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "165422938904a7f60d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embracing the philosophy that nature knows best, our skincare brand takes pride in treating your skin with the <br/>purest, most natural ingredients available. We believe that the earth provides everything we need to achieve <br/>healthy, radiant skin, which is why we meticulously source organic botanicals, plant oils</p>"
+          }
+        }
+      },
+      "block_order": [
+        "165422938904a7f60d-0",
+        "165422938904a7f60d-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "text_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit"
+      }
+    },
     "image_with_text_Jn9GaY": {
       "type": "image-with-text",
       "blocks": {
@@ -89,6 +127,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -107,44 +146,6 @@
         "divider_width": "container",
         "custom_id": "",
         "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "16542293891a0a2e2c": {
-      "type": "rich-text",
-      "blocks": {
-        "165422938904a7f60d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Revitalize And Rejuvenate Your Skin Naturally",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        },
-        "165422938904a7f60d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Embracing the philosophy that nature knows best, our skincare brand takes pride in treating your skin with the <br/>purest, most natural ingredients available. We believe that the earth provides everything we need to achieve <br/>healthy, radiant skin, which is why we meticulously source organic botanicals, plant oils</p>"
-          }
-        }
-      },
-      "block_order": [
-        "165422938904a7f60d-0",
-        "165422938904a7f60d-1"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "text_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "mobile-remove-br",
         "animations": "inherit"
       }
     },
@@ -557,8 +558,8 @@
   "order": [
     "main",
     "16542290942ea85dfa",
-    "image_with_text_Jn9GaY",
     "16542293891a0a2e2c",
+    "image_with_text_Jn9GaY",
     "multicolumn_fQrrWx",
     "collapsible_tabs_FCfpmk",
     "165546186449d8fb9e",
