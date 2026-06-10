@@ -163,24 +163,18 @@
         "text_iAQUBM": {
           "type": "text",
           "settings": {
-            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p>"
-          }
-        },
-        "button_Whx96U": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_size": ""
+            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p><h5>01. Calm</h5><p>Instantly reduces inflammatory markers, cooling the dermal site upon application to suppress the body's overactive heat response.</p><h5>02. Seal</h5><p>Creates a semi-permeable lipid barrier that locks in moisture while allowing the wound to breathe, preventing pigment fallout.</p><p></p>"
           }
         }
       },
       "block_order": [
         "subheading_4qJfkb",
         "heading_zF3VVh",
-        "text_iAQUBM",
-        "button_Whx96U"
+        "text_iAQUBM"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
