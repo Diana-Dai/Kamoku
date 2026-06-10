@@ -7131,7 +7131,7 @@ shopify-account::part(signed-out-avatar) {
   display:none;
 }
 
-.image-with-text__text{
+.image-with-text__content {
       max-width: 60rem;
 
 }
