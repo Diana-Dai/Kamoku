@@ -61,7 +61,7 @@
             "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
-            "heading_size": "h0",
+            "heading_size": "h1",
             "heading_color": ""
           }
         }
@@ -72,7 +72,7 @@
       "custom_css": [],
       "settings": {
         "container": "container",
-        "color_schema": "background-1",
+        "color_schema": "background-2",
         "text_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100,
