@@ -142,6 +142,71 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_pCnFKG": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4qJfkb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Botanical Heart"
+          }
+        },
+        "heading_zF3VVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Alchemy of Kawakawa",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_iAQUBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p>"
+          }
+        },
+        "button_Whx96U": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4qJfkb",
+        "heading_zF3VVh",
+        "text_iAQUBM",
+        "button_Whx96U"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-2",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "multicolumn_fQrrWx": {
       "type": "multicolumn",
       "blocks": {
@@ -553,6 +618,7 @@
     "16542290942ea85dfa",
     "16542293891a0a2e2c",
     "image_with_text_Jn9GaY",
+    "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
     "collapsible_tabs_FCfpmk",
     "165546186449d8fb9e",
