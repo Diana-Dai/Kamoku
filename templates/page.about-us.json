@@ -61,20 +61,13 @@
             "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
-            "heading_size": "h2",
+            "heading_size": "h0",
             "heading_color": ""
-          }
-        },
-        "165422938904a7f60d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Embracing the philosophy that nature knows best, our skincare brand takes pride in treating your skin with the <br/>purest, most natural ingredients available. We believe that the earth provides everything we need to achieve <br/>healthy, radiant skin, which is why we meticulously source organic botanicals, plant oils</p>"
           }
         }
       },
       "block_order": [
-        "165422938904a7f60d-0",
-        "165422938904a7f60d-1"
+        "165422938904a7f60d-0"
       ],
       "custom_css": [],
       "settings": {
