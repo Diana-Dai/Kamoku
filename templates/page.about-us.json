@@ -284,110 +284,6 @@
         "animations": "inherit"
       }
     },
-    "collapsible_tabs_FCfpmk": {
-      "type": "collapsible-tabs",
-      "blocks": {
-        "heading_gzLNKk": {
-          "type": "heading",
-          "settings": {
-            "text": "We use natural skincare <em>ingredients</em>",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h-xl",
-            "heading_color": "",
-            "sub_heading": "A NOTE FROM ARIELLE"
-          }
-        },
-        "content_gxek9M": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Commitment to nature",
-            "content": "<p>We embrace nature by using sustainable fabrics and responsible practices. Every piece is crafted with care, reducing waste and promoting eco-conscious living for a better planet.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": true
-          }
-        },
-        "content_Mdt3Yi": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Sustainability every way",
-            "content": "<p>We prioritize eco-friendly materials and ethical production to minimize our environmental footprint. Thoughtful design choices ensure durability and waste reduction, making every piece a step toward a greener future.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_6p66ke": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Transparency and integrity",
-            "content": "<p>Honesty is at the heart of everything we do. From sourcing to production, we provide clear, detailed insights into our process, ensuring you know exactly what goes into every product.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "image_card_w8hfGh": {
-          "type": "image_card",
-          "settings": {
-            "image_position": "left",
-            "image_alignment": "center",
-            "image_width": 50,
-            "layout": "layout4",
-            "text_color": "#222222",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 0,
-            "sub_heading": "",
-            "heading": "",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": "",
-            "description": "",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--white",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "heading_gzLNKk",
-        "content_gxek9M",
-        "content_Mdt3Yi",
-        "content_6p66ke",
-        "image_card_w8hfGh"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container-full",
-        "color_schema": "scheme-7",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h-xl",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "item_heading_font": "heading",
-        "item_heading_size": "h4",
-        "column_gap": "none",
-        "content_width": "narrow",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "mobile-remove-br",
-        "animations": "inherit"
-      }
-    },
     "165546186449d8fb9e": {
       "type": "press",
       "blocks": {
@@ -615,7 +511,6 @@
     "image_with_text_Jn9GaY",
     "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
-    "collapsible_tabs_FCfpmk",
     "165546186449d8fb9e",
     "collage_tabs_TbMiDp"
   ]
