@@ -104,7 +104,7 @@
         "button_rWP7cb": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "our philosophy",
             "button_link": "",
             "button_style": "btn--primary",
             "button_size": ""
@@ -417,92 +417,6 @@
         "custom_class": "mobile-remove-br",
         "animations": "inherit"
       }
-    },
-    "collage_tabs_TbMiDp": {
-      "type": "collage-tabs",
-      "blocks": {
-        "tab_njT37d": {
-          "type": "tab",
-          "settings": {
-            "content_color_schema": "scheme-7",
-            "navigation_title": "Our Vision",
-            "heading": "Harmonize between nature and beauty",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": "",
-            "subheading": "Our vision",
-            "description": "<p>We strive to harness the power of nature to create skincare solutions that are both effective and environmentally friendly. We believe that beauty should not come at the expense of the planet, and we're committed to proving that natural.</p>",
-            "text_alignment": "left",
-            "button_label": "",
-            "button_link": "#",
-            "button_style": "btn--primary",
-            "mobile_text_alignment": "inherit"
-          }
-        },
-        "tab_pCrU7x": {
-          "type": "tab",
-          "settings": {
-            "content_color_schema": "scheme-7",
-            "navigation_title": "Our Mission",
-            "heading": "Quality and Sustainability",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": "",
-            "subheading": "Our Mission",
-            "description": "<p>We are committed to delivering high-quality products while promoting sustainability, transparency, and innovation. Our goal is to create a positive impact on our customers, communities, and the environment.</p>",
-            "text_alignment": "left",
-            "button_label": "",
-            "button_link": "#",
-            "button_style": "btn--primary",
-            "mobile_text_alignment": "inherit"
-          }
-        },
-        "tab_VaqA8g": {
-          "type": "tab",
-          "settings": {
-            "content_color_schema": "scheme-7",
-            "navigation_title": "Our Sciences",
-            "heading": "Science and Innovation",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": "",
-            "subheading": "Our Sciences",
-            "description": "<p>We leverage cutting-edge research and innovation to develop solutions that drive progress and sustainability. Our commitment to science ensures high-quality, effective, and environmentally responsible products.</p>",
-            "text_alignment": "left",
-            "button_label": "",
-            "button_link": "#",
-            "button_style": "btn--primary",
-            "mobile_text_alignment": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "tab_njT37d",
-        "tab_pCrU7x",
-        "tab_VaqA8g"
-      ],
-      "custom_css": [
-        ".f-collage-tab--heading {--text-blocks-gap: 1.6rem;}"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "tab_heading_size": "h4",
-        "desktop_navigation_alignment": "start",
-        "desktop_image_position": "left",
-        "desktop_image_width": 60,
-        "image_aspect_ratio": "adapt",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "border-top",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
@@ -512,7 +426,6 @@
     "image_with_text_Jn9GaY",
     "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
-    "165546186449d8fb9e",
-    "collage_tabs_TbMiDp"
+    "165546186449d8fb9e"
   ]
 }
