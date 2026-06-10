@@ -494,7 +494,7 @@
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
-        "padding_left": 20,
+        "padding_left": 30,
         "padding_right": 0,
         "align_content_container": "none",
         "mobile_padding_left": 15,
