@@ -11,6 +11,37 @@
   "type": "footer",
   "name": "t:sections.footer.name",
   "sections": {
+    "rich_text_UeEhxr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_E6pz93": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"Art incorporates inside our body.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_E6pz93"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -230,6 +261,7 @@
     }
   },
   "order": [
+    "rich_text_UeEhxr",
     "footer",
     "mobile-sticky-bar",
     "popup",

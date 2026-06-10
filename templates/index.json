@@ -822,37 +822,6 @@
         "animations": "inherit",
         "enable_bg_zoom_effect": true
       }
-    },
-    "rich_text_7xcidK": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TYpk8P": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"Art incorporates inside our body.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h3",
-            "heading_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_TYpk8P"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "container": "container",
-        "color_schema": "inverse",
-        "text_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
@@ -866,7 +835,6 @@
     "collapsible_tabs_FCfpmk",
     "gallery_images_n7N9gp",
     "rich_text_GiX8ff",
-    "165422614227341852",
-    "rich_text_7xcidK"
+    "165422614227341852"
   ]
 }
