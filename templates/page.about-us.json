@@ -390,6 +390,7 @@
         "press_xLmJp8",
         "press_3ij6aL"
       ],
+      "disabled": true,
       "custom_css": [
         ".section__header {--header-padding-bottom: 3.2rem;}"
       ],
