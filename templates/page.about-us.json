@@ -52,37 +52,6 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "16542293891a0a2e2c": {
-      "type": "rich-text",
-      "blocks": {
-        "165422938904a7f60d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h1",
-            "heading_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "165422938904a7f60d-0"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "mobile-remove-br",
-        "animations": "inherit"
-      }
-    },
     "image_with_text_Jn9GaY": {
       "type": "image-with-text",
       "blocks": {
@@ -417,15 +386,56 @@
         "custom_class": "mobile-remove-br",
         "animations": "inherit"
       }
+    },
+    "16542293891a0a2e2c": {
+      "type": "rich-text",
+      "blocks": {
+        "165422938904a7f60d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h1",
+            "heading_color": ""
+          }
+        },
+        "button_apgcWX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the system",
+            "button_link": "shopify://products/the-complete-healing-system",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "165422938904a7f60d-0",
+        "button_apgcWX"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
     "16542290942ea85dfa",
-    "16542293891a0a2e2c",
     "image_with_text_Jn9GaY",
     "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
-    "165546186449d8fb9e"
+    "165546186449d8fb9e",
+    "16542293891a0a2e2c"
   ]
 }
