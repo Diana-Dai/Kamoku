@@ -548,10 +548,32 @@
     },
     "hero_96w8RX": {
       "type": "hero",
+      "blocks": {
+        "title_CQpmKy": {
+          "type": "title",
+          "settings": {
+            "title": "Shaped by New Zealand's quiet coastal air.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_zQRC7p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The salt-laden breeze, the humidity that softens everything, the grounded textures of our landscape—these elements inform how we think about healing. We channel this atmosphere into every ritual, every product, every moment of your recovery.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_CQpmKy",
+        "text_zQRC7p"
+      ],
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM.png",
+        "image": "shopify://shop_images/stone-steps-lead-down-to-the-water.jpg",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
