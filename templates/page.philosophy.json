@@ -59,61 +59,13 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "image_with_text_slider_fnjCfw": {
-      "type": "image-with-text-slider",
-      "blocks": {
-        "slide_3FYAyY": {
-          "type": "slide",
-          "settings": {
-            "slide_color_scheme": "",
-            "background": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_59_PM.png",
-            "content_position": "center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "title": "Healing requires intention.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "subheading": "",
-            "description": "<p>Recovery is not a passive phase; it is an active dialogue between your skin and your surroundings. We view the healing of a permanent mark as a sacred transition—a bridge between the trauma of the needle and the integration of art into your identity.</p>",
-            "desc_size": "text-desc-base",
-            "button_text_1": "",
-            "button_link_1": "",
-            "button_style_1": "btn--primary",
-            "button_size_1": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_3FYAyY"
-      ],
-      "name": "t:sections.image-with-text-slider.name",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "container": "container-full",
-        "slider_height": "large",
-        "image_width": 70,
-        "image_position": "right",
-        "show_dots": true,
-        "show_nav": false,
-        "autoplay": false,
-        "autorotate_speed": 3,
-        "controls_position": "center",
-        "pagination_style": "dots",
-        "accessibility_info": "Slideshow about our brand",
-        "custom_id": "",
-        "custom_class": "",
-        "enable_bg_zoom_effect": false
-      }
-    },
     "image_with_text_Jn9GaY": {
       "type": "image-with-text",
       "blocks": {
         "heading_H38yXL": {
           "type": "heading",
           "settings": {
-            "heading": "Most tattoo aftercare products were created as treatments. We wanted to <em>create a system.</em>",
+            "heading": "Healing requires intention.",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h2"
@@ -122,23 +74,13 @@
         "text_WpVXTN": {
           "type": "text",
           "settings": {
-            "text": "<p>Traditional aftercare often relies on thick petroleum bases that suffocate the dermis. We looked at skin as a living, healing organ that requires specific metabolic support at every stage of the tattoo recovery lifecycle.</p><p>KAMOKU was founded to bridge the gap between clinical dermatology and the artistry of tattooing, creating a system that respects both the medium and the canvas.</p>"
-          }
-        },
-        "button_rWP7cb": {
-          "type": "button",
-          "settings": {
-            "button_label": "our philosophy",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_size": ""
+            "text": "<p>Recovery is not a passive phase; it is an active dialogue between your skin and your surroundings. We view the healing of a permanent mark as a sacred transition—a bridge between the trauma of the needle and the integration of art into your identity.</p>"
           }
         }
       },
       "block_order": [
         "heading_H38yXL",
-        "text_WpVXTN",
-        "button_rWP7cb"
+        "text_WpVXTN"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -566,7 +508,6 @@
   "order": [
     "main",
     "16542290942ea85dfa",
-    "image_with_text_slider_fnjCfw",
     "image_with_text_Jn9GaY",
     "rich_text_U7dT6H",
     "image_with_text_pCnFKG",
