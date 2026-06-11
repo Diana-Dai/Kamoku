@@ -125,6 +125,55 @@
         "animations": "inherit"
       }
     },
+    "rich_text_U7dT6H": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dpNGnj": {
+          "type": "heading",
+          "settings": {
+            "heading": "It started with a simple question.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h1",
+            "heading_color": ""
+          }
+        },
+        "text_aNnCqX": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em>\"How do we maintain the integrity of the ink while accelerating the resilience of the skin?\"</em></h4><p>Our research led us deep into the cellular response of traumatized tissue. We found that the skin’s regeneration process isn’t linear; it’s a series of overlapping phases—Inflammation, Proliferation, and Maturation. Each phase demands a different botanical profile. By isolating these needs, we developed the KAMOKU system: a targeted approach that adapts as you heal.</p>"
+          }
+        },
+        "button_7iWCYF": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_dpNGnj",
+        "text_aNnCqX",
+        "button_7iWCYF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 150,
+        "padding_bottom": 150,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "image_with_text_pCnFKG": {
       "type": "image-with-text",
       "blocks": {
@@ -447,6 +496,7 @@
     "main",
     "16542290942ea85dfa",
     "image_with_text_Jn9GaY",
+    "rich_text_U7dT6H",
     "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
     "165546186449d8fb9e",
