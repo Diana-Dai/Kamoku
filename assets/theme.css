@@ -7133,5 +7133,5 @@ shopify-account::part(signed-out-avatar) {
 .rich-text__text,
 .image-with-text__content {
       max-width: 60rem;
-
+  margin:0 auto;
 }
