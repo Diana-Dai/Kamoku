@@ -59,19 +59,19 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "image_with_text_Jn9GaY": {
+    "image_with_text_pCnFKG": {
       "type": "image-with-text",
       "blocks": {
-        "heading_H38yXL": {
+        "heading_zF3VVh": {
           "type": "heading",
           "settings": {
             "heading": "Healing requires intention.",
             "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h2"
+            "enable_highlight_text_color": false,
+            "heading_size": "h1"
           }
         },
-        "text_WpVXTN": {
+        "text_iAQUBM": {
           "type": "text",
           "settings": {
             "text": "<p>Recovery is not a passive phase; it is an active dialogue between your skin and your surroundings. We view the healing of a permanent mark as a sacred transition—a bridge between the trauma of the needle and the integration of art into your identity.</p>"
@@ -79,21 +79,25 @@
         }
       },
       "block_order": [
-        "heading_H38yXL",
-        "text_WpVXTN"
+        "heading_zF3VVh",
+        "text_iAQUBM"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
-        "color_schema": "",
+        "color_schema": "background-2",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
-        "image_position": "left",
+        "image_position": "right",
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
-        "padding_left": 0,
-        "padding_right": 30,
+        "padding_left": 30,
+        "padding_right": 0,
         "align_content_container": "none",
         "mobile_padding_left": 15,
         "mobile_padding_right": 15,
@@ -101,6 +105,88 @@
         "padding_bottom": 0,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_xzk7zU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_n9fqci": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Protection",
+            "heading_size": "h3",
+            "text": "<p>PHASE 01 : DAYS 1-3</p><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_kTcDNF": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Regeneration",
+            "heading_size": "h3",
+            "text": "<p>PHASE 02 : DAYS 4-10</p><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_tJ3mhM": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Column",
+            "heading_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_n9fqci",
+        "column_kTcDNF",
+        "column_tJ3mhM"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Recovery Happens In Stages.",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "THE CHRONOLOGY",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -157,66 +243,6 @@
         "text_alignment": "center",
         "padding_top": 150,
         "padding_bottom": 150,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_pCnFKG": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_4qJfkb": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "The Botanical Heart"
-          }
-        },
-        "heading_zF3VVh": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Alchemy of Kawakawa",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2"
-          }
-        },
-        "text_iAQUBM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p><h5>01. Calm</h5><p>Instantly reduces inflammatory markers, cooling the dermal site upon application to suppress the body's overactive heat response.</p><h5>02. Seal</h5><p>Creates a semi-permeable lipid barrier that locks in moisture while allowing the wound to breathe, preventing pigment fallout.</p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_4qJfkb",
-        "heading_zF3VVh",
-        "text_iAQUBM"
-      ],
-      "custom_css": [
-        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
-        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "background-2",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
-        "image_width": "50%",
-        "image_position": "right",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 30,
-        "padding_right": 0,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -508,9 +534,9 @@
   "order": [
     "main",
     "16542290942ea85dfa",
-    "image_with_text_Jn9GaY",
-    "rich_text_U7dT6H",
     "image_with_text_pCnFKG",
+    "multicolumn_xzk7zU",
+    "rich_text_U7dT6H",
     "multicolumn_fQrrWx",
     "165546186449d8fb9e",
     "hero_96w8RX",
