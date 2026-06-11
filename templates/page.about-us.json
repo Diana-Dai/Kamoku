@@ -99,7 +99,6 @@
         "text_WpVXTN",
         "button_rWP7cb"
       ],
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
