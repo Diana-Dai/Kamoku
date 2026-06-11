@@ -138,10 +138,16 @@
             "heading_color": ""
           }
         },
+        "subheading_EdAafU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
         "text_aNnCqX": {
           "type": "text",
           "settings": {
-            "text": "<h4><em>\"How do we maintain the integrity of the ink while accelerating the resilience of the skin?\"</em></h4><p>Our research led us deep into the cellular response of traumatized tissue. We found that the skin’s regeneration process isn’t linear; it’s a series of overlapping phases—Inflammation, Proliferation, and Maturation. Each phase demands a different botanical profile. By isolating these needs, we developed the KAMOKU system: a targeted approach that adapts as you heal.</p>"
+            "text": "<h4></h4><h4></h4><h4><em>\"How do we maintain the integrity of the ink while accelerating the resilience of the skin?\"</em></h4><p>Our research led us deep into the cellular response of traumatized tissue. We found that the skin’s regeneration process isn’t linear; it’s a series of overlapping phases—Inflammation, Proliferation, and Maturation. Each phase demands a different botanical profile. By isolating these needs, we developed the KAMOKU system: a targeted approach that adapts as you heal.</p>"
           }
         },
         "button_7iWCYF": {
@@ -157,12 +163,13 @@
       },
       "block_order": [
         "heading_dpNGnj",
+        "subheading_EdAafU",
         "text_aNnCqX",
         "button_7iWCYF"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "container": "container",
+        "container": "container-narrow",
         "color_schema": "background-2",
         "text_alignment": "center",
         "padding_top": 150,
