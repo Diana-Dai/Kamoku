@@ -119,10 +119,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
             "image_link": "",
-            "title": "Protection",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p><em>PHASE 01 : DAYS 1-3</em></p><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
+            "text": "<p><em>PHASE 01 : DAYS 1-3</em></p><h3>Protection</h3><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -133,10 +134,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/Panthenol.png",
             "image_link": "",
-            "title": "Regeneration",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p><em>PHASE 02 : DAYS 4-10</em></p><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
+            "text": "<p><em>PHASE 02 : DAYS 4-10</em></p><h3>Regeneration</h3><p>The immediate barrier. Sealing the artistic intent while managing inflammation through the cooling properties of New Zealand botanicals.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -147,10 +149,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/Kawakawa_Leaf.png",
             "image_link": "",
-            "title": "Integration",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p><em>PHASE 03 : DAYS 11+</em></p><p>Long-term vibrancy. Maintaining the hydration balance to ensure the art remains crisp, dark, and resilient for years.</p>",
+            "text": "<p><em>PHASE 03 : DAYS 11+</em></p><h3>Integration</h3><p>Long-term vibrancy. Maintaining the hydration balance to ensure the art remains crisp, dark, and resilient for years.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -164,7 +167,7 @@
         "column_tJ3mhM"
       ],
       "custom_css": [
-        "em{font-size: 1.2rem;}"
+        "em {font-size: 1.2rem;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
