@@ -62,12 +62,6 @@
     "image_with_text_Jn9GaY": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_j8kAUz": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "problPem"
-          }
-        },
         "heading_H38yXL": {
           "type": "heading",
           "settings": {
@@ -94,7 +88,6 @@
         }
       },
       "block_order": [
-        "subheading_j8kAUz",
         "heading_H38yXL",
         "text_WpVXTN",
         "button_rWP7cb"
