@@ -89,7 +89,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
-        "color_schema": "background-2",
+        "color_schema": "background-1",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "right",
@@ -172,7 +172,7 @@
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "Recovery Happens In Stages.",
@@ -200,60 +200,133 @@
         "animations": "inherit"
       }
     },
-    "rich_text_U7dT6H": {
+    "rich_text_Uw8igt": {
       "type": "rich-text",
       "blocks": {
-        "heading_dpNGnj": {
-          "type": "heading",
-          "settings": {
-            "heading": "It started with a simple question.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h1",
-            "heading_color": ""
-          }
-        },
-        "subheading_EdAafU": {
+        "subheading_NyLf3z": {
           "type": "subheading",
           "settings": {
-            "subheading": ""
+            "subheading": "LABORATORY NOTES"
           }
         },
-        "text_aNnCqX": {
-          "type": "text",
+        "heading_wGj7Xh": {
+          "type": "heading",
           "settings": {
-            "text": "<h4></h4><h4><em>\"How do we maintain the integrity of the ink while accelerating the resilience of the skin?\"</em></h4><p></p>"
-          }
-        },
-        "button_7iWCYF": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_size": ""
+            "heading": "Botanicals meet modern recovery.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
           }
         }
       },
       "block_order": [
-        "heading_dpNGnj",
-        "subheading_EdAafU",
-        "text_aNnCqX",
-        "button_7iWCYF"
+        "subheading_NyLf3z",
+        "heading_wGj7Xh"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
+        "container": "container",
+        "color_schema": "",
         "text_alignment": "center",
-        "padding_top": 150,
-        "padding_bottom": 150,
+        "padding_top": 40,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
+      }
+    },
+    "image_with_text_slider_KGwMVj": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_CPUw8B": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "",
+            "background": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "Kawakawa Extract",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p><em>High concentrations of myristicin and diapiol provide natural anti-microbial and analgesic properties, essential for early-stage recovery.</em></p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_D4hKpX": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "",
+            "background": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "Bio-Active Ceramides",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Reinforcing the lipid barrier that is often compromised during the tattooing process, preventing moisture loss.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_JHwnP8": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "background-1",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "Botanical Squalane",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "",
+            "description": "<p>Mimicking the skin's natural sebum to ensure immediate absorption without a greasy residue that can clog pores.</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_CPUw8B",
+        "slide_D4hKpX",
+        "slide_JHwnP8"
+      ],
+      "name": "t:sections.image-with-text-slider.name",
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "container": "container-full",
+        "slider_height": "large",
+        "image_width": 70,
+        "image_position": "right",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
       }
     },
     "multicolumn_fQrrWx": {
@@ -542,7 +615,8 @@
     "16542290942ea85dfa",
     "image_with_text_pCnFKG",
     "multicolumn_xzk7zU",
-    "rich_text_U7dT6H",
+    "rich_text_Uw8igt",
+    "image_with_text_slider_KGwMVj",
     "multicolumn_fQrrWx",
     "165546186449d8fb9e",
     "hero_96w8RX",
