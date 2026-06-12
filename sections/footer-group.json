@@ -124,7 +124,7 @@
         "container": "container",
         "color_schema": "inverse",
         "show_copyright": true,
-        "show_divider": true,
+        "show_divider": false,
         "enable_follow_on_shop": false,
         "show_social": true,
         "icon_size": "extra-medium",
