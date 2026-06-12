@@ -297,7 +297,7 @@
         data-motion-delay="50"
         class="block site-footer__bottom-wrapper"
       >
-        <div class="site-footer__bottom-row flex flex-wrap">
+        <div class="site-footer__bottom-row flex flex-wrap justify-center">
           {% if show_social %}
             <div class="site-footer__social-links flex md:justify-end overflow-hidden">
               {% render 'social-links', icon_size: section.settings.icon_size %}
@@ -317,7 +317,7 @@
             </div>
           {% endif %}
         </div>
-        <div class="site-footer__bottom-row flex flex-wrap">
+        <div class="site-footer__bottom-row flex flex-wrap justify-center">
           <div class="flex flex-col self-center site-footer__copyright-wrapper">
             {%- if section.settings.show_copyright -%}
               <p class="site-footer__copyright text-sm m-0">
