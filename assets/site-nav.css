@@ -68,7 +68,7 @@
   font-family: var(--font-menu-family);
   font-weight: var(--font-menu-weight);
   text-transform: var(--navigation-transform);
-  font-size:1.2rem;
+  font-size:1rem;
   transition: all var(--header-transition-duration);
 }
 .f-site-nav__arrow {
