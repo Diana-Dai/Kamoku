@@ -671,8 +671,8 @@
             "section_padding_top": 60,
             "section_padding_bottom": 60,
             "benefits_padding": 50,
-            "background_color": "#8b8c75",
-            "eyebrow_color": "#8b8c75",
+            "background_color": "#aa9f90",
+            "eyebrow_color": "#222222",
             "heading_color": "#000000",
             "text_color": "#222222",
             "compare_price_color": "#212121",
@@ -708,6 +708,28 @@
       ],
       "name": "Complete recovery system",
       "settings": {}
+    },
+    "hero_cPFKVb": {
+      "type": "hero",
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_15_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
     }
   },
   "order": [
@@ -722,6 +744,7 @@
     "165546186449d8fb9e",
     "hero_96w8RX",
     "16542293891a0a2e2c",
-    "blocks_G9T8h6"
+    "blocks_G9T8h6",
+    "hero_cPFKVb"
   ]
 }
