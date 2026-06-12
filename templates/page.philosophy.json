@@ -104,11 +104,11 @@
         "container": "container-full",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_09_PM.png",
         "image_overlay_opacity": 40,
-        "hero_height": "small",
+        "hero_height": "medium",
         "content_in_container": false,
         "content_position": "center",
         "text_alignment": "center",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "hero_height_mobile": "large",
         "content_position_mobile": "center",
         "show_text_below": true,
@@ -117,59 +117,6 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": true
-      }
-    },
-    "image_with_text_pCnFKG": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_zF3VVh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Healing requires <em>intention</em>.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h0"
-          }
-        },
-        "text_iAQUBM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Recovery is not a passive phase; it is an active dialogue between your skin and your surroundings. We view the healing of a permanent mark as a sacred transition—a bridge between the trauma of the needle and the integration of art into your identity.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_zF3VVh",
-        "text_iAQUBM"
-      ],
-      "custom_css": [
-        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
-        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "background-1",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
-        "image_width": "50%",
-        "image_position": "right",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 30,
-        "padding_right": 0,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "multicolumn_xzk7zU": {
@@ -289,7 +236,7 @@
         "container": "container",
         "color_schema": "",
         "text_alignment": "center",
-        "padding_top": 40,
+        "padding_top": 100,
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
@@ -768,7 +715,6 @@
     "16542290942ea85dfa",
     "rich_text_f9Khtf",
     "hero_DYjRWq",
-    "image_with_text_pCnFKG",
     "multicolumn_xzk7zU",
     "rich_text_Uw8igt",
     "image_with_text_slider_KGwMVj",
