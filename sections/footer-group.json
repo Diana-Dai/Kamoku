@@ -48,7 +48,7 @@
         "image_L378x9": {
           "type": "image",
           "settings": {
-            "heading": "Heading",
+            "heading": "",
             "heading_size": "h6",
             "subheading": "",
             "image": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_24_56_PM.png",
@@ -57,21 +57,6 @@
             "alignment": "center",
             "width": 25,
             "open_default_collapsible_tab": false
-          }
-        },
-        "newsletter_gDhnac": {
-          "type": "newsletter",
-          "settings": {
-            "heading": "Newsletter",
-            "heading_size": "h6",
-            "subheading": "<p>Enter your email below to be the first to know about new collections and product launches.</p>",
-            "description": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy.</a></p>",
-            "email_placeholder": "Enter your email",
-            "hide_label": true,
-            "form_width": 420,
-            "width": 25,
-            "open_default_collapsible_tab": false,
-            "show_divider": false
           }
         },
         "text_D9xAmH": {
@@ -108,25 +93,28 @@
             "show_divider": true
           }
         },
-        "link_list_3Pd6aN": {
-          "type": "link_list",
+        "newsletter_gDhnac": {
+          "type": "newsletter",
           "settings": {
-            "heading": "SHOP",
+            "heading": "Newsletter",
             "heading_size": "h6",
-            "menu": "footer",
-            "width": 33,
+            "subheading": "<p>Enter your email below to be the first to know about new collections and product launches.</p>",
+            "description": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy.</a></p>",
+            "email_placeholder": "Enter your email",
+            "hide_label": true,
+            "form_width": 420,
+            "width": 25,
             "open_default_collapsible_tab": false,
-            "show_divider": true
+            "show_divider": false
           }
         }
       },
       "block_order": [
         "image_L378x9",
-        "newsletter_gDhnac",
         "text_D9xAmH",
         "38a4c8ff-0f36-4662-b689-09fc66a5126e",
         "footer-0",
-        "link_list_3Pd6aN"
+        "newsletter_gDhnac"
       ],
       "custom_css": [
         ".site-footer__block--text .site-footer__block-heading {line-height: 1.357;}",
