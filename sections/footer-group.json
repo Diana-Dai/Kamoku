@@ -45,6 +45,27 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "logo_NnhhBL": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_24_56_PM.png"
+          }
+        },
+        "newsletter_gDhnac": {
+          "type": "newsletter",
+          "settings": {
+            "heading": "Newsletter",
+            "heading_size": "h6",
+            "subheading": "<p>Enter your email below to be the first to know about new collections and product launches.</p>",
+            "description": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use</a> & <a href=\"#\">Privacy Policy.</a></p>",
+            "email_placeholder": "Enter your email",
+            "hide_label": true,
+            "form_width": 420,
+            "width": 25,
+            "open_default_collapsible_tab": false,
+            "show_divider": false
+          }
+        },
         "text_D9xAmH": {
           "type": "text",
           "disabled": true,
@@ -89,19 +110,15 @@
             "open_default_collapsible_tab": false,
             "show_divider": true
           }
-        },
-        "logo_NnhhBL": {
-          "type": "logo",
-          "disabled": true,
-          "settings": {}
         }
       },
       "block_order": [
+        "logo_NnhhBL",
+        "newsletter_gDhnac",
         "text_D9xAmH",
         "38a4c8ff-0f36-4662-b689-09fc66a5126e",
         "footer-0",
-        "link_list_3Pd6aN",
-        "logo_NnhhBL"
+        "link_list_3Pd6aN"
       ],
       "custom_css": [
         ".site-footer__block--text .site-footer__block-heading {line-height: 1.357;}",
@@ -111,7 +128,7 @@
         "container": "container",
         "color_schema": "inverse",
         "show_copyright": true,
-        "show_divider": false,
+        "show_divider": true,
         "enable_follow_on_shop": false,
         "show_social": true,
         "icon_size": "extra-medium",
