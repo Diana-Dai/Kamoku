@@ -65,9 +65,9 @@
         "heading_zF3VVh": {
           "type": "heading",
           "settings": {
-            "heading": "Healing requires intention.",
+            "heading": "Healing requires <em>intention</em>.",
             "highlight_style": "none",
-            "enable_highlight_text_color": false,
+            "enable_highlight_text_color": true,
             "heading_size": "h1"
           }
         },
