@@ -128,8 +128,8 @@
         "enable_follow_on_shop": false,
         "show_social": true,
         "icon_size": "extra-medium",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "show_payments": true,
         "bottom_menu": "",
         "animations": "inherit"
