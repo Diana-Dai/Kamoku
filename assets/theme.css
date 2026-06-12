@@ -7130,6 +7130,7 @@ shopify-account::part(signed-out-avatar) {
 .template-product .f-product-single__block .product-card__stage_index{
   display:none;
 }
+.rich-text__content,
 .image-with-text__content {
       max-width: 60rem;
 }
