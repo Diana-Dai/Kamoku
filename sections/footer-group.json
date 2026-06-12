@@ -45,10 +45,18 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "logo_NnhhBL": {
-          "type": "logo",
+        "image_L378x9": {
+          "type": "image",
           "settings": {
-            "logo": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_24_56_PM.png"
+            "heading": "Heading",
+            "heading_size": "h6",
+            "subheading": "",
+            "image": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_24_56_PM.png",
+            "image_link": "",
+            "image_width": 150,
+            "alignment": "center",
+            "width": 25,
+            "open_default_collapsible_tab": false
           }
         },
         "newsletter_gDhnac": {
@@ -113,7 +121,7 @@
         }
       },
       "block_order": [
-        "logo_NnhhBL",
+        "image_L378x9",
         "newsletter_gDhnac",
         "text_D9xAmH",
         "38a4c8ff-0f36-4662-b689-09fc66a5126e",
