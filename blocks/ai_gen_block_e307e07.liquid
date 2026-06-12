@@ -241,10 +241,6 @@
   }
 
   .ai-recovery-system-heading-{{ ai_gen_id }} {
-    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
-    font-weight: {{ block.settings.heading_font.weight }};
-    font-size: {{ block.settings.heading_size }}px;
-    line-height: 1.2;
     color: {{ block.settings.heading_color }};
     margin: 0;
   }
@@ -445,10 +441,6 @@
     .ai-recovery-system-benefits-grid-{{ ai_gen_id }} {
       grid-template-columns: repeat(2, 1fr);
       gap: 32px;
-    }
-
-    .ai-recovery-system-heading-{{ ai_gen_id }} {
-      font-size: {{ block.settings.heading_size | times: 0.7 }}px;
     }
   }
 
