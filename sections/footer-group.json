@@ -74,7 +74,7 @@
         "38a4c8ff-0f36-4662-b689-09fc66a5126e": {
           "type": "link_list",
           "settings": {
-            "heading": "PRESETS",
+            "heading": "Shop",
             "heading_size": "h6",
             "menu": "footer",
             "width": 25,
@@ -85,7 +85,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "ABOUT",
+            "heading": "",
             "heading_size": "h6",
             "menu": "footer",
             "width": 25,
