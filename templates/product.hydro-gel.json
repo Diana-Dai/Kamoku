@@ -113,8 +113,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "pH Optimization (5.5)",
-            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
+            "heading": "Description",
+            "content": "<p><strong>FIRST Hydro Gel is your tattoo's first line of defense.</strong> Designed for fresh ink, it delivers cooling hydration to help calm stressed skin and reduce the appearance of redness whileforming a lightweight, breathable barrier that protects without weighing the skin down.</p><p><strong>Skin Feel</strong></p><p>Cooling, lightweight, protective</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Oil, Kiwi Seed Oil, Blue Cypress Oil</p>",
             "liquid": "{{ product.description }}",
             "page": "",
             "default_open": false
@@ -124,8 +124,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Trauma-Safe Testing Data",
-            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
+            "heading": "Ingredients",
+            "content": "<p>Canola Oil, Caprylic/Capric Triglyceride, Silica, Zea Mays (Corn) Starch, Helianthus Annuus (Sunflower) Seed Oil, Actinidia Chinensis (Kiwi) Seed Oil, Triglycerides C10–18, Euphorbia Cerifera (Candelilla) Wax, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Cetyl Palmitate, Allantoin, Tocopheryl Acetate, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Callitris Intratropica (Blue Cypress) Wood Oil, Kunzea Ericoides (Kanuka) Leaf Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -135,8 +135,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Allergy Screening",
-            "content": "<p>Triple-screened for potential allergens. Free from synthetic fragrances, nickel, parabens, and essential oils that can provoke contact dermatitis in open wounds.</p>",
+            "heading": "Testing & Safety",
+            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -179,7 +179,7 @@
         "heading_VHk8X9": {
           "type": "heading",
           "settings": {
-            "heading": "Inspired by the Pacific",
+            "heading": "Rooted in Polynesian Culture",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h0",
@@ -189,7 +189,7 @@
         "text_Hf8RFH": {
           "type": "text",
           "settings": {
-            "text": "<h5>Drawing inspiration from Polynesian tattoo traditions, New Zealand botanicals, and modern skin science, Kamoku was created to support the healing journey that follows the art.</h5><h5></h5><p></p>"
+            "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
           }
         }
       },
@@ -316,7 +316,7 @@
         "heading_9eqLyE": {
           "type": "heading",
           "settings": {
-            "heading": "What makes this cleanser work",
+            "heading": "WHY IT WORKS",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -325,7 +325,7 @@
         "text_RfEgrF": {
           "type": "text",
           "settings": {
-            "text": "<p>Formulated with New Zealand botanicals and backed by healing science, cleanse wash respects the integrity of fresh ink while keeping infection at bay.</p><p></p><h5>Removes debris without stripping</h5><p>Lifts plasma and ink residue while preserving the skin's natural protective barrier.</p><h5>Gentle enough for sensitive skin</h5><p>No harsh sulfates or synthetic fragrances that irritate healing tattoos.</p><h5>Reduces infection risk naturally</h5><p>Botanical antimicrobials work with your skin's own healing response.</p>"
+            "text": "<h5>Breathable Barrier</h5><p>Forms a breathable protective layer that helps shield stressed skin without feeling heavy or greasy.</p><h5>Cooling Hydration</h5><p>Delivers cooling hydration with soothing botanical ingredients that help maintain skin comfort during the earliest stage of recovery.</p><h5>Recovery Support</h5><p>Helps maintain an optimal environment for the skin's natural recovery process while supporting the appearance of fresh, vibrant ink.</p>"
           }
         }
       },
