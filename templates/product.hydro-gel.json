@@ -372,9 +372,9 @@
             "show_image": true,
             "image": "shopify://shop_images/Manuka_Honey_Extract.png",
             "image_link": "",
-            "title": "Manuka Honey Extract",
+            "title": "Mānuka",
             "heading_size": "h3",
-            "text": "<p>A natural humectant with therapeutic antibacterial properties that accelerate tissue regeneration.</p>",
+            "text": "<h4>Botanical resilience from Aotearoa.</h4><p>Rich in naturally occurring aromatic compounds, Mānuka helps support a balanced skin environment while comforting stressed, freshly tattooed skin.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -387,9 +387,9 @@
             "show_image": true,
             "image": "shopify://shop_images/Kawakawa_Leaf.png",
             "image_link": "",
-            "title": "Kawakawa Leaf",
+            "title": "Kiwi Seed Oil",
             "heading_size": "h3",
-            "text": "<p>A sacred medicinal plant used for centuries to calm inflammation and soothe damaged skin.</p>",
+            "text": "<h4>Omega-rich skin support.</h4><p>Naturally rich in essential fatty acids, Kiwi Seed Oil helps replenish moisture and support the skin barrier without adding a heavy finish.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -402,9 +402,9 @@
             "show_image": true,
             "image": "shopify://shop_images/Panthenol.png",
             "image_link": "",
-            "title": "Panthenol",
+            "title": "Blue Cypress",
             "heading_size": "h3",
-            "text": "<p>Pro-vitamin B5 acts as a protective film, keeping moisture locked in during the repair phase.</p>",
+            "text": "<h4>Calm, cooling, and skin-conditioning.</h4><p>Known for its naturally calming profile, Blue Cypress helps comfort stressed skin and support a smoother, more balanced recovery feel.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -423,13 +423,13 @@
         "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "The Composition",
+        "heading": "Nature With Purpose.",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
         "heading_color": "",
         "subheading": "",
-        "description": "",
+        "description": "<p>Every ingredient is selected for a specific role — combining Polynesian-inspired care traditions with modern skin science to support tattooed skin through every stage of recovery.</p>",
         "layout": "vertical",
         "text_alignment": "center",
         "image_width": "fullwidth",
@@ -460,7 +460,7 @@
         "heading_m7GWaD": {
           "type": "heading",
           "settings": {
-            "heading": "\"A cooling, viscous gel that transforms into a delicate, low-foam emulsion. It glides effortlessly over tender skin without catching or pulling.\"",
+            "heading": "\"A soft hydro-gel texture that melts effortlessly into the skin. Lightweight and breathable, itspreads smoothly to form a comfortable protective layer without feeling greasy, sticky, or heavy.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h3"
@@ -469,7 +469,7 @@
         "text_dnyEhA": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>NON-STRIPPING</li><li>SOOTHING</li><li>UNSCENTED</li></ul>"
+            "text": "<ul><li>BREATHABLE</li><li>COOLING</li><li>NON-GREASY</li></ul>"
           }
         }
       },
