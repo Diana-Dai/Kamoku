@@ -47,7 +47,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<p>{{ product.metafields.custom.short_description | metafield_tag }}</p>"
+            "text": "<p>The First Line of Defense for Fresh Ink</p><p>Cooling hydration meets breathable protection in a lightweight hydro gel designed for the earliest stage of tattoo care. Helps keep fresh ink comfortable, protected, and looking its best from day one.</p>"
           }
         },
         "variant_picker": {
