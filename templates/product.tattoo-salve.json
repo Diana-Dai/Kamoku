@@ -114,7 +114,7 @@
           "settings": {
             "icon": "none",
             "heading": "Description",
-            "content": "<p><strong>FIRST Hydro Gel is your tattoo's first line of defense.</strong> Designed for fresh ink, it delivers cooling hydration to help calm stressed skin and reduce the appearance of redness whileforming a lightweight, breathable barrier that protects without weighing the skin down.</p><p><strong>Skin Feel</strong></p><p>Cooling, lightweight, protective</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Oil, Kiwi Seed Oil, Blue Cypress Oil</p>",
+            "content": "<p><strong>DAILY Tattoo Salve is designed for long-term tattoo care.</strong> Powered by botanical butters, nourishing oils, and skin-conditioning ingredients, it helps maintain moisture, support skin barrier function, and keep tattooed skin looking healthy, soft, and vibrant.</p><p><strong>Skin Feel</strong></p><p>Rich, nourishing, protective</p><p><strong>Aroma</strong></p><p><strong>Pacific Citrus</strong></p><p>Bright citrus layered with clean marine notes, creating a fresh coastal scent inspired by the Pacific. Crisp, refreshing, and distinctive without feeling overpowering.</p><p><strong>Key Ingredients</strong></p><p>Shea Butter, Mango Butter, Juniper Oil</p>",
             "liquid": "{{ product.description }}",
             "page": "",
             "default_open": false
