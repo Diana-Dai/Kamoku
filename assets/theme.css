@@ -7132,7 +7132,6 @@ shopify-account::part(signed-out-avatar) {
   display:none;
 }
 .rich-text__content{
-      max-width: 80rem;
       margin: 0 auto;
 
 }
