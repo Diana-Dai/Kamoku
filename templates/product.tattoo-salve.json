@@ -387,7 +387,7 @@
         "heading_m7GWaD": {
           "type": "heading",
           "settings": {
-            "heading": "\"A soft hydro-gel texture that melts effortlessly into the skin. Lightweight and breathable, itspreads smoothly to form a comfortable protective layer without feeling greasy, sticky, or heavy.\"",
+            "heading": "\"A rich botanical salve that melts into the skin on contact. Nourishing and protective, it deliverslasting moisture without leaving a heavy or greasy residue.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h3"
@@ -396,7 +396,7 @@
         "text_dnyEhA": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>BREATHABLE</li><li>COOLING</li><li>NON-GREASY</li></ul>"
+            "text": "<p>NOURISHING</p><p>PROTECTIVE</p><p>LONG-LASTING</p>"
           }
         }
       },
