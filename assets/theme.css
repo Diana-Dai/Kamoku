@@ -7138,3 +7138,9 @@ shopify-account::part(signed-out-avatar) {
 .image-with-text__content {
       max-width: 60rem;
 }
+
+  @media screen and (max-width: 767px) {
+.image-with-text__content {
+      text-align:center;
+}
+  }
