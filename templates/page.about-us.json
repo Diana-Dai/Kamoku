@@ -455,6 +455,7 @@
         "heading_zF3VVh",
         "text_iAQUBM"
       ],
+      "disabled": true,
       "custom_css": [
         "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
         "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
@@ -491,26 +492,23 @@
         "165422938904a7f60d-0": {
           "type": "heading",
           "settings": {
-            "heading": "“Conscious recovery for the complete lifecycle of your ink.”",
+            "heading": "\"The marks we carry become part of who we are.They deserve care that lasts beyond the session.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h1",
             "heading_color": ""
           }
         },
-        "button_apgcWX": {
-          "type": "button",
+        "text_cEPmFA": {
+          "type": "text",
           "settings": {
-            "button_label": "Shop the system",
-            "button_link": "shopify://products/the-complete-healing-system",
-            "button_style": "btn--primary",
-            "button_size": ""
+            "text": "<p>— Keanu Chung-Leong</p>"
           }
         }
       },
       "block_order": [
         "165422938904a7f60d-0",
-        "button_apgcWX"
+        "text_cEPmFA"
       ],
       "custom_css": [],
       "settings": {
