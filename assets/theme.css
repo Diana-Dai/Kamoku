@@ -7152,3 +7152,6 @@ shopify-account::part(signed-out-avatar) {
 
   }
   }
+  .h1{
+    line-height:1.4;
+  }
