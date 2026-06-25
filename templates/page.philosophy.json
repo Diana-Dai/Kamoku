@@ -328,6 +328,54 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_X4qLq7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WCi4cU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Science With Purpose",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_33wANa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nature inspires.</p><p>Science refines.</p><p>Every KĀMOKU formula is developed with a clear purpose—to support the skin through each stage of tattoo recovery using carefully selected ingredients and modern formulation standards.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WCi4cU",
+        "text_33wANa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "rich_text_Uw8igt": {
       "type": "rich-text",
       "blocks": {
@@ -862,6 +910,7 @@
     "hero_DYjRWq",
     "image_with_text_NU9fwj",
     "multicolumn_xzk7zU",
+    "image_with_text_X4qLq7",
     "rich_text_Uw8igt",
     "image_with_text_slider_KGwMVj",
     "multicolumn_fQrrWx",
