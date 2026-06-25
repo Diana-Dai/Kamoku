@@ -14,6 +14,62 @@
       "disabled": true,
       "settings": {}
     },
+    "image_with_text_Jn9GaY": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_j8kAUz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A lifelong connection to tattoo culture, Pacific heritage, and the stories we choose to carry."
+          }
+        },
+        "heading_H38yXL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keanu Chung-Leong",
+            "highlight_style": "none",
+            "enable_highlight_text_color": true,
+            "heading_size": "h2"
+          }
+        },
+        "text_WpVXTN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KĀMOKU was shaped by a belief that tattooing deserves more than aftercare.It deserves intention.</p><p>Drawing from Pacific heritage, modern skincare science, and a lifelong connection to tattoo culture, KĀMOKU was created to support the journey beyond the session—when the artwork becomes part of the skin and part of the person who carries it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_j8kAUz",
+        "heading_H38yXL",
+        "text_WpVXTN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 30,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "16542290942ea85dfa": {
       "type": "hero",
       "blocks": {
@@ -57,72 +113,6 @@
         "custom_class": "mobile-remove-br",
         "animations": "inherit",
         "enable_bg_zoom_effect": true
-      }
-    },
-    "image_with_text_Jn9GaY": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_j8kAUz": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "problPem"
-          }
-        },
-        "heading_H38yXL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Most tattoo aftercare products were created as treatments. We wanted to <em>create a system.</em>",
-            "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h2"
-          }
-        },
-        "text_WpVXTN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Traditional aftercare often relies on thick petroleum bases that suffocate the dermis. We looked at skin as a living, healing organ that requires specific metabolic support at every stage of the tattoo recovery lifecycle.</p><p>KAMOKU was founded to bridge the gap between clinical dermatology and the artistry of tattooing, creating a system that respects both the medium and the canvas.</p>"
-          }
-        },
-        "button_rWP7cb": {
-          "type": "button",
-          "settings": {
-            "button_label": "our philosophy",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_j8kAUz",
-        "heading_H38yXL",
-        "text_WpVXTN",
-        "button_rWP7cb"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 0,
-        "padding_right": 30,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "rich_text_U7dT6H": {
@@ -458,6 +448,28 @@
         "animations": "inherit"
       }
     },
+    "hero_96w8RX": {
+      "type": "hero",
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
     "16542293891a0a2e2c": {
       "type": "rich-text",
       "blocks": {
@@ -498,34 +510,12 @@
         "custom_class": "mobile-remove-br",
         "animations": "inherit"
       }
-    },
-    "hero_96w8RX": {
-      "type": "hero",
-      "name": "t:sections.hero.presets.name",
-      "settings": {
-        "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM.png",
-        "image_overlay_opacity": 40,
-        "hero_height": "large",
-        "content_in_container": false,
-        "content_position": "center",
-        "text_alignment": "center",
-        "text_color": "#FFFFFF",
-        "hero_height_mobile": "large",
-        "content_position_mobile": "center",
-        "show_text_below": true,
-        "text_alignment_mobile": "center",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit",
-        "enable_bg_zoom_effect": true
-      }
     }
   },
   "order": [
     "main",
-    "16542290942ea85dfa",
     "image_with_text_Jn9GaY",
+    "16542290942ea85dfa",
     "rich_text_U7dT6H",
     "image_with_text_pCnFKG",
     "multicolumn_fQrrWx",
