@@ -111,7 +111,7 @@
   }
   .f-hero__wrapper--mobile-stack .f-hero__content {
     width: 100%;
-    padding: 2rem 1.5rem 0;
+    padding: 2rem 1.5rem 2rem;
     color: var(--color-text-body);
   }
 }
