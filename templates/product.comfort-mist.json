@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE {{ product.metafields.custom.stage_ndex.value }}",
+            "text": "STAGE {{ product.metafields.custom.stage_ndex.value }}  — Regenerate",
             "text_style": "subtitle"
           }
         },
