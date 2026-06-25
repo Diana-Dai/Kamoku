@@ -191,6 +191,54 @@
         "enable_bg_zoom_effect": true
       }
     },
+    "image_with_text_NU9fwj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_K6L9Ca": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired By The Pacific",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_A7iLTM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KĀMOKU draws inspiration from the cultures, traditions, and landscapes of the Pacific.</p><p>Ocean.</p><p>Wind.</p><p>Salt.</p><p>Sun.</p><p>The same elements that shape the islands also shape the skin.</p><p>Our philosophy is guided by respect—for the craft, the journey, and the stories carried through ink.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K6L9Ca",
+        "text_A7iLTM"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 16,
+        "padding_right": 16,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "multicolumn_xzk7zU": {
       "type": "multicolumn",
       "blocks": {
@@ -811,6 +859,7 @@
     "image_with_text_MxwxAy",
     "rich_text_f9Khtf",
     "hero_DYjRWq",
+    "image_with_text_NU9fwj",
     "multicolumn_xzk7zU",
     "rich_text_Uw8igt",
     "image_with_text_slider_KGwMVj",
