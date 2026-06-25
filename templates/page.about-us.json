@@ -73,26 +73,26 @@
     "16542290942ea85dfa": {
       "type": "hero",
       "blocks": {
-        "subtitle_dBeUfP": {
-          "type": "subtitle",
-          "settings": {
-            "subtitle": "about us"
-          }
-        },
         "1654229094960f6bc7-0": {
           "type": "title",
           "settings": {
-            "title": "Born in Aotearoa. Built for recovery.",
+            "title": "A Different Perspective On Healing",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h-xl",
             "heading_color": ""
           }
+        },
+        "text_fgfwir": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For many people, the tattoo marks the end of the process.</p><p>For Keanu, it has always been the beginning of another one.</p><p>The healing journey plays a lasting role in how a tattoo settles, ages, and becomes part of the skin.</p><p>That belief became one of the foundations behind KĀMOKU.</p><p>A brand created around the idea that healing deserves the same level of attention as the artwork itself.</p>"
+          }
         }
       },
       "block_order": [
-        "subtitle_dBeUfP",
-        "1654229094960f6bc7-0"
+        "1654229094960f6bc7-0",
+        "text_fgfwir"
       ],
       "custom_css": [],
       "settings": {
@@ -115,108 +115,41 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "rich_text_U7dT6H": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_dpNGnj": {
-          "type": "heading",
-          "settings": {
-            "heading": "It started with a simple question.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h1",
-            "heading_color": ""
-          }
-        },
-        "subheading_EdAafU": {
-          "type": "subheading",
-          "settings": {
-            "subheading": ""
-          }
-        },
-        "text_aNnCqX": {
-          "type": "text",
-          "settings": {
-            "text": "<h4></h4><h4><em>\"How do we maintain the integrity of the ink while accelerating the resilience of the skin?\"</em></h4><p></p>"
-          }
-        },
-        "button_7iWCYF": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_dpNGnj",
-        "subheading_EdAafU",
-        "text_aNnCqX",
-        "button_7iWCYF"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 150,
-        "padding_bottom": 150,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_pCnFKG": {
+    "image_with_text_wpcGMp": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_4qJfkb": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "The Botanical Heart"
-          }
-        },
-        "heading_zF3VVh": {
+        "heading_hm6jDN": {
           "type": "heading",
           "settings": {
-            "heading": "The Alchemy of Kawakawa",
+            "heading": "Inspired By The Pacific",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
           }
         },
-        "text_iAQUBM": {
+        "text_bkQYAE": {
           "type": "text",
           "settings": {
-            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p><h5>01. Calm</h5><p>Instantly reduces inflammatory markers, cooling the dermal site upon application to suppress the body's overactive heat response.</p><h5>02. Seal</h5><p>Creates a semi-permeable lipid barrier that locks in moisture while allowing the wound to breathe, preventing pigment fallout.</p><p></p>"
+            "text": "<p>Growing up with strong Polynesian roots, Keanu developed a deep appreciation for the relationship between identity, culture, and tattooing.</p><p>Across the Pacific, tattoos have long carried stories that extend far beyond the surface.</p><p>They represent where we come from, what we value, and the experiences that shape us.</p><p>That perspective continues to influence the philosophy, design, and spirit of KĀMOKU.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_4qJfkb",
-        "heading_zF3VVh",
-        "text_iAQUBM"
-      ],
-      "custom_css": [
-        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
-        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+        "heading_hm6jDN",
+        "text_bkQYAE"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
-        "color_schema": "background-2",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
-        "padding_left": 30,
-        "padding_right": 0,
+        "padding_left": 16,
+        "padding_right": 16,
         "align_content_container": "none",
         "mobile_padding_left": 15,
         "mobile_padding_right": 15,
@@ -450,6 +383,28 @@
     },
     "hero_96w8RX": {
       "type": "hero",
+      "blocks": {
+        "title_gEddCE": {
+          "type": "title",
+          "settings": {
+            "title": "Building Something Meaningful",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_ccBfMd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KĀMOKU was created with a simple intention:</p><p>To bring together thoughtful formulation, modern skincare science, and a deeper respect for the tattoo journey.</p><p>Every product begins with that same purpose.</p><p>Support the skin.</p><p>Respect the art.</p><p>Honor the story.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_gEddCE",
+        "text_ccBfMd"
+      ],
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
@@ -468,6 +423,66 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_text_pCnFKG": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4qJfkb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Botanical Heart"
+          }
+        },
+        "heading_zF3VVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Alchemy of Kawakawa",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_iAQUBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p><h5>01. Calm</h5><p>Instantly reduces inflammatory markers, cooling the dermal site upon application to suppress the body's overactive heat response.</p><h5>02. Seal</h5><p>Creates a semi-permeable lipid barrier that locks in moisture while allowing the wound to breathe, preventing pigment fallout.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4qJfkb",
+        "heading_zF3VVh",
+        "text_iAQUBM"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-2",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 30,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "16542293891a0a2e2c": {
@@ -516,11 +531,11 @@
     "main",
     "image_with_text_Jn9GaY",
     "16542290942ea85dfa",
-    "rich_text_U7dT6H",
-    "image_with_text_pCnFKG",
+    "image_with_text_wpcGMp",
     "multicolumn_fQrrWx",
     "165546186449d8fb9e",
     "hero_96w8RX",
+    "image_with_text_pCnFKG",
     "16542293891a0a2e2c"
   ]
 }
