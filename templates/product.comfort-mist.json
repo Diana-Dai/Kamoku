@@ -47,7 +47,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<p>The First Line of Defense for Fresh Ink</p><p>Cooling hydration meets breathable protection in a lightweight hydro gel designed for the earliest stage of tattoo care. Helps keep fresh ink comfortable, protected, and looking its best from day one.</p>"
+            "text": "<p>Hydration and comfort for the recovery phase.</p><p>A lightweight recovery mist designed for the peeling stage of tattoo care. Delivers lasting hydration and immediate comfort to help relieve feelings of dryness, tightness, and itch while keeping tattooed skin refreshed and supported.</p>"
           }
         },
         "variant_picker": {
@@ -114,7 +114,7 @@
           "settings": {
             "icon": "none",
             "heading": "Description",
-            "content": "<p><strong>FIRST Hydro Gel is your tattoo's first line of defense.</strong> Designed for fresh ink, it delivers cooling hydration to help calm stressed skin and reduce the appearance of redness whileforming a lightweight, breathable barrier that protects without weighing the skin down.</p><p><strong>Skin Feel</strong></p><p>Cooling, lightweight, protective</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Oil, Kiwi Seed Oil, Blue Cypress Oil</p>",
+            "content": "<p><strong>SECOND Comfort Mist is designed for the regeneration phase of tattoo recovery.</strong> Powered by botanical extracts, humectants, and skin-conditioning ingredients, it delivers lightweight hydration to help relieve dryness, tightness, and itch while supporting skin comfort throughout the peeling stage.</p><p><strong>Skin Feel</strong></p><p>Refreshing, weightless, hydrating</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Honey, Aloe Vera, Barley Extract</p>",
             "liquid": "{{ product.description }}",
             "page": "",
             "default_open": false
@@ -125,7 +125,7 @@
           "settings": {
             "icon": "none",
             "heading": "Ingredients",
-            "content": "<p>Canola Oil, Caprylic/Capric Triglyceride, Silica, Zea Mays (Corn) Starch, Helianthus Annuus (Sunflower) Seed Oil, Actinidia Chinensis (Kiwi) Seed Oil, Triglycerides C10–18, Euphorbia Cerifera (Candelilla) Wax, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Cetyl Palmitate, Allantoin, Tocopheryl Acetate, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Callitris Intratropica (Blue Cypress) Wood Oil, Kunzea Ericoides (Kanuka) Leaf Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract</p>",
+            "content": "<p>Water (Aqua), Aloe Barbadensis Leaf Juice, Glycerin, Sorbitan Oleate Decylglucoside Crosspolymer, Propanediol, Hamamelis Virginiana (Witch Hazel) Water, Manuka Honey, Kunzea Ericoides (Kanuka) Leaf Oil, Callitris Intratropica Wood (Blue Cypress) Oil, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Coix lacryma-jobi Extract, Olea Europaea Leaf Extract, Astragalus Membranaceus Root Extract, Calendula Officinalis Flower Extract, Cucumis Sativus Fruit</p><p>Extract, Pelvetia Canaliculata Extract, Hordeum Vulgare Seed Extract, Actinidia</p><p>Chinensis Seed Oil, Sodium PCA, DL-Panthenol, Xylitylglucoside, Xanthan Gum,</p><p>Anhydroxylitol, Methylpropanediol, Allantoin, Maltitol, Caprylyl Glycol, Didecydimonium</p><p>Chloride, Xylitol, Polyquaternium-80, Sodium Hydroxide, Citric Acid, Sodium Citrate,</p><p>Potassium Sorbate, Calcium Gluconate, Sodium Benzoate, Gluconolactone, Benzyl</p><p>Alcohol.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -252,7 +252,7 @@
         "text_RfEgrF": {
           "type": "text",
           "settings": {
-            "text": "<h5>Breathable Barrier</h5><p>Forms a breathable protective layer that helps shield stressed skin without feeling heavy or greasy.</p><h5>Cooling Hydration</h5><p>Delivers cooling hydration with soothing botanical ingredients that help maintain skin comfort during the earliest stage of recovery.</p><h5>Recovery Support</h5><p>Helps maintain an optimal environment for the skin's natural recovery process while supporting the appearance of fresh, vibrant ink.</p>"
+            "text": "<h5>Continuous Hydration</h5><p>A blend of humectants and botanical extracts helps replenish moisture and support skin comfort throughout the peeling phase.</p><h5>Relieves Dryness & Tightness</h5><p>Helps maintain hydration and comfort as tattooed skin begins to peel and regenerate.</p><h5>Comfort Through Peeling</h5><p>Helps calm feelings of irritation and discomfort during the recovery process, reducing the urge to scratch or overwork the skin.</p>"
           }
         }
       },
