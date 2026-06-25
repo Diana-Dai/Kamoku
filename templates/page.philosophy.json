@@ -59,6 +59,55 @@
         "enable_bg_zoom_effect": true
       }
     },
+    "image_with_text_MxwxAy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PXJpUi": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Art We Carry",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_T3RX6j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Across the Pacific, tattooing has long represented identity, belonging, and personal history.</p><p>A tattoo is not something we wear.</p><p>It becomes part of who we are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PXJpUi",
+        "text_T3RX6j"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-2",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "rich_text_f9Khtf": {
       "type": "rich-text",
       "blocks": {
@@ -83,6 +132,7 @@
         "heading_3GEhfh",
         "text_WeWL77"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
@@ -99,12 +149,34 @@
     },
     "hero_DYjRWq": {
       "type": "hero",
+      "blocks": {
+        "title_aiCKY3": {
+          "type": "title",
+          "settings": {
+            "title": "The Ritual Continues",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_GXLBBg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The tattoo may be finished.</p><p>The healing has only begun.</p><p>Recovery is not separate from the artwork.</p><p>It is part of the process itself.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_aiCKY3",
+        "text_GXLBBg"
+      ],
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_09_PM.png",
         "image_overlay_opacity": 40,
-        "hero_height": "medium",
+        "hero_height": "large",
         "content_in_container": false,
         "content_position": "center",
         "text_alignment": "center",
@@ -736,6 +808,7 @@
   "order": [
     "main",
     "16542290942ea85dfa",
+    "image_with_text_MxwxAy",
     "rich_text_f9Khtf",
     "hero_DYjRWq",
     "multicolumn_xzk7zU",
