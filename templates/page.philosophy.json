@@ -355,6 +355,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -400,6 +401,7 @@
         "subheading_NyLf3z",
         "heading_wGj7Xh"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
@@ -486,6 +488,7 @@
         "slide_D4hKpX",
         "slide_JHwnP8"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text-slider.name",
       "settings": {
         "padding_top": 40,
@@ -729,7 +732,7 @@
         "title_CQpmKy": {
           "type": "title",
           "settings": {
-            "title": "Shaped by New Zealand's quiet coastal air.",
+            "title": "What We Choose To Carry Deserves Care",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2",
@@ -739,7 +742,7 @@
         "text_zQRC7p": {
           "type": "text",
           "settings": {
-            "text": "<p>The salt-laden breeze, the humidity that softens everything, the grounded textures of our landscape—these elements inform how we think about healing. We channel this atmosphere into every ritual, every product, every moment of your recovery.</p>"
+            "text": "<p>A tattoo evolves over time.</p><p>The relationship we have with it evolves as well.</p><p>KĀMOKU exists to support that journey—from the first day of healing to the years that follow.</p><p>Because the stories we carry deserve lasting care.</p>"
           }
         }
       },
@@ -791,6 +794,7 @@
         "165422938904a7f60d-0",
         "text_xQMYFa"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -805,82 +809,9 @@
         "animations": "inherit"
       }
     },
-    "blocks_G9T8h6": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_e307e07_6d66iR": {
-          "type": "ai_gen_block_e307e07",
-          "settings": {
-            "bundle_product": "the-complete-healing-system",
-            "eyebrow_text": "NOT SURE WHERE TO START?",
-            "heading": "Complete Recovery System",
-            "description": "<p>A comprehensive three-step system designed to support your skin through every stage of recovery.</p>",
-            "bundle_price": "",
-            "compare_price": "",
-            "savings_text": "",
-            "cta_text": "EXPLORE THE BUNDLE",
-            "cta_link": "",
-            "shipping_text": "",
-            "product_1": "hydro-gel",
-            "step_1_label": "SOOTHE",
-            "step_1_meta": "Day 1–3\nCool, calm and protect the skin.",
-            "product_2": "recovery-mist",
-            "step_2_label": "REGENERATE",
-            "step_2_meta": "Day 4–10\nRepair, regenerate and relieve itch.",
-            "product_3": "daily-care-balm",
-            "step_3_label": "MAINTAIN",
-            "step_3_meta": "Day 11+\nStrengthen barrier and lock in moisture.",
-            "benefit_1_title": "CIRCADIAN ALIGNED",
-            "benefit_1_description": "Works with your skin's natural rhythm.",
-            "benefit_2_title": "BIOLOGICAL SEQUENCE",
-            "benefit_2_description": "Each stage supports the next.",
-            "benefit_3_title": "CLINICALLY TESTED",
-            "benefit_3_description": "Safe and effective for new tattoos.",
-            "benefit_4_title": "CONSCIOUS BY DESIGN",
-            "benefit_4_description": "Minimal impact. Maximum care.",
-            "section_padding_top": 60,
-            "section_padding_bottom": 60,
-            "benefits_padding": 50,
-            "background_color": "#aa9f90",
-            "eyebrow_color": "#222222",
-            "heading_color": "#000000",
-            "text_color": "#222222",
-            "compare_price_color": "#212121",
-            "savings_bg_color": "#8b8c75",
-            "savings_text_color": "#ffffff",
-            "button_bg_color": "#222222",
-            "button_text_color": "#ffffff",
-            "button_hover_bg_color": "#8b8c75",
-            "button_hover_text_color": "#ffffff",
-            "shipping_text_color": "#666666",
-            "step_number_color": "#222222",
-            "step_label_color": "#212121",
-            "meta_text_color": "#212121",
-            "arrow_color": "#212121",
-            "benefits_bg_color": "#ded8c8",
-            "benefit_icon_color": "#8b8c75",
-            "benefit_title_color": "#222222",
-            "benefit_text_color": "#212121",
-            "eyebrow_font": "sans-serif",
-            "eyebrow_size": 12,
-            "heading_font": "marcellus_n4",
-            "heading_size": 48,
-            "description_size": 16,
-            "price_size": 24,
-            "button_text_size": 14,
-            "button_border_radius": 50
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_e307e07_6d66iR"
-      ],
-      "name": "Complete recovery system",
-      "settings": {}
-    },
     "hero_cPFKVb": {
       "type": "hero",
+      "disabled": true,
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
@@ -917,7 +848,6 @@
     "165546186449d8fb9e",
     "hero_96w8RX",
     "16542293891a0a2e2c",
-    "blocks_G9T8h6",
     "hero_cPFKVb"
   ]
 }
