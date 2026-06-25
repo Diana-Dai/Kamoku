@@ -144,7 +144,7 @@
         "color_schema": "",
         "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
-        "image_position": "right",
+        "image_position": "left",
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
