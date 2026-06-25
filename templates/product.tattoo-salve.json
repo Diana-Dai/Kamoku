@@ -396,7 +396,7 @@
         "text_dnyEhA": {
           "type": "text",
           "settings": {
-            "text": "<p>NOURISHING</p><p>PROTECTIVE</p><p>LONG-LASTING</p>"
+            "text": "<ul><li>NOURISHING</li><li>PROTECTIVE</li><li>LONG-LASTING</li></ul>"
           }
         }
       },
@@ -448,7 +448,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h4",
-            "text": "<p><em>01</em></p><h5>Fresh Ink</h5><p>Apply to newly tattooed skin to deliver cooling hydration and breathable protection when skin is at its most vulnerable.</p>",
+            "text": "<p><em>01</em></p><h5>After The Recovery Phase</h5><p>Use once peeling has subsided and the skin has transitioned beyond the earliest stages of tattoo care.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -463,7 +463,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<p><em>02</em></p><h5>Days One Through Three</h5><p>Reapply as needed to help maintain comfort, hydration, and a lightweight protective layer over fresh ink.</p>",
+            "text": "<p><em>02</em></p><h5>Daily Tattoo Maintenance</h5><p>Apply daily to help maintain moisture and support the appearance of vibrant, healthy-looking tattoos.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -478,7 +478,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<p><em>03</em></p><h5>Whenever Skin Feels Stressed</h5><p>Use throughout the day to help keep tattooed skin calm, comfortable, and supported.</p>",
+            "text": "<p><em>03</em></p><h5>Anywhere Skin Needs Moisture</h5><p>Suitable for tattooed skin and dry areas throughout the body requiring additional hydration and</p><p>care.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
