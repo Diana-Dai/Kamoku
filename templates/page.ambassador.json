@@ -231,7 +231,7 @@
           "settings": {
             "show_image": false,
             "image_link": "",
-            "title": "Column",
+            "title": "",
             "heading_size": "h3",
             "text": "<p>02</p><h4>Early Access</h4><p>Be the first to test and provide feedback on our laboratory formulations.</p>",
             "text_size": "medium",
@@ -245,9 +245,9 @@
           "settings": {
             "show_image": false,
             "image_link": "",
-            "title": "Column",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>03</p><h4>Exclusive Education</h4><p>Scientific deep-dives into ingredient efficacy and skin physiology.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
