@@ -351,6 +351,52 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "image_with_text_U94iNN": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_RNzzjP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Trusted by Artists"
+          }
+        },
+        "text_4E7Qk4": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>\"Recovery shouldn't stop when the tattoo finishes. It is the bridge between the chair and the permanent legacy of the skin.\"</h2><p>— SARAH, BLACK TIDE STUDIO</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RNzzjP",
+        "text_4E7Qk4"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/unnamed.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
@@ -358,6 +404,7 @@
     "hero_JzwbPX",
     "image_with_text_pJCFEh",
     "multicolumn_mhi7bx",
-    "multicolumn_q6mtEx"
+    "multicolumn_q6mtEx",
+    "image_with_text_U94iNN"
   ]
 }
