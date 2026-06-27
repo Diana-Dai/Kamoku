@@ -11,10 +11,65 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {}
+    },
+    "hero_JzwbPX": {
+      "type": "hero",
+      "blocks": {
+        "title_HfACnA": {
+          "type": "title",
+          "settings": {
+            "title": "JOIN THE RITUAL",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_qPyepH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Partner with KAMOKU to redefine tattoo recovery through clinical rigor and botanical soul.</p>"
+          }
+        },
+        "button_DBbpk8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply now",
+            "button_link": "#applynow",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_HfACnA",
+        "text_qPyepH",
+        "button_DBbpk8"
+      ],
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_JzwbPX"
   ]
 }
