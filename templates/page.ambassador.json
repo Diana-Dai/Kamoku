@@ -67,10 +67,67 @@
         "animations": "inherit",
         "enable_bg_zoom_effect": true
       }
+    },
+    "image_with_text_pJCFEh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Q3iCrJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "PARTNERSHIP PHILOSOPHY"
+          }
+        },
+        "heading_x8HMn4": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Than An Affiliate Program",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_Y4LcL7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At KAMOKU, we believe the ritual of recovery is as vital as the act of creation. Our partners are visionaries who understand that healing is an art form requiring the highest caliber of materials.</p><p>We invite you to join our laboratory of experts, helping us shape the next evolution of post-tattoo care. This is a collaborative journey focused on education, excellence, and the long-term integrity of skin art.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Q3iCrJ",
+        "heading_x8HMn4",
+        "text_Y4LcL7"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/philosophy.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
-    "hero_JzwbPX"
+    "hero_JzwbPX",
+    "image_with_text_pJCFEh"
   ]
 }
