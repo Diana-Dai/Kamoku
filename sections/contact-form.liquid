@@ -35,6 +35,7 @@
   class="f-contact-form f-contact-form-{{ section.settings.form_design }} f-section-padding color-{{ section.settings.color_schema }}{{ custom_class }}"
   style="--section-padding-top: {{ section.settings.padding_top }}px; --section-padding-bottom: {{ section.settings.padding_bottom }}px;"
 >
+  <span id="contact-form" class="visually-hidden" aria-hidden="true"></span>
   <div class="{{ container }}">
     {% render 'index-section-header',
       section_settings: section.settings,
@@ -153,6 +154,35 @@
                       spellcheck="false"
                       autocapitalize="off"
                       value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                      placeholder="{{ block.settings.placeholder }}"
+                    >
+                  </div>
+                {%- when 'custom_text' -%}
+                  {%- liquid
+                    assign field_type = block.settings.field_type | default: 'text'
+                    assign field_key = block.settings.field_key | strip
+                    if field_key == blank
+                      assign field_key = block.settings.label | handleize
+                    endif
+                  -%}
+                  <div class="{{ form_field_class }}" block.shopify_attributes>
+                    <label
+                      class="form-label{% if hide_label %} visually-hidden{% endif %}"
+                      for="ContactForm-custom-{{ block.id }}"
+                    >
+                      {{- block.settings.label -}}
+                      {%- if required %}
+                        <span aria-hidden="true">*</span>
+                      {%- endif -%}
+                    </label>
+                    <input
+                      class="form-control"
+                      {% if required %}
+                        aria-required="true" required
+                      {% endif -%}
+                      type="{{ field_type }}"
+                      id="ContactForm-custom-{{ block.id }}"
+                      name="contact[{{ field_key }}]"
                       placeholder="{{ block.settings.placeholder }}"
                     >
                   </div>
@@ -680,6 +710,79 @@
       ]
     },
     {
+      "type": "custom_text",
+      "name": "Custom text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "t:sections.contact-form.blocks.field_label",
+          "default": "Studio Name"
+        },
+        {
+          "type": "text",
+          "id": "placeholder",
+          "label": "t:sections.contact-form.blocks.placeholder",
+          "default": "Ritual Ink Atelier"
+        },
+        {
+          "type": "text",
+          "id": "field_key",
+          "label": "Field key (for form submission)",
+          "default": "studio_name",
+          "info": "Use letters, numbers, and underscores only."
+        },
+        {
+          "type": "select",
+          "id": "field_type",
+          "label": "Input type",
+          "default": "text",
+          "options": [
+            {
+              "value": "text",
+              "label": "Text"
+            },
+            {
+              "value": "url",
+              "label": "URL"
+            },
+            {
+              "value": "tel",
+              "label": "Phone"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "field_width",
+          "label": "t:sections.contact-form.blocks.field_width.label",
+          "default": "full",
+          "options": [
+            {
+              "value": "full",
+              "label": "100%"
+            },
+            {
+              "value": "1/2",
+              "label": "50%"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_label",
+          "label": "t:sections.contact-form.blocks.hide_label",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "required",
+          "label": "t:sections.contact-form.blocks.required",
+          "default": false
+        }
+      ]
+    },
+    {
       "type": "message",
       "name": "t:sections.contact-form.blocks.field_message.name",
       "limit": 1,
@@ -714,13 +817,52 @@
       "name": "t:sections.contact-form.presets.name",
       "blocks": [
         {
-          "type": "name"
+          "type": "name",
+          "settings": {
+            "label": "Full Name",
+            "placeholder": "John Doe",
+            "required": true
+          }
         },
         {
-          "type": "email"
+          "type": "custom_text",
+          "settings": {
+            "label": "Studio Name",
+            "placeholder": "Ritual Ink Atelier",
+            "field_key": "studio_name"
+          }
         },
         {
-          "type": "message"
+          "type": "custom_text",
+          "settings": {
+            "label": "Instagram",
+            "placeholder": "@yourhandle",
+            "field_key": "instagram"
+          }
+        },
+        {
+          "type": "custom_text",
+          "settings": {
+            "label": "Website",
+            "placeholder": "www.yourstudio.com",
+            "field_key": "website",
+            "field_type": "url"
+          }
+        },
+        {
+          "type": "custom_text",
+          "settings": {
+            "label": "Country",
+            "placeholder": "United States",
+            "field_key": "country"
+          }
+        },
+        {
+          "type": "message",
+          "settings": {
+            "label": "Tell us about yourself",
+            "placeholder": "Your artistic philosophy and why you want to partner with KAMOKU..."
+          }
         }
       ]
     }

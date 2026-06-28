@@ -1,0 +1,539 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_Jn9GaY": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_j8kAUz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "A lifelong connection to tattoo culture, Pacific heritage, and the stories we choose to carry."
+          }
+        },
+        "heading_H38yXL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Keanu Chung-Leong",
+            "highlight_style": "none",
+            "enable_highlight_text_color": true,
+            "heading_size": "h2"
+          }
+        },
+        "text_WpVXTN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KĀMOKU was shaped by a belief that tattooing deserves more than aftercare.It deserves intention.</p><p>Drawing from Pacific heritage, modern skincare science, and a lifelong connection to tattoo culture, KĀMOKU was created to support the journey beyond the session—when the artwork becomes part of the skin and part of the person who carries it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_j8kAUz",
+        "heading_H38yXL",
+        "text_WpVXTN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16542290942ea85dfa": {
+      "type": "hero",
+      "blocks": {
+        "1654229094960f6bc7-0": {
+          "type": "title",
+          "settings": {
+            "title": "A Different Perspective On Healing",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": ""
+          }
+        },
+        "text_fgfwir": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For many people, the tattoo marks the end of the process.</p><p>For Keanu, it has always been the beginning of another one.</p><p>The healing journey plays a lasting role in how a tattoo settles, ages, and becomes part of the skin.</p><p>That belief became one of the foundations behind KĀMOKU.</p><p>A brand created around the idea that healing deserves the same level of attention as the artwork itself.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654229094960f6bc7-0",
+        "text_fgfwir"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_53_PM.png",
+        "image_mobile": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image_overlay_opacity": 30,
+        "hero_height": "adapt",
+        "content_in_container": true,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "adapt",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_text_wpcGMp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hm6jDN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired By The Pacific",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_bkQYAE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Growing up with strong Polynesian roots, Keanu developed a deep appreciation for the relationship between identity, culture, and tattooing.</p><p>Across the Pacific, tattoos have long carried stories that extend far beyond the surface.</p><p>They represent where we come from, what we value, and the experiences that shape us.</p><p>That perspective continues to influence the philosophy, design, and spirit of KĀMOKU.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hm6jDN",
+        "text_bkQYAE"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_fQrrWx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mxLKAB": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Phase 01: Immediate Calm",
+            "heading_size": "h3",
+            "text": "<p></p><p>The critical first 48 hours. A soothing hydrogel suspension designed to neutralize the trauma of the needle and initiate collagen synthesis.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_7XzBLY": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Phase 02: Deep Hydration",
+            "heading_size": "h3",
+            "text": "<p>Day 3 to Day 14. A dense botanical lipid complex that supports the regeneration of the epidermis while preventing the formation of obstructive scabbing.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_AAnXCT": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Phase 03: Obsidian Vitality",
+            "heading_size": "h3",
+            "text": "<p>Indefinite Care. A brightening serum designed to protect your art from UV degradation and environmental pollutants, keeping black work sharp and colors vibrant.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_mxLKAB",
+        "column_7XzBLY",
+        "column_AAnXCT"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "The Recovery Protocol",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "THE CLINICAL METHOD",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "left",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "165546186449d8fb9e": {
+      "type": "press",
+      "blocks": {
+        "1655461864d14fab66-0": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Glow naturally with skincare that nourishes, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "1655461864d14fab66-4": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Detox nights call for treatments that purify, restore, and leave you glowing.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "1655461864d14fab66-1": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Feel confident with beauty essentials crafted to enhance your natural radiance.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "1655461864d14fab66-2": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Refresh and restore with soothing skincare for your summer adventures.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "1655461864d14fab66-3": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Unlock your glow with skincare that pampers, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_XjK3h3": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Glow naturally with skincare that nourishes, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_iDpCCz": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Detox nights call for treatments that purify, restore, and leave you glowing.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_r4WYVW": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Feel confident with beauty essentials crafted to enhance your natural radiance.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_xLmJp8": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Refresh and restore with soothing skincare for your summer adventures.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        },
+        "press_3ij6aL": {
+          "type": "press",
+          "settings": {
+            "title": "<p>“Unlock your glow with skincare that pampers, protects, and enhances your beauty.”</p>",
+            "font_style": "font-heading",
+            "font_size": "h3",
+            "image_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "1655461864d14fab66-0",
+        "1655461864d14fab66-4",
+        "1655461864d14fab66-1",
+        "1655461864d14fab66-2",
+        "1655461864d14fab66-3",
+        "press_XjK3h3",
+        "press_iDpCCz",
+        "press_r4WYVW",
+        "press_xLmJp8",
+        "press_3ij6aL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section__header {--header-padding-bottom: 3.2rem;}"
+      ],
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h3",
+        "heading_color": "",
+        "subheading": "Our Press",
+        "description": "",
+        "show_nav": false,
+        "autoplay": true,
+        "autorotate_speed": 4,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit"
+      }
+    },
+    "hero_96w8RX": {
+      "type": "hero",
+      "blocks": {
+        "title_gEddCE": {
+          "type": "title",
+          "settings": {
+            "title": "Building Something Meaningful",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_ccBfMd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KĀMOKU was created with a simple intention:</p><p>To bring together thoughtful formulation, modern skincare science, and a deeper respect for the tattoo journey.</p><p>Every product begins with that same purpose.</p><p>Support the skin.</p><p>Respect the art.</p><p>Honor the story.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_gEddCE",
+        "text_ccBfMd"
+      ],
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_text_pCnFKG": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_4qJfkb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Botanical Heart"
+          }
+        },
+        "heading_zF3VVh": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Alchemy of Kawakawa",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_iAQUBM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sourced from New Zealand’s native bush, Kawakawa is a sacred botanical renowned for unparalleled healing. Our extraction process preserves the active compounds that trigger deep cellular repair.</p><h5>01. Calm</h5><p>Instantly reduces inflammatory markers, cooling the dermal site upon application to suppress the body's overactive heat response.</p><h5>02. Seal</h5><p>Creates a semi-permeable lipid barrier that locks in moisture while allowing the wound to breathe, preventing pigment fallout.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4qJfkb",
+        "heading_zF3VVh",
+        "text_iAQUBM"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-2",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 30,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "16542293891a0a2e2c": {
+      "type": "rich-text",
+      "blocks": {
+        "165422938904a7f60d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"The marks we carry become part of who we are.They deserve care that lasts beyond the session.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h1",
+            "heading_color": ""
+          }
+        },
+        "text_cEPmFA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>— Keanu Chung-Leong</p>"
+          }
+        }
+      },
+      "block_order": [
+        "165422938904a7f60d-0",
+        "text_cEPmFA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_Jn9GaY",
+    "16542290942ea85dfa",
+    "image_with_text_wpcGMp",
+    "multicolumn_fQrrWx",
+    "165546186449d8fb9e",
+    "hero_96w8RX",
+    "image_with_text_pCnFKG",
+    "16542293891a0a2e2c"
+  ]
+}

@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Apply now",
-            "button_link": "#applynow",
+            "button_link": "#contact-form",
             "button_style": "btn--primary",
             "button_size": ""
           }
@@ -200,8 +200,8 @@
         "row_gap": "medium",
         "enable_swipe_mobile": false,
         "column_mobile": "1",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 60,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -343,8 +343,8 @@
         "row_gap": "medium",
         "enable_swipe_mobile": false,
         "column_mobile": "1",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 60,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -404,8 +404,20 @@
         "name_cq6Gcm": {
           "type": "name",
           "settings": {
-            "label": "Name",
-            "placeholder": "Enter your name",
+            "label": "Full Name",
+            "placeholder": "John Doe",
+            "field_width": "1/2",
+            "hide_label": false,
+            "required": false
+          }
+        },
+        "custom_text_E6tgBH": {
+          "type": "custom_text",
+          "settings": {
+            "label": "Studio Name",
+            "placeholder": "Ritual Ink Atelier",
+            "field_key": "studio_name",
+            "field_type": "text",
             "field_width": "1/2",
             "hide_label": false,
             "required": false
@@ -420,18 +432,32 @@
             "hide_label": false
           }
         },
+        "custom_text_eELTKX": {
+          "type": "custom_text",
+          "settings": {
+            "label": "Website",
+            "placeholder": "www.yourstudio.com",
+            "field_key": "website_name",
+            "field_type": "text",
+            "field_width": "1/2",
+            "hide_label": false,
+            "required": false
+          }
+        },
         "message_Qtfm6G": {
           "type": "message",
           "settings": {
-            "label": "Message",
-            "placeholder": "Tell us about yourself",
+            "label": "Tell us about yourself",
+            "placeholder": "Your artistic philosophy and why you want to partner with KAMOKU...",
             "hide_label": false
           }
         }
       },
       "block_order": [
         "name_cq6Gcm",
+        "custom_text_E6tgBH",
         "email_PcP4Jc",
+        "custom_text_eELTKX",
         "message_Qtfm6G"
       ],
       "name": "t:sections.contact-form.presets.name",
@@ -460,6 +486,43 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "hero_7JnnkM": {
+      "type": "hero",
+      "blocks": {
+        "title_PQUzqa": {
+          "type": "title",
+          "settings": {
+            "title": "JOIN THE RITUAL",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h0",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_PQUzqa"
+      ],
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_59_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
     }
   },
   "order": [
@@ -469,6 +532,7 @@
     "multicolumn_mhi7bx",
     "multicolumn_q6mtEx",
     "image_with_text_U94iNN",
-    "contact_form_twecMr"
+    "contact_form_twecMr",
+    "hero_7JnnkM"
   ]
 }

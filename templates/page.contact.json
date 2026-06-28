@@ -63,45 +63,76 @@
         "c44b955f-431b-4c29-bbb1-0bfbd57d15b8": {
           "type": "name",
           "settings": {
-            "label": "Name",
-            "placeholder": "Name",
-            "field_width": "1/2",
+            "label": "Full Name",
+            "placeholder": "John Doe",
+            "field_width": "full",
             "hide_label": true,
             "required": true
           }
         },
-        "b4b5f861-b22f-4696-abc2-6153a5eb47d0": {
-          "type": "phone",
+        "studio_name_field": {
+          "type": "custom_text",
           "settings": {
-            "label": "Phone number",
-            "placeholder": "Phone",
-            "field_width": "1/2",
+            "label": "Studio Name",
+            "placeholder": "Ritual Ink Atelier",
+            "field_key": "studio_name",
+            "field_type": "text",
+            "field_width": "full",
             "hide_label": true,
             "required": false
           }
         },
-        "12256e9c-dc16-4587-8e4a-d2948d2696e7": {
-          "type": "email",
+        "instagram_field": {
+          "type": "custom_text",
           "settings": {
-            "label": "Email",
-            "placeholder": "Email",
+            "label": "Instagram",
+            "placeholder": "@yourhandle",
+            "field_key": "instagram",
+            "field_type": "text",
             "field_width": "full",
-            "hide_label": true
+            "hide_label": true,
+            "required": false
+          }
+        },
+        "website_field": {
+          "type": "custom_text",
+          "settings": {
+            "label": "Website",
+            "placeholder": "www.yourstudio.com",
+            "field_key": "website",
+            "field_type": "url",
+            "field_width": "full",
+            "hide_label": true,
+            "required": false
+          }
+        },
+        "country_field": {
+          "type": "custom_text",
+          "settings": {
+            "label": "Country",
+            "placeholder": "United States",
+            "field_key": "country",
+            "field_type": "text",
+            "field_width": "full",
+            "hide_label": true,
+            "required": false
           }
         },
         "c00f52fc-b97a-4cdc-b25b-9f3f58abc65a": {
           "type": "message",
           "settings": {
-            "label": "Message",
-            "placeholder": "Your message",
+            "label": "Tell us about yourself",
+            "placeholder": "Your artistic philosophy and why you want to partner with KAMOKU...",
             "hide_label": true
           }
         }
       },
       "block_order": [
         "c44b955f-431b-4c29-bbb1-0bfbd57d15b8",
-        "b4b5f861-b22f-4696-abc2-6153a5eb47d0",
-        "12256e9c-dc16-4587-8e4a-d2948d2696e7",
+        "studio_name_field",
+        "instagram_field",
+        "website_field",
+        "country_field",
         "c00f52fc-b97a-4cdc-b25b-9f3f58abc65a"
       ],
       "custom_css": [
