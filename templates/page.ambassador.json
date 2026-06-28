@@ -406,7 +406,7 @@
           "settings": {
             "label": "Name",
             "placeholder": "Enter your name",
-            "field_width": "full",
+            "field_width": "1/2",
             "hide_label": true,
             "required": false
           }
@@ -416,7 +416,7 @@
           "settings": {
             "label": "Email",
             "placeholder": "Enter your email",
-            "field_width": "full",
+            "field_width": "1/2",
             "hide_label": true
           }
         },
@@ -424,7 +424,7 @@
           "type": "message",
           "settings": {
             "label": "Message",
-            "placeholder": "Enter your message",
+            "placeholder": "Tell us about yourself",
             "hide_label": true
           }
         }
