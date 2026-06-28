@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,7 +40,9 @@
             "description": "<p>4b/39 James St, Fortitude Valley QLD 4006</p><p>+391 (0)35 2568</p><p>Mon-Sat: 10am-8pm</p>",
             "text_alignment": "left",
             "button_label": "get direction",
-            "button_style": "btn--underline"
+            "button_link": "",
+            "button_style": "btn--underline",
+            "mobile_text_alignment": "inherit"
           }
         }
       },
@@ -44,6 +55,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
+        "tab_heading_size": "h4",
         "desktop_navigation_alignment": "center",
         "desktop_image_position": "left",
         "desktop_image_width": 50,
@@ -65,74 +77,32 @@
           "settings": {
             "label": "Full Name",
             "placeholder": "John Doe",
-            "field_width": "full",
-            "hide_label": true,
-            "required": true
-          }
-        },
-        "studio_name_field": {
-          "type": "custom_text",
-          "settings": {
-            "label": "Studio Name",
-            "placeholder": "Ritual Ink Atelier",
-            "field_key": "studio_name",
-            "field_type": "text",
-            "field_width": "full",
-            "hide_label": true,
+            "field_width": "1/2",
+            "hide_label": false,
             "required": false
           }
         },
-        "instagram_field": {
-          "type": "custom_text",
+        "email_gtAmE6": {
+          "type": "email",
           "settings": {
-            "label": "Instagram",
-            "placeholder": "@yourhandle",
-            "field_key": "instagram",
-            "field_type": "text",
-            "field_width": "full",
-            "hide_label": true,
-            "required": false
-          }
-        },
-        "website_field": {
-          "type": "custom_text",
-          "settings": {
-            "label": "Website",
-            "placeholder": "www.yourstudio.com",
-            "field_key": "website",
-            "field_type": "url",
-            "field_width": "full",
-            "hide_label": true,
-            "required": false
-          }
-        },
-        "country_field": {
-          "type": "custom_text",
-          "settings": {
-            "label": "Country",
-            "placeholder": "United States",
-            "field_key": "country",
-            "field_type": "text",
-            "field_width": "full",
-            "hide_label": true,
-            "required": false
+            "label": "Email",
+            "placeholder": "xxx@gmail.com",
+            "field_width": "1/2",
+            "hide_label": false
           }
         },
         "c00f52fc-b97a-4cdc-b25b-9f3f58abc65a": {
           "type": "message",
           "settings": {
-            "label": "Tell us about yourself",
-            "placeholder": "Your artistic philosophy and why you want to partner with KAMOKU...",
-            "hide_label": true
+            "label": "Message",
+            "placeholder": "I need help with...",
+            "hide_label": false
           }
         }
       },
       "block_order": [
         "c44b955f-431b-4c29-bbb1-0bfbd57d15b8",
-        "studio_name_field",
-        "instagram_field",
-        "website_field",
-        "country_field",
+        "email_gtAmE6",
         "c00f52fc-b97a-4cdc-b25b-9f3f58abc65a"
       ],
       "custom_css": [
@@ -148,6 +118,7 @@
         "enable_highlight_text_color": false,
         "heading_size": "h2",
         "heading_color": "",
+        "subheading": "",
         "description": "",
         "form_design": "design-1",
         "form_width": 770,

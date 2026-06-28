@@ -14,69 +14,13 @@
       "disabled": true,
       "settings": {}
     },
-    "image_with_text_Jn9GaY": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_j8kAUz": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "A lifelong connection to tattoo culture, Pacific heritage, and the stories we choose to carry."
-          }
-        },
-        "heading_H38yXL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Keanu Chung-Leong",
-            "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h2"
-          }
-        },
-        "text_WpVXTN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>KĀMOKU was shaped by a belief that tattooing deserves more than aftercare.It deserves intention.</p><p>Drawing from Pacific heritage, modern skincare science, and a lifelong connection to tattoo culture, KĀMOKU was created to support the journey beyond the session—when the artwork becomes part of the skin and part of the person who carries it.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_j8kAUz",
-        "heading_H38yXL",
-        "text_WpVXTN"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 50,
-        "padding_right": 50,
-        "align_content_container": "none",
-        "mobile_padding_left": 13,
-        "mobile_padding_right": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 18,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
     "16542290942ea85dfa": {
       "type": "hero",
       "blocks": {
         "1654229094960f6bc7-0": {
           "type": "title",
           "settings": {
-            "title": "A Different Perspective On Healing",
+            "title": "One recovery.Three stages.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h-xl",
@@ -86,7 +30,7 @@
         "text_fgfwir": {
           "type": "text",
           "settings": {
-            "text": "<p>For many people, the tattoo marks the end of the process.</p><p>For Keanu, it has always been the beginning of another one.</p><p>The healing journey plays a lasting role in how a tattoo settles, ages, and becomes part of the skin.</p><p>That belief became one of the foundations behind KĀMOKU.</p><p>A brand created around the idea that healing deserves the same level of attention as the artwork itself.</p>"
+            "text": "<p>Designed to support the complete lifecycle of fresh ink.</p>"
           }
         }
       },
@@ -115,34 +59,259 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "image_with_text_wpcGMp": {
-      "type": "image-with-text",
+    "collection_tabs_X9GTqT": {
+      "type": "collection-tabs",
       "blocks": {
-        "heading_hm6jDN": {
-          "type": "heading",
+        "collection_Xwweka": {
+          "type": "collection",
           "settings": {
-            "heading": "Inspired By The Pacific",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2"
+            "collection": "",
+            "image": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_06_45_PM.png",
+            "heading": "Days 1–3: Open Wound & Calm",
+            "heading_size": "h4",
+            "text": "<p>The tattoo is an open wound. Every hour matters. The priority is cooling the inflammation, sealing the surface, and blocking bacterial entry before the immune response escalates.</p>"
           }
         },
-        "text_bkQYAE": {
-          "type": "text",
+        "collection_WPJMBT": {
+          "type": "collection",
           "settings": {
-            "text": "<p>Growing up with strong Polynesian roots, Keanu developed a deep appreciation for the relationship between identity, culture, and tattooing.</p><p>Across the Pacific, tattoos have long carried stories that extend far beyond the surface.</p><p>They represent where we come from, what we value, and the experiences that shape us.</p><p>That perspective continues to influence the philosophy, design, and spirit of KĀMOKU.</p>"
+            "collection": "",
+            "image": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_09_30_PM.png",
+            "heading": "Days 4–7: Peeling & Regeneration",
+            "heading_size": "h4",
+            "text": "<p>Peeling begins. New keratinocytes migrate beneath the crust. Deep hydration and itch interruption prevent premature scabbing that lifts color from the dermis.</p>"
+          }
+        },
+        "collection_BUpqi8": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/ChatGPT_Image_May_25_2026_08_06_45_PM.png",
+            "heading": "Days 8–14: +Lock & Brighten",
+            "heading_size": "h4",
+            "text": "<p>Outer healing is complete, but the barrier remains thin and porous. Ceramides and emollients rebuild the lipid matrix that will preserve ink color permanently.</p>"
           }
         }
       },
       "block_order": [
-        "heading_hm6jDN",
-        "text_bkQYAE"
+        "collection_Xwweka",
+        "collection_WPJMBT",
+        "collection_BUpqi8"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-1",
+        "heading": "Recoveryisn't linear.",
+        "highlight_style": "none",
+        "enable_highlight_text_color": true,
+        "heading_size": "h-xl",
+        "heading_color": "",
+        "subheading": "The Biology",
+        "description": "<p>Every tattoo goes through the same stages. Proper healing begins with understanding what your skin needs at each step.</p>",
+        "image_position": "right",
+        "image_ratio": "adapt",
+        "prefix_header": "ordinal_number",
+        "trigger_behavior": "hover",
+        "autoplay": true,
+        "autoplay_duration": 5,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_pA7EUt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_G4txfH": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/1_df7223bf-7e6b-4a0d-bc4e-758ee4f60c3d.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<h4>Broken Barrier</h4><p>The needle disrupts the stratum corneum across thousands of micro-wounds. Skin's outer layer is compromised.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_QyxKKQ": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/2_d0543f67-5769-407b-a324-361d10e02e42.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<h4>Inflammation</h4><p>Immune cells flood the site. Erythema and edema are visible signs of the body's active defence cascade.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Ya4wX9": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/3_f40baf4c-ca9f-47f6-aa55-a06124a2b9fc.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<h4>Cell Renewal</h4><p>Keratinocytes migrate. A new epidermal layer forms beneath the crust as melanin stabilises the ink.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_mqjHVM": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/4.png",
+            "image_link": "",
+            "title": "",
+            "heading_size": "h3",
+            "text": "<h4>Barrier Restoration</h4><p>The lipid matrix seals. Ink is locked within the healed dermis. The outer layer is fully reconstituted.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_G4txfH",
+        "column_QyxKKQ",
+        "column_Ya4wX9",
+        "column_mqjHVM"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Instead of talking about products, we talk about the skin.",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "Skin Science",
+        "description": "<p>Four biological phases. Each requires a different formulation response.</p>",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_jd7qwD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_LTPky4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The Formulations"
+          }
+        },
+        "heading_itFCqF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Three <em>formulations</em>. One <em>continuum</em>.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": true,
+            "heading_size": "h-xl",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LTPky4",
+        "heading_itFCqF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_Jn9GaY": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_j8kAUz": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "01 / Day 1–3"
+          }
+        },
+        "heading_H38yXL": {
+          "type": "heading",
+          "settings": {
+            "heading": "HYDRO GEL",
+            "highlight_style": "none",
+            "enable_highlight_text_color": true,
+            "heading_size": "h2"
+          }
+        },
+        "text_WpVXTN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A water-based hydrogel that forms an invisible sterile film over fresh ink within minutes of application. Reduces erythema on contact. Apply immediately after the session ends.</p><ul><li>Kawakawa extract — anti-inflammatory</li><li>Aloe vera barbadensis — instant cooling</li><li>Zinc oxide — sterile barrier mineral</li></ul>"
+          }
+        },
+        "button_pBHh9y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to Ritual — $42",
+            "button_link": "shopify://products/hydro-gel",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_j8kAUz",
+        "heading_H38yXL",
+        "text_WpVXTN",
+        "button_pBHh9y"
+      ],
+      "custom_css": [
+        "ul {list-style: none; padding: 0; padding-top: 1rem;}",
+        "ul li {padding: 0.5rem 0; opacity: 0.8;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -162,6 +331,229 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
+      }
+    },
+    "image_with_text_wpcGMp": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jnAVD3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "02 / Day 4–10"
+          }
+        },
+        "heading_hm6jDN": {
+          "type": "heading",
+          "settings": {
+            "heading": "RECOVERY MIST",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_bkQYAE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A fine mist that penetrates without friction or rubbing. Delivers humectants and cell-signaling botanicals to the regenerating dermis three to four times daily without disturbing the new skin.</p><ul><li>Sodium PCA — deep dermis humectant</li><li>Mānuka honey UMF 15+ — antimicrobial</li><li>Panthenol — itch cycle interruption</li></ul>"
+          }
+        },
+        "button_VFcAfp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to Ritual — $38",
+            "button_link": "shopify://products/recovery-mist",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jnAVD3",
+        "heading_hm6jDN",
+        "text_bkQYAE",
+        "button_VFcAfp"
+      ],
+      "custom_css": [
+        "ul {list-style: none; padding: 0; padding-top: 1rem;}",
+        "ul li {padding: 0.5rem 0; opacity: 0.8;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_JBJVYw": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_zHirH6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "03 / Day 11+"
+          }
+        },
+        "heading_nJWYxQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "DAILY Tattoo Salve",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_BwPwD3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A ceramide-rich emollient that rebuilds the lipid matrix, locks moisture into healed skin, and preserves ink vibrancy indefinitely. This is the product you continue using for life.</p><ul><li>Ceramide NP — barrier lipid matrix</li><li>Jojoba esters — long-term color lock</li><li>Tocopherol — oxidation defence</li></ul>"
+          }
+        },
+        "button_wneyn8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to Ritual — $36",
+            "button_link": "shopify://products/daily-care-balm",
+            "button_style": "btn--primary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zHirH6",
+        "heading_nJWYxQ",
+        "text_BwPwD3",
+        "button_wneyn8"
+      ],
+      "custom_css": [
+        "ul {list-style: none; padding: 0; padding-top: 1rem;}",
+        "ul li {padding: 0.5rem 0; opacity: 0.8;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "comparison_timeline_9nXmxg": {
+      "type": "comparison-timeline",
+      "blocks": {
+        "row_Rai9wb": {
+          "type": "row",
+          "settings": {
+            "left_day": "Day 1",
+            "left_title": "Generic Balm",
+            "left_description": "<p>Petroleum-based occlusives smother the wound bed, trapping heat and bacteria.</p>",
+            "left_accent_color": "#0000003d",
+            "right_day": "Day 1–3",
+            "right_title": "01 HYDRO GEL",
+            "right_description": "<p>Cooling + sealing + sterile barrier</p>",
+            "right_accent_color": "#222222"
+          }
+        },
+        "row_aemb84": {
+          "type": "row",
+          "settings": {
+            "left_day": "Day 1",
+            "left_title": "Generic Balm",
+            "left_description": "<p>Petroleum-based occlusives smother the wound bed, trapping heat and bacteria.</p>",
+            "left_accent_color": "#0000003d",
+            "right_day": "Day 1–3",
+            "right_title": "01 HYDRO GEL",
+            "right_description": "<p>Cooling + sealing + sterile barrier</p>",
+            "right_accent_color": "#222222"
+          }
+        },
+        "row_f89NAJ": {
+          "type": "row",
+          "settings": {
+            "left_day": "Day 1",
+            "left_title": "Generic Balm",
+            "left_description": "<p>Petroleum-based occlusives smother the wound bed, trapping heat and bacteria.</p>",
+            "left_accent_color": "#0000003d",
+            "right_day": "Day 1–3",
+            "right_title": "01 HYDRO GEL",
+            "right_description": "<p>Cooling + sealing + sterile barrier</p>",
+            "right_accent_color": "#222222"
+          }
+        }
+      },
+      "block_order": [
+        "row_Rai9wb",
+        "row_aemb84",
+        "row_f89NAJ"
+      ],
+      "name": "Comparison timeline",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "eyebrow": "The Case",
+        "heading": "Why one creamis never enough.",
+        "heading_size": "h2",
+        "description": "<p>Skin biology changes dramatically across 14 days. A product formulated for Day 1 is physiologically counterproductive by Day 11.</p>",
+        "left_eyebrow": "Traditional approach",
+        "left_footer": "<p>One formula. No adaptation. No understanding of the healing process.</p>",
+        "left_panel_bg": "#efefee",
+        "right_eyebrow": "Kamoku",
+        "right_footer": "<p>Three formulations. Each calibrated to a distinct biological phase.</p>",
+        "right_panel_bg": "#757960",
+        "panel_border_color": "#00000014",
+        "panel_border_width": 1,
+        "panel_radius": 20,
+        "panel_gap": 24,
+        "panel_padding": 40,
+        "row_padding_y": 26,
+        "row_padding_x": 0,
+        "row_divider_color": "#00000014",
+        "label_color": "#00000061",
+        "day_color": "#00000073",
+        "text_color": "#222222",
+        "note_color": "#381919",
+        "accent_color": "#2f2a25",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
       }
     },
     "multicolumn_fQrrWx": {
@@ -381,50 +773,6 @@
         "animations": "inherit"
       }
     },
-    "hero_96w8RX": {
-      "type": "hero",
-      "blocks": {
-        "title_gEddCE": {
-          "type": "title",
-          "settings": {
-            "title": "Building Something Meaningful",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        },
-        "text_ccBfMd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>KĀMOKU was created with a simple intention:</p><p>To bring together thoughtful formulation, modern skincare science, and a deeper respect for the tattoo journey.</p><p>Every product begins with that same purpose.</p><p>Support the skin.</p><p>Respect the art.</p><p>Honor the story.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "title_gEddCE",
-        "text_ccBfMd"
-      ],
-      "name": "t:sections.hero.presets.name",
-      "settings": {
-        "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM.png",
-        "image_overlay_opacity": 40,
-        "hero_height": "large",
-        "content_in_container": false,
-        "content_position": "center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "hero_height_mobile": "large",
-        "content_position_mobile": "center",
-        "show_text_below": true,
-        "text_alignment_mobile": "center",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit",
-        "enable_bg_zoom_effect": true
-      }
-    },
     "image_with_text_pCnFKG": {
       "type": "image-with-text",
       "blocks": {
@@ -486,15 +834,100 @@
         "animations": "inherit"
       }
     },
+    "multicolumn_4ijHwd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YKwe4k": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "image_link": "",
+            "title": "Mānuka",
+            "heading_size": "h3",
+            "text": "<h4>Botanical resilience from Aotearoa.</h4><p>Rich in naturally occurring aromatic compounds, Mānuka helps support a balanced skin environment while comforting stressed, freshly tattooed skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Qrwc4r": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Kawakawa_Leaf.png",
+            "image_link": "",
+            "title": "Kiwi Seed Oil",
+            "heading_size": "h3",
+            "text": "<h4>Omega-rich skin support.</h4><p>Naturally rich in essential fatty acids, Kiwi Seed Oil helps replenish moisture and support the skin barrier without adding a heavy finish.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_pRyBER": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Panthenol.png",
+            "image_link": "",
+            "title": "Blue Cypress",
+            "heading_size": "h3",
+            "text": "<h4>Calm, cooling, and skin-conditioning.</h4><p>Known for its naturally calming profile, Blue Cypress helps comfort stressed skin and support a smoother, more balanced recovery feel.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_YKwe4k",
+        "column_Qrwc4r",
+        "column_pRyBER"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Nature With Purpose.",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "<p>Every ingredient is selected for a specific role — combining Polynesian-inspired care traditions with modern skin science to support tattooed skin through every stage of recovery.</p>",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "16542293891a0a2e2c": {
       "type": "rich-text",
       "blocks": {
         "165422938904a7f60d-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"The marks we carry become part of who we are.They deserve care that lasts beyond the session.\"",
+            "heading": "\"Recovery isn't fasterwhen forced.<em>It's better when respected.</em>\"",
             "highlight_style": "none",
-            "enable_highlight_text_color": false,
+            "enable_highlight_text_color": true,
             "heading_size": "h1",
             "heading_color": ""
           }
@@ -523,17 +956,168 @@
         "custom_class": "mobile-remove-br",
         "animations": "inherit"
       }
+    },
+    "17797831127f93feb3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_acf160e_k6KhiT": {
+          "type": "ai_gen_block_acf160e",
+          "settings": {
+            "container_width": 1600,
+            "section_padding": 40,
+            "grid_gap": 20,
+            "content_padding": 20,
+            "content_spacing": 24,
+            "main_image": "shopify://shop_images/Snipaste_2026-05-27_13-06-24_80782673-bf2f-42ea-8992-59d03efda937.png",
+            "image_aspect_ratio": "4 / 5",
+            "image_border_radius": 0,
+            "heading": "<p>The Complete Healing System</p>",
+            "heading_font": "serif",
+            "heading_size": 48,
+            "heading_letter_spacing": 0,
+            "description": "<p>A three-stage recovery system built around the way tattoos actually heal.</p>",
+            "description_size": 16,
+            "show_price": true,
+            "price": "$54.99",
+            "price_size": 18,
+            "show_compare_price": true,
+            "compare_price": "$65.00",
+            "compare_price_size": 16,
+            "compare_price_color": "#888888",
+            "product_1": "hydro-gel",
+            "product_2": "recovery-mist",
+            "product_3": "daily-care-balm",
+            "product_row_spacing": 20,
+            "product_row_gap": 16,
+            "product_row_padding": 8,
+            "product_image_size": 60,
+            "product_image_radius": 4,
+            "product_title_size": 14,
+            "product_description_size": 13,
+            "button_text": "Secure your system",
+            "button_link": "shopify://products/the-complete-healing-system",
+            "button_font_size": 13,
+            "button_padding_vertical": 16,
+            "button_padding_horizontal": 50,
+            "button_border_radius": 50,
+            "show_bottom_icons": true,
+            "bottom_icons_gap": 40,
+            "bottom_icons_padding": 30,
+            "bottom_icons_margin": 30,
+            "bottom_icon_size": 32,
+            "bottom_icon_text_size": 12,
+            "bottom_icon_1_text": "Botanical ingredients",
+            "bottom_icon_2_text": "Circadian recovery",
+            "bottom_icon_3_text": "Tattoo-safe",
+            "bottom_icon_4_text": "Ethically sourced",
+            "background_color": "#ded8c8",
+            "heading_color": "#000000",
+            "text_color": "#222222",
+            "icon_color": "#9aa791",
+            "divider_color": "#aa9f90",
+            "divider_spacing": 20,
+            "button_bg_color": "#8b8c75",
+            "button_text_color": "#ffffff",
+            "button_hover_bg": "#9aa791",
+            "button_hover_text": "#ffffff",
+            "placeholder_bg": "#efece7"
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_66e6a81_nGUEf7": {
+          "type": "ai_gen_block_66e6a81",
+          "disabled": true,
+          "settings": {
+            "column_gap": 60,
+            "section_padding": 60,
+            "content_padding": 20,
+            "background_color": "#f5f3f0",
+            "product_image": "shopify://shop_images/ChatGPTImageMay22_2026_10_00_37AM.png",
+            "image_border_radius": 0,
+            "show_badge": true,
+            "badge_text": "COMPLETE BUNDLE",
+            "show_badge_icon": true,
+            "badge_background": "#9aa791",
+            "badge_text_color": "#ffffff",
+            "badge_font_size": 16,
+            "badge_border_radius": 0,
+            "badge_position_top": 20,
+            "badge_position_right": 20,
+            "show_promo_tag": true,
+            "promo_text": "Save $27",
+            "promo_background": "#222222",
+            "promo_text_color": "#ffffff",
+            "promo_font_size": 16,
+            "promo_border_radius": 4,
+            "promo_position_bottom": 20,
+            "promo_position_left": 20,
+            "heading": "The Recovery Bundle",
+            "heading_size": 48,
+            "heading_weight": "400",
+            "heading_color": "#222222",
+            "heading_margin": 20,
+            "description": "Complete 14-day protection. All three stages in one intentional system.",
+            "description_size": 16,
+            "description_color": "#666666",
+            "description_margin": 30,
+            "show_price": true,
+            "current_price": "$98",
+            "original_price": "$125",
+            "price_size": 32,
+            "price_compare_size": 20,
+            "price_color": "#222222",
+            "price_compare_color": "#999999",
+            "price_margin": 25,
+            "show_divider_1": true,
+            "show_divider_2": true,
+            "divider_color": "#e0e0e0",
+            "divider_margin": 25,
+            "show_list": true,
+            "list_item_1": "01 HYDRO GEL (50ml) : Stage 1 - nstant Cooling & Soothing",
+            "list_item_2": "02 RECOVERY MIST : Stage 2 - Cell Regeneration & Anti-itch",
+            "list_item_3": "03 DAILY CARE BALM : Stage 3 - Ink Maintenance & Barrier Lock",
+            "list_font_size": 14,
+            "list_color": "#444444",
+            "list_item_spacing": 15,
+            "list_margin": 25,
+            "button_text": "SECURE YOUR SYSTEM",
+            "button_link": "",
+            "button_background": "#222222",
+            "button_hover_background": "#000000",
+            "button_text_color": "#ffffff",
+            "button_font_size": 14,
+            "button_padding": 18,
+            "button_border_radius": 50,
+            "caption": "Free shipping on orders over $75",
+            "caption_font_size": 14,
+            "caption_color": "#999999",
+            "caption_margin": 15
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_acf160e_k6KhiT",
+        "ai_gen_block_66e6a81_nGUEf7"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "image_with_text_Jn9GaY",
     "16542290942ea85dfa",
+    "collection_tabs_X9GTqT",
+    "multicolumn_pA7EUt",
+    "rich_text_jd7qwD",
+    "image_with_text_Jn9GaY",
     "image_with_text_wpcGMp",
+    "image_with_text_JBJVYw",
+    "comparison_timeline_9nXmxg",
     "multicolumn_fQrrWx",
     "165546186449d8fb9e",
-    "hero_96w8RX",
     "image_with_text_pCnFKG",
-    "16542293891a0a2e2c"
+    "multicolumn_4ijHwd",
+    "16542293891a0a2e2c",
+    "17797831127f93feb3"
   ]
 }
