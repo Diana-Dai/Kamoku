@@ -526,7 +526,7 @@
         "container": "container",
         "color_schema": "background-2",
         "eyebrow": "The Case",
-        "heading": "Why one creamis never enough.",
+        "heading": "Why one cream is never enough.",
         "heading_size": "h2",
         "description": "<p>Skin biology changes dramatically across 14 days. A product formulated for Day 1 is physiologically counterproductive by Day 11.</p>",
         "left_eyebrow": "Traditional approach",
@@ -925,7 +925,7 @@
         "165422938904a7f60d-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"Recovery isn't fasterwhen forced. It's better when respected.\"",
+            "heading": "\"Recovery isn't faster when forced. It's better when respected.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
