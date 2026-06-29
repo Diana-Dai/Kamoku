@@ -92,6 +92,7 @@
         "subheading_TtbXtn",
         "heading_W7AhEq"
       ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
@@ -128,6 +129,10 @@
       "block_order": [
         "heading_x8HMn4",
         "text_Y4LcL7"
+      ],
+      "custom_css": [
+        "h4 {list-style: none; padding-left: 0;}",
+        "h4 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
