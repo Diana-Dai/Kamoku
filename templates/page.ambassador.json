@@ -122,7 +122,7 @@
         "text_Y4LcL7": {
           "type": "text",
           "settings": {
-            "text": "<p>01</p><h4>Elevate your aftercare standard</h4><p>Clients who heal well return sooner, refer more, and credit the studio. KAMOKU is the aftercare protocol that reflects the quality of your work.</p><p>02</p><h4>An additional revenue stream</h4><p>Retail KAMOKU products at the counter or bundled into session fees. Trade pricing, white-glove support, and no minimum order requirement for qualifying studios.</p><p>03</p><h4>Co-branded visibility</h4><p>Listed as a KAMOKU Authorised Studio on our website and printed materials. Access to brand assets, imagery, and educational content for your channels.</p><p>04</p><h4>Clinical confidence</h4><p>Every formulation is dermatologist-tested, fragrance-free, and engineered for micro-wounded skin. Recommend without reservation.</p>"
+            "text": "<p><em>01</em></p><h4>Elevate your aftercare standard</h4><p>Clients who heal well return sooner, refer more, and credit the studio. KAMOKU is the aftercare protocol that reflects the quality of your work.</p><p><em>02</em></p><h4>An additional revenue stream</h4><p>Retail KAMOKU products at the counter or bundled into session fees. Trade pricing, white-glove support, and no minimum order requirement for qualifying studios.</p><p><em>03</em></p><h4>Co-branded visibility</h4><p>Listed as a KAMOKU Authorised Studio on our website and printed materials. Access to brand assets, imagery, and educational content for your channels.</p><p><em>04</em></p><h4>Clinical confidence</h4><p>Every formulation is dermatologist-tested, fragrance-free, and engineered for micro-wounded skin. Recommend without reservation.</p>"
           }
         }
       },
@@ -132,7 +132,8 @@
       ],
       "custom_css": [
         "h4 {list-style: none; padding-left: 0;}",
-        "h4 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+        "em {padding-top: 3rem; display: inline-block;}",
+        "h4 + p {padding-bottom: 2rem; border-bottom: 1px solid #aa9f90;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
