@@ -1101,6 +1101,74 @@
         "ai_gen_block_66e6a81_nGUEf7"
       ],
       "settings": {}
+    },
+    "collapsible_tabs_eWxmJ9": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_jPxDQf": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_VACmTX": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_W8FhgQ": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Collapsible tab heading",
+            "content": "<p>Fill in the text content of the collapsible item here. You can provide details and explanation for the question here.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_jPxDQf",
+        "content_VACmTX",
+        "content_W8FhgQ"
+      ],
+      "name": "Collapsible tabs",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Collapsible tabs",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "item_heading_font": "body",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "full",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
@@ -1118,6 +1186,7 @@
     "image_with_text_pCnFKG",
     "multicolumn_4ijHwd",
     "16542293891a0a2e2c",
-    "17797831127f93feb3"
+    "17797831127f93feb3",
+    "collapsible_tabs_eWxmJ9"
   ]
 }
