@@ -237,7 +237,7 @@
         "heading_itFCqF": {
           "type": "heading",
           "settings": {
-            "heading": "Three <em>formulations. </em>One <em>continuum.</em>",
+            "heading": "Three formulations. One continuum.",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h-xl",
@@ -546,8 +546,8 @@
         "label_color": "#00000061",
         "day_color": "#00000073",
         "text_color": "#222222",
-        "note_color": "#381919",
-        "accent_color": "#2f2a25",
+        "note_color": "#272222",
+        "accent_color": "#222222",
         "padding_top": 80,
         "padding_bottom": 80,
         "show_section_divider": false,
