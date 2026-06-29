@@ -218,10 +218,10 @@
       "custom_css": [
         ".rte {text-align: left;}",
         "ul {padding: 0; list-style: none; font-size: 1.4rem; opacity: 0.8; padding-top: 1rem;}",
-        "ul li {padding: 0.5rem 0;}",
+        "ul li {padding: 0.8rem 0;}",
         "p {max-width: 80%;}",
         "em {opacity: 0.6; margin-top: 3rem; display: inline-block; font-size: 1.2rem;}",
-        ".multicolumn-card__info{padding-left: 1rem;}"
+        ".multicolumn-card__info {padding-left: 1rem;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -575,6 +575,7 @@
       "blocks": {
         "ai_gen_block_6581a15_KRfHVW": {
           "type": "ai_gen_block_6581a15",
+          "disabled": true,
           "settings": {
             "background_color": "#ebe9e6",
             "kicker_text": "PARTNERSHIP TYPES",
@@ -607,7 +608,6 @@
       "block_order": [
         "ai_gen_block_6581a15_KRfHVW"
       ],
-      "disabled": true,
       "settings": {}
     }
   },
