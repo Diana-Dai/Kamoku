@@ -1,0 +1,589 @@
+{% doc %}
+  @prompt
+    Act as an expert Shopify Liquid and CSS developer specializing in high-end, editorial e-commerce design (Apothecary Minimalism aesthetic). Write the complete, production-ready code for a multi-column partnership/pricing tier section that replicates the layout and typography of image_5f043a.png 100% with exact visual precision, intentional whitespace hierarchy, and structural logic.
+    
+    ### Section Configuration & Schema Requirements:
+    1. Wrap the entire layout in a fully customizable Shopify theme section.
+    2. **Global & Header Settings:** Include settings for the section background color, main uppercase kicker text (default: "PARTNERSHIP TYPES"), and the primary serif heading (default: "Find your role\nin the ritual.").
+    3. **Dynamic Columns Schema:** Use a blocks schema (`blocks`) capped at a maximum of 3 blocks so the merchant can customize each partnership column. Each block must include settings for:
+       - Top accent border color (Color picker).
+       - Small uppercase audience kicker text (e.g., "FOR TATTOO STUDIOS").
+       - Main card serif title (e.g., "Studio Partner").
+       - Features list (Rich text or a multi-line text area where each line automatically splits into a list item with a custom horizontal dash prefix).
+       - Bottom footer helper text (e.g., "Minimum 3-month commitment").
+       - Bottom image picker (to replace the solid gray placeholder block at the base of the outer columns).
+    4. Include standard `{% schema %}` with presets so it can be added directly via the Shopify Theme Editor.
+    
+    ### Visual & Style Specifications (1:1 Replication):
+    1. **Global Layout & Editorial Spacing:**
+       - **Background:** An ultra-clean, warm, low-saturation off-white/muted stone background (`#ebe9e6` or similar warm gray tint).
+       - **Container:** Max-width of 1400px with generous, intentional whitespace. The main header area sits on its own row with significant breathing room before the column grid begins.
+       - **Grid System:** A balanced 3-column layout on desktop separated by thin, elegant vertical divider lines (`1px solid #d1cfcc`). The columns must feature an intentional asymmetry or offset: the middle card sits lower or has unique padding, and the outer cards feature solid structural blocks/images at their base while the center column drops lower with text. On mobile, columns stack cleanly.
+    
+    2. **Typography Hierarchy:**
+       - **Section Kicker:** Small, light, tracking-wide uppercase sans-serif font in a muted slate-gray, positioned at the very top left.
+       - **Main Headline:** Large, high-end editorial serif font (e.g., Century Schoolbook, Italianastyle, or similar premium serif available in Shopify font library) with a distinct tight line-height, displaying an elegant, natural line break.
+       - **Column Kickers:** Tiny, wide-tracked uppercase sans-serif font matching the accent color of the horizontal line above it.
+       - **Column Titles:** Medium-sized elegant serif font mirroring the main section headline style, left-aligned.
+    
+    3. **Column Structure & Component Elements:**
+       - **Top Accent Rule:** Every column starts with a prominent horizontal rule (`border-top: 3px solid`). The color must be customizable per block (e.g., deep charcoal for columns 1 and 3, and an earthy terracotta/clay orange for the central featured column).
+       - **List Items:** Features must be left-aligned and cleanly spaced. Each item is preceded by an elegant horizontal dash block (`—`) matching the card’s accent theme color, followed by crisp, low-contrast charcoal gray body text (`#4a4a4a`).
+       - **Bottom Structure:** A light horizontal line separates the features list from the small, muted gray footnote text at the base.
+       - **Base Blocks:** The bottom of the columns must accommodate the precise layout asymmetry shown: columns 1 and 3 anchor cleanly into a solid geometric layout block (or placeholder image container with a soft tint), while column 2 extends further down with minimal text baseline alignment.
+    
+    Output only the clean, copy-pasteable code containing the HTML structure, embedded CSS (or Tailwind utility classes), and the Shopify Liquid schema.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-partnership-tiers-{{ ai_gen_id }} {
+    display: block;
+    background-color: {{ block.settings.background_color }};
+    padding: 80px 20px;
+    width: 100%;
+  }
+
+  .ai-partnership-container-{{ ai_gen_id }} {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .ai-partnership-header-{{ ai_gen_id }} {
+    margin-bottom: 80px;
+  }
+
+  .ai-partnership-kicker-{{ ai_gen_id }} {
+    font-family: {{ block.settings.kicker_font.family }}, {{ block.settings.kicker_font.fallback_families }};
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+  }
+
+  .ai-partnership-heading-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-style: {{ block.settings.heading_font.style }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: 1.1;
+    color: #1a1a1a;
+    margin: 0;
+    white-space: pre-line;
+  }
+
+  .ai-partnership-grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-left: 1px solid #d1cfcc;
+  }
+
+  .ai-partnership-column-{{ ai_gen_id }} {
+    border-right: 1px solid #d1cfcc;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .ai-partnership-column-{{ ai_gen_id }}:nth-child(2) {
+    padding-top: 80px;
+  }
+
+  .ai-partnership-accent-{{ ai_gen_id }} {
+    height: 3px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .ai-partnership-audience-{{ ai_gen_id }} {
+    font-family: {{ block.settings.kicker_font.family }}, {{ block.settings.kicker_font.fallback_families }};
+    font-weight: 300;
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .ai-partnership-title-{{ ai_gen_id }} {
+    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
+    font-weight: {{ block.settings.heading_font.weight }};
+    font-style: {{ block.settings.heading_font.style }};
+    font-size: 28px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    margin: 0 0 32px 0;
+  }
+
+  .ai-partnership-features-{{ ai_gen_id }} {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+    flex-grow: 1;
+  }
+
+  .ai-partnership-feature-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #4a4a4a;
+  }
+
+  .ai-partnership-dash-{{ ai_gen_id }} {
+    margin-right: 12px;
+    flex-shrink: 0;
+    font-weight: 300;
+    margin-top: 2px;
+  }
+
+  .ai-partnership-footer-{{ ai_gen_id }} {
+    border-top: 1px solid #e5e3e0;
+    padding-top: 20px;
+    margin-top: auto;
+  }
+
+  .ai-partnership-helper-{{ ai_gen_id }} {
+    font-size: 12px;
+    color: #888888;
+    line-height: 1.5;
+  }
+
+  .ai-partnership-image-{{ ai_gen_id }} {
+    margin-top: 24px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .ai-partnership-image-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-partnership-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #d8d6d3;
+  }
+
+  @media screen and (max-width: 989px) {
+    .ai-partnership-tiers-{{ ai_gen_id }} {
+      padding: 60px 20px;
+    }
+
+    .ai-partnership-header-{{ ai_gen_id }} {
+      margin-bottom: 60px;
+    }
+
+    .ai-partnership-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.7 }}px;
+    }
+
+    .ai-partnership-grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      border-left: none;
+    }
+
+    .ai-partnership-column-{{ ai_gen_id }} {
+      border-right: none;
+      border-bottom: 1px solid #d1cfcc;
+      padding: 40px 20px;
+    }
+
+    .ai-partnership-column-{{ ai_gen_id }}:nth-child(2) {
+      padding-top: 40px;
+    }
+
+    .ai-partnership-column-{{ ai_gen_id }}:last-child {
+      border-bottom: none;
+    }
+  }
+{% endstyle %}
+
+<partnership-tiers-{{ ai_gen_id }} class="ai-partnership-tiers-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-partnership-container-{{ ai_gen_id }}">
+    <div class="ai-partnership-header-{{ ai_gen_id }}">
+      {% if block.settings.kicker_text != blank %}
+        <div class="ai-partnership-kicker-{{ ai_gen_id }}">{{ block.settings.kicker_text }}</div>
+      {% endif %}
+      {% if block.settings.main_heading != blank %}
+        <h2 class="ai-partnership-heading-{{ ai_gen_id }}">{{ block.settings.main_heading }}</h2>
+      {% endif %}
+    </div>
+
+    <div class="ai-partnership-grid-{{ ai_gen_id }}">
+      {% if block.settings.column_1_enabled %}
+        <div class="ai-partnership-column-{{ ai_gen_id }}">
+          <div class="ai-partnership-accent-{{ ai_gen_id }}" style="background-color: {{ block.settings.column_1_accent_color }};"></div>
+          
+          {% if block.settings.column_1_audience_kicker != blank %}
+            <div class="ai-partnership-audience-{{ ai_gen_id }}" style="color: {{ block.settings.column_1_accent_color }};">
+              {{ block.settings.column_1_audience_kicker }}
+            </div>
+          {% endif %}
+
+          {% if block.settings.column_1_card_title != blank %}
+            <h3 class="ai-partnership-title-{{ ai_gen_id }}">{{ block.settings.column_1_card_title }}</h3>
+          {% endif %}
+
+          {% if block.settings.column_1_features_list != blank %}
+            <ul class="ai-partnership-features-{{ ai_gen_id }}">
+              {% assign features = block.settings.column_1_features_list | newline_to_br | split: '<br />' %}
+              {% for feature in features %}
+                {% assign trimmed_feature = feature | strip %}
+                {% if trimmed_feature != blank %}
+                  <li class="ai-partnership-feature-{{ ai_gen_id }}">
+                    <span class="ai-partnership-dash-{{ ai_gen_id }}" style="color: {{ block.settings.column_1_accent_color }};">—</span>
+                    <span>{{ trimmed_feature }}</span>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          <div class="ai-partnership-footer-{{ ai_gen_id }}">
+            {% if block.settings.column_1_footer_text != blank %}
+              <div class="ai-partnership-helper-{{ ai_gen_id }}">{{ block.settings.column_1_footer_text }}</div>
+            {% endif %}
+
+            {% if block.settings.column_1_bottom_image %}
+              <div class="ai-partnership-image-{{ ai_gen_id }}">
+                <img
+                  src="{{ block.settings.column_1_bottom_image | image_url: width: 600 }}"
+                  alt="{{ block.settings.column_1_bottom_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ block.settings.column_1_bottom_image.width }}"
+                  height="{{ block.settings.column_1_bottom_image.height }}"
+                >
+              </div>
+            {% else %}
+              <div class="ai-partnership-image-{{ ai_gen_id }}">
+                <div class="ai-partnership-image-placeholder-{{ ai_gen_id }}"></div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if block.settings.column_2_enabled %}
+        <div class="ai-partnership-column-{{ ai_gen_id }}">
+          <div class="ai-partnership-accent-{{ ai_gen_id }}" style="background-color: {{ block.settings.column_2_accent_color }};"></div>
+          
+          {% if block.settings.column_2_audience_kicker != blank %}
+            <div class="ai-partnership-audience-{{ ai_gen_id }}" style="color: {{ block.settings.column_2_accent_color }};">
+              {{ block.settings.column_2_audience_kicker }}
+            </div>
+          {% endif %}
+
+          {% if block.settings.column_2_card_title != blank %}
+            <h3 class="ai-partnership-title-{{ ai_gen_id }}">{{ block.settings.column_2_card_title }}</h3>
+          {% endif %}
+
+          {% if block.settings.column_2_features_list != blank %}
+            <ul class="ai-partnership-features-{{ ai_gen_id }}">
+              {% assign features = block.settings.column_2_features_list | newline_to_br | split: '<br />' %}
+              {% for feature in features %}
+                {% assign trimmed_feature = feature | strip %}
+                {% if trimmed_feature != blank %}
+                  <li class="ai-partnership-feature-{{ ai_gen_id }}">
+                    <span class="ai-partnership-dash-{{ ai_gen_id }}" style="color: {{ block.settings.column_2_accent_color }};">—</span>
+                    <span>{{ trimmed_feature }}</span>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          <div class="ai-partnership-footer-{{ ai_gen_id }}">
+            {% if block.settings.column_2_footer_text != blank %}
+              <div class="ai-partnership-helper-{{ ai_gen_id }}">{{ block.settings.column_2_footer_text }}</div>
+            {% endif %}
+
+            {% if block.settings.column_2_bottom_image %}
+              <div class="ai-partnership-image-{{ ai_gen_id }}">
+                <img
+                  src="{{ block.settings.column_2_bottom_image | image_url: width: 600 }}"
+                  alt="{{ block.settings.column_2_bottom_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ block.settings.column_2_bottom_image.width }}"
+                  height="{{ block.settings.column_2_bottom_image.height }}"
+                >
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% if block.settings.column_3_enabled %}
+        <div class="ai-partnership-column-{{ ai_gen_id }}">
+          <div class="ai-partnership-accent-{{ ai_gen_id }}" style="background-color: {{ block.settings.column_3_accent_color }};"></div>
+          
+          {% if block.settings.column_3_audience_kicker != blank %}
+            <div class="ai-partnership-audience-{{ ai_gen_id }}" style="color: {{ block.settings.column_3_accent_color }};">
+              {{ block.settings.column_3_audience_kicker }}
+            </div>
+          {% endif %}
+
+          {% if block.settings.column_3_card_title != blank %}
+            <h3 class="ai-partnership-title-{{ ai_gen_id }}">{{ block.settings.column_3_card_title }}</h3>
+          {% endif %}
+
+          {% if block.settings.column_3_features_list != blank %}
+            <ul class="ai-partnership-features-{{ ai_gen_id }}">
+              {% assign features = block.settings.column_3_features_list | newline_to_br | split: '<br />' %}
+              {% for feature in features %}
+                {% assign trimmed_feature = feature | strip %}
+                {% if trimmed_feature != blank %}
+                  <li class="ai-partnership-feature-{{ ai_gen_id }}">
+                    <span class="ai-partnership-dash-{{ ai_gen_id }}" style="color: {{ block.settings.column_3_accent_color }};">—</span>
+                    <span>{{ trimmed_feature }}</span>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          <div class="ai-partnership-footer-{{ ai_gen_id }}">
+            {% if block.settings.column_3_footer_text != blank %}
+              <div class="ai-partnership-helper-{{ ai_gen_id }}">{{ block.settings.column_3_footer_text }}</div>
+            {% endif %}
+
+            {% if block.settings.column_3_bottom_image %}
+              <div class="ai-partnership-image-{{ ai_gen_id }}">
+                <img
+                  src="{{ block.settings.column_3_bottom_image | image_url: width: 600 }}"
+                  alt="{{ block.settings.column_3_bottom_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ block.settings.column_3_bottom_image.width }}"
+                  height="{{ block.settings.column_3_bottom_image.height }}"
+                >
+              </div>
+            {% else %}
+              <div class="ai-partnership-image-{{ ai_gen_id }}">
+                <div class="ai-partnership-image-placeholder-{{ ai_gen_id }}"></div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</partnership-tiers-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class PartnershipTiers{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+    }
+    customElements.define('partnership-tiers-{{ ai_gen_id }}', PartnershipTiers{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Partnership tiers",
+  "tag": null,
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section style"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#ebe9e6"
+    },
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "kicker_text",
+      "label": "Kicker text",
+      "default": "PARTNERSHIP TYPES"
+    },
+    {
+      "type": "textarea",
+      "id": "main_heading",
+      "label": "Main heading",
+      "default": "Find your role\nin the ritual."
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading size",
+      "min": 24,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "font_picker",
+      "id": "heading_font",
+      "label": "Heading font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "font_picker",
+      "id": "kicker_font",
+      "label": "Kicker font",
+      "default": "assistant_n4"
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_1_enabled",
+      "label": "Enable column 1",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "column_1_accent_color",
+      "label": "Accent color",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "text",
+      "id": "column_1_audience_kicker",
+      "label": "Audience kicker",
+      "default": "FOR TATTOO STUDIOS"
+    },
+    {
+      "type": "text",
+      "id": "column_1_card_title",
+      "label": "Card title",
+      "default": "Studio Partner"
+    },
+    {
+      "type": "textarea",
+      "id": "column_1_features_list",
+      "label": "Features list",
+      "info": "Enter each feature on a new line",
+      "default": "Exclusive studio pricing\nDedicated account support\nCustom product bundles\nPriority restocking\nMarketing materials included"
+    },
+    {
+      "type": "text",
+      "id": "column_1_footer_text",
+      "label": "Footer text",
+      "default": "Minimum 3-month commitment"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_bottom_image",
+      "label": "Bottom image"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_2_enabled",
+      "label": "Enable column 2",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "column_2_accent_color",
+      "label": "Accent color",
+      "default": "#c97a5f"
+    },
+    {
+      "type": "text",
+      "id": "column_2_audience_kicker",
+      "label": "Audience kicker",
+      "default": "FOR ARTISTS"
+    },
+    {
+      "type": "text",
+      "id": "column_2_card_title",
+      "label": "Card title",
+      "default": "Artist Ambassador"
+    },
+    {
+      "type": "textarea",
+      "id": "column_2_features_list",
+      "label": "Features list",
+      "info": "Enter each feature on a new line",
+      "default": "Commission on sales\nFree product samples\nSocial media features\nExclusive artist events\nEarly access to new products"
+    },
+    {
+      "type": "text",
+      "id": "column_2_footer_text",
+      "label": "Footer text",
+      "default": "Application required"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_bottom_image",
+      "label": "Bottom image"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_3_enabled",
+      "label": "Enable column 3",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "column_3_accent_color",
+      "label": "Accent color",
+      "default": "#2a2a2a"
+    },
+    {
+      "type": "text",
+      "id": "column_3_audience_kicker",
+      "label": "Audience kicker",
+      "default": "FOR RETAILERS"
+    },
+    {
+      "type": "text",
+      "id": "column_3_card_title",
+      "label": "Card title",
+      "default": "Retail Partner"
+    },
+    {
+      "type": "textarea",
+      "id": "column_3_features_list",
+      "label": "Features list",
+      "info": "Enter each feature on a new line",
+      "default": "Wholesale pricing\nFlexible order minimums\nPoint of sale materials\nProduct training\nSeasonal promotions"
+    },
+    {
+      "type": "text",
+      "id": "column_3_footer_text",
+      "label": "Footer text",
+      "default": "Business verification needed"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_bottom_image",
+      "label": "Bottom image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Partnership tiers"
+    }
+  ]
+}
+{% endschema %}
