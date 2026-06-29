@@ -338,7 +338,7 @@
         "settings": {
           "primary_accent": "#8b8c75",
           "border": "#aa9f90",
-          "text": "#222222",
+          "text": "#444444",
           "heading": "#000000",
           "highlight_text": "#9aa791",
           "color_main_bg": "#ded8c8",
@@ -361,7 +361,7 @@
         "settings": {
           "primary_accent": "#9aa791",
           "border": "#eeeeee",
-          "text": "#222222",
+          "text": "#444444",
           "heading": "#000000",
           "highlight_text": "#9aa791",
           "color_main_bg": "#c4baac",
@@ -373,7 +373,7 @@
           "secondary_button_label": "#222222",
           "button_hover": "#9aa791",
           "button_label_hover": "#ffffff",
-          "form_field": "#DED8C8",
+          "form_field": "#ded8c8",
           "form_field_label": "#222222",
           "price_regular": "#222222",
           "tooltip": "#9aa791",
