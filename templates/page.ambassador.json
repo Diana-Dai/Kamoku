@@ -172,10 +172,10 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Tattoo Artists</h3><p>Masters of the craft who prioritize client longevity and skin health above all else.</p><ul><li>—   Personal discount code for followers</li><li>—   Commission on referred sales</li><li>—   Co-created content opportunities</li><li>—   Early access to new formulations</li><li>—   Artist feature on KAMOKU channels</li></ul><p><em>Open to artists 5k+ following<br/><br/></em></p>",
+            "text": "<h3>Tattoo Artists</h3><p>Masters of the craft who prioritize client longevity and skin health above all else.</p><ul><li>—   Personal discount code for followers</li><li>—   Commission on referred sales</li><li>—   Co-created content opportunities</li><li>—   Early access to new formulations</li><li>—   Artist feature on KAMOKU channels</li></ul><p><em>*Open to artists 5k+ following<br/></em></p>",
             "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "Apply now",
+            "button_link": "#contact-form",
             "button_style": "btn--underline"
           }
         },
@@ -187,10 +187,10 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Studios</h3><p>Curated spaces that offer a premium experience from the first needle to the final healed result.</p><ul><li>— Exclusive studio pricing</li><li>— Dedicated account support</li><li>— Custom product bundles</li><li>— Priority restocking</li><li>— Marketing materials included</li></ul><p></p><p><em>Minimum 3-month commitment</em></p>",
+            "text": "<h3>Studios</h3><p>Curated spaces that offer a premium experience from the first needle to the final healed result.</p><ul><li>— Exclusive studio pricing</li><li>— Dedicated account support</li><li>— Custom product bundles</li><li>— Priority restocking</li><li>— Marketing materials included</li></ul><p></p><p><em>*Minimum 3-month commitment</em></p>",
             "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "Apply now",
+            "button_link": "#contact-form",
             "button_style": "btn--underline"
           }
         },
@@ -202,10 +202,10 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Retail Partner</h3><p>Voice of authority who share knowledge about skin science and the healing journey.</p><ul><li>— Wholesale pricing</li><li>— Flexible order minimums</li><li>— Point of sale materials</li><li>— Product training</li><li>— Seasonal promotions</li></ul><p></p><p><em>Minimum order applies</em></p>",
+            "text": "<h3>Retail Partner</h3><p>Voice of authority who share knowledge about skin science and the healing journey.</p><ul><li>— Wholesale pricing</li><li>— Flexible order minimums</li><li>— Point of sale materials</li><li>— Product training</li><li>— Seasonal promotions</li></ul><p></p><p><em>*Minimum order applies</em></p>",
             "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
+            "button_text": "Apply now",
+            "button_link": "#contact-form",
             "button_style": "btn--underline"
           }
         }
@@ -216,12 +216,12 @@
         "column_9aNXAp"
       ],
       "custom_css": [
-        ".rte {text-align: left;}",
+        ".rte {}",
         "ul {padding: 0; list-style: none; font-size: 1.4rem; opacity: 0.8; padding-top: 1rem;}",
         "ul li {padding: 0.8rem 0;}",
         "p {max-width: 80%;}",
-        "em {opacity: 0.6; margin-top: 3rem; display: inline-block; font-size: 1.2rem;}",
-        ".multicolumn-card__info {padding-left: 1rem;}"
+        "em {opacity: 0.6; margin-top: 1rem; display: inline-block; font-size: 1.2rem;}",
+        ".multicolumn-card__info {padding-left: 1rem; text-align: left;}"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
