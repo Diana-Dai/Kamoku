@@ -485,7 +485,7 @@
           "type": "message",
           "settings": {
             "label": "Tell us about yourself",
-            "placeholder": "Your artistic philosophy and why you want to partner with KAMOKU...",
+            "placeholder": "",
             "hide_label": false
           }
         }
@@ -560,6 +560,45 @@
         "animations": "inherit",
         "enable_bg_zoom_effect": true
       }
+    },
+    "17826987311de885a0": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6581a15_KRfHVW": {
+          "type": "ai_gen_block_6581a15",
+          "settings": {
+            "background_color": "#ebe9e6",
+            "kicker_text": "PARTNERSHIP TYPES",
+            "main_heading": "Find your role\nin the ritual.",
+            "heading_size": 48,
+            "heading_font": "assistant_n4",
+            "kicker_font": "assistant_n4",
+            "column_1_enabled": true,
+            "column_1_accent_color": "#2a2a2a",
+            "column_1_audience_kicker": "FOR TATTOO STUDIOS",
+            "column_1_card_title": "Studio Partner",
+            "column_1_features_list": "Exclusive studio pricing\nDedicated account support\nCustom product bundles\nPriority restocking\nMarketing materials included",
+            "column_1_footer_text": "Minimum 3-month commitment",
+            "column_2_enabled": true,
+            "column_2_accent_color": "#c97a5f",
+            "column_2_audience_kicker": "FOR ARTISTS",
+            "column_2_card_title": "Artist Ambassador",
+            "column_2_features_list": "Commission on sales\nFree product samples\nSocial media features\nExclusive artist events\nEarly access to new products",
+            "column_2_footer_text": "Application required",
+            "column_3_enabled": true,
+            "column_3_accent_color": "#2a2a2a",
+            "column_3_audience_kicker": "FOR RETAILERS",
+            "column_3_card_title": "Retail Partner",
+            "column_3_features_list": "Wholesale pricing\nFlexible order minimums\nPoint of sale materials\nProduct training\nSeasonal promotions",
+            "column_3_footer_text": "Business verification needed"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6581a15_KRfHVW"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -571,6 +610,7 @@
     "multicolumn_q6mtEx",
     "image_with_text_U94iNN",
     "contact_form_twecMr",
-    "hero_7JnnkM"
+    "hero_7JnnkM",
+    "17826987311de885a0"
   ]
 }
