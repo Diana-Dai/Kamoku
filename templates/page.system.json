@@ -925,7 +925,7 @@
         "165422938904a7f60d-0": {
           "type": "heading",
           "settings": {
-            "heading": "\"Recovery isn't fasterwhen forced.<em>It's better when respected.</em>\"",
+            "heading": "\"Recovery isn't fasterwhen forced. It's better when respected.\"",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
@@ -948,8 +948,8 @@
         "container": "container",
         "color_schema": "background-2",
         "text_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
+        "padding_top": 200,
+        "padding_bottom": 200,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
