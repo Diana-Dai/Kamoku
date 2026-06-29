@@ -172,7 +172,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Tattoo Artists</h3><p>Masters of the craft who prioritize client longevity and skin health above all else.</p>",
+            "text": "<h3>Tattoo Artists</h3><p>Masters of the craft who prioritize client longevity and skin health above all else.</p><ul><li>—   Personal discount code for followers</li><li>—   Commission on referred sales</li><li>—   Co-created content opportunities</li><li>—   Early access to new formulations</li><li>—   Artist feature on KAMOKU channels</li></ul><p><em>Open to artists 5k+ following<br/><br/></em></p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -187,7 +187,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Studios</h3><p>Curated spaces that offer a premium experience from the first needle to the final healed result.</p>",
+            "text": "<h3>Studios</h3><p>Curated spaces that offer a premium experience from the first needle to the final healed result.</p><ul><li>— Exclusive studio pricing</li><li>— Dedicated account support</li><li>— Custom product bundles</li><li>— Priority restocking</li><li>— Marketing materials included</li></ul><p></p><p><em>Minimum 3-month commitment</em></p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -202,7 +202,7 @@
             "image_link": "",
             "title": "",
             "heading_size": "h3",
-            "text": "<h3>Educators & Creators</h3><p>Voice of authority who share knowledge about skin science and the healing journey.</p>",
+            "text": "<h3>Retail Partner</h3><p>Voice of authority who share knowledge about skin science and the healing journey.</p><ul><li>— Wholesale pricing</li><li>— Flexible order minimums</li><li>— Point of sale materials</li><li>— Product training</li><li>— Seasonal promotions</li></ul><p></p><p><em>Minimum order applies</em></p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -215,10 +215,18 @@
         "column_3WeMYF",
         "column_9aNXAp"
       ],
+      "custom_css": [
+        ".rte {text-align: left;}",
+        "ul {padding: 0; list-style: none; font-size: 1.4rem; opacity: 0.8; padding-top: 1rem;}",
+        "ul li {padding: 0.5rem 0;}",
+        "p {max-width: 80%;}",
+        "em {opacity: 0.6; margin-top: 3rem; display: inline-block; font-size: 1.2rem;}",
+        ".multicolumn-card__info{padding-left: 1rem;}"
+      ],
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "WHO WE'RE LOOKING FOR",
@@ -226,15 +234,15 @@
         "enable_highlight_text_color": false,
         "heading_size": "h2",
         "heading_color": "",
-        "subheading": "",
+        "subheading": "Partnership Types",
         "description": "",
         "layout": "vertical",
         "text_alignment": "center",
         "image_width": "fullwidth",
         "custom_image_width": 80,
         "columns": 3,
-        "column_gap": "medium",
-        "row_gap": "medium",
+        "column_gap": "extra-large",
+        "row_gap": "large",
         "enable_swipe_mobile": false,
         "column_mobile": "1",
         "padding_top": 60,
@@ -358,6 +366,7 @@
         "column_bkPF3z",
         "column_TCkJ79"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container",
@@ -598,6 +607,7 @@
       "block_order": [
         "ai_gen_block_6581a15_KRfHVW"
       ],
+      "disabled": true,
       "settings": {}
     }
   },
