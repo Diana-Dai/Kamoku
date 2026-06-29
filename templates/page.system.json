@@ -20,7 +20,7 @@
         "1654229094960f6bc7-0": {
           "type": "title",
           "settings": {
-            "title": "One recovery.Three stages.",
+            "title": "One recovery. Three stages.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h-xl",
@@ -102,7 +102,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "background-1",
-        "heading": "Recoveryisn't linear.",
+        "heading": "Recovery isn't linear.",
         "highlight_style": "none",
         "enable_highlight_text_color": true,
         "heading_size": "h-xl",
