@@ -20,7 +20,7 @@
         "title_HfACnA": {
           "type": "title",
           "settings": {
-            "title": "JOIN THE RITUAL",
+            "title": "Built for artists. Offered to studios.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2",
@@ -30,7 +30,7 @@
         "text_qPyepH": {
           "type": "text",
           "settings": {
-            "text": "<p>Partner with KAMOKU to redefine tattoo recovery through clinical rigor and botanical soul.</p>"
+            "text": "<p>Join the network of studios and artists who recommend KAMOKU as the standard of care.</p>"
           }
         },
         "button_DBbpk8": {
@@ -68,19 +68,51 @@
         "enable_bg_zoom_effect": true
       }
     },
-    "image_with_text_pJCFEh": {
-      "type": "image-with-text",
+    "rich_text_8JM8U3": {
+      "type": "rich-text",
       "blocks": {
-        "subheading_Q3iCrJ": {
+        "subheading_TtbXtn": {
           "type": "subheading",
           "settings": {
-            "subheading": "PARTNERSHIP PHILOSOPHY"
+            "subheading": "Why Partner"
           }
         },
-        "heading_x8HMn4": {
+        "heading_W7AhEq": {
           "type": "heading",
           "settings": {
             "heading": "More Than An Affiliate Program",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_TtbXtn",
+        "heading_W7AhEq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_pJCFEh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x8HMn4": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -89,12 +121,11 @@
         "text_Y4LcL7": {
           "type": "text",
           "settings": {
-            "text": "<p>At KAMOKU, we believe the ritual of recovery is as vital as the act of creation. Our partners are visionaries who understand that healing is an art form requiring the highest caliber of materials.</p><p>We invite you to join our laboratory of experts, helping us shape the next evolution of post-tattoo care. This is a collaborative journey focused on education, excellence, and the long-term integrity of skin art.</p>"
+            "text": "<p>01</p><h4>Elevate your aftercare standard</h4><p>Clients who heal well return sooner, refer more, and credit the studio. KAMOKU is the aftercare protocol that reflects the quality of your work.</p><p>02</p><h4>An additional revenue stream</h4><p>Retail KAMOKU products at the counter or bundled into session fees. Trade pricing, white-glove support, and no minimum order requirement for qualifying studios.</p><p>03</p><h4>Co-branded visibility</h4><p>Listed as a KAMOKU Authorised Studio on our website and printed materials. Access to brand assets, imagery, and educational content for your channels.</p><p>04</p><h4>Clinical confidence</h4><p>Every formulation is dermatologist-tested, fragrance-free, and engineered for micro-wounded skin. Recommend without reservation.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_Q3iCrJ",
         "heading_x8HMn4",
         "text_Y4LcL7"
       ],
@@ -513,7 +544,7 @@
         "content_in_container": false,
         "content_position": "center",
         "text_alignment": "center",
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "hero_height_mobile": "large",
         "content_position_mobile": "center",
         "show_text_below": true,
@@ -528,6 +559,7 @@
   "order": [
     "main",
     "hero_JzwbPX",
+    "rich_text_8JM8U3",
     "image_with_text_pJCFEh",
     "multicolumn_mhi7bx",
     "multicolumn_q6mtEx",
