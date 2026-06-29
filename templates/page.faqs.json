@@ -48,7 +48,7 @@
             "heading_color": "",
             "description": "<p>Shoot our team an email & we’ll get <br/>back to you ASAP</p>",
             "button_label": "contact us",
-            "button_link": "",
+            "button_link": "shopify://pages/contact",
             "button_style": "btn--white",
             "animations": "inherit"
           }
