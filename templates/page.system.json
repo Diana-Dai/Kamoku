@@ -492,11 +492,11 @@
         "row_aemb84": {
           "type": "row",
           "settings": {
-            "left_day": "Day 1",
+            "left_day": "Day 7",
             "left_title": "Generic Balm",
             "left_description": "<p>Petroleum-based occlusives smother the wound bed, trapping heat and bacteria.</p>",
             "left_accent_color": "#0000003d",
-            "right_day": "Day 1–3",
+            "right_day": "Day 7",
             "right_title": "01 HYDRO GEL",
             "right_description": "<p>Cooling + sealing + sterile barrier</p>",
             "right_accent_color": "#222222"
@@ -505,11 +505,11 @@
         "row_f89NAJ": {
           "type": "row",
           "settings": {
-            "left_day": "Day 1",
+            "left_day": "Day 14",
             "left_title": "Generic Balm",
             "left_description": "<p>Petroleum-based occlusives smother the wound bed, trapping heat and bacteria.</p>",
             "left_accent_color": "#0000003d",
-            "right_day": "Day 1–3",
+            "right_day": "Day 11+",
             "right_title": "01 HYDRO GEL",
             "right_description": "<p>Cooling + sealing + sterile barrier</p>",
             "right_accent_color": "#222222"
