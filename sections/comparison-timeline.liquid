@@ -75,10 +75,6 @@
 
     #{{ section_id }}  .comparison-timeline__eyebrow {
       margin: 0 0 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.28em;
-      font-size: 0.72rem;
-      line-height: 1.2;
     }
 
     #{{ section_id }} .comparison-timeline__heading {
@@ -179,7 +175,7 @@
     {%- if section.settings.eyebrow != blank or section.settings.heading != blank or section.settings.description != blank -%}
       <div class="comparison-timeline__intro">
         {%- if section.settings.eyebrow != blank -%}
-          <p class="comparison-timeline__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+          <p class="comparison-timeline__eyebrow text-subheading">{{ section.settings.eyebrow | escape }}</p>
         {%- endif -%}
         {%- if section.settings.heading != blank -%}
           <h2 class="comparison-timeline__heading  h-xl">{{ section.settings.heading }}</h2>
