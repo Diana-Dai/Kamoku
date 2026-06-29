@@ -2461,7 +2461,7 @@ responsive-image img {
 }
 .f-grid--row-gap-medium {
   --row-gap: 3rem;
-  --row-gap-mobile: 2.4rem;
+  --row-gap-mobile: 4rem;
 }
 .f-grid--row-gap-small {
   --row-gap: 2rem;
