@@ -562,7 +562,7 @@
         "text_color": "#ffffff",
         "hero_height_mobile": "large",
         "content_position_mobile": "center",
-        "show_text_below": true,
+        "show_text_below": false,
         "text_alignment_mobile": "center",
         "custom_id": "",
         "custom_class": "",
