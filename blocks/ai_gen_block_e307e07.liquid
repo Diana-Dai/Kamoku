@@ -259,13 +259,11 @@
   }
 
   .ai-recovery-system-price-{{ ai_gen_id }} {
-    font-size: {{ block.settings.price_size }}px;
     font-weight: 600;
     color: {{ block.settings.text_color }};
   }
 
   .ai-recovery-system-compare-price-{{ ai_gen_id }} {
-    font-size: {{ block.settings.price_size | times: 0.9 }}px;
     color: {{ block.settings.compare_price_color }};
     text-decoration: line-through;
   }
@@ -455,7 +453,7 @@
   }
 {% endstyle %}
 
-<ai-recovery-system-{{ ai_gen_id }} class="ai-recovery-system-{{ ai_gen_id }} f-section-padding" {{ block.shopify_attributes }}>
+<ai-recovery-system-{{ ai_gen_id }} class="ai-recovery-system-{{ ai_gen_id }} " {{ block.shopify_attributes }}>
   <div class="ai-recovery-system-container-{{ ai_gen_id }}">
     <div class="ai-recovery-system-grid-{{ ai_gen_id }}">
       <div class="ai-recovery-system-left-{{ ai_gen_id }}">
@@ -473,9 +471,9 @@
 
         {% if block.settings.bundle_product != blank %}
           <div class="ai-recovery-system-price-area-{{ ai_gen_id }}">
-            <span class="ai-recovery-system-price-{{ ai_gen_id }}">{{ block.settings.bundle_product.price | money }}</span>
+            <span class="ai-recovery-system-price-{{ ai_gen_id }} f-price">{{ block.settings.bundle_product.price | money }}</span>
             {% if block.settings.bundle_product.compare_at_price > block.settings.bundle_product.price %}
-              <span class="ai-recovery-system-compare-price-{{ ai_gen_id }}">{{ block.settings.bundle_product.compare_at_price | money }}</span>
+              <span class="ai-recovery-system-compare-price-{{ ai_gen_id }} f-price">{{ block.settings.bundle_product.compare_at_price | money }}</span>
             {% endif %}
             {% if block.settings.savings_text != blank %}
               <span class="ai-recovery-system-savings-{{ ai_gen_id }}">{{ block.settings.savings_text }}</span>
@@ -1144,16 +1142,7 @@
       "unit": "px",
       "default": 16
     },
-    {
-      "type": "range",
-      "id": "price_size",
-      "label": "Price size",
-      "min": 16,
-      "max": 36,
-      "step": 2,
-      "unit": "px",
-      "default": 24
-    },
+
     {
       "type": "range",
       "id": "button_text_size",
