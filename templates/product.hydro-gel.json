@@ -191,11 +191,21 @@
           "settings": {
             "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
           }
+        },
+        "button_gQaxgF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our story",
+            "button_link": "shopify://pages/about",
+            "button_style": "btn--secondary",
+            "button_size": ""
+          }
         }
       },
       "block_order": [
         "heading_VHk8X9",
-        "text_Hf8RFH"
+        "text_Hf8RFH",
+        "button_gQaxgF"
       ],
       "custom_css": [
         "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
