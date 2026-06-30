@@ -241,7 +241,7 @@
         "image_width": "fullwidth",
         "custom_image_width": 80,
         "columns": 3,
-        "column_gap": "extra-large",
+        "column_gap": "medium",
         "row_gap": "large",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
