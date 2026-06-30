@@ -5798,6 +5798,10 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
   width: 14rem;
   flex: 0 0 auto;
 }
+.f-complementary-products__slide
+.product-card__short_descriptionstage{
+  display:none;
+}
 .product-card__image-wrapper video {
   object-fit: cover;
 }
