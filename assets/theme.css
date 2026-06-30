@@ -7154,3 +7154,6 @@ shopify-account::part(signed-out-avatar) {
   .h1{
     line-height:1.4;
   }
+  .f-article-card__title a{
+    color:inherit;
+  }
