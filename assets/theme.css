@@ -51,7 +51,7 @@
 }
 
 .section__header {
-  /* padding-top: var(--header-padding-bottom); */
+  padding-top: var(--header-padding-bottom);
   padding-bottom: var(--header-padding-bottom);
 }
 .container-full .section__header {
@@ -266,20 +266,20 @@
 }
 
 .f-section-padding {
-  padding-top: 40px !important;
-  padding-bottom:40px !important;
+  padding-top: var(--section-padding-top-mobile, min(6.8rem, var(--section-padding-top, 0) * 0.5));
+  padding-bottom: var(--section-padding-bottom-mobile, min(6.8rem, var(--section-padding-bottom, 0) * 0.5));
 }
 
 @media screen and (min-width: 768px) {
   .f-section-padding {
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
+    padding-top: calc(var(--section-padding-top, 0) * 0.75);
+    padding-bottom: calc(var(--section-padding-bottom, 0) * 0.75);
   }
 }
 @media screen and (min-width: 1024px) {
   .f-section-padding {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    padding-top: var(--section-padding-top, 0);
+    padding-bottom: var(--section-padding-bottom, 0);
   }
 }
 .text-current {
@@ -5085,9 +5085,9 @@ shopify-accelerated-checkout-cart {
   font-size: var(--font-h3-size);
   margin-top: 10px;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
 .f-price {
-    font-size: 1.7rem;
+
 }
 }
 .f-price__badges {
@@ -5293,9 +5293,8 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
 }
 
 .breadcrumbs {
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   line-height: 2.4rem;
-  font-size:1.2rem;
 }
 @media (min-width: 768px) {
   .breadcrumbs {
@@ -5755,7 +5754,7 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
 }
 .product-card--list .product-card__wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   overflow: visible;
 }
 .product-card__wrapper.f-image-hover-effect__zoom responsive-image {
@@ -5796,7 +5795,7 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
   border-radius: 0;
 }
 .product-card--list .product-card__image-wrapper {
-  width: 12rem;
+  width: 8rem;
   flex: 0 0 auto;
 }
 .product-card__image-wrapper video {
@@ -7159,8 +7158,4 @@ shopify-account::part(signed-out-avatar) {
   }
   .h1{
     line-height:1.4;
-  }
-
-  .product-card__short_descriptionstage{
-    display:none;
   }
