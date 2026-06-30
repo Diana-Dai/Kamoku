@@ -266,20 +266,20 @@
 }
 
 .f-section-padding {
-  padding-top: var(--section-padding-top-mobile, min(6.8rem, var(--section-padding-top, 0) * 0.75));
-  padding-bottom: var(--section-padding-bottom-mobile, min(6.8rem, var(--section-padding-bottom, 0) * 0.75));
+  padding-top: 40px !important;
+  padding-bottom:40px !important;
 }
 
 @media screen and (min-width: 768px) {
   .f-section-padding {
-    padding-top: calc(var(--section-padding-top, 0) * 0.75);
-    padding-bottom: calc(var(--section-padding-bottom, 0) * 0.75);
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
   }
 }
 @media screen and (min-width: 1024px) {
   .f-section-padding {
-    padding-top: var(--section-padding-top, 0);
-    padding-bottom: var(--section-padding-bottom, 0);
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
   }
 }
 .text-current {
