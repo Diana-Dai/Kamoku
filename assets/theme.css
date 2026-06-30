@@ -51,7 +51,7 @@
 }
 
 .section__header {
-  padding-top: var(--header-padding-bottom);
+  /* padding-top: var(--header-padding-bottom); */
   padding-bottom: var(--header-padding-bottom);
 }
 .container-full .section__header {
