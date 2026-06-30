@@ -1265,7 +1265,7 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
   border-radius: 0;
 }
 .product-card--list .product-card__image-wrapper {
-  width: 8rem;
+  width: 12rem;
   flex: 0 0 auto;
 }
 .product-card__image-wrapper video {
