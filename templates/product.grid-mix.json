@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -470,7 +479,7 @@
         "description": "",
         "design": "unbalanced",
         "card_color_schema": "scheme-6",
-        "stars_color": "#222222",
+        "stars_color": "#444444",
         "columns": 4,
         "column_gap": "medium",
         "enable_slider": true,
