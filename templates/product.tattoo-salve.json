@@ -191,11 +191,21 @@
           "settings": {
             "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
           }
+        },
+        "button_dbgx7E": {
+          "type": "button",
+          "settings": {
+            "button_label": "Our story",
+            "button_link": "shopify://pages/about",
+            "button_style": "btn--secondary",
+            "button_size": ""
+          }
         }
       },
       "block_order": [
         "heading_VHk8X9",
-        "text_Hf8RFH"
+        "text_Hf8RFH",
+        "button_dbgx7E"
       ],
       "custom_css": [
         "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
@@ -364,7 +374,7 @@
         "columns": 3,
         "column_gap": "medium",
         "row_gap": "medium",
-        "enable_swipe_mobile": false,
+        "enable_swipe_mobile": true,
         "column_mobile": "1",
         "padding_top": 100,
         "padding_bottom": 100,
@@ -409,7 +419,8 @@
         "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
         "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
         ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
-        "h2 {padding: 4rem 0;}"
+        "h2 {padding: 4rem 0;}",
+        "@media (max-width: 767px) {ul {gap: 10px; align-items: center; justify-content: center; } ul li {padding: 0.5rem 1rem; font-size: 1rem; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -741,7 +752,7 @@
             "button_link": "",
             "button_style": "btn--primary",
             "width": "50%",
-            "mobile_color_scheme": "",
+            "mobile_color_scheme": "accent",
             "mobile_padding_left": 0,
             "mobile_padding_right": 0,
             "block_custom_class": "",
