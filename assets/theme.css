@@ -4750,11 +4750,13 @@ button,
   border: none;
 }
 .btn--underline, .btn--link {
-  position: relative;
-  padding: 2px 0 !important;
-  border: none;
-  height: auto !important;
-  line-height: 2.2rem;
+    position: relative;
+    padding: 2px 0 !important;
+    border: none;
+    height: auto !important;
+    line-height: 2.2rem;
+    text-transform: initial;
+    font-size: 1.4rem;
 }
 .btn--underline:after, .btn--link:after {
   content: "";
