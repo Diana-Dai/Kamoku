@@ -132,7 +132,7 @@
       ],
       "custom_css": [
         "h4 {list-style: none; padding-left: 0;}",
-        "em {padding-top: 3rem; display: inline-block;}",
+        " @media (min-width: 768px) {em {padding-top: 3rem; display: inline-block;}}",
         "h4 + p {padding-bottom: 2rem; border-bottom: 1px solid #aa9f90;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
