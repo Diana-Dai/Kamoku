@@ -5754,7 +5754,7 @@ details[open]:not(.parent-group) > summary > [data-collapsible-icon] svg:first-c
 }
 .product-card--list .product-card__wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   overflow: visible;
 }
 .product-card__wrapper.f-image-hover-effect__zoom responsive-image {
