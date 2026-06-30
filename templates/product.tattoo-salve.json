@@ -974,7 +974,7 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "color_schema": "accent",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "On Instagram",
