@@ -11,6 +11,7 @@
   "sections": {
     "breadcrumb_yHLVj3": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
         "brc_container": "container",
         "brc_text_alignment": "center",
