@@ -1303,6 +1303,7 @@ product-modal .f-modal__content {
   display: flex;
   flex-flow: column;
   padding-inline-end: 5rem;
+  position:relative;
 }
 .f-complementary-products .product-card .product-card__info .f-price {
   flex: 1;
