@@ -49,7 +49,7 @@
         "content_position": "center",
         "text_alignment": "center",
         "text_color": "#ffffff",
-        "hero_height_mobile": "adapt",
+        "hero_height_mobile": "large",
         "content_position_mobile": "center",
         "show_text_below": false,
         "text_alignment_mobile": "center",
