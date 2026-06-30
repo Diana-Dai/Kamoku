@@ -7159,3 +7159,7 @@ shopify-account::part(signed-out-avatar) {
   .h1{
     line-height:1.4;
   }
+
+  .product-card__short_descriptionstage{
+    display:none;
+  }
