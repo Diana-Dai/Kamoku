@@ -126,7 +126,7 @@
         "button_label": "submit now",
         "button_style": "btn--primary",
         "padding_top": 80,
-        "padding_bottom": 100,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
