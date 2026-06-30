@@ -169,7 +169,7 @@
         "row_gap": "medium",
         "enable_product_count": false,
         "enable_filtering": false,
-        "enable_sorting": true,
+        "enable_sorting": false,
         "sidebar_position": "drawer",
         "group_collapsible": true,
         "default_state_collapsible": "expanded",
