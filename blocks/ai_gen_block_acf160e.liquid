@@ -114,7 +114,6 @@
     width: 100%;
     height: 1px;
     background-color: {{ block.settings.divider_color }};
-    margin: {{ block.settings.divider_spacing }}px 0;
   }
 
   .ai-luxury-product__products-{{ ai_gen_id }} {
@@ -890,16 +889,6 @@
       "id": "divider_color",
       "label": "Divider",
       "default": "#e6e4e2"
-    },
-    {
-      "type": "range",
-      "id": "divider_spacing",
-      "label": "Divider spacing",
-      "min": 0,
-      "max": 40,
-      "step": 2,
-      "unit": "px",
-      "default": 0
     },
     {
       "type": "color",
