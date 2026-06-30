@@ -80,15 +80,6 @@
     gap: {{ block.settings.content_spacing }}px;
   }
 
-  .ai-luxury-product__heading-{{ ai_gen_id }} {
-    font-family: {{ block.settings.heading_font.family }}, {{ block.settings.heading_font.fallback_families }};
-    font-weight: {{ block.settings.heading_font.weight }};
-    font-size: {{ block.settings.heading_size }}px;
-    line-height: 1.2;
-    color: {{ block.settings.heading_color }};
-    margin: 0;
-    letter-spacing: {{ block.settings.heading_letter_spacing }}px;
-  }
 
   .ai-luxury-product__description-{{ ai_gen_id }} {
     font-size: {{ block.settings.description_size }}px;
@@ -253,9 +244,6 @@
       gap: 40px;
     }
 
-    .ai-luxury-product__heading-{{ ai_gen_id }} {
-      font-size: {{ block.settings.heading_size | times: 0.75 }}px;
-    }
 
     .ai-luxury-product__content-{{ ai_gen_id }} {
       padding: 20px 0;
@@ -295,7 +283,7 @@
 
       <div class="ai-luxury-product__content-{{ ai_gen_id }}">
         {% if block.settings.heading != blank %}
-          <h2 class="ai-luxury-product__heading-{{ ai_gen_id }}">
+          <h2 class="">
             {{ block.settings.heading }}
           </h2>
         {% endif %}
