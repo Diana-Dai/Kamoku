@@ -5085,6 +5085,11 @@ shopify-accelerated-checkout-cart {
   font-size: var(--font-h3-size);
   margin-top: 10px;
 }
+@media (max-width: 767px) {
+.f-price {
+    font-size: 1.7rem;
+}
+}
 .f-price__badges {
   align-items: center;
   display: none;
