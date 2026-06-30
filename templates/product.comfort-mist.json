@@ -419,7 +419,8 @@
         "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
         "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
         ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
-        "h2 {padding: 4rem 0;}"
+        "h2 {padding: 4rem 0;}",
+        "@media (max-width: 767px) {ul {gap: 10px; align-items: center; justify-content: center; } ul li {padding: 0.5rem 1rem; font-size: 1rem; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -751,7 +752,7 @@
             "button_link": "",
             "button_style": "btn--primary",
             "width": "50%",
-            "mobile_color_scheme": "",
+            "mobile_color_scheme": "accent",
             "mobile_padding_left": 0,
             "mobile_padding_right": 0,
             "block_custom_class": "",
