@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb_yHLVj3": {
@@ -15,30 +24,35 @@
         "featured_collection_KWek3y": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Masks"
           }
         },
         "featured_collection_H9bhaV": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Serums"
           }
         },
         "featured_collection_cpFWDA": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Hands & Body"
           }
         },
         "featured_collection_K7WBNW": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Cleansers"
           }
         },
         "featured_collection_9pRWgf": {
           "type": "featured_collection",
           "settings": {
+            "collection": "",
             "title": "Toners"
           }
         }
@@ -50,6 +64,7 @@
         "featured_collection_K7WBNW",
         "featured_collection_9pRWgf"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -100,15 +115,21 @@
       "blocks": {
         "2643b661-c797-4a19-9705-c36d32909844": {
           "type": "banner",
-          "settings": {}
+          "settings": {
+            "collection": ""
+          }
         },
         "5d532fbb-fa1b-4736-877b-efa6865180df": {
           "type": "banner",
-          "settings": {}
+          "settings": {
+            "collection": ""
+          }
         },
         "banner_97XMtr": {
           "type": "banner",
-          "settings": {}
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
@@ -116,16 +137,17 @@
         "5d532fbb-fa1b-4736-877b-efa6865180df",
         "banner_97XMtr"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
         "color_schema": "background-1",
-        "image_height": "medium",
         "text_alignment": "center",
         "heading_size": "h2",
         "show_breadcrumb": false,
         "show_desc": true,
         "show_collection_image": false,
+        "image_height": "medium",
         "image_position": "use_image_as_background",
         "image_overlay_opacity": 0,
         "padding_top": 0,
@@ -145,8 +167,8 @@
         "columns": 3,
         "column_gap": "medium",
         "row_gap": "medium",
-        "enable_product_count": true,
-        "enable_filtering": true,
+        "enable_product_count": false,
+        "enable_filtering": false,
         "enable_sorting": true,
         "sidebar_position": "drawer",
         "group_collapsible": true,
