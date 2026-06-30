@@ -104,7 +104,7 @@
             "hide_label": true,
             "form_width": 420,
             "width": 25,
-            "open_default_collapsible_tab": false,
+            "open_default_collapsible_tab": true,
             "show_divider": false
           }
         }
