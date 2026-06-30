@@ -735,7 +735,7 @@
         "text_yzDt4M": {
           "type": "text",
           "settings": {
-            "color_scheme": "accent",
+            "color_scheme": "background-2",
             "title": "<em>92%</em> Recovery Acceleration",
             "highlight_style": "none",
             "enable_highlight_text_color": true,
@@ -752,7 +752,7 @@
             "button_link": "",
             "button_style": "btn--primary",
             "width": "50%",
-            "mobile_color_scheme": "accent",
+            "mobile_color_scheme": "background-2",
             "mobile_padding_left": 0,
             "mobile_padding_right": 0,
             "block_custom_class": "",
@@ -770,7 +770,7 @@
       ],
       "settings": {
         "container": "container",
-        "color_schema": "accent",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "",
