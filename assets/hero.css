@@ -32,7 +32,7 @@
     --hero-height: 36rem;
   }
   .f-hero-mobile--large {
-    --hero-height: 42rem;
+    --hero-height: 100vh;
   }
   .f-hero-mobile--extra-large {
     --hero-height: 66rem;
