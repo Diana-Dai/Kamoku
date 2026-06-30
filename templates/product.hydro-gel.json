@@ -194,6 +194,7 @@
         },
         "button_gQaxgF": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Our story",
             "button_link": "shopify://pages/about",
@@ -206,10 +207,6 @@
         "heading_VHk8X9",
         "text_Hf8RFH",
         "button_gQaxgF"
-      ],
-      "custom_css": [
-        "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
-        "p {max-width: 500px; margin: 0 auto; opacity: 0.7;}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -311,7 +308,7 @@
             "image_link": "",
             "title": "Mānuka",
             "heading_size": "h3",
-            "text": "<h4>Botanical resilience from Aotearoa.</h4><p>Rich in naturally occurring aromatic compounds, Mānuka helps support a balanced skin environment while comforting stressed, freshly tattooed skin.</p>",
+            "text": "<h6>Botanical resilience from Aotearoa.</h6><p>Rich in naturally occurring aromatic compounds, Mānuka helps support a balanced skin environment while comforting stressed, freshly tattooed skin.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -326,7 +323,7 @@
             "image_link": "",
             "title": "Kiwi Seed Oil",
             "heading_size": "h3",
-            "text": "<h4>Omega-rich skin support.</h4><p>Naturally rich in essential fatty acids, Kiwi Seed Oil helps replenish moisture and support the skin barrier without adding a heavy finish.</p>",
+            "text": "<h6>Omega-rich skin support.</h6><p>Naturally rich in essential fatty acids, Kiwi Seed Oil helps replenish moisture and support the skin barrier without adding a heavy finish.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -341,7 +338,7 @@
             "image_link": "",
             "title": "Blue Cypress",
             "heading_size": "h3",
-            "text": "<h4>Calm, cooling, and skin-conditioning.</h4><p>Known for its naturally calming profile, Blue Cypress helps comfort stressed skin and support a smoother, more balanced recovery feel.</p>",
+            "text": "<h6>Calm, cooling, and skin-conditioning.</h6><p>Known for its naturally calming profile, Blue Cypress helps comfort stressed skin and support a smoother, more balanced recovery feel.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -742,7 +739,7 @@
             "heading_size": "h-xl",
             "heading_color": "#212121",
             "subheading": "Proven Recovery",
-            "text": "<p>Our proprietary lipid complex replicates the skin's natural barrier functions, reducing 'The Itch' phase and preventing scab formation that leads to pigment dropout.</p><p></p><p></p><ul><li><h6><strong>Pigment Retention    </strong>+14%</h6></li><li><h6><strong>Inflammation Reduction    </strong>4 Hours</h6></li></ul>",
+            "text": "<p>Our proprietary lipid complex replicates the skin's natural barrier functions, reducing 'The Itch' phase and preventing scab formation that leads to pigment dropout.</p><p></p><p></p><ul><li><h6>Pigment Retention    +14%</h6></li><li><h6>Inflammation Reduction<strong>    </strong>4 Hours</h6></li></ul>",
             "alignment": "center",
             "align_text": "left",
             "padding_left": 100,
@@ -991,7 +988,7 @@
         "columns": 4,
         "column_gap": "double-extra-small",
         "layout": "metro",
-        "metro_item_color_schema": "scheme-9",
+        "metro_item_color_schema": "accent",
         "enable_slider": false,
         "show_nav": false,
         "show_dots": false,
