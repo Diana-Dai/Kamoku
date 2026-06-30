@@ -282,9 +282,12 @@
  .ai-recovery-system-{{ ai_gen_id }} .btn.btn--primary {
     background-color: {{ block.settings.button_bg_color }} !important;
     color: {{ block.settings.button_text_color }};
-    width:100%;
   }
-
+  @media screen and (max-width: 989px) {
+ .ai-recovery-system-{{ ai_gen_id }} .btn.btn--primary {
+    width:100%;
+ }
+  }
   .ai-recovery-system-shipping-{{ ai_gen_id }} {
     font-size: 14px;
     color: {{ block.settings.shipping_text_color }};
