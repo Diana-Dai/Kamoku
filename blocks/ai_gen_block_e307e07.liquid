@@ -207,11 +207,14 @@
     display: block;
     width: 100%;
     background-color: {{ block.settings.background_color }};
+    padding-top:80px;
+    padding-bottom:80px;
   }
 
   @media (max-width: 767px) {
   .ai-recovery-system-{{ ai_gen_id }} {
     padding-top:40px;
+    padding-bottom:40px;
   }
 }
   .ai-recovery-system-{{ ai_gen_id }} .mega-subtitle{
@@ -953,26 +956,7 @@
       "type": "header",
       "content": "Layout"
     },
-    {
-      "type": "range",
-      "id": "section_padding_top",
-      "label": "Top padding",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "unit": "px",
-      "default": 60
-    },
-    {
-      "type": "range",
-      "id": "section_padding_bottom",
-      "label": "Bottom padding",
-      "min": 0,
-      "max": 100,
-      "step": 5,
-      "unit": "px",
-      "default": 60
-    },
+
     {
       "type": "range",
       "id": "benefits_padding",
