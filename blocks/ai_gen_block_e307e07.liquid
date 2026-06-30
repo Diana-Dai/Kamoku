@@ -446,8 +446,20 @@
     .ai-recovery-system-benefits-grid-{{ ai_gen_id }} {
       grid-template-columns: 1fr;
       gap: 24px;
+      animation: scrollMarquee 10s linear infinite;
     }
+
   }
+  /* The Marquee Animation */
+    @keyframes scrollMarquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        /* Translates by exactly half the track width */
+        transform: translateX(-50%);
+      }
+    }
   .ai-recovery-system-{{ ai_gen_id }} .underline{
       font-size: 1.2rem;
     text-decoration: underline;
