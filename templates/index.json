@@ -9,6 +9,105 @@
  */
 {
   "sections": {
+    "scrolling_promotion_mViiNk": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_B9WDwV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Fast Recovery",
+            "font_family": "heading",
+            "text_size": 20,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_CNCh6R": {
+          "type": "announcement",
+          "settings": {
+            "text": "Ink Protection",
+            "font_family": "heading",
+            "text_size": 20,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_wprMDV": {
+          "type": "announcement",
+          "settings": {
+            "text": "Sensitive Skin Safe",
+            "font_family": "heading",
+            "text_size": 20,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_ckFVJ9": {
+          "type": "announcement",
+          "settings": {
+            "text": "Plant-Based",
+            "font_family": "heading",
+            "text_size": 20,
+            "text_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "announcement_B9WDwV",
+        "announcement_CNCh6R",
+        "announcement_wprMDV",
+        "announcement_ckFVJ9"
+      ],
+      "custom_css": [
+        ".f-promotion__text {text-transform: uppercase; letter-spacing: 4%; font-size: 1.5rem;}"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "scheme-5",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "alignment": "center",
+        "direction": "left",
+        "pause_on_hover": true,
+        "speed": 0.5,
+        "item_gap": 50,
+        "item_gap_mobile": 30,
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "use_custom_mobile_padding": false,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
     "featured_collection_tRzJEy": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.name",
@@ -824,6 +923,7 @@
     }
   },
   "order": [
+    "scrolling_promotion_mViiNk",
     "featured_collection_tRzJEy",
     "collection_tabs_X9GTqT",
     "multicolumn_CzPVAw",
