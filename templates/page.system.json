@@ -98,6 +98,7 @@
         "collection_WPJMBT",
         "collection_BUpqi8"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container-full",
@@ -524,7 +525,7 @@
       "name": "Comparison timeline",
       "settings": {
         "container": "container",
-        "color_schema": "background-2",
+        "color_schema": "background-1",
         "eyebrow": "The Case",
         "heading": "Why one cream is never enough.",
         "heading_size": "h2",
@@ -888,6 +889,7 @@
         "column_Qrwc4r",
         "column_pRyBER"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container",
@@ -1015,7 +1017,6 @@
             "text_color": "#444444",
             "icon_color": "#9aa791",
             "divider_color": "#aa9f90",
-            "divider_spacing": 20,
             "button_bg_color": "#8b8c75",
             "button_text_color": "#ffffff",
             "button_hover_bg": "#9aa791",
