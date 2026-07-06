@@ -7160,6 +7160,7 @@ shopify-account::part(signed-out-avatar) {
     color:inherit;
   }
 
+  a,
   .product-card__link{
     pointer-events:none;
   }
