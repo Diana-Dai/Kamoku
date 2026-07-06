@@ -7160,7 +7160,7 @@ shopify-account::part(signed-out-avatar) {
     color:inherit;
   }
 
-  a.f-site-nav__link,
+  a[href="/collections/best-sellers"],
   .product-card__link{
     pointer-events:none;
   }
