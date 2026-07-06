@@ -7159,3 +7159,7 @@ shopify-account::part(signed-out-avatar) {
   .f-article-card__title a{
     color:inherit;
   }
+
+  .product-card__link{
+    pointer-events:none;
+  }
