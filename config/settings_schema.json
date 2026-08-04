@@ -1549,6 +1549,12 @@
         "id": "social_whatsapp_link",
         "label": "t:settings_schema.social_media.settings.social_whatsapp_link.label",
         "info": "t:settings_schema.social_media.settings.social_whatsapp_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_amazon_link",
+        "label": "Amazon",
+        "info": "Amazon"
       }
     ]
   },
