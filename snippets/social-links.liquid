@@ -131,4 +131,15 @@
       </a>
     </li>
   {%- endif -%}
+    {%- if settings.social_amazon_link != blank -%}
+    <li class="social-links__link">
+      <a
+        href="{{ settings['social_amazon_link'] }}"
+        title="amazon"
+        aria-label="Amazon"
+      >
+        {% render 'icon-amazon', size: icon_size %}
+      </a>
+    </li>
+  {%- endif -%}
 </ul>
