@@ -123,10 +123,11 @@
       ],
       "settings": {
         "color_schema": "inverse",
-        "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_03_05_48_PM.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_03_17_20_PM.png",
+        "image_mobile": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_03_09_58_PM.png",
         "image_overlay_opacity": 0,
         "animations": "inherit",
-        "enable_bg_zoom_effect": true
+        "enable_bg_zoom_effect": false
       }
     }
   },
