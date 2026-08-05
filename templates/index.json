@@ -393,6 +393,7 @@
             "grid_gap": 20,
             "content_padding": 20,
             "content_spacing": 24,
+            "main_image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_05_25_PM.png",
             "image_aspect_ratio": "4 / 5",
             "image_border_radius": 0,
             "heading": "<p>The Complete Healing System</p>",
