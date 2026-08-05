@@ -76,7 +76,7 @@
       {%- assign motion_delay = motion_delay | plus: 50 -%}
     {%- endif -%}
     {%- if section.blocks.size > 0 -%}
-      <div class="banner-logo__content-wrapper absolute inset-full flex flex">
+      <div class="banner-logo__content-wrapper absolute inset-full flex flex justify-center items-center">
         <div class="f-text-blocks text-center">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
