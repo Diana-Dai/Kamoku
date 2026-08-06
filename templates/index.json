@@ -330,6 +330,21 @@
             "button_style": "btn--underline"
           }
         },
+        "column_fxYEKT": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/164.png",
+            "image_link": "",
+            "title": "Mānuka oil",
+            "heading_size": "h5",
+            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
         "column_AkTkep": {
           "type": "column",
           "settings": {
@@ -360,21 +375,6 @@
             "button_style": "btn--underline"
           }
         },
-        "column_fxYEKT": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/164.png",
-            "image_link": "",
-            "title": "Mānuka oil",
-            "heading_size": "h5",
-            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
         "column_Dnxxti": {
           "type": "column",
           "settings": {
@@ -394,9 +394,9 @@
       "block_order": [
         "column_3GaEmp",
         "column_AmTjEM",
+        "column_fxYEKT",
         "column_AkTkep",
         "column_VqHd7A",
-        "column_fxYEKT",
         "column_Dnxxti"
       ],
       "name": "t:sections.multicolumn.name",
@@ -441,7 +441,7 @@
             "grid_gap": 20,
             "content_padding": 20,
             "content_spacing": 24,
-            "main_image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_05_25_PM.png",
+            "main_image": "shopify://shop_images/ChatGPT_Image_Aug_6_2026_12_03_16_PM_4f59711f-8da1-4ec4-b049-b303def10ce4.png",
             "image_aspect_ratio": "4 / 5",
             "image_border_radius": 0,
             "heading": "<p>The Complete Healing System</p>",
