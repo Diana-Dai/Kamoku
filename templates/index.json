@@ -304,11 +304,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_May_26_2026_04_52_02_PM.png",
+            "image": "shopify://shop_images/161.png",
             "image_link": "",
-            "title": "",
-            "heading_size": "h6",
-            "text": "<h4>Mānuka</h4><p>A cornerstone of Polynesia skincare, valued for its ability to support stressed and recovering skin.</p>",
+            "title": "Mānuka honey",
+            "heading_size": "h5",
+            "text": "<p>Deeply nourishes and helps support the skin's natural healing process.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -319,11 +319,11 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_May_26_2026_04_52_02_PM.png",
+            "image": "shopify://shop_images/170.png",
             "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<h4>Kiwi Seed Oil</h4><p>Rich in essential fatty acids that help replenish moisture and support the skin barrier.</p>",
+            "title": "Kiwi Seed Oil",
+            "heading_size": "h5",
+            "text": "<p>Rich in antioxidants to hydrate, soothe, and protect delicate skin.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -334,11 +334,56 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_May_26_2026_04_52_02_PM.png",
+            "image": "shopify://shop_images/166.png",
             "image_link": "",
-            "title": "",
-            "heading_size": "h3",
-            "text": "<h4>Blue Cypress</h4><p>Known for its calming properties and ability to comfort skin during periods of stress and recovery.</p>",
+            "title": "Blue Cypress",
+            "heading_size": "h5",
+            "text": "<p>Calms irritation while helping reduce redness and discomfort.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_VqHd7A": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/163_2.png",
+            "image_link": "",
+            "title": "Kakadu plum",
+            "heading_size": "h5",
+            "text": "<p>Packed with natural vitamin C to brighten and support healthy-looking skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_fxYEKT": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/164.png",
+            "image_link": "",
+            "title": "Mānuka oil",
+            "heading_size": "h5",
+            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Dnxxti": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/160.png",
+            "image_link": "",
+            "title": "Kakadu oil",
+            "heading_size": "h5",
+            "text": "<p>Lightweight botanical oil that deeply moisturizes and restores skin balance.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -349,7 +394,10 @@
       "block_order": [
         "column_3GaEmp",
         "column_AmTjEM",
-        "column_AkTkep"
+        "column_AkTkep",
+        "column_VqHd7A",
+        "column_fxYEKT",
+        "column_Dnxxti"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -368,8 +416,8 @@
         "text_alignment": "left",
         "image_width": "fullwidth",
         "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "large",
+        "columns": 6,
+        "column_gap": "extra-small",
         "row_gap": "large",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
