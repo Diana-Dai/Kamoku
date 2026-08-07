@@ -198,6 +198,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_14_15_PM.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
