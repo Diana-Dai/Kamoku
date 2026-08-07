@@ -58,7 +58,7 @@
         "content_position": "center",
         "text_alignment": "center",
         "text_color": "#ffffff",
-        "hero_height_mobile": "large",
+        "hero_height_mobile": "medium",
         "content_position_mobile": "center",
         "show_text_below": false,
         "text_alignment_mobile": "center",
@@ -422,6 +422,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_16_33_PM.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
