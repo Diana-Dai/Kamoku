@@ -786,7 +786,7 @@
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
             "bio": "",
-            "show_image": false,
+            "show_image": true,
             "product": ""
           }
         },
@@ -797,7 +797,7 @@
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
             "bio": "",
-            "show_image": false,
+            "show_image": true,
             "product": ""
           }
         }
@@ -949,7 +949,6 @@
         "image_cEjarh",
         "image_Lxaz6J"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container-full",
@@ -1005,7 +1004,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
-        "color_schema": "inverse",
+        "color_schema": "scheme-5",
         "text_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 80,
