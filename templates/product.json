@@ -877,6 +877,7 @@
         "image_hQzAtj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/153.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -885,6 +886,7 @@
         "image_bWKed8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/214.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -893,14 +895,7 @@
         "image_6PmFiW": {
           "type": "image",
           "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_XtaE3H": {
-          "type": "image",
-          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_44_13_PM.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -909,14 +904,16 @@
         "image_qiWqB9": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/130.png",
             "text": "",
             "text_size": "medium",
             "link": ""
           }
         },
-        "image_NGKGkA": {
+        "image_XtaE3H": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_46_21_PM.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -925,6 +922,7 @@
         "image_cEjarh": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/170.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -933,6 +931,16 @@
         "image_Lxaz6J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/161.png",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_NGKGkA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_4_2026_10_48_18_AM.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -943,16 +951,16 @@
         "image_hQzAtj",
         "image_bWKed8",
         "image_6PmFiW",
-        "image_XtaE3H",
         "image_qiWqB9",
-        "image_NGKGkA",
+        "image_XtaE3H",
         "image_cEjarh",
-        "image_Lxaz6J"
+        "image_Lxaz6J",
+        "image_NGKGkA"
       ],
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "color_schema": "accent",
+        "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "On Instagram",
@@ -961,15 +969,15 @@
         "heading_size": "h1",
         "heading_color": "",
         "subheading": "Follow Us",
-        "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
+        "description": "<p>Tag <strong>@kamokuofficial</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
         "button_label": "follow us",
-        "button_link": "",
+        "button_link": "https://www.instagram.com/kamokuofficial?igsh=OGp2bzJyMnpjbjE1&utm_source=qr",
         "button_style": "btn--primary",
         "image_ratio": "adapt",
         "columns": 4,
         "column_gap": "double-extra-small",
         "layout": "metro",
-        "metro_item_color_schema": "scheme-9",
+        "metro_item_color_schema": "background-1",
         "enable_slider": false,
         "show_nav": false,
         "show_dots": false,
