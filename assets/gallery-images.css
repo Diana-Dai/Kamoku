@@ -25,6 +25,9 @@
 .gallery-images__item {
   position: relative;
 }
+.gallery-images__item img{
+  aspect-ratio: 1/1;
+}
 .gallery-images__item-overlay {
   position: absolute;
   z-index: 0;
