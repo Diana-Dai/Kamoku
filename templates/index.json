@@ -883,6 +883,7 @@
         "image_hQzAtj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/153.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -891,6 +892,7 @@
         "image_bWKed8": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/214.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -899,14 +901,7 @@
         "image_6PmFiW": {
           "type": "image",
           "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_XtaE3H": {
-          "type": "image",
-          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_44_13_PM.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -915,14 +910,16 @@
         "image_qiWqB9": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/130.png",
             "text": "",
             "text_size": "medium",
             "link": ""
           }
         },
-        "image_NGKGkA": {
+        "image_XtaE3H": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_5_2026_05_46_21_PM.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -931,6 +928,7 @@
         "image_cEjarh": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/170.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -939,6 +937,16 @@
         "image_Lxaz6J": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/49.png",
+            "text": "",
+            "text_size": "medium",
+            "link": ""
+          }
+        },
+        "image_NGKGkA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/48.png",
             "text": "",
             "text_size": "medium",
             "link": ""
@@ -949,11 +957,11 @@
         "image_hQzAtj",
         "image_bWKed8",
         "image_6PmFiW",
-        "image_XtaE3H",
         "image_qiWqB9",
-        "image_NGKGkA",
+        "image_XtaE3H",
         "image_cEjarh",
-        "image_Lxaz6J"
+        "image_Lxaz6J",
+        "image_NGKGkA"
       ],
       "custom_css": [],
       "settings": {
