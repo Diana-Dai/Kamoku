@@ -441,7 +441,7 @@
             "grid_gap": 20,
             "content_padding": 20,
             "content_spacing": 24,
-            "main_image": "shopify://shop_images/ChatGPT_Image_Aug_6_2026_12_03_16_PM_4f59711f-8da1-4ec4-b049-b303def10ce4.png",
+            "main_image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_09_06_22_AM.png",
             "image_aspect_ratio": "4 / 5",
             "image_border_radius": 0,
             "heading": "<p>The Complete Healing System</p>",
@@ -634,7 +634,7 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/130.png",
+            "background": "shopify://shop_images/209.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -655,7 +655,7 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/5.png",
+            "background": "shopify://shop_images/214.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -676,7 +676,7 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/5.png",
+            "background": "shopify://shop_images/211.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",

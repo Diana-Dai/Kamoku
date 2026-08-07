@@ -65,6 +65,7 @@
         "sticky_header": true,
         "sticky_type": "always",
         "transparent_header": true,
+        "logo": "shopify://shop_images/logo_2.png",
         "logo_transparent": "shopify://shop_images/ChatGPT_Image_Jun_24_2026_12_19_22_PM_3ea91323-81d6-450b-a0c4-3bbe1b2d4ce8.png",
         "logo_width": 105,
         "logo_mobile_width": 86,
