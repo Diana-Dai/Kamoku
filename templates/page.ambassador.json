@@ -51,7 +51,7 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_15_PM.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_39_AM.png",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
@@ -139,7 +139,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/philosophy.png",
+        "image": "shopify://shop_images/130.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -168,7 +168,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/tattoo.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_12_40_PM.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -183,7 +183,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/studios.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_12_48_PM.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -198,7 +198,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/educators.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -422,7 +421,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/unnamed.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -553,7 +551,6 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_59_PM.png",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
