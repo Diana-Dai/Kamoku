@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE {{ product.metafields.custom.stage_ndex.value }}",
+            "text": "STAGE {{ product.metafields.custom.stage_index.value }}",
             "text_style": "subtitle"
           }
         },
@@ -270,8 +270,6 @@
             "benefit_3_description": "Safe and effective for new tattoos.",
             "benefit_4_title": "CONSCIOUS BY DESIGN",
             "benefit_4_description": "Minimal impact. Maximum care.",
-            "section_padding_top": 60,
-            "section_padding_bottom": 60,
             "benefits_padding": 50,
             "background_color": "#8b8c75",
             "eyebrow_color": "#8b8c75",
