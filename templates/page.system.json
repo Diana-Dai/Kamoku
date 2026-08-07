@@ -41,8 +41,8 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_53_PM.png",
-        "image_mobile": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_46_39_PM.png",
+        "image_mobile": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_48_07_PM.png",
         "image_overlay_opacity": 30,
         "hero_height": "adapt",
         "content_in_container": true,
@@ -132,7 +132,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/1_df7223bf-7e6b-4a0d-bc4e-758ee4f60c3d.png",
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_48_35_PM.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -147,7 +147,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/2_d0543f67-5769-407b-a324-361d10e02e42.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -162,7 +161,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/3_f40baf4c-ca9f-47f6-aa55-a06124a2b9fc.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -177,7 +175,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/4.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -312,7 +309,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -382,7 +378,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -452,7 +447,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -813,7 +807,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "background-2",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -842,7 +835,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
             "image_link": "",
             "title": "Mānuka",
             "heading_size": "h3",
@@ -857,7 +849,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Kawakawa_Leaf.png",
             "image_link": "",
             "title": "Kiwi Seed Oil",
             "heading_size": "h3",
@@ -872,7 +863,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Panthenol.png",
             "image_link": "",
             "title": "Blue Cypress",
             "heading_size": "h3",
@@ -970,7 +960,6 @@
             "grid_gap": 20,
             "content_padding": 20,
             "content_spacing": 24,
-            "main_image": "shopify://shop_images/Snipaste_2026-05-27_13-06-24_80782673-bf2f-42ea-8992-59d03efda937.png",
             "image_aspect_ratio": "4 / 5",
             "image_border_radius": 0,
             "heading": "<p>The Complete Healing System</p>",
