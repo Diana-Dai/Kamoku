@@ -41,8 +41,7 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_53_PM.png",
-        "image_mobile": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_23_44_PM.png",
         "image_overlay_opacity": 30,
         "hero_height": "adapt",
         "content_in_container": true,
@@ -86,7 +85,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "background-2",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_25_39_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -174,7 +173,6 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_09_PM.png",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
@@ -218,7 +216,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -247,7 +244,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
             "image_link": "",
             "title": "Manuka",
             "heading_size": "h3",
@@ -262,7 +258,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
             "image_link": "",
             "title": "Kanuka",
             "heading_size": "h3",
@@ -277,7 +272,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
             "image_link": "",
             "title": "Kawakawa",
             "heading_size": "h3",
@@ -355,7 +349,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_10_2026_05_01_56_PM_46abb214-b4a6-462f-9c6a-07c2d3ae79ff.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -423,7 +416,6 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "",
-            "background": "shopify://shop_images/Manuka_Honey_Extract.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -444,7 +436,6 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "",
-            "background": "shopify://shop_images/Panthenol.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -465,7 +456,6 @@
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-1",
-            "background": "shopify://shop_images/Kawakawa_Leaf.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -753,7 +743,6 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/stone-steps-lead-down-to-the-water.jpg",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
@@ -815,7 +804,6 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_12_2026_03_30_15_PM.png",
         "image_overlay_opacity": 40,
         "hero_height": "large",
         "content_in_container": false,
