@@ -319,7 +319,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/170.png",
+            "image": "shopify://shop_images/168.png",
             "image_link": "",
             "title": "Kiwi Seed Oil",
             "heading_size": "h5",
@@ -334,7 +334,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/164.png",
+            "image": "shopify://shop_images/160.png",
             "image_link": "",
             "title": "Mānuka oil",
             "heading_size": "h5",
@@ -379,7 +379,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/160.png",
+            "image": "shopify://shop_images/164.png",
             "image_link": "",
             "title": "Kakadu oil",
             "heading_size": "h5",
@@ -630,32 +630,11 @@
     "image_with_text_slider_KEBzkK": {
       "type": "image-with-text-slider",
       "blocks": {
-        "slide_Kdmiti": {
-          "type": "slide",
-          "settings": {
-            "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/209.png",
-            "content_position": "center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "title": "\"The final, essential step of the tattooing process.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "subheading": "Professional studios",
-            "description": "<p>Master Tattooist, Melbourne</p>",
-            "desc_size": "text-desc-base",
-            "button_text_1": "",
-            "button_link_1": "",
-            "button_style_1": "btn--primary",
-            "button_size_1": ""
-          }
-        },
         "slide_WTXNDb": {
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/214.png",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_39_AM.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -672,11 +651,32 @@
             "button_size_1": ""
           }
         },
+        "slide_Kdmiti": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "background-2",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_25_AM.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "\"The final, essential step of the tattooing process.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "Professional studios",
+            "description": "<p>Master Tattooist, Melbourne</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
         "slide_NVzR7t": {
           "type": "slide",
           "settings": {
             "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/211.png",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_48_AM.png",
             "content_position": "center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
@@ -695,8 +695,8 @@
         }
       },
       "block_order": [
-        "slide_Kdmiti",
         "slide_WTXNDb",
+        "slide_Kdmiti",
         "slide_NVzR7t"
       ],
       "name": "t:sections.image-with-text-slider.name",
