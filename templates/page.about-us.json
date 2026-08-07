@@ -48,7 +48,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
-        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_25_39_PM_71f82b74-ccfc-4589-bf10-13caf8cd2639.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_12_40_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -141,6 +141,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_43_20_PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
