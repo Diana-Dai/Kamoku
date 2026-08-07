@@ -87,7 +87,7 @@
           "settings": {
             "heading": "",
             "heading_size": "h6",
-            "menu": "",
+            "menu": "policies",
             "width": 25,
             "open_default_collapsible_tab": false,
             "show_divider": true
@@ -182,27 +182,28 @@
         "7088e468-bc51-4955-8dee-d6a308bad48d": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Aug_6_2026_12_11_19_PM.png",
             "image_position": "left"
           }
         },
         "popup-0": {
           "type": "heading",
           "settings": {
-            "heading": "Get 10% Off be in the know",
+            "heading": "Get 10% Off Your First Order",
             "text_size": "large"
           }
         },
         "popup-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sexy and sustainable goodies? Sign me up</p>"
+            "text": "<p>Join the Kamoku community and enjoy <strong>10% OFF</strong> your first purchase.</p><p>Be the first to hear about new products, exclusive offers, and tattoo care tips.</p>"
           }
         },
         "popup-2": {
           "type": "form",
           "settings": {
-            "design": "design-2",
-            "button_label": "Get 10% off"
+            "design": "design-1",
+            "button_label": "Unlock My 10% Off"
           }
         },
         "social_PjCJFt": {
@@ -263,6 +264,7 @@
         "age-vefirifer-popup-2",
         "age-vefirifer-popup-3"
       ],
+      "disabled": true,
       "settings": {
         "design_mode": false,
         "enable": false,
