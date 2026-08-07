@@ -208,6 +208,7 @@
         },
         "social_PjCJFt": {
           "type": "social",
+          "disabled": true,
           "settings": {}
         }
       },
