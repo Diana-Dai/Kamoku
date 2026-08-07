@@ -97,7 +97,8 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "image_overlay_opacity": 30,
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_41_14_PM.png",
+        "image_overlay_opacity": 46,
         "hero_height": "adapt",
         "content_in_container": true,
         "content_position": "center",
