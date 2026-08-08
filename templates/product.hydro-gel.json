@@ -12,6 +12,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_gynG9g": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "STAGE {{ product.metafields.custom.stage_index.value }} — Hydro Gel",
+            "text_style": "subtitle"
+          }
+        },
         "badge_8hgTjY": {
           "type": "badge",
           "settings": {}
@@ -36,16 +44,10 @@
             "star_size": 12
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {}
-        },
-        "c3fe57e7-f87d-482d-a723-0b40a6f4ff8d": {
+        "richtext_APTFht": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "text": "<p><em>This is a demonstration store. This product, and its image and text, is placeholder only.</em></p>"
+            "text": "<p>The First Line of Defense for Fresh Ink</p><p>Cooling hydration meets breathable protection in a lightweight hydro gel designed for the earliest stage of tattoo care. Helps keep fresh ink comfortable, protected, and looking its best from day one.</p>"
           }
         },
         "variant_picker": {
@@ -78,6 +80,7 @@
             "icon": "none",
             "heading": "PROFILE",
             "content": "",
+            "liquid": "",
             "page": "",
             "default_open": false
           }
@@ -94,12 +97,12 @@
         "complementary_WGHcVt": {
           "type": "complementary",
           "settings": {
-            "block_heading": "BUY IT WITH",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 4,
-            "products_per_page": 1,
-            "enable_slider": true,
+            "block_heading": "Buy it with",
+            "make_collapsible_row": true,
+            "icon": "none",
+            "product_list_limit": 3,
+            "products_per_page": 2,
+            "enable_slider": false,
             "image_ratio": "adapt",
             "enable_quick_add": true,
             "enable_quick_view": false,
@@ -110,50 +113,43 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "CORE FEATURES",
-            "content": "",
+            "heading": "Description",
+            "content": "<p><strong>FIRST Hydro Gel is your tattoo's first line of defense.</strong> Designed for fresh ink, it delivers cooling hydration to help calm stressed skin and reduce the appearance of redness whileforming a lightweight, breathable barrier that protects without weighing the skin down.</p><p><strong>Skin Feel</strong></p><p>Cooling, lightweight, protective</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Oil, Kiwi Seed Oil, Blue Cypress Oil</p>",
             "liquid": "{{ product.description }}",
             "page": "",
-            "default_open": true
+            "default_open": false
           }
         },
         "44a0cb66-4d76-437d-a088-4170647fb088": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "INGREDIENTS",
-            "content": "<p>Use this accordion to add info such as Ingredients, Features, and Usage.</p>",
+            "heading": "Ingredients",
+            "content": "<p>Canola Oil, Caprylic/Capric Triglyceride, Silica, Zea Mays (Corn) Starch, Helianthus Annuus (Sunflower) Seed Oil, Actinidia Chinensis (Kiwi) Seed Oil, Triglycerides C10–18, Euphorbia Cerifera (Candelilla) Wax, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Cetyl Palmitate, Allantoin, Tocopheryl Acetate, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Callitris Intratropica (Blue Cypress) Wood Oil, Kunzea Ericoides (Kanuka) Leaf Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract</p>",
             "liquid": "",
             "page": "",
             "default_open": false
           }
         },
-        "0eccc6ff-be1a-4dae-b8a8-e7de214e7f57": {
+        "collapsible_tab_8Q3FGx": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "SHIPPING & RETURN",
-            "content": "",
+            "heading": "Testing & Safety",
+            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
-            "page": "product-shipping-return",
+            "page": "",
             "default_open": false
-          }
-        },
-        "efc484d1-1da8-4e34-96ca-b826f0736b94": {
-          "type": "addons",
-          "settings": {
-            "show_share": true,
-            "show_ask_question": true
           }
         }
       },
       "block_order": [
+        "text_gynG9g",
         "badge_8hgTjY",
         "title",
         "price",
         "5d5f2fed-55f0-4ee0-b094-80d275d5d781",
-        "description",
-        "c3fe57e7-f87d-482d-a723-0b40a6f4ff8d",
+        "richtext_APTFht",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -162,168 +158,291 @@
         "complementary_WGHcVt",
         "collapsible_tab_YfYLeV",
         "44a0cb66-4d76-437d-a088-4170647fb088",
-        "0eccc6ff-be1a-4dae-b8a8-e7de214e7f57",
-        "efc484d1-1da8-4e34-96ca-b826f0736b94"
+        "collapsible_tab_8Q3FGx"
       ],
       "custom_css": [],
       "settings": {
         "container": "container",
         "show_breadcrumb": true,
         "enable_sticky_info": true,
-        "media_layout": "grid-mix",
+        "media_layout": "carousel",
         "media_size": "large",
-        "mobile_thumbnails": "show",
+        "mobile_thumbnails": "hide",
         "enable_image_zoom": true,
-        "enable_video_looping": false,
-        "show_featured_media": false
+        "enable_video_looping": true,
+        "show_featured_media": true
       }
     },
-    "scrolling_promotion_EK9Cqx": {
-      "type": "scrolling-promotion",
+    "rich_text_K88amW": {
+      "type": "rich-text",
       "blocks": {
-        "image_6Hzqcm": {
-          "type": "image",
+        "heading_VHk8X9": {
+          "type": "heading",
           "settings": {
-            "image_height": 40,
-            "image_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 8,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 8
+            "heading": "Rooted in Polynesian Culture",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h0",
+            "heading_color": ""
           }
         },
-        "announcement_NxCDJX": {
-          "type": "announcement",
+        "text_Hf8RFH": {
+          "type": "text",
           "settings": {
-            "text": "Organic Ingredients",
-            "font_family": "body",
-            "text_size": 15,
-            "text_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 70,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 50
+            "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
           }
         },
-        "image_zawGRY": {
-          "type": "image",
+        "button_gQaxgF": {
+          "type": "button",
+          "disabled": true,
           "settings": {
-            "image_height": 40,
-            "image_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 8,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 8
-          }
-        },
-        "announcement_iTX9gL": {
-          "type": "announcement",
-          "settings": {
-            "text": "Refresh & Revive",
-            "font_family": "body",
-            "text_size": 15,
-            "text_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 70,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 50
-          }
-        },
-        "image_WLjteK": {
-          "type": "image",
-          "settings": {
-            "image_height": 40,
-            "image_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 8,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 8
-          }
-        },
-        "announcement_qQxqiX": {
-          "type": "announcement",
-          "settings": {
-            "text": "Self-Care Essentials",
-            "font_family": "body",
-            "text_size": 15,
-            "text_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 70,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 50
-          }
-        },
-        "image_jpKk3p": {
-          "type": "image",
-          "settings": {
-            "image_height": 40,
-            "image_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 8,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 8
-          }
-        },
-        "announcement_FYmpUB": {
-          "type": "announcement",
-          "settings": {
-            "text": "Nourish Your Skin",
-            "font_family": "body",
-            "text_size": 15,
-            "text_link": "",
-            "use_custom_spacing": true,
-            "margin_left": 0,
-            "margin_right": 70,
-            "margin_left_mobile": 0,
-            "margin_right_mobile": 50
+            "button_label": "Our story",
+            "button_link": "shopify://pages/about",
+            "button_style": "btn--secondary",
+            "button_size": ""
           }
         }
       },
       "block_order": [
-        "image_6Hzqcm",
-        "announcement_NxCDJX",
-        "image_zawGRY",
-        "announcement_iTX9gL",
-        "image_WLjteK",
-        "announcement_qQxqiX",
-        "image_jpKk3p",
-        "announcement_FYmpUB"
+        "heading_VHk8X9",
+        "text_Hf8RFH",
+        "button_gQaxgF"
       ],
-      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_L8ErTV": {
+      "type": "hero",
+      "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "color_schema": "scheme-7",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_06_22_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "image_with_text_nQJWVP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9eqLyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY IT WORKS",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_RfEgrF": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Breathable Barrier</h5><p>Forms a breathable protective layer that helps shield stressed skin without feeling heavy or greasy.</p><h5>Cooling Hydration</h5><p>Delivers cooling hydration with soothing botanical ingredients that help maintain skin comfort during the earliest stage of recovery.</p><h5>Recovery Support</h5><p>Helps maintain an optimal environment for the skin's natural recovery process while supporting the appearance of fresh, vibrant ink.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9eqLyE",
+        "text_RfEgrF"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 32,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_4ijHwd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YKwe4k": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "image_link": "",
+            "title": "Mānuka",
+            "heading_size": "h3",
+            "text": "<h6>Botanical resilience from Aotearoa.</h6><p>Rich in naturally occurring aromatic compounds, Mānuka helps support a balanced skin environment while comforting stressed, freshly tattooed skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Qrwc4r": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Kawakawa_Leaf.png",
+            "image_link": "",
+            "title": "Kiwi Seed Oil",
+            "heading_size": "h3",
+            "text": "<h6>Omega-rich skin support.</h6><p>Naturally rich in essential fatty acids, Kiwi Seed Oil helps replenish moisture and support the skin barrier without adding a heavy finish.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_pRyBER": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Panthenol.png",
+            "image_link": "",
+            "title": "Blue Cypress",
+            "heading_size": "h3",
+            "text": "<h6>Calm, cooling, and skin-conditioning.</h6><p>Known for its naturally calming profile, Blue Cypress helps comfort stressed skin and support a smoother, more balanced recovery feel.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_YKwe4k",
+        "column_Qrwc4r",
+        "column_pRyBER"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "",
+        "heading": "Nature With Purpose.",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
         "heading_color": "",
         "subheading": "",
-        "description": "",
-        "alignment": "center",
-        "direction": "left",
-        "pause_on_hover": false,
-        "speed": 0.1,
-        "item_gap": 40,
-        "item_gap_mobile": 30,
-        "padding_top": 10,
-        "padding_bottom": 10,
-        "use_custom_mobile_padding": true,
-        "padding_top_mobile": 10,
-        "padding_bottom_mobile": 10,
+        "description": "<p>Every ingredient is selected for a specific role — combining Polynesian-inspired care traditions with modern skin science to support tattooed skin through every stage of recovery.</p>",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 80,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
-        "custom_class": ""
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_8E97jX": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_aiWeLX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tactile Interaction"
+          }
+        },
+        "heading_m7GWaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"A soft hydro-gel texture that melts effortlessly into the skin. Lightweight and breathable, itspreads smoothly to form a comfortable protective layer without feeling greasy, sticky, or heavy.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h3"
+          }
+        },
+        "text_dnyEhA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>BREATHABLE</li><li>COOLING</li><li>NON-GREASY</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aiWeLX",
+        "heading_m7GWaD",
+        "text_dnyEhA"
+      ],
+      "custom_css": [
+        "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
+        "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
+        ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
+        "h2 {padding: 4rem 0;}",
+        "@media (max-width: 767px) {ul {gap: 10px; align-items: center; justify-content: center; } ul li {padding: 0.5rem 1rem; font-size: 1rem; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/tactile.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "multicolumn_eX6pK6": {
@@ -332,10 +451,12 @@
         "column_Kbrb6z": {
           "type": "column",
           "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
             "image_link": "",
-            "title": "Our Recycled Fabric",
-            "heading_size": "h3",
-            "text": "<p>Crafted from recycled materials, our fabric blends sustainability with premium quality.</p>",
+            "title": "",
+            "heading_size": "h4",
+            "text": "<p><em>01</em></p><h5>Fresh Ink</h5><p>Apply to newly tattooed skin to deliver cooling hydration and breathable protection when skin is at its most vulnerable.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -345,10 +466,12 @@
         "column_Ga4FJ3": {
           "type": "column",
           "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
             "image_link": "",
-            "title": "Sustainability",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p>We prioritize eco-friendly practices, using materials and methods that reduce waste.</p>",
+            "text": "<p><em>02</em></p><h5>Days One Through Three</h5><p>Reapply as needed to help maintain comfort, hydration, and a lightweight protective layer over fresh ink.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -358,10 +481,12 @@
         "column_GemAqb": {
           "type": "column",
           "settings": {
+            "show_image": false,
+            "image": "shopify://shop_images/screen.png",
             "image_link": "",
-            "title": "Disruptive Design",
+            "title": "",
             "heading_size": "h3",
-            "text": "<p>Innovation meets style—bold, functional designs that challenge the ordinary and inspire.</p>",
+            "text": "<p><em>03</em></p><h5>Whenever Skin Feels Stressed</h5><p>Use throughout the day to help keep tattooed skin calm, comfortable, and supported.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -377,18 +502,18 @@
       "custom_css": [],
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "large",
-        "section_header_content_spacing": "medium",
-        "heading": "Mindful care, <em>healthier soul</em>",
+        "section_header_content_spacing": "small",
+        "heading": "When to use first",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h-xl",
         "heading_color": "",
-        "subheading": "Balanced Beauty",
-        "description": "<p>We use natural skincare ingredients to nourish, hydrate, and keep <br/>your skin smooth while supporting healthy aging.</p>",
+        "subheading": "",
+        "description": "",
         "layout": "vertical",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "image_width": "fullwidth",
         "custom_image_width": 80,
         "columns": 3,
@@ -396,8 +521,77 @@
         "row_gap": "large",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
-        "padding_top": 80,
-        "padding_bottom": 80,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "collapsible_tabs_3AL9CK": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "content_7w4KrG": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "pH Optimization (5.5)",
+            "content": "<p>Our formula is precisely calibrated to 5.5 pH to match the skin's natural acidic mantle. This environment is crucial for maintaining the skin's barrier function and preventing the growth of harmful bacteria during the healing process.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_7M6cXe": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Trauma-Safe Testing Data",
+            "content": "<p>ISO-10993 compliant for medical device safety in contact with breached skin. Clinical trials confirm zero reactive trauma response in 99.8% of fresh ink applications.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_hCkG8x": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Allergy Screening",
+            "content": "<p>Triple-screened for potential allergens. Free from synthetic fragrances, nickel, parabens, and essential oils that can provoke contact dermatitis in open wounds.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_7w4KrG",
+        "content_7M6cXe",
+        "content_hCkG8x"
+      ],
+      "disabled": true,
+      "name": "Collapsible tabs",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Specifications",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "item_heading_font": "body",
+        "item_heading_size": "h6",
+        "column_gap": "medium",
+        "content_width": "full",
+        "padding_top": 40,
+        "padding_bottom": 40,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -411,49 +605,67 @@
         "testimonial_dkXHLB": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_t94aYa": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_gjAVzh": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_CGEMdm": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_tUweFx": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_6VYtEh": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         }
       },
@@ -468,7 +680,7 @@
       "custom_css": [],
       "settings": {
         "container": "container",
-        "color_schema": "scheme-7",
+        "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "Real People, Real Results",
@@ -478,8 +690,8 @@
         "heading_color": "",
         "description": "",
         "design": "unbalanced",
-        "card_color_schema": "scheme-6",
         "stars_color": "#444444",
+        "card_color_schema": "scheme-6",
         "columns": 4,
         "column_gap": "medium",
         "enable_slider": true,
@@ -487,8 +699,8 @@
         "show_nav": true,
         "autoplay": true,
         "autoplay_timeout": 4,
-        "padding_top": 80,
-        "padding_bottom": 80,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -504,11 +716,14 @@
           "settings": {
             "layout": "horizontal",
             "image_height": "medium",
+            "product": "",
             "width": "50%",
             "before_heading": "Before",
+            "before_image": "shopify://shop_images/before.png",
             "before_color_scheme": "",
             "before_heading_plain_text": true,
             "after_heading": "After",
+            "after_image": "shopify://shop_images/after.png",
             "after_color_scheme": "",
             "after_heading_plain_text": true,
             "block_custom_class": ""
@@ -517,23 +732,24 @@
         "text_yzDt4M": {
           "type": "text",
           "settings": {
-            "color_scheme": "",
-            "title": "The balance of <em>high-performance</em>",
+            "color_scheme": "background-2",
+            "title": "<em>92%</em> Recovery Acceleration",
             "highlight_style": "none",
-            "enable_highlight_text_color": false,
+            "enable_highlight_text_color": true,
             "heading_size": "h-xl",
-            "heading_color": "",
-            "subheading": "Wear it four way",
-            "text": "<p>Experience the perfect blend of advanced formulas and skin-loving ingredients, delivering powerful results while maintaining harmony for a healthy, radiant complexion.</p>",
+            "heading_color": "#212121",
+            "subheading": "Proven Recovery",
+            "text": "<p>Our proprietary lipid complex replicates the skin's natural barrier functions, reducing 'The Itch' phase and preventing scab formation that leads to pigment dropout.</p><p></p><p></p><ul><li><h6>Pigment Retention    +14%</h6></li><li><h6>Inflammation Reduction<strong>    </strong>4 Hours</h6></li></ul>",
             "alignment": "center",
             "align_text": "left",
             "padding_left": 100,
             "padding_right": 100,
             "align_content_container": "none",
-            "button_label": "Shop this product",
+            "button_label": "",
+            "button_link": "",
             "button_style": "btn--primary",
             "width": "50%",
-            "mobile_color_scheme": "",
+            "mobile_color_scheme": "background-2",
             "mobile_padding_left": 0,
             "mobile_padding_right": 0,
             "block_custom_class": "",
@@ -545,9 +761,13 @@
         "image_comparsion_MKPzdU",
         "text_yzDt4M"
       ],
+      "custom_css": [
+        "ul {list-style: none; padding-left: 0; padding-top: 2rem;}",
+        "ul li {padding-bottom: 1rem;}"
+      ],
       "settings": {
         "container": "container",
-        "color_schema": "",
+        "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "",
@@ -562,18 +782,87 @@
         "enable_swipe_mobile": false,
         "column_mobile": "1",
         "padding_top": 80,
-        "padding_bottom": 0,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
         "custom_class": ""
       }
     },
+    "178097190519f4e5ad": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_e307e07_tM89Vm": {
+          "type": "ai_gen_block_e307e07",
+          "settings": {
+            "bundle_product": "the-complete-healing-system",
+            "eyebrow_text": "NOT SURE WHERE TO START?",
+            "heading": "Complete Recovery System",
+            "description": "<p>A comprehensive three-step system designed to support your skin through every stage of recovery.</p>",
+            "bundle_price": "",
+            "compare_price": "",
+            "savings_text": "",
+            "cta_text": "EXPLORE THE BUNDLE",
+            "cta_link": "",
+            "shipping_text": "",
+            "product_1": "hydro-gel",
+            "step_1_label": "Protect",
+            "step_1_meta": "Fresh Ink Stage<br>\nCooling hydration and breathable protection for newly tattooed skin.",
+            "product_2": "recovery-mist",
+            "step_2_label": "Regenerate",
+            "step_2_meta": "Peeling & Regeneration Stage<br>\nLightweight hydration and comfort as skin begins to renew itself.",
+            "product_3": "daily-care-balm",
+            "step_3_label": "Preserve",
+            "step_3_meta": "Long-Term Care Stage\n<br>\nDaily moisture and barrier support to help maintain healthy-looking, vibrant tattoos.",
+            "benefit_1_title": "CIRCADIAN ALIGNED",
+            "benefit_1_description": "Works with your skin's natural rhythm.",
+            "benefit_2_title": "BIOLOGICAL SEQUENCE",
+            "benefit_2_description": "Each stage supports the next.",
+            "benefit_3_title": "CLINICALLY TESTED",
+            "benefit_3_description": "Safe and effective for new tattoos.",
+            "benefit_4_title": "CONSCIOUS BY DESIGN",
+            "benefit_4_description": "Minimal impact. Maximum care.",
+            "benefits_padding": 50,
+            "background_color": "#8b8c75",
+            "eyebrow_color": "#8b8c75",
+            "heading_color": "#000000",
+            "text_color": "#222222",
+            "compare_price_color": "#444444",
+            "savings_bg_color": "#ffffff",
+            "savings_text_color": "#ffffff",
+            "button_bg_color": "#444444",
+            "button_text_color": "#ffffff",
+            "button_hover_bg_color": "#8b8c75",
+            "button_hover_text_color": "#ffffff",
+            "shipping_text_color": "#212121",
+            "step_number_color": "#444444",
+            "step_label_color": "#212121",
+            "meta_text_color": "#212121",
+            "arrow_color": "#212121",
+            "benefits_bg_color": "#ded8c8",
+            "benefit_icon_color": "#8b8c75",
+            "benefit_title_color": "#222222",
+            "benefit_text_color": "#212121",
+            "heading_font": "marcellus_n4",
+            "heading_size": 48,
+            "description_size": 16,
+            "button_text_size": 14,
+            "button_border_radius": 50
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_e307e07_tM89Vm"
+      ],
+      "settings": {}
+    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "container": "container",
-        "color_schema": "background-1",
+        "color_schema": "accent",
         "remove_params": false,
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
@@ -680,7 +969,7 @@
       "custom_css": [],
       "settings": {
         "container": "container-full",
-        "color_schema": "background-1",
+        "color_schema": "accent",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "On Instagram",
@@ -691,12 +980,13 @@
         "subheading": "Follow Us",
         "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
         "button_label": "follow us",
+        "button_link": "",
         "button_style": "btn--primary",
         "image_ratio": "adapt",
         "columns": 4,
         "column_gap": "double-extra-small",
         "layout": "metro",
-        "metro_item_color_schema": "scheme-9",
+        "metro_item_color_schema": "accent",
         "enable_slider": false,
         "show_nav": false,
         "show_dots": false,
@@ -710,15 +1000,53 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ce9BMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ce9BMK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
-    "scrolling_promotion_EK9Cqx",
+    "rich_text_K88amW",
+    "hero_L8ErTV",
+    "image_with_text_nQJWVP",
+    "multicolumn_4ijHwd",
+    "image_with_text_8E97jX",
     "multicolumn_eX6pK6",
+    "collapsible_tabs_3AL9CK",
     "testimonials_FcqFjd",
     "custom_content_4Y7LQm",
+    "178097190519f4e5ad",
     "product-recommendations",
-    "gallery_images_n7N9gp"
+    "gallery_images_n7N9gp",
+    "rich_text_tMaMPn"
   ]
 }
