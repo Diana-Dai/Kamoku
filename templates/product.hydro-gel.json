@@ -936,112 +936,30 @@
         "animations": "inherit"
       }
     },
-    "gallery_images_n7N9gp": {
-      "type": "gallery-images",
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
       "blocks": {
-        "image_hQzAtj": {
-          "type": "image",
+        "heading_ce9BMK": {
+          "type": "heading",
           "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_bWKed8": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_6PmFiW": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_XtaE3H": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_qiWqB9": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_NGKGkA": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_cEjarh": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_Lxaz6J": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
+            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
           }
         }
       },
       "block_order": [
-        "image_hQzAtj",
-        "image_bWKed8",
-        "image_6PmFiW",
-        "image_XtaE3H",
-        "image_qiWqB9",
-        "image_NGKGkA",
-        "image_cEjarh",
-        "image_Lxaz6J"
+        "heading_ce9BMK"
       ],
-      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "On Instagram",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h1",
-        "heading_color": "",
-        "subheading": "Follow Us",
-        "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
-        "button_label": "follow us",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "image_ratio": "adapt",
-        "columns": 4,
-        "column_gap": "double-extra-small",
-        "layout": "metro",
-        "metro_item_color_schema": "accent",
-        "enable_slider": false,
-        "show_nav": false,
-        "show_dots": false,
-        "enable_swipe_mobile": true,
-        "column_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -1063,6 +981,6 @@
     "custom_content_4Y7LQm",
     "178097190519f4e5ad",
     "product-recommendations",
-    "gallery_images_n7N9gp"
+    "rich_text_tMaMPn"
   ]
 }
