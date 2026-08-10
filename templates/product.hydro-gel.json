@@ -908,7 +908,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "container": "container",
         "color_schema": "accent",
@@ -922,7 +921,7 @@
         "heading_color": "",
         "description": "",
         "limit": 8,
-        "columns": 4,
+        "columns": 3,
         "column_gap": "double-extra-small",
         "row_gap": "medium",
         "enable_slider": true,
@@ -1015,7 +1014,6 @@
         "image_cEjarh",
         "image_Lxaz6J"
       ],
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container-full",
@@ -1050,37 +1048,6 @@
         "custom_class": "",
         "animations": "inherit"
       }
-    },
-    "rich_text_tMaMPn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ce9BMK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ce9BMK"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "container": "container",
-        "color_schema": "inverse",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
@@ -1096,7 +1063,6 @@
     "custom_content_4Y7LQm",
     "178097190519f4e5ad",
     "product-recommendations",
-    "gallery_images_n7N9gp",
-    "rich_text_tMaMPn"
+    "gallery_images_n7N9gp"
   ]
 }
