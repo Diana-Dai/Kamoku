@@ -717,9 +717,11 @@
             "product": "",
             "width": "50%",
             "before_heading": "Before",
+            "before_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_28_06_PM.png",
             "before_color_scheme": "",
             "before_heading_plain_text": true,
             "after_heading": "After",
+            "after_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_30_26_PM.png",
             "after_color_scheme": "",
             "after_heading_plain_text": true,
             "block_custom_class": ""
