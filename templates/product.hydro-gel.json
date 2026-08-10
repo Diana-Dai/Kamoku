@@ -173,7 +173,7 @@
         "show_featured_media": true
       }
     },
-     "rich_text_K88amW": {
+    "rich_text_K88amW": {
       "type": "rich-text",
       "blocks": {
         "heading_VHk8X9": {
@@ -279,7 +279,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/212.png",
+        "image": "shopify://shop_images/ChatGPTImageAug6_2026_12_07_38PM.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -1015,6 +1015,7 @@
         "image_cEjarh",
         "image_Lxaz6J"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container-full",
