@@ -231,8 +231,8 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_06_22_PM.png",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_46_39_PM.png",
+        "image_overlay_opacity": 0,
         "hero_height": "large",
         "content_in_container": false,
         "content_position": "center",
@@ -245,7 +245,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit",
-        "enable_bg_zoom_effect": true
+        "enable_bg_zoom_effect": false
       }
     },
     "image_with_text_nQJWVP": {
@@ -279,7 +279,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image": "shopify://shop_images/212.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -308,7 +308,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
             "image_link": "",
             "title": "Mānuka Honey",
             "heading_size": "h3",
@@ -323,7 +322,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Kawakawa_Leaf.png",
             "image_link": "",
             "title": "Aloe Vera",
             "heading_size": "h3",
@@ -338,7 +336,6 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Panthenol.png",
             "image_link": "",
             "title": "Barley Extract",
             "heading_size": "h3",
@@ -427,7 +424,6 @@
       "settings": {
         "container": "container-full",
         "color_schema": "background-1",
-        "image": "shopify://shop_images/tactile.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -456,7 +452,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h4",
@@ -471,7 +466,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -486,7 +480,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -723,11 +716,9 @@
             "product": "",
             "width": "50%",
             "before_heading": "Before",
-            "before_image": "shopify://shop_images/before.png",
             "before_color_scheme": "",
             "before_heading_plain_text": true,
             "after_heading": "After",
-            "after_image": "shopify://shop_images/after.png",
             "after_color_scheme": "",
             "after_heading_plain_text": true,
             "block_custom_class": ""
