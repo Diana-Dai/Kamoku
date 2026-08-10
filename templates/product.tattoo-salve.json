@@ -279,7 +279,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/212.png",
+        "image": "shopify://shop_images/214.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -908,7 +908,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "container": "container",
         "color_schema": "accent",
@@ -922,7 +921,7 @@
         "heading_color": "",
         "description": "",
         "limit": 8,
-        "columns": 4,
+        "columns": 3,
         "column_gap": "double-extra-small",
         "row_gap": "medium",
         "enable_slider": true,
@@ -934,119 +933,6 @@
         "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
-        "animations": "inherit"
-      }
-    },
-    "gallery_images_n7N9gp": {
-      "type": "gallery-images",
-      "blocks": {
-        "image_hQzAtj": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_bWKed8": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_6PmFiW": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_XtaE3H": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_qiWqB9": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_NGKGkA": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_cEjarh": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        },
-        "image_Lxaz6J": {
-          "type": "image",
-          "settings": {
-            "text": "",
-            "text_size": "medium",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_hQzAtj",
-        "image_bWKed8",
-        "image_6PmFiW",
-        "image_XtaE3H",
-        "image_qiWqB9",
-        "image_NGKGkA",
-        "image_cEjarh",
-        "image_Lxaz6J"
-      ],
-      "custom_css": [],
-      "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "On Instagram",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h1",
-        "heading_color": "",
-        "subheading": "Follow Us",
-        "description": "<p>Tag <strong>@cosmo</strong> in your Instagram photos for a <br/>chance to be featured here.</p>",
-        "button_label": "follow us",
-        "button_link": "",
-        "button_style": "btn--primary",
-        "image_ratio": "adapt",
-        "columns": 4,
-        "column_gap": "double-extra-small",
-        "layout": "metro",
-        "metro_item_color_schema": "accent",
-        "enable_slider": false,
-        "show_nav": false,
-        "show_dots": false,
-        "enable_swipe_mobile": true,
-        "column_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
         "animations": "inherit"
       }
     },
@@ -1095,7 +981,6 @@
     "custom_content_4Y7LQm",
     "178097190519f4e5ad",
     "product-recommendations",
-    "gallery_images_n7N9gp",
     "rich_text_tMaMPn"
   ]
 }
