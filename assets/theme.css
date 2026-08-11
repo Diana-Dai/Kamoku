@@ -1077,6 +1077,54 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.ambassador-trust-badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1.75rem;
+  padding: 2rem 7rem;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+.ambassador-trust-badge__label {
+  font-size: 1.4rem;
+  line-height: 1;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+
+.ambassador-trust-badge__number {
+  font-size: clamp(6rem, 8vw, 10rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.ambassador-trust-badge__subtext {
+  font-size: 1.4rem;
+  line-height: 1.35;
+  text-align: center;
+  opacity: 0.95;
+}
+
+@media (max-width: 767.98px) {
+  .ambassador-trust-badge {
+    border-radius: 2.5rem;
+    padding: 1rem 1.25rem;
+    max-width: 100%;
+  }
+}
+
+.f-hero_heading br {
+  display: block;
+}
+
 .site-wrapper {
   overflow: clip;
 }
@@ -7160,3 +7208,8 @@ shopify-account::part(signed-out-avatar) {
     color:inherit;
   }
 
+
+.banner-logo__content-wrapper  .f-text-blocks{
+    max-width: 60rem;
+    margin: 0 auto;
+  }

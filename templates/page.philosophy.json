@@ -239,45 +239,93 @@
         "animations": "inherit"
       }
     },
-    "multicolumn_xzk7zU": {
+    "multicolumn_CzPVAw": {
       "type": "multicolumn",
       "blocks": {
-        "column_n9fqci": {
+        "column_3GaEmp": {
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/161.png",
             "image_link": "",
-            "title": "Manuka",
-            "heading_size": "h3",
-            "text": "<p></p><p>Known for its cleansing and skin-supporting properties.</p>",
+            "title": "Mānuka honey",
+            "heading_size": "h5",
+            "text": "<p>Deeply nourishes and helps support the skin's natural healing process.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
             "button_style": "btn--underline"
           }
         },
-        "column_kTcDNF": {
+        "column_AmTjEM": {
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/168.png",
             "image_link": "",
-            "title": "Kanuka",
-            "heading_size": "h3",
-            "text": "<p>Traditionally valued for helping calm and comfort irritated skin.</p>",
+            "title": "Kiwi Seed Oil",
+            "heading_size": "h5",
+            "text": "<p>Rich in antioxidants to hydrate, soothe, and protect delicate skin.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
             "button_style": "btn--underline"
           }
         },
-        "column_tJ3mhM": {
+        "column_fxYEKT": {
           "type": "column",
           "settings": {
             "show_image": true,
+            "image": "shopify://shop_images/166.png",
             "image_link": "",
-            "title": "Kawakawa",
-            "heading_size": "h3",
-            "text": "<p>A respected botanical known for supporting skin recovery and hydration.</p>",
+            "title": "Mānuka oil",
+            "heading_size": "h5",
+            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_AkTkep": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/167.png",
+            "image_link": "",
+            "title": "Blue Cypress",
+            "heading_size": "h5",
+            "text": "<p>Calms irritation while helping reduce redness and discomfort.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_VqHd7A": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/163_2.png",
+            "image_link": "",
+            "title": "Kakadu plum",
+            "heading_size": "h5",
+            "text": "<p>Packed with natural vitamin C to brighten and support healthy-looking skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Dnxxti": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/164.png",
+            "image_link": "",
+            "title": "Kakadu oil",
+            "heading_size": "h5",
+            "text": "<p>Lightweight botanical oil that deeply moisturizes and restores skin balance.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -286,37 +334,37 @@
         }
       },
       "block_order": [
-        "column_n9fqci",
-        "column_kTcDNF",
-        "column_tJ3mhM"
-      ],
-      "custom_css": [
-        "em {font-size: 1.2rem;}"
+        "column_3GaEmp",
+        "column_AmTjEM",
+        "column_fxYEKT",
+        "column_AkTkep",
+        "column_VqHd7A",
+        "column_Dnxxti"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "Guided By Nature",
+        "heading": "Nature With Purpose.",
         "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h1",
+        "enable_highlight_text_color": true,
+        "heading_size": "h2",
         "heading_color": "",
         "subheading": "",
-        "description": "<p>For generations, Pacific and Polynesia botanicals have been valued for their ability to support and comfort the skin.</p><p>Each ingredient is selected with purpose, not trend.</p>",
+        "description": "<p>Every ingredient is chosen not for trend, but for function — supporting the skin through every stage of healing.</p>",
         "layout": "vertical",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image_width": "fullwidth",
         "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "medium",
-        "row_gap": "medium",
+        "columns": 6,
+        "column_gap": "extra-small",
+        "row_gap": "large",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 80,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -832,7 +880,7 @@
     "rich_text_f9Khtf",
     "hero_DYjRWq",
     "image_with_text_NU9fwj",
-    "multicolumn_xzk7zU",
+    "multicolumn_CzPVAw",
     "image_with_text_X4qLq7",
     "rich_text_Uw8igt",
     "image_with_text_slider_KGwMVj",

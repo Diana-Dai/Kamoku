@@ -130,6 +130,16 @@
                         assign inline_css = inline_css | append: 'color:' | append: block.settings.heading_color | append: ';'
                       endif
                     -%}
+                    {%- liquid
+                      assign hero_title_parts = block.settings.title | split: '|'
+                      assign hero_title = ''
+                      for part in hero_title_parts
+                        if forloop.first == false
+                          assign hero_title = hero_title | append: '<br>'
+                        endif
+                        assign hero_title = hero_title | append: part
+                      endfor
+                    -%}
                     <h2
                       class="f-hero_heading text-current {{ block.settings.heading_size }}"
                       {% if inline_css != blank %}
@@ -143,7 +153,7 @@
                         class="block"
                       >
                         {%- render 'highlight-text',
-                          hl_text: block.settings.title,
+                          hl_text: hero_title,
                           hl_style: block.settings.highlight_style,
                           enable_hl_text_color: block.settings.enable_highlight_text_color
                         -%}

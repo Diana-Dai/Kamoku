@@ -174,6 +174,130 @@ function addEventDelegate({
   };
 }
 
+function renderHeroTitleLineBreaks() {
+  document.querySelectorAll(".f-hero_heading").forEach((heading) => {
+    if (!heading.textContent.includes("|")) return;
+    if (heading.querySelector("br")) return;
+
+    heading.innerHTML = heading.innerHTML.replace(/\|/g, "<br>");
+  });
+}
+
+function renderAmbassadorCounter() {
+  const heroSection = document.querySelector('[data-section-type="hero-section"]');
+  if (!heroSection) return;
+
+  const heroText = heroSection.querySelector(".f-hero_text");
+  if (!heroText) return;
+
+  const paragraph = Array.from(heroText.querySelectorAll("p")).find((item) =>
+    item.textContent.includes("TRUSTED BY")
+  );
+
+  if (!paragraph || heroSection.querySelector(".ambassador-trust-badge")) return;
+
+  const badge = document.createElement("div");
+  badge.className = "ambassador-trust-badge";
+  badge.setAttribute("data-counter-target", "7017");
+  badge.setAttribute("data-counter-start", "6900");
+  badge.innerHTML = `
+    <span class="ambassador-trust-badge__label">TRUSTED BY</span>
+    <div class="ambassador-trust-badge__number" aria-live="polite" data-counter-display>0</div>
+    <div class="ambassador-trust-badge__subtext">Tattoo Artists + Piercers + Aestheticians</div>
+  `;
+
+  paragraph.replaceWith(badge);
+}
+
+function getStoredAmbassadorCounterState() {
+  try {
+    const storedValue = window.localStorage.getItem("kamoku.ambassadorCounter");
+    if (!storedValue) return null;
+
+    const parsedValue = JSON.parse(storedValue);
+    if (!parsedValue || typeof parsedValue.current !== "number") {
+      return null;
+    }
+
+    return parsedValue;
+  } catch (error) {
+    return null;
+  }
+}
+
+function saveAmbassadorCounterState(currentValue) {
+  try {
+    window.localStorage.setItem(
+      "kamoku.ambassadorCounter",
+      JSON.stringify({
+        current: currentValue,
+        updatedAt: Date.now(),
+      })
+    );
+  } catch (error) {
+    // Ignore storage errors and continue rendering the counter.
+  }
+}
+
+function animateCounterElements() {
+  const counterElements = document.querySelectorAll(
+    "[data-counter-target], .ambassador-trust-badge"
+  );
+
+  if (!counterElements.length) return;
+
+  const formatNumber = (value) =>
+    new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(value);
+
+  counterElements.forEach((counterElement) => {
+    const display = counterElement.querySelector("[data-counter-display]");
+    const target = Number(counterElement.getAttribute("data-counter-target"));
+    const start = Number(counterElement.getAttribute("data-counter-start")) || 0;
+
+    if (!display || !Number.isFinite(target)) return;
+
+    const storedState = getStoredAmbassadorCounterState();
+    let current = start;
+
+    if (storedState && Number.isFinite(storedState.current)) {
+      current = Math.min(target, Math.max(start, storedState.current));
+    }
+
+    const tick = () => {
+      if (current >= target) {
+        display.textContent = formatNumber(target);
+        saveAmbassadorCounterState(target);
+        return;
+      }
+
+      const increment = 1 + Math.floor(Math.random() * 2);
+      current = Math.min(target, current + increment);
+      display.textContent = formatNumber(current);
+      saveAmbassadorCounterState(current);
+
+      if (current < target) {
+        const nextDelay = 900 + Math.floor(Math.random() * 500);
+        window.setTimeout(tick, nextDelay);
+      }
+    };
+
+    display.textContent = formatNumber(current);
+    window.setTimeout(tick, 400);
+  });
+}
+
+function initializeAmbassadorHero() {
+  renderHeroTitleLineBreaks();
+  renderAmbassadorCounter();
+  animateCounterElements();
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeAmbassadorHero);
+} else {
+  initializeAmbassadorHero();
+}
+
 function isStorageSupported(type) {
   // Return false if we are in an iframe without access to sessionStorage
   if (window.self !== window.top) {

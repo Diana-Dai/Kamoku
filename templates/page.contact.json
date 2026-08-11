@@ -16,6 +16,7 @@
     },
     "breadcrumb_arTj3G": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
         "brc_container": "container",
         "brc_text_alignment": "center",
@@ -23,50 +24,48 @@
         "padding_bottom": 0
       }
     },
-    "collage_tabs_YwjtRW": {
-      "type": "collage-tabs",
+    "hero_BhH9Yp": {
+      "type": "hero",
       "blocks": {
-        "tab_L9J3Fd": {
-          "type": "tab",
+        "title_QzPdn9": {
+          "type": "title",
           "settings": {
-            "content_color_schema": "scheme-7",
-            "navigation_title": "",
-            "heading": "New York Boutique",
+            "title": "Stay Connected",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
-            "heading_size": "h1",
-            "heading_color": "",
-            "subheading": "London",
-            "description": "<p>4b/39 James St, Fortitude Valley QLD 4006</p><p>+391 (0)35 2568</p><p>Mon-Sat: 10am-8pm</p>",
-            "text_alignment": "left",
-            "button_label": "get direction",
-            "button_link": "",
-            "button_style": "btn--underline",
-            "mobile_text_alignment": "inherit"
+            "heading_size": "h0",
+            "heading_color": ""
+          }
+        },
+        "text_yaibHe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Every tattoo carries a story. Every journey deserves care.</strong><br/><br/>Whether you’re caring for new ink, representing your studio, or looking to become part of the KĀMOKU community, we’d love to hear from you.<br/><br/>Reach out and connect with our team.</p>"
           }
         }
       },
       "block_order": [
-        "tab_L9J3Fd"
+        "title_QzPdn9",
+        "text_yaibHe"
       ],
-      "custom_css": [
-        ".f-collage-tab--content {--tab-content-px: 8rem;}"
-      ],
+      "name": "t:sections.hero.presets.name",
       "settings": {
-        "container": "container",
-        "color_schema": "",
-        "tab_heading_size": "h4",
-        "desktop_navigation_alignment": "center",
-        "desktop_image_position": "left",
-        "desktop_image_width": 50,
-        "image_aspect_ratio": "adapt",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_33_40_PM.png",
+        "image_overlay_opacity": 40,
+        "hero_height": "small",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#FFFFFF",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
         "custom_id": "",
         "custom_class": "",
-        "animations": "inherit"
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
       }
     },
     "form": {
@@ -113,7 +112,7 @@
         "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "Get In Touch",
+        "heading": "",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
@@ -125,7 +124,7 @@
         "form_alignment": "center",
         "button_label": "submit now",
         "button_style": "btn--primary",
-        "padding_top": 80,
+        "padding_top": 30,
         "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
@@ -138,7 +137,7 @@
   "order": [
     "main",
     "breadcrumb_arTj3G",
-    "collage_tabs_YwjtRW",
+    "hero_BhH9Yp",
     "form"
   ]
 }
