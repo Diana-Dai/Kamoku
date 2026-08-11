@@ -28,6 +28,7 @@
       "block_order": [
         "heading_E6pz93"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
