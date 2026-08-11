@@ -1041,7 +1041,7 @@
       "custom_css": [],
       "settings": {
         "container": "container",
-        "color_schema": "inverse",
+        "color_schema": "background-1",
         "heading": "Join the Cosmo Club",
         "highlight_style": "none",
         "enable_highlight_text_color": false,

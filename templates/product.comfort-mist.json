@@ -231,8 +231,8 @@
       "name": "t:sections.hero.presets.name",
       "settings": {
         "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_06_22_PM.png",
-        "image_overlay_opacity": 40,
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_46_39_PM.png",
+        "image_overlay_opacity": 0,
         "hero_height": "large",
         "content_in_container": false,
         "content_position": "center",
@@ -245,7 +245,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit",
-        "enable_bg_zoom_effect": true
+        "enable_bg_zoom_effect": false
       }
     },
     "image_with_text_nQJWVP": {
@@ -279,7 +279,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPT_Image_Jun_4_2026_02_17_29_PM.png",
+        "image": "shopify://shop_images/212.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -304,45 +304,90 @@
     "multicolumn_4ijHwd": {
       "type": "multicolumn",
       "blocks": {
-        "column_YKwe4k": {
+        "column_3GaEmp": {
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Manuka_Honey_Extract.png",
+            "image": "shopify://shop_images/161.png",
             "image_link": "",
-            "title": "Mānuka Honey",
-            "heading_size": "h3",
-            "text": "<h6>Botanical hydration from Aotearoa.</h6><p>Naturally rich in skin-conditioning compounds that help support moisture retention and skin comfort.</p>",
+            "title": "Mānuka honey",
+            "heading_size": "h5",
+            "text": "<p>Deeply nourishes and helps support the skin's natural healing process.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
             "button_style": "btn--underline"
           }
         },
-        "column_Qrwc4r": {
+        "column_AmTjEM": {
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Kawakawa_Leaf.png",
+            "image": "shopify://shop_images/168.png",
             "image_link": "",
-            "title": "Aloe Vera",
-            "heading_size": "h3",
-            "text": "<h6>Cooling hydration.</h6><p>Helps refresh and comfort stressed skin while delivering lightweight moisture.</p>",
+            "title": "Kiwi Seed Oil",
+            "heading_size": "h5",
+            "text": "<p>Rich in antioxidants to hydrate, soothe, and protect delicate skin.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
             "button_style": "btn--underline"
           }
         },
-        "column_pRyBER": {
+        "column_fxYEKT": {
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/Panthenol.png",
+            "image": "shopify://shop_images/166.png",
             "image_link": "",
-            "title": "Barley Extract",
-            "heading_size": "h3",
-            "text": "<h6>Advanced skin comfort.</h6><p>Known for its soothing properties and ability to support a calm, balanced skin environment.</p>",
+            "title": "Mānuka oil",
+            "heading_size": "h5",
+            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_AkTkep": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/167.png",
+            "image_link": "",
+            "title": "Blue Cypress",
+            "heading_size": "h5",
+            "text": "<p>Calms irritation while helping reduce redness and discomfort.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_VqHd7A": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/163_2.png",
+            "image_link": "",
+            "title": "Kakadu plum",
+            "heading_size": "h5",
+            "text": "<p>Packed with natural vitamin C to brighten and support healthy-looking skin.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Dnxxti": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/164.png",
+            "image_link": "",
+            "title": "Kakadu oil",
+            "heading_size": "h5",
+            "text": "<p>Lightweight botanical oil that deeply moisturizes and restores skin balance.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -351,30 +396,33 @@
         }
       },
       "block_order": [
-        "column_YKwe4k",
-        "column_Qrwc4r",
-        "column_pRyBER"
+        "column_3GaEmp",
+        "column_AmTjEM",
+        "column_fxYEKT",
+        "column_AkTkep",
+        "column_VqHd7A",
+        "column_Dnxxti"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "container": "container",
+        "container": "container-fluid",
         "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "Nature With Purpose.",
         "highlight_style": "none",
-        "enable_highlight_text_color": false,
+        "enable_highlight_text_color": true,
         "heading_size": "h2",
         "heading_color": "",
         "subheading": "",
-        "description": "<p>Every ingredient is selected for a specific role — combining Polynesian-inspired care traditions with modern skin science to support tattooed skin through every stage of recovery.</p>",
+        "description": "<p>Every ingredient is chosen not for trend, but for function — supporting the skin through every stage of healing.</p>",
         "layout": "vertical",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image_width": "fullwidth",
         "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "medium",
-        "row_gap": "medium",
+        "columns": 6,
+        "column_gap": "extra-small",
+        "row_gap": "large",
         "enable_swipe_mobile": true,
         "column_mobile": "1",
         "padding_top": 80,
@@ -427,7 +475,7 @@
       "settings": {
         "container": "container-full",
         "color_schema": "background-1",
-        "image": "shopify://shop_images/tactile.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_44_24_PM.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -456,7 +504,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h4",
@@ -471,7 +518,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -486,7 +532,6 @@
           "type": "column",
           "settings": {
             "show_image": false,
-            "image": "shopify://shop_images/screen.png",
             "image_link": "",
             "title": "",
             "heading_size": "h3",
@@ -613,7 +658,7 @@
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         },
@@ -624,7 +669,7 @@
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         },
@@ -635,7 +680,7 @@
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         },
@@ -646,7 +691,7 @@
             "text": "<p>My skin has never felt this soft! 💖 Was it magic? No. Did it work wonders? No, but I’m glowing like never before! 🌸 🌟</p>",
             "author": "Jared S.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         },
@@ -657,7 +702,7 @@
             "text": "<p>Did I apply a filter? No. Does my 💆 skin look flawless? No, but this glow is giving effortlessly airbrushed vibes! ✨️❤️</p>",
             "author": "Alisa A.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         },
@@ -668,7 +713,7 @@
             "text": "<p>Did I drink enough water? No. Does 💦 my skin feel hydrated? No, but it’s softer, plumper, and dewier than ever! 🤗 🙌</p>",
             "author": "Sophie R.",
             "bio": "",
-            "show_image": true,
+            "show_image": false,
             "product": ""
           }
         }
@@ -723,11 +768,11 @@
             "product": "",
             "width": "50%",
             "before_heading": "Before",
-            "before_image": "shopify://shop_images/before.png",
+            "before_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_28_06_PM.png",
             "before_color_scheme": "",
             "before_heading_plain_text": true,
             "after_heading": "After",
-            "after_image": "shopify://shop_images/after.png",
+            "after_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_30_26_PM.png",
             "after_color_scheme": "",
             "after_heading_plain_text": true,
             "block_custom_class": ""
