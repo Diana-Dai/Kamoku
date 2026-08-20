@@ -1021,7 +1021,7 @@
         "columns": 4,
         "column_gap": "double-extra-small",
         "layout": "metro",
-        "metro_item_color_schema": "background-1",
+        "metro_item_color_schema": "background-2",
         "enable_slider": false,
         "show_nav": false,
         "show_dots": false,
