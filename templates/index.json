@@ -627,98 +627,6 @@
         "custom_class": ""
       }
     },
-    "image_with_text_slider_KEBzkK": {
-      "type": "image-with-text-slider",
-      "blocks": {
-        "slide_WTXNDb": {
-          "type": "slide",
-          "settings": {
-            "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_39_AM.png",
-            "content_position": "center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "title": "\"The final, essential step of the tattooing process.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "subheading": "Working artists",
-            "description": "<p>Master Tattooist, Melbourne</p>",
-            "desc_size": "text-desc-base",
-            "button_text_1": "",
-            "button_link_1": "",
-            "button_style_1": "btn--primary",
-            "button_size_1": ""
-          }
-        },
-        "slide_Kdmiti": {
-          "type": "slide",
-          "settings": {
-            "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_25_AM.png",
-            "content_position": "center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "title": "\"The final, essential step of the tattooing process.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "subheading": "Professional studios",
-            "description": "<p>Master Tattooist, Melbourne</p>",
-            "desc_size": "text-desc-base",
-            "button_text_1": "",
-            "button_link_1": "",
-            "button_style_1": "btn--primary",
-            "button_size_1": ""
-          }
-        },
-        "slide_NVzR7t": {
-          "type": "slide",
-          "settings": {
-            "slide_color_scheme": "background-2",
-            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_48_AM.png",
-            "content_position": "center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "title": "\"The final, essential step of the tattooing process.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "subheading": "Tattoo community",
-            "description": "<p>Master Tattooist, Melbourne</p>",
-            "desc_size": "text-desc-base",
-            "button_text_1": "",
-            "button_link_1": "",
-            "button_style_1": "btn--primary",
-            "button_size_1": ""
-          }
-        }
-      },
-      "block_order": [
-        "slide_WTXNDb",
-        "slide_Kdmiti",
-        "slide_NVzR7t"
-      ],
-      "name": "t:sections.image-with-text-slider.name",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "container": "container-full",
-        "slider_height": "large",
-        "image_width": 70,
-        "image_position": "right",
-        "show_dots": true,
-        "show_nav": false,
-        "autoplay": false,
-        "autorotate_speed": 3,
-        "controls_position": "right",
-        "pagination_style": "counter",
-        "accessibility_info": "Slideshow about our brand",
-        "custom_id": "",
-        "custom_class": "",
-        "enable_bg_zoom_effect": false
-      }
-    },
     "featured_blog_UUyaNA": {
       "type": "featured-blog",
       "disabled": true,
@@ -998,6 +906,98 @@
         "animations": "inherit"
       }
     },
+    "image_with_text_slider_KEBzkK": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "slide_WTXNDb": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "background-2",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_39_AM.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "\"The final, essential step of the tattooing process.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "Working artists",
+            "description": "<p>Master Tattooist, Melbourne</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_Kdmiti": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "background-2",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_25_AM.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "\"The final, essential step of the tattooing process.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "Professional studios",
+            "description": "<p>Master Tattooist, Melbourne</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        },
+        "slide_NVzR7t": {
+          "type": "slide",
+          "settings": {
+            "slide_color_scheme": "background-2",
+            "background": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_10_09_48_AM.png",
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "title": "\"The final, essential step of the tattooing process.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "subheading": "Tattoo community",
+            "description": "<p>Master Tattooist, Melbourne</p>",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--primary",
+            "button_size_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_WTXNDb",
+        "slide_Kdmiti",
+        "slide_NVzR7t"
+      ],
+      "name": "t:sections.image-with-text-slider.name",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "container": "container-full",
+        "slider_height": "large",
+        "image_width": 70,
+        "image_position": "right",
+        "show_dots": true,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "controls_position": "right",
+        "pagination_style": "counter",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
+    },
     "rich_text_GiX8ff": {
       "type": "rich-text",
       "blocks": {
@@ -1071,11 +1071,11 @@
     "multicolumn_CzPVAw",
     "17797831127f93feb3",
     "custom_content_Q4kbLq",
-    "image_with_text_slider_KEBzkK",
     "featured_blog_UUyaNA",
     "collapsible_tabs_FCfpmk",
-    "gallery_images_n7N9gp",
+    "image_with_text_slider_KEBzkK",
     "rich_text_GiX8ff",
+    "gallery_images_n7N9gp",
     "165422614227341852"
   ]
 }
