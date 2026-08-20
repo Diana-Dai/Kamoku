@@ -1172,8 +1172,3 @@ responsive-image img {
     transform: scale(1.2) rotate(5deg) translateZ(0);
   }
 }
-
-
-#smile-ui-lite-container{
-  z-index: 99 !important;
-}
