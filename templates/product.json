@@ -12,14 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_gynG9g": {
-          "type": "text",
-          "settings": {
-            "icon": "none",
-            "text": "STAGE {{ product.metafields.custom.stage_index.value }} — Hydro Gel",
-            "text_style": "subtitle"
-          }
-        },
         "badge_8hgTjY": {
           "type": "badge",
           "settings": {}
@@ -144,7 +136,6 @@
         }
       },
       "block_order": [
-        "text_gynG9g",
         "badge_8hgTjY",
         "title",
         "price",
