@@ -1173,3 +1173,7 @@ responsive-image img {
   }
 }
 
+
+#smile-ui-lite-container{
+  z-index: 99 !important;
+}
