@@ -7213,3 +7213,9 @@ shopify-account::part(signed-out-avatar) {
     max-width: 60rem;
     margin: 0 auto;
   }
+
+
+
+#smile-ui-lite-container{
+  z-index: 99 !important;
+}
