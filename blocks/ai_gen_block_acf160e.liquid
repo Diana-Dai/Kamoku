@@ -341,7 +341,7 @@
                   </h3>
                   {% if product.description != blank %}
                     <p class="ai-luxury-product__product-description-{{ ai_gen_id }}">
-                      {{ product.description | strip_html | truncate: 80 }}
+                      {{ product.description | strip_html  }}
                     </p>
                   {% endif %}
                 </div>
