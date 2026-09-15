@@ -73,17 +73,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "0202d9f6-9275-431a-be80-93368ef98507": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "SIZE",
-            "content": "<p>50 mL</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "shipping_TqiCge": {
           "type": "shipping",
           "settings": {
@@ -108,6 +97,17 @@
             "pcard_show_color_swatch": false
           }
         },
+        "0202d9f6-9275-431a-be80-93368ef98507": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "SIZE",
+            "content": "<p>50 mL</p>",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        },
         "collapsible_tab_YfYLeV": {
           "type": "collapsible_tab",
           "settings": {
@@ -130,23 +130,23 @@
             "default_open": false
           }
         },
-        "collapsible_tab_8Q3FGx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Testing & Safety",
-            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "stage_how_to_use": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
             "heading": "HOW TO USE",
             "content": "<p>Spray directly over the tattooed area as needed.</p><p>Allow the mist to air dry naturally. There is no need to rub or repeatedly touch the tattooed skin.</p><p>Use during the recovery stage whenever the skin feels dry, tight, or in need of lightweight hydration.</p>",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_8Q3FGx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Testing & Safety",
+            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -182,6 +182,167 @@
         "enable_image_zoom": true,
         "enable_video_looping": true,
         "show_featured_media": true
+      }
+    },
+    "why_kamoku": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tattooed skin changes. Your care routine should too.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach — one system designed to evolve with your tattoo.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "name": "WHY KĀMOKU?",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "scheme-5",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "why_kamoku_stages": {
+      "type": "multicolumn",
+      "blocks": {
+        "stage_1": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image_link": "",
+            "title": "01",
+            "heading_size": "h3",
+            "text": "<p><strong>Creation + Initial Care</strong></p><p>Designed for the tattooing process and the earliest stage of aftercare.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "stage_2": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image_link": "",
+            "title": "02",
+            "heading_size": "h3",
+            "text": "<p><strong>Hydration + Comfort</strong></p><p>Lightweight hydration and spray-on comfort as tattooed skin begins to feel dry or tight.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "stage_3": {
+          "type": "column",
+          "settings": {
+            "show_image": false,
+            "image_link": "",
+            "title": "03",
+            "heading_size": "h3",
+            "text": "<p><strong>Long-Term Moisture</strong></p><p>Rich everyday moisture and conditioning for healed and existing tattoos.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "stage_1",
+        "stage_2",
+        "stage_3"
+      ],
+      "disabled": true,
+      "name": "WHY KĀMOKU? — 3 stages",
+      "settings": {
+        "container": "container",
+        "color_schema": "scheme-5",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "left",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "large",
+        "row_gap": "large",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "why_kamoku_closing": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Perfect for fresh tattoos, existing tattoos, tattoo enthusiasts, and professional studio care.</p>"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Care for the skin. Respect the art. Keep your ink looking its best.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h3",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading"
+      ],
+      "disabled": true,
+      "name": "WHY KĀMOKU? — Closing",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "scheme-5",
+        "text_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "rich_text_K88amW": {
@@ -282,6 +443,7 @@
         "heading_9eqLyE",
         "text_RfEgrF"
       ],
+      "disabled": true,
       "custom_css": [
         "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
         "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
@@ -310,8 +472,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "multicolumn_4ijHwd": {
       "type": "multicolumn",
@@ -415,6 +576,7 @@
         "column_VqHd7A",
         "column_Dnxxti"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container-fluid",
@@ -444,8 +606,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "image_with_text_8E97jX": {
       "type": "image-with-text",
@@ -477,6 +638,7 @@
         "heading_m7GWaD",
         "text_dnyEhA"
       ],
+      "disabled": true,
       "custom_css": [
         "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
         "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
@@ -508,8 +670,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "multicolumn_eX6pK6": {
       "type": "multicolumn",
@@ -562,6 +723,7 @@
         "column_Ga4FJ3",
         "column_GemAqb"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -591,8 +753,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "collapsible_tabs_3AL9CK": {
       "type": "collapsible-tabs",
@@ -1095,164 +1256,6 @@
         "custom_class": "",
         "animations": "inherit"
       }
-    },
-    "why_kamoku": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tattooed skin changes. Your care routine should too.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach — one system designed to evolve with your tattoo.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "name": "WHY KĀMOKU?",
-      "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "why_kamoku_stages": {
-      "type": "multicolumn",
-      "name": "WHY KĀMOKU? — 3 stages",
-      "settings": {
-        "container": "container",
-        "color_schema": "background-2",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "layout": "vertical",
-        "text_alignment": "left",
-        "image_width": "fullwidth",
-        "custom_image_width": 80,
-        "columns": 3,
-        "column_gap": "large",
-        "row_gap": "large",
-        "enable_swipe_mobile": false,
-        "column_mobile": "1",
-        "padding_top": 20,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      },
-      "blocks": {
-        "stage_1": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image_link": "",
-            "title": "01",
-            "heading_size": "h3",
-            "text": "<p><strong>Creation + Initial Care</strong></p><p>Designed for the tattooing process and the earliest stage of aftercare.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "stage_2": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image_link": "",
-            "title": "02",
-            "heading_size": "h3",
-            "text": "<p><strong>Hydration + Comfort</strong></p><p>Lightweight hydration and spray-on comfort as tattooed skin begins to feel dry or tight.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "stage_3": {
-          "type": "column",
-          "settings": {
-            "show_image": false,
-            "image_link": "",
-            "title": "03",
-            "heading_size": "h3",
-            "text": "<p><strong>Long-Term Moisture</strong></p><p>Rich everyday moisture and conditioning for healed and existing tattoos.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "stage_1",
-        "stage_2",
-        "stage_3"
-      ]
-    },
-    "why_kamoku_closing": {
-      "type": "rich-text",
-      "name": "WHY KĀMOKU? — Closing",
-      "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 20,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      },
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Perfect for fresh tattoos, existing tattoos, tattoo enthusiasts, and professional studio care.</p>"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Care for the skin. Respect the art. Keep your ink looking its best.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h3",
-            "heading_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading"
-      ]
     }
   },
   "order": [
