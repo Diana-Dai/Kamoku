@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE {{ product.metafields.custom.stage_index.value }}  — Regenerate",
+            "text": "STAGE 2 — COMFORT MIST",
             "text_style": "subtitle"
           }
         },
@@ -47,7 +47,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Hydration and comfort for the recovery phase.</p><p>A lightweight recovery mist designed for the peeling stage of tattoo care. Delivers lasting hydration and immediate comfort to help relieve feelings of dryness, tightness, and itch while keeping tattooed skin refreshed and supported.</p>"
+            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p>"
           }
         },
         "variant_picker": {
@@ -75,11 +75,10 @@
         },
         "0202d9f6-9275-431a-be80-93368ef98507": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "icon": "none",
-            "heading": "PROFILE",
-            "content": "",
+            "heading": "SIZE",
+            "content": "<p>50 mL</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -113,9 +112,9 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Description",
-            "content": "<p><strong>SECOND Comfort Mist is designed for the regeneration phase of tattoo recovery.</strong> Powered by botanical extracts, humectants, and skin-conditioning ingredients, it delivers lightweight hydration to help relieve dryness, tightness, and itch while supporting skin comfort throughout the peeling stage.</p><p><strong>Skin Feel</strong></p><p>Refreshing, weightless, hydrating</p><p><strong>Aroma</strong></p><p>Fresh, clean botanical notes naturally derived from the formula. No added fragrance.</p><p><strong>Key Ingredients</strong></p><p>Mānuka Honey, Aloe Vera, Barley Extract</p>",
-            "liquid": "{{ product.description }}",
+            "heading": "KEY INGREDIENTS",
+            "content": "<p>At the heart of the formula is <strong>Manuka Honey</strong>, known for its naturally moisturizing and soothing properties.</p><p>Also formulated with <strong>Aloe, Glycerin, Panthenol (Vitamin B5), Sodium PCA, Kiwi Seed Oil</strong>, and a blend of botanical ingredients for multi-layer hydration and comfort.</p><p><strong>Fragrance-Free</strong></p>",
+            "liquid": "",
             "page": "",
             "default_open": false
           }
@@ -124,8 +123,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Ingredients",
-            "content": "<p>Water (Aqua), Aloe Barbadensis Leaf Juice, Glycerin, Sorbitan Oleate Decylglucoside Crosspolymer, Propanediol, Hamamelis Virginiana (Witch Hazel) Water, Manuka Honey, Kunzea Ericoides (Kanuka) Leaf Oil, Callitris Intratropica Wood (Blue Cypress) Oil, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Coix lacryma-jobi Extract, Olea Europaea Leaf Extract, Astragalus Membranaceus Root Extract, Calendula Officinalis Flower Extract, Cucumis Sativus Fruit</p><p>Extract, Pelvetia Canaliculata Extract, Hordeum Vulgare Seed Extract, Actinidia</p><p>Chinensis Seed Oil, Sodium PCA, DL-Panthenol, Xylitylglucoside, Xanthan Gum,</p><p>Anhydroxylitol, Methylpropanediol, Allantoin, Maltitol, Caprylyl Glycol, Didecydimonium</p><p>Chloride, Xylitol, Polyquaternium-80, Sodium Hydroxide, Citric Acid, Sodium Citrate,</p><p>Potassium Sorbate, Calcium Gluconate, Sodium Benzoate, Gluconolactone, Benzyl</p><p>Alcohol.</p>",
+            "heading": "PRODUCT BENEFITS",
+            "content": "<ul><li>Easy, hygienic spray application</li><li>Provides lightweight, lasting hydration</li><li>Manuka Honey helps replenish and retain moisture</li><li>Helps soothe dry and tight-feeling skin</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep recovering tattooed skin feeling soft and comfortable</li><li>Helps reduce unnecessary hand contact</li><li>Fragrance-Free</li></ul>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -137,6 +136,17 @@
             "icon": "none",
             "heading": "Testing & Safety",
             "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
+            "liquid": "",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "stage_how_to_use": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "HOW TO USE",
+            "content": "<p>Spray directly over the tattooed area as needed.</p><p>Allow the mist to air dry naturally. There is no need to rub or repeatedly touch the tattooed skin.</p><p>Use during the recovery stage whenever the skin feels dry, tight, or in need of lightweight hydration.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -153,11 +163,12 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "0202d9f6-9275-431a-be80-93368ef98507",
         "shipping_TqiCge",
         "complementary_WGHcVt",
+        "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
         "44a0cb66-4d76-437d-a088-4170647fb088",
+        "stage_how_to_use",
         "collapsible_tab_8Q3FGx"
       ],
       "custom_css": [],
@@ -299,7 +310,8 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      }
+      },
+      "disabled": true
     },
     "multicolumn_4ijHwd": {
       "type": "multicolumn",
@@ -432,7 +444,8 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      }
+      },
+      "disabled": true
     },
     "image_with_text_8E97jX": {
       "type": "image-with-text",
@@ -495,7 +508,8 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      }
+      },
+      "disabled": true
     },
     "multicolumn_eX6pK6": {
       "type": "multicolumn",
@@ -577,7 +591,8 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      }
+      },
+      "disabled": true
     },
     "collapsible_tabs_3AL9CK": {
       "type": "collapsible-tabs",
@@ -1080,10 +1095,49 @@
         "custom_class": "",
         "animations": "inherit"
       }
+    },
+    "why_kamoku": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY KĀMOKU?",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach.</strong></p><p>We believe tattooed skin has different needs at different stages.</p><p><strong>STAGE 1:</strong> Creation + Initial Protection & Hydration<br/><strong>STAGE 2:</strong> Manuka Honey Hydration + Spray-On Comfort<br/><strong>STAGE 3:</strong> Rich Moisture + Long-Term Daily Care</p><p>Because tattooed skin changes throughout the process, <strong>your care routine should evolve with it.</strong></p><p><strong>Perfect For:</strong><br/>Fresh Tattoos · Existing Tattoos · Tattoo Enthusiasts · Tattoo Artists · Arms · Legs · Back · Chest · Other Tattooed Areas</p><p><strong>Care for the skin. Respect the art. Keep your ink looking its best.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "name": "WHY KĀMOKU?",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     }
   },
   "order": [
     "main",
+    "why_kamoku",
     "rich_text_K88amW",
     "hero_L8ErTV",
     "image_with_text_nQJWVP",
