@@ -103,6 +103,7 @@
         },
         "collapsible_tab_YfYLeV": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Description",
@@ -110,11 +111,11 @@
             "liquid": "{{ product.description }}",
             "page": "",
             "default_open": false
-          },
-          "disabled": true
+          }
         },
         "44a0cb66-4d76-437d-a088-4170647fb088": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "Ingredients",
@@ -122,8 +123,7 @@
             "liquid": "",
             "page": "",
             "default_open": false
-          },
-          "disabled": true
+          }
         },
         "collapsible_tab_8Q3FGx": {
           "type": "collapsible_tab",
@@ -164,6 +164,44 @@
         "enable_image_zoom": true,
         "enable_video_looping": true,
         "show_featured_media": true
+      }
+    },
+    "why_kamoku": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHY KĀMOKU?",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach.</strong></p><p>We believe tattooed skin has different needs at different stages.</p><p><strong>STAGE 1:</strong> Creation + Initial Protection & Hydration<br/><strong>STAGE 2:</strong> Manuka Honey Hydration + Spray-On Comfort<br/><strong>STAGE 3:</strong> Rich Moisture + Long-Term Daily Care</p><p>Because tattooed skin changes throughout the process, <strong>your care routine should evolve with it.</strong></p><p><strong>Perfect For:</strong><br/>Fresh Tattoos · Existing Tattoos · Tattoo Enthusiasts · Tattoo Artists · Arms · Legs · Back · Chest · Other Tattooed Areas</p><p><strong>Care for the skin. Respect the art. Keep your ink looking its best.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "name": "WHY KĀMOKU?",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "rich_text_K88amW": {
@@ -264,6 +302,7 @@
         "heading_9eqLyE",
         "text_RfEgrF"
       ],
+      "disabled": true,
       "custom_css": [
         "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
         "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
@@ -292,8 +331,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "multicolumn_4ijHwd": {
       "type": "multicolumn",
@@ -397,6 +435,7 @@
         "column_VqHd7A",
         "column_Dnxxti"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container-fluid",
@@ -426,8 +465,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "image_with_text_8E97jX": {
       "type": "image-with-text",
@@ -459,6 +497,7 @@
         "heading_m7GWaD",
         "text_dnyEhA"
       ],
+      "disabled": true,
       "custom_css": [
         "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
         "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
@@ -490,8 +529,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "multicolumn_eX6pK6": {
       "type": "multicolumn",
@@ -544,6 +582,7 @@
         "column_Ga4FJ3",
         "column_GemAqb"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -573,8 +612,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true
+      }
     },
     "collapsible_tabs_3AL9CK": {
       "type": "collapsible-tabs",
@@ -963,291 +1001,10 @@
         "custom_class": "",
         "animations": "inherit"
       }
-    },
-    "stage_1_details": {
-      "type": "collapsible-tabs",
-      "name": "Stage 1 — HYDRO GEL",
-      "blocks": {
-        "size": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "SIZE",
-            "content": "<p>30 mL</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "ingredients": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "KEY INGREDIENTS",
-            "content": "<p>Formulated with <strong>Kiwi Seed Oil, Kakadu Plum Seed Oil, Vitamin E, Manuka Oil, Kanuka Oil, Blue Cypress Oil</strong>, and other botanical ingredients.</p><p>Its natural botanical aroma comes from Manuka, Kanuka, and other essential oils in the formula.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "benefits": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "PRODUCT BENEFITS",
-            "content": "<ul><li>Provides smooth glide during tattooing</li><li>Delivers lightweight hydration</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep freshly tattooed skin feeling comfortable</li><li>Lightweight, non-heavy feel</li></ul>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "how_to_use": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "HOW TO USE",
-            "content": "<p><strong>During tattooing:</strong> Apply a small amount to the skin as needed to provide glide and hydration during the tattooing process.</p><p><strong>After tattooing:</strong> Apply a thin layer to clean tattooed skin as needed during the initial care stage.</p><p>Use externally only and follow the aftercare guidance provided by your tattoo artist.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        }
-      },
-      "block_order": [
-        "size",
-        "ingredients",
-        "benefits",
-        "how_to_use"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "STAGE 1 — HYDRO GEL",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "<p><strong>Creation + Initial Care</strong></p><p>Designed for use during the tattooing process and during the initial stage after your tattoo is completed. Its smooth, lightweight texture provides glide and hydration while helping keep tattooed skin comfortable without feeling overly heavy or greasy.</p>",
-        "item_heading_font": "body",
-        "item_heading_size": "h6",
-        "column_gap": "medium",
-        "content_width": "full",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "stage_2_details": {
-      "type": "collapsible-tabs",
-      "name": "Stage 2 — COMFORT MIST",
-      "blocks": {
-        "size": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "SIZE",
-            "content": "<p>50 mL</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "ingredients": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "KEY INGREDIENTS",
-            "content": "<p>At the heart of the formula is <strong>Manuka Honey</strong>, known for its naturally moisturizing and soothing properties.</p><p>Also formulated with <strong>Aloe, Glycerin, Panthenol (Vitamin B5), Sodium PCA, Kiwi Seed Oil</strong>, and a blend of botanical ingredients for multi-layer hydration and comfort.</p><p><strong>Fragrance-Free</strong></p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "benefits": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "PRODUCT BENEFITS",
-            "content": "<ul><li>Easy, hygienic spray application</li><li>Provides lightweight, lasting hydration</li><li>Manuka Honey helps replenish and retain moisture</li><li>Helps soothe dry and tight-feeling skin</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep recovering tattooed skin feeling soft and comfortable</li><li>Helps reduce unnecessary hand contact</li><li>Fragrance-Free</li></ul>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "how_to_use": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "HOW TO USE",
-            "content": "<p>Spray directly over the tattooed area as needed.</p><p>Allow the mist to air dry naturally. There is no need to rub or repeatedly touch the tattooed skin.</p><p>Use during the recovery stage whenever the skin feels dry, tight, or in need of lightweight hydration.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        }
-      },
-      "block_order": [
-        "size",
-        "ingredients",
-        "benefits",
-        "how_to_use"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "STAGE 2 — COMFORT MIST",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p>",
-        "item_heading_font": "body",
-        "item_heading_size": "h6",
-        "column_gap": "medium",
-        "content_width": "full",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "stage_3_details": {
-      "type": "collapsible-tabs",
-      "name": "Stage 3 — DAILY TATTOO SALVE",
-      "blocks": {
-        "size": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "SIZE",
-            "content": "<p>50 mL</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "ingredients": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "KEY INGREDIENTS",
-            "content": "<p>Made with <strong>Shea Butter, Mango Seed Butter, Vitamin E, Candelilla Wax</strong>, and botanical oils.</p><p>Finished with a refined <strong>Agarwood & Sea Salt fragrance</strong>.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "benefits": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "PRODUCT BENEFITS",
-            "content": "<ul><li>Provides rich, long-lasting moisture</li><li>Softens and conditions tattooed skin</li><li>Helps maintain the vibrant appearance and definition of tattoos</li><li>Supports everyday skin hydration</li><li>Ideal after the initial recovery stage</li><li>Suitable for existing tattoos</li><li>Suitable for everyday body care</li></ul>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "how_to_use": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "HOW TO USE",
-            "content": "<p>Apply a small amount to clean, dry skin and gently massage until absorbed.</p><p>Use daily or whenever tattooed skin feels dry or needs additional moisture.</p><p>Best suited for tattoos that have moved beyond the initial recovery stage and for long-term tattoo maintenance.</p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        }
-      },
-      "block_order": [
-        "size",
-        "ingredients",
-        "benefits",
-        "how_to_use"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-1",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "STAGE 3 — DAILY TATTOO SALVE",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "<p><strong>Long-Term Tattoo + Daily Skin Care</strong></p><p>Once the initial recovery stage has passed, tattooed skin still benefits from consistent moisture and everyday care. DAILY TATTOO SALVE delivers rich, lasting conditioning to help keep tattooed skin soft, smooth, moisturized, and looking its best.</p>",
-        "item_heading_font": "body",
-        "item_heading_size": "h6",
-        "column_gap": "medium",
-        "content_width": "full",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "why_kamoku": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "WHY KĀMOKU?",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach.</strong></p><p>We believe tattooed skin has different needs at different stages.</p><p><strong>STAGE 1:</strong> Creation + Initial Protection & Hydration<br/><strong>STAGE 2:</strong> Manuka Honey Hydration + Spray-On Comfort<br/><strong>STAGE 3:</strong> Rich Moisture + Long-Term Daily Care</p><p>Because tattooed skin changes throughout the process, <strong>your care routine should evolve with it.</strong></p><p><strong>Perfect For:</strong><br/>Fresh Tattoos · Existing Tattoos · Tattoo Enthusiasts · Tattoo Artists · Arms · Legs · Back · Chest · Other Tattooed Areas</p><p><strong>Care for the skin. Respect the art. Keep your ink looking its best.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "name": "WHY KĀMOKU?",
-      "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
     "main",
-    "stage_1_details",
-    "stage_2_details",
-    "stage_3_details",
     "why_kamoku",
     "rich_text_K88amW",
     "hero_L8ErTV",
