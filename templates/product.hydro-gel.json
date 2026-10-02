@@ -986,6 +986,7 @@
         "image_comparsion_MKPzdU",
         "text_yzDt4M"
       ],
+      "disabled": true,
       "custom_css": [
         "ul {list-style: none; padding-left: 0; padding-top: 2rem;}",
         "ul li {padding-bottom: 1rem;}"
