@@ -118,6 +118,38 @@
                   {{ block.settings.text }}
                 </motion-element>
                 {%- assign motion_delay = motion_delay | plus: 50 -%}
+              {%- when 'countdown' -%}
+                <motion-element
+                  data-motion="{{ animation_effect }}"
+                  data-motion-delay="{{ motion_delay }}"
+                  class="block"
+                  {{ block.shopify_attributes }}
+                >
+                  <banner-countdown
+                    class="banner-countdown"
+                    data-end-date="{{ block.settings.end_date | escape }}"
+                    data-end-time="{{ block.settings.end_time | escape }}"
+                    style="--countdown-text-color: {{ block.settings.text_color }}; --countdown-border-color: {{ block.settings.border_color }}; --countdown-background-color: {{ block.settings.background_color }}; --countdown-max-width: {{ block.settings.max_width }}px; --countdown-box-height: {{ block.settings.box_height }}px; --countdown-gap: {{ block.settings.box_gap }}px; --countdown-border-radius: {{ block.settings.border_radius }}px; --countdown-number-size: {{ block.settings.number_font_size }}px; --countdown-label-size: {{ block.settings.label_font_size }}px;"
+                  >
+                    <span class="banner-countdown__box">
+                      <span class="banner-countdown__number" data-countdown-days>00</span>
+                      <span class="banner-countdown__label">{{ block.settings.days_label | escape }}</span>
+                    </span>
+                    <span class="banner-countdown__box">
+                      <span class="banner-countdown__number" data-countdown-hours>00</span>
+                      <span class="banner-countdown__label">{{ block.settings.hours_label | escape }}</span>
+                    </span>
+                    <span class="banner-countdown__box">
+                      <span class="banner-countdown__number" data-countdown-minutes>00</span>
+                      <span class="banner-countdown__label">{{ block.settings.minutes_label | escape }}</span>
+                    </span>
+                    <span class="banner-countdown__box">
+                      <span class="banner-countdown__number" data-countdown-seconds>00</span>
+                      <span class="banner-countdown__label">{{ block.settings.seconds_label | escape }}</span>
+                    </span>
+                  </banner-countdown>
+                </motion-element>
+                {%- assign motion_delay = motion_delay | plus: 50 -%}
               {%- when 'button' -%}
                 {%- if block.settings.button_label != blank -%}
                   <motion-element
@@ -139,6 +171,37 @@
                   </motion-element>
                   {%- assign motion_delay = motion_delay | plus: 50 -%}
                 {%- endif -%}
+              {%- when 'newsletter' -%}
+                {%- liquid
+                  assign heading = block.settings.heading
+                  assign subheading = block.settings.description
+                -%}
+                {{ 'newsletter.css' | asset_url | stylesheet_tag }}
+                <motion-element
+                  data-motion="{{ animation_effect }}"
+                  data-motion-delay="{{ motion_delay }}"
+                  class="block f-newsletter__form text-center"
+                  {{ block.shopify_attributes }}
+                >
+                  {%- unless heading == blank -%}
+                    <h2 class="{{ block.settings.heading_size }}">
+                      {%- render 'highlight-text',
+                        hl_text: heading,
+                        hl_style: block.settings.highlight_style,
+                        enable_hl_text_color: block.settings.enable_highlight_text_color
+                      -%}
+                    </h2>
+                  {%- endunless -%}
+                  {%- unless subheading == blank -%}
+                    <div class="mega-description rte">{{ subheading }}</div>
+                  {%- endunless -%}
+                  {% render 'newsletter-form',
+                    placeholder: block.settings.email_placeholder,
+                    custom_id: block.id,
+                    hide_label: true
+                  %}
+                </motion-element>
+                {%- assign motion_delay = motion_delay | plus: 50 -%}
             {%- endcase -%}
           {%- endfor -%}
         </div>
@@ -389,6 +452,206 @@
             }
           ],
           "default": ""
+        }
+      ]
+    },
+    {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "info": "t:sections.common.highlight_text.paragraph.content",
+          "label": "t:sections.common.header.heading",
+          "default": "Newsletter"
+        },
+        {
+          "type": "select",
+          "id": "highlight_style",
+          "label": "t:sections.common.highlight_text.settings.highlight_style.label",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:sections.common.highlight_text.settings.highlight_style.option__1"
+            },
+            {
+              "value": "drawer_line",
+              "label": "t:sections.common.highlight_text.settings.highlight_style.option__2"
+            },
+            {
+              "value": "underline",
+              "label": "t:sections.common.highlight_text.settings.highlight_style.option__3"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_highlight_text_color",
+          "label": "t:sections.common.highlight_text.settings.enable_highlight_text_color.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "default": "h2",
+          "label": "t:sections.common.text_size.heading.label",
+          "options": [
+            {
+              "value": "h3",
+              "label": "t:sections.common.text_size.options__h3.label"
+            },
+            {
+              "value": "h2",
+              "label": "t:sections.common.text_size.options__h2.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.common.text_size.options__h1.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.common.text_size.options__h0.label"
+            },
+            {
+              "value": "h-xl",
+              "label": "t:sections.common.text_size.options__hd1.label"
+            }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "t:sections.common.header.description",
+          "default": "<p>Encourage customers to subscribe to your newsletter to boost loyalty.</p>"
+        },
+        {
+          "type": "text",
+          "id": "email_placeholder",
+          "label": "t:sections.newsletter.settings.email_placeholder.label",
+          "default": "Enter your email"
+        }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "end_date",
+          "label": "End date",
+          "info": "Format: YYYY-MM-DD",
+          "default": "2026-10-31"
+        },
+        {
+          "type": "text",
+          "id": "end_time",
+          "label": "End time",
+          "info": "24-hour HH:MM format",
+          "default": "00:00"
+        },
+        {
+          "type": "text",
+          "id": "days_label",
+          "label": "Days label",
+          "default": "Days"
+        },
+        {
+          "type": "text",
+          "id": "hours_label",
+          "label": "Hours label",
+          "default": "Hours"
+        },
+        {
+          "type": "text",
+          "id": "minutes_label",
+          "label": "Minutes label",
+          "default": "Minutes"
+        },
+        {
+          "type": "text",
+          "id": "seconds_label",
+          "label": "Seconds label",
+          "default": "Seconds"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "border_color",
+          "label": "Border color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "background_color",
+          "label": "Background color",
+          "default": "rgba(0,0,0,0)"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "label": "Maximum width",
+          "min": 280,
+          "max": 700,
+          "step": 10,
+          "unit": "px",
+          "default": 470
+        },
+        {
+          "type": "range",
+          "id": "box_height",
+          "label": "Box height",
+          "min": 50,
+          "max": 220,
+          "step": 5,
+          "unit": "px",
+          "default": 150
+        },
+        {
+          "type": "range",
+          "id": "box_gap",
+          "label": "Gap between boxes",
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "border_radius",
+          "label": "Border radius",
+          "min": 0,
+          "max": 30,
+          "step": 1,
+          "unit": "px",
+          "default": 12
+        },
+        {
+          "type": "range",
+          "id": "number_font_size",
+          "label": "Number font size",
+          "min": 20,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 52
+        },
+        {
+          "type": "range",
+          "id": "label_font_size",
+          "label": "Label font size",
+          "min": 8,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "default": 12
         }
       ]
     }

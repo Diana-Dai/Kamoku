@@ -112,8 +112,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "KEY INGREDIENTS",
-            "content": "<p>Formulated with <strong>Kiwi Seed Oil, Kakadu Plum Seed Oil, Vitamin E, Manuka Oil, Kanuka Oil, Blue Cypress Oil</strong>, and other botanical ingredients.</p><p>Its natural botanical aroma comes from Manuka, Kanuka, and other essential oils in the formula.</p>",
+            "heading": "INGREDIENTS",
+            "content": "<p>Canola Oil, Caprylic/Capric Triglyceride, Silica, Zea Mays (Corn) Starch, Helianthus Annuus (Sunflower) Seed Oil, Actinidia Cinensis (Kiwi) Seed Oil, TriGlycerides C10-18, Euphorbia Cerifera (Candelilla) Wax, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Cetyl Palmitate, Allantoin, Tocopheryl Acetate, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Callitris Intratropica (Blue Cypress) Wood Oil, Kunzea Ericoides (Kanuka) Leaf Oil, Rosmarinus Officinalis (Rosemary) Leaf Extract.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -124,7 +124,7 @@
           "settings": {
             "icon": "none",
             "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Provides smooth glide during tattooing</li><li>Delivers lightweight hydration</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep freshly tattooed skin feeling comfortable</li><li>Lightweight, non-heavy feel</li></ul>",
+            "content": "<ul><li>Smooth glide to help reduce friction during tattooing</li><li>Lightweight botanical hydration without a heavy, greasy feel</li><li>Helps maintain the skin’s natural moisture barrier</li><li>Helps keep freshly tattooed skin feeling calm and comfortable</li></ul>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -146,7 +146,7 @@
           "settings": {
             "icon": "none",
             "heading": "Testing & Safety",
-            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
+            "content": "<p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -190,7 +190,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Tattooed skin changes. Your care routine should too.",
+            "heading": "FRESH INK. CHANGING NEEDS.",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2",
@@ -200,7 +200,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Many tattoo aftercare routines rely on the same product from fresh ink through long-term maintenance.</p><p><strong>KĀMOKU takes a different approach — one system designed to evolve with your tattoo.</strong></p>"
+            "text": "<p>The needs of tattooed skin change from the session to the care that follows. Smooth glide matters during tattooing. Afterward, the focus shifts to maintaining moisture and keeping skin feeling comfortable.</p><p>Hydro Gel is designed for this transition. A smooth, lightweight formula that provides glide during tattooing and supports the skin’s natural moisture barrier during initial aftercare, without a heavy, greasy feel.</p>"
           }
         }
       },
@@ -208,7 +208,7 @@
         "heading",
         "text"
       ],
-      "disabled": true,
+      "disabled": false,
       "name": "WHY KĀMOKU?",
       "settings": {
         "container": "container-narrow",
@@ -231,9 +231,9 @@
           "settings": {
             "show_image": false,
             "image_link": "",
-            "title": "01",
-            "heading_size": "h3",
-            "text": "<p><strong>Creation + Initial Care</strong></p><p>Designed for the tattooing process and the earliest stage of aftercare.</p>",
+            "title": "·Smooth Glide",
+            "heading_size": "h5",
+            "text": "<p>Designed for the tattooing process, Hydro Gel provides smooth glide to help reduce friction and support smoother application as your artist works.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -245,9 +245,9 @@
           "settings": {
             "show_image": false,
             "image_link": "",
-            "title": "02",
-            "heading_size": "h3",
-            "text": "<p><strong>Hydration + Comfort</strong></p><p>Lightweight hydration and spray-on comfort as tattooed skin begins to feel dry or tight.</p>",
+            "title": "·Lightweight, Non-Sticky Moisture",
+            "heading_size": "h5",
+            "text": "<p>Formulated with Kiwi Seed Oil, Kakadu Plum Seed Oil, and other botanical oils, Hydro Gel spreads easily to deliver lightweight hydration with a smooth, non-sticky feel—without a heavy, greasy finish.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -259,9 +259,9 @@
           "settings": {
             "show_image": false,
             "image_link": "",
-            "title": "03",
-            "heading_size": "h3",
-            "text": "<p><strong>Long-Term Moisture</strong></p><p>Rich everyday moisture and conditioning for healed and existing tattoos.</p>",
+            "title": "·Moisture Barrier & Aftercare Support",
+            "heading_size": "h5",
+            "text": "<p>During initial aftercare, a thin layer helps maintain the skin’s natural moisture barrier and keep freshly tattooed skin hydrated and comfortable as it recovers.</p>",
             "text_size": "medium",
             "button_text": "",
             "button_link": "",
@@ -274,14 +274,14 @@
         "stage_2",
         "stage_3"
       ],
-      "disabled": true,
+      "disabled": false,
       "name": "WHY KĀMOKU? — 3 stages",
       "settings": {
         "container": "container",
         "color_schema": "background-2",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "",
+        "heading": "CARE FOR FRESH INK",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
@@ -426,7 +426,7 @@
         "heading_9eqLyE": {
           "type": "heading",
           "settings": {
-            "heading": "WHY IT WORKS",
+            "heading": "FROM THE STUDIO TO AFTERCARE",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -435,7 +435,7 @@
         "text_RfEgrF": {
           "type": "text",
           "settings": {
-            "text": "<h5>Continuous Hydration</h5><p>A blend of humectants and botanical extracts helps replenish moisture and support skin comfort throughout the peeling phase.</p><h5>Relieves Dryness & Tightness</h5><p>Helps maintain hydration and comfort as tattooed skin begins to peel and regenerate.</p><h5>Comfort Through Peeling</h5><p>Helps calm feelings of irritation and discomfort during the recovery process, reducing the urge to scratch or overwork the skin.</p>"
+            "text": "<p>During your session, Hydro Gel provides smooth glide to help reduce friction as your artist works.</p><p>Afterward, a thin layer delivers lightweight moisture to help keep freshly tattooed skin feeling comfortable.</p>"
           }
         }
       },
@@ -443,7 +443,7 @@
         "heading_9eqLyE",
         "text_RfEgrF"
       ],
-      "disabled": true,
+      "disabled": false,
       "custom_css": [
         "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
         "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
@@ -826,6 +826,7 @@
     },
     "testimonials_FcqFjd": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "testimonial_dkXHLB": {
           "type": "testimonial",
@@ -1022,9 +1023,9 @@
           "type": "ai_gen_block_e307e07",
           "settings": {
             "bundle_product": "the-complete-healing-system",
-            "eyebrow_text": "NOT SURE WHERE TO START?",
-            "heading": "Complete Recovery System",
-            "description": "<p>A comprehensive three-step system designed to support your skin through every stage of recovery.</p>",
+            "eyebrow_text": "THE 3-STAGE TATTOO CARE ROUTINE",
+            "heading": "Care That Evolves<br>With Your Ink",
+            "description": "<p>From the tattoo session to initial aftercare and everyday care, discover a three-stage routine designed around the changing needs of tattooed skin.</p>",
             "bundle_price": "",
             "compare_price": "",
             "savings_text": "",
@@ -1033,7 +1034,7 @@
             "shipping_text": "",
             "product_1": "hydro-gel",
             "step_1_label": "Protect",
-            "step_1_meta": "Fresh Ink Stage<br>\nCooling hydration and breathable protection for newly tattooed skin.",
+            "step_1_meta": "Fresh Ink Stage<br>\nSmooth glide during tattooing, followed by cooling hydration and breathable protection for freshly tattooed skin.",
             "product_2": "recovery-mist",
             "step_2_label": "Regenerate",
             "step_2_meta": "Peeling & Regeneration Stage<br>\nLightweight hydration and comfort as skin begins to renew itself.",
@@ -1044,8 +1045,8 @@
             "benefit_1_description": "Works with your skin's natural rhythm.",
             "benefit_2_title": "BIOLOGICAL SEQUENCE",
             "benefit_2_description": "Each stage supports the next.",
-            "benefit_3_title": "CLINICALLY TESTED",
-            "benefit_3_description": "Safe and effective for new tattoos.",
+            "benefit_3_title": "",
+            "benefit_3_description": "",
             "benefit_4_title": "CONSCIOUS BY DESIGN",
             "benefit_4_description": "Minimal impact. Maximum care.",
             "benefits_padding": 50,
@@ -1149,10 +1150,10 @@
     "main",
     "why_kamoku",
     "why_kamoku_stages",
+    "image_with_text_nQJWVP",
     "why_kamoku_closing",
     "rich_text_K88amW",
     "hero_L8ErTV",
-    "image_with_text_nQJWVP",
     "multicolumn_4ijHwd",
     "image_with_text_8E97jX",
     "multicolumn_eX6pK6",

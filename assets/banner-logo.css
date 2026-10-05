@@ -16,10 +16,51 @@
 .banner-logo__content-wrapper {
   padding-inline: 1.5rem;
   padding-block-end: 8rem;
+      max-width: 600px;
+    margin: 0 auto;
+}
+.banner-countdown {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--countdown-gap);
+  width: min(100%, var(--countdown-max-width));
+  margin-inline: auto;
+  color: var(--countdown-text-color);
+}
+.banner-countdown__box {
+  display: flex;
+  min-width: 0;
+  height: var(--countdown-box-height);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--countdown-border-color) 55%, transparent);
+  border-radius: var(--countdown-border-radius);
+  background-color: var(--countdown-background-color);
+}
+.banner-countdown__number {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: var(--countdown-number-size);
+  line-height: 1;
+}
+.banner-countdown__label {
+  margin-block-start: 1rem;
+  font-size: var(--countdown-label-size);
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  line-height: 1;
+  text-transform: uppercase;
 }
 @media (max-width: 767.98px) {
   .banner-logo__content-wrapper {
     padding-block-end: 5.4rem;
+  }
+  .banner-countdown {
+    gap: min(var(--countdown-gap), 0.6rem);
+  }
+  .banner-countdown__label {
+    margin-inline-start: 0.12em;
+    letter-spacing: 0.08em;
   }
 }
 
