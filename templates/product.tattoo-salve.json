@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE 3 — DAILY TATTOO SALVE",
+            "text": "STAGE 3",
             "text_style": "subtitle"
           }
         },
@@ -119,17 +119,6 @@
             "default_open": false
           }
         },
-        "44a0cb66-4d76-437d-a088-4170647fb088": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Provides rich, long-lasting moisture</li><li>Softens and conditions tattooed skin</li><li>Helps maintain the vibrant appearance and definition of tattoos</li><li>Supports everyday skin hydration</li><li>Ideal after the initial recovery stage</li><li>Suitable for existing tattoos</li><li>Suitable for everyday body care</li></ul>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "stage_how_to_use": {
           "type": "collapsible_tab",
           "settings": {
@@ -156,7 +145,6 @@
         "complementary_WGHcVt",
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088",
         "stage_how_to_use"
       ],
       "custom_css": [],
