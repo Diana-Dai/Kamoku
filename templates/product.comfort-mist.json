@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE 2 — COMFORT MIST",
+            "text": "STAGE 2",
             "text_style": "subtitle"
           }
         },
@@ -47,7 +47,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p>"
+            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.<br/><br/><strong>✓ Easy, Hygienic Spray Application &nbsp;<br/>✓ Mānuka Honey Hydration + Antioxidant Support &nbsp;<br/>✓ Soothes Dry, Tight-Feeling Skin &nbsp;<br/>✓ Helps Calm Visible Redness & Irritation<br/>✓ Supports the skin’s natural moisture barrier<br/>✓ Fragrance-Free for Sensitive Recovery Stages &nbsp;</strong></p>"
           }
         },
         "variant_picker": {
@@ -119,17 +119,6 @@
             "default_open": false
           }
         },
-        "44a0cb66-4d76-437d-a088-4170647fb088": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Easy, hygienic spray application</li><li>Provides lightweight, lasting hydration</li><li>Manuka Honey helps replenish and retain moisture</li><li>Helps soothe dry and tight-feeling skin</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep recovering tattooed skin feeling soft and comfortable</li><li>Helps reduce unnecessary hand contact</li><li>Fragrance-Free</li></ul>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "stage_how_to_use": {
           "type": "collapsible_tab",
           "settings": {
@@ -156,7 +145,6 @@
         "complementary_WGHcVt",
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088",
         "stage_how_to_use"
       ],
       "custom_css": [],
