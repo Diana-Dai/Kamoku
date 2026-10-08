@@ -909,87 +909,6 @@
         "animations": "inherit"
       }
     },
-    "custom_content_4Y7LQm": {
-      "type": "custom-content",
-      "blocks": {
-        "image_comparsion_MKPzdU": {
-          "type": "image_comparsion",
-          "settings": {
-            "layout": "horizontal",
-            "image_height": "medium",
-            "product": "",
-            "width": "50%",
-            "before_heading": "Before",
-            "before_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_28_06_PM.png",
-            "before_color_scheme": "",
-            "before_heading_plain_text": true,
-            "after_heading": "After",
-            "after_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_30_26_PM.png",
-            "after_color_scheme": "",
-            "after_heading_plain_text": true,
-            "block_custom_class": ""
-          }
-        },
-        "text_yzDt4M": {
-          "type": "text",
-          "settings": {
-            "color_scheme": "background-2",
-            "title": "Without Care vs. With Kamoku",
-            "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h2",
-            "heading_color": "#212121",
-            "subheading": "Proven Recovery",
-            "text": "<p>See the difference proper aftercare makes — less scabbing, faster recovery, and better pigment retention.</p><p></p><p></p><ul><li><h6>Pigment Retention<strong>    </strong>+14%</h6></li><li><h6>Inflammation Reduction <strong>   </strong>4 Hours</h6></li></ul>",
-            "alignment": "center",
-            "align_text": "left",
-            "padding_left": 100,
-            "padding_right": 100,
-            "align_content_container": "none",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "width": "50%",
-            "mobile_color_scheme": "background-2",
-            "mobile_padding_left": 0,
-            "mobile_padding_right": 0,
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "image_comparsion_MKPzdU",
-        "text_yzDt4M"
-      ],
-      "custom_css": [
-        "ul {list-style: none; padding-left: 0; padding-top: 2rem;}",
-        "ul li {padding-bottom: 1rem;}"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-2",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "column_gap": "none",
-        "row_gap": "medium",
-        "enable_swipe_mobile": false,
-        "column_mobile": "1",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": ""
-      }
-    },
     "178097190519f4e5ad": {
       "type": "_blocks",
       "blocks": {
@@ -1247,7 +1166,6 @@
     "multicolumn_eX6pK6",
     "collapsible_tabs_3AL9CK",
     "testimonials_FcqFjd",
-    "custom_content_4Y7LQm",
     "178097190519f4e5ad",
     "product-recommendations",
     "gallery_images_n7N9gp",
