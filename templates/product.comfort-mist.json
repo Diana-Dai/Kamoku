@@ -112,8 +112,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "KEY INGREDIENTS",
-            "content": "<p>At the heart of the formula is <strong>Manuka Honey</strong>, known for its naturally moisturizing and soothing properties.</p><p>Also formulated with <strong>Aloe, Glycerin, Panthenol (Vitamin B5), Sodium PCA, Kiwi Seed Oil</strong>, and a blend of botanical ingredients for multi-layer hydration and comfort.</p><p><strong>Fragrance-Free</strong></p>",
+            "heading": "INGREDIENTS",
+            "content": "<p>Water (Aqua), Aloe Barbadensis Leaf Juice, Glycerin, Sorbitan Oleate Decylglucoside Crosspolymer, Propanediol, Hamamelis Virginiana (Witch Hazel) Water, Manuka Honey, Kunzea Ericoides (Kanuka) Leaf Oil, Callitris Intratropica Wood (Blue Cypress) Oil, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Coix lacryma-jobi (Job’s Tears, Ma-yuen) Extract, Olea Europaea (Olive) Leef Extract, Astragalus Membranaceus (Huang Qi) Root Extract, Calendula Officinalis (Pot Marigold) Flower Extract, Cucumis Sativus (Cucumber) Fruit Extract, Pelvetia Canaliculata (Red Seaweed) Extract, Hordeum Vulgare (Barley) Seed Extract, Actinidia Cinensis (Kiwi) Seed Oil, Sodium PCA, DL-Panthenol, Xylitylglucoside, Xanthan Gum, Anhydroxylitol, Methylpropanediol, Allantoin, Maltitol, Caprylyl Glycol, Didecydimonium Chloride, Xylitol, Polyquaternium-80, Sodium Hydroxide, Citric Acid, Sodium Citrate, Potassium Sorbate, Calcium Gluconate, Sodium Benzoate, Gluconolactone, Benzyl Alcohol</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -140,17 +140,6 @@
             "page": "",
             "default_open": false
           }
-        },
-        "collapsible_tab_8Q3FGx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Testing & Safety",
-            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
         }
       },
       "block_order": [
@@ -168,8 +157,7 @@
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
         "44a0cb66-4d76-437d-a088-4170647fb088",
-        "stage_how_to_use",
-        "collapsible_tab_8Q3FGx"
+        "stage_how_to_use"
       ],
       "custom_css": [],
       "settings": {
