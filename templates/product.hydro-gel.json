@@ -19,6 +19,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "heading_size": "h1"
           }
         },
         "price": {
@@ -38,6 +39,13 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
+            "text": "<p><strong>For tattooing + the first days of aftercare</strong></p><p>From the tattooing process through initial aftercare, this lightweight hydro gel delivers smooth glide, lightweight hydration, and lasting comfort to help support freshly tattooed skin through its early recovery stage.</p>"
+          }
+        },
+        "hydro_benefits": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"hydro-benefits\"><ul><li>Smooth Glide During Tattooing</li><li>Powered by Botanical Oils</li><li>Supports a Smoother Recovery Experience</li><li>Helps relieve damaged skin</li><li>Lightweight Finish, breathable barrier</li><li>Soothes redness &amp; irritation</li></ul><p class=\"hydro-ambassador\">&rarr; Are you a Pro Artist? <a href=\"/pages/ambassador\">Apply</a> to our Ambassador program and save up to 40% off.</p></div>"
           }
         },
         "variant_picker": {
@@ -66,6 +74,7 @@
         "care_note": {
           "type": "custom_liquid",
           "settings": {
+            "custom_liquid": "<div class=\"hydro-care-note\"><div class=\"hydro-care-note__mark\"><span></span><span></span><span></span></div><div class=\"hydro-care-note__copy\"><strong>56 points = $56.00</strong><p>Earn loyalty points with this product*</p></div></div>"
           }
         },
         "shipping_TqiCge": {
