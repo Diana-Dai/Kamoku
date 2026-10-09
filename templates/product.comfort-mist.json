@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "STAGE 2 — COMFORT MIST",
+            "text": "STAGE 2",
             "text_style": "subtitle"
           }
         },
@@ -47,7 +47,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p>"
+            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.<br/><br/><strong>✓ Easy, Hygienic Spray Application &nbsp;<br/>✓ Mānuka Honey Hydration + Antioxidant Support &nbsp;<br/>✓ Soothes Dry, Tight-Feeling Skin &nbsp;<br/>✓ Helps Calm Visible Redness & Irritation<br/>✓ Supports the skin’s natural moisture barrier<br/>✓ Fragrance-Free for Sensitive Recovery Stages &nbsp;</strong></p><p>→ Are you a <strong>Pro Artist</strong>?<br/><a href=\"/pages/ambassador\" title=\"Partner with us\">Apply </a>to our wholesale program and save up to 40% off.</p>"
           }
         },
         "variant_picker": {
@@ -112,19 +112,8 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "KEY INGREDIENTS",
-            "content": "<p>At the heart of the formula is <strong>Manuka Honey</strong>, known for its naturally moisturizing and soothing properties.</p><p>Also formulated with <strong>Aloe, Glycerin, Panthenol (Vitamin B5), Sodium PCA, Kiwi Seed Oil</strong>, and a blend of botanical ingredients for multi-layer hydration and comfort.</p><p><strong>Fragrance-Free</strong></p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "44a0cb66-4d76-437d-a088-4170647fb088": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Easy, hygienic spray application</li><li>Provides lightweight, lasting hydration</li><li>Manuka Honey helps replenish and retain moisture</li><li>Helps soothe dry and tight-feeling skin</li><li>Supports the skin’s natural moisture barrier</li><li>Helps keep recovering tattooed skin feeling soft and comfortable</li><li>Helps reduce unnecessary hand contact</li><li>Fragrance-Free</li></ul>",
+            "heading": "INGREDIENTS",
+            "content": "<p>Water (Aqua), Aloe Barbadensis Leaf Juice, Glycerin, Sorbitan Oleate Decylglucoside Crosspolymer, Propanediol, Hamamelis Virginiana (Witch Hazel) Water, Manuka Honey, Kunzea Ericoides (Kanuka) Leaf Oil, Callitris Intratropica Wood (Blue Cypress) Oil, Terminalia Ferdinandiana (Kakadu Plum) Seed Oil, Leptospermum Scoparium (Manuka) Branch/Leaf Oil, Coix lacryma-jobi (Job’s Tears, Ma-yuen) Extract, Olea Europaea (Olive) Leef Extract, Astragalus Membranaceus (Huang Qi) Root Extract, Calendula Officinalis (Pot Marigold) Flower Extract, Cucumis Sativus (Cucumber) Fruit Extract, Pelvetia Canaliculata (Red Seaweed) Extract, Hordeum Vulgare (Barley) Seed Extract, Actinidia Cinensis (Kiwi) Seed Oil, Sodium PCA, DL-Panthenol, Xylitylglucoside, Xanthan Gum, Anhydroxylitol, Methylpropanediol, Allantoin, Maltitol, Caprylyl Glycol, Didecydimonium Chloride, Xylitol, Polyquaternium-80, Sodium Hydroxide, Citric Acid, Sodium Citrate, Potassium Sorbate, Calcium Gluconate, Sodium Benzoate, Gluconolactone, Benzyl Alcohol</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -136,17 +125,6 @@
             "icon": "none",
             "heading": "HOW TO USE",
             "content": "<p>Spray directly over the tattooed area as needed.</p><p>Allow the mist to air dry naturally. There is no need to rub or repeatedly touch the tattooed skin.</p><p>Use during the recovery stage whenever the skin feels dry, tight, or in need of lightweight hydration.</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "collapsible_tab_8Q3FGx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Testing & Safety",
-            "content": "<p><strong>Clinical Safety Evaluation</strong></p><p>Independently evaluated for skin compatibility.</p><p><strong>48-Hour Patch Test</strong></p><p>Assessed under controlled conditions with no observed signs of primary dermal irritation.</p><p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -167,9 +145,7 @@
         "complementary_WGHcVt",
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088",
-        "stage_how_to_use",
-        "collapsible_tab_8Q3FGx"
+        "stage_how_to_use"
       ],
       "custom_css": [],
       "settings": {
@@ -933,87 +909,6 @@
         "animations": "inherit"
       }
     },
-    "custom_content_4Y7LQm": {
-      "type": "custom-content",
-      "blocks": {
-        "image_comparsion_MKPzdU": {
-          "type": "image_comparsion",
-          "settings": {
-            "layout": "horizontal",
-            "image_height": "medium",
-            "product": "",
-            "width": "50%",
-            "before_heading": "Before",
-            "before_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_28_06_PM.png",
-            "before_color_scheme": "",
-            "before_heading_plain_text": true,
-            "after_heading": "After",
-            "after_image": "shopify://shop_images/ChatGPT_Image_Aug_9_2026_06_30_26_PM.png",
-            "after_color_scheme": "",
-            "after_heading_plain_text": true,
-            "block_custom_class": ""
-          }
-        },
-        "text_yzDt4M": {
-          "type": "text",
-          "settings": {
-            "color_scheme": "background-2",
-            "title": "Without Care vs. With Kamoku",
-            "highlight_style": "none",
-            "enable_highlight_text_color": true,
-            "heading_size": "h2",
-            "heading_color": "#212121",
-            "subheading": "Proven Recovery",
-            "text": "<p>See the difference proper aftercare makes — less scabbing, faster recovery, and better pigment retention.</p><p></p><p></p><ul><li><h6>Pigment Retention<strong>    </strong>+14%</h6></li><li><h6>Inflammation Reduction <strong>   </strong>4 Hours</h6></li></ul>",
-            "alignment": "center",
-            "align_text": "left",
-            "padding_left": 100,
-            "padding_right": 100,
-            "align_content_container": "none",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary",
-            "width": "50%",
-            "mobile_color_scheme": "background-2",
-            "mobile_padding_left": 0,
-            "mobile_padding_right": 0,
-            "block_custom_class": "",
-            "animations": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "image_comparsion_MKPzdU",
-        "text_yzDt4M"
-      ],
-      "custom_css": [
-        "ul {list-style: none; padding-left: 0; padding-top: 2rem;}",
-        "ul li {padding-bottom: 1rem;}"
-      ],
-      "settings": {
-        "container": "container",
-        "color_schema": "background-2",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "",
-        "column_gap": "none",
-        "row_gap": "medium",
-        "enable_swipe_mobile": false,
-        "column_mobile": "1",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": ""
-      }
-    },
     "178097190519f4e5ad": {
       "type": "_blocks",
       "blocks": {
@@ -1271,7 +1166,6 @@
     "multicolumn_eX6pK6",
     "collapsible_tabs_3AL9CK",
     "testimonials_FcqFjd",
-    "custom_content_4Y7LQm",
     "178097190519f4e5ad",
     "product-recommendations",
     "gallery_images_n7N9gp",
