@@ -148,6 +148,20 @@
         "animations": "inherit"
       }
     },
+    "mocra_statement_home": {
+      "type": "custom-liquid",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "custom_liquid": "{% render 'mocra-statement', homepage: true %}",
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
     "collection_tabs_X9GTqT": {
       "type": "collection-tabs",
       "blocks": {
@@ -1066,6 +1080,7 @@
   "order": [
     "scrolling_promotion_mViiNk",
     "featured_collection_tRzJEy",
+    "mocra_statement_home",
     "collection_tabs_X9GTqT",
     "comparison_timeline_qpQQDm",
     "multicolumn_CzPVAw",
