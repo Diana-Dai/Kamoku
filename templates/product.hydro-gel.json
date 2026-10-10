@@ -73,12 +73,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "care_note": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"hydro-care-note\"><div class=\"hydro-care-note__mark\"><span></span><span></span><span></span></div><div class=\"hydro-care-note__copy\"><strong>A little care goes a long way.</strong><p>Use a thin layer to keep freshly tattooed skin feeling comfortable.</p></div></div>"
-          }
-        },
         "shipping_TqiCge": {
           "type": "shipping",
           "settings": {
@@ -125,34 +119,12 @@
             "default_open": false
           }
         },
-        "44a0cb66-4d76-437d-a088-4170647fb088": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Smooth glide to help reduce friction during tattooing</li><li>Lightweight botanical hydration without a heavy, greasy feel</li><li>Helps maintain the skin’s natural moisture barrier</li><li>Helps keep freshly tattooed skin feeling calm and comfortable</li></ul>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "stage_how_to_use": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
             "heading": "HOW TO USE",
             "content": "<p><strong>During tattooing:</strong> Apply a small amount to the skin as needed to provide glide and hydration during the tattooing process.</p><p><strong>After tattooing:</strong> Apply a thin layer to clean tattooed skin as needed during the initial care stage.</p><p>Use externally only and follow the aftercare guidance provided by your tattoo artist.</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "collapsible_tab_8Q3FGx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Testing & Safety",
-            "content": "<p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -169,26 +141,13 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "care_note",
         "shipping_TqiCge",
         "complementary_WGHcVt",
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088",
-        "stage_how_to_use",
-        "collapsible_tab_8Q3FGx"
+        "stage_how_to_use"
       ],
-      "custom_css": [
-        ".hydro-care-note {display: flex; align-items: center; gap: 1.25rem; margin: .5rem 0 1.25rem; padding: 1rem 1.15rem; background: #f4f1eb; border: 1px solid rgba(170,159,144,.28);}",
-        ".hydro-care-note__mark {position: relative; flex: 0 0 78px; height: 54px; overflow: hidden; background: #d7ddd2;}",
-        ".hydro-care-note__mark span {position: absolute; display: block; width: 44px; height: 70px; border-radius: 50%; transform: rotate(35deg);}",
-        ".hydro-care-note__mark span:nth-child(1) {left: -8px; top: 10px; background: #82937a;}",
-        ".hydro-care-note__mark span:nth-child(2) {left: 17px; top: -22px; background: #b9aa78;}",
-        ".hydro-care-note__mark span:nth-child(3) {left: 45px; top: 13px; background: #465345;}",
-        ".hydro-care-note__copy strong {display: block; font-family: var(--font-heading-family); font-size: .95rem; font-weight: 500; line-height: 1.2;}",
-        ".hydro-care-note__copy p {margin: .35rem 0 0; font-size: .78rem; line-height: 1.45; opacity: .72;}",
-        "@media screen and (max-width: 749px) {.hydro-care-note {gap: 1rem; padding: .85rem 1rem;}.hydro-care-note__mark {flex-basis: 64px; height: 48px;}.hydro-care-note__copy p {font-size: .74rem;}}"
-      ],
+      "custom_css": [],
       "settings": {
         "container": "container",
         "show_breadcrumb": true,
@@ -225,16 +184,6 @@
         "heading",
         "text"
       ],
-      "custom_css": [
-        ".rich-text__wrapper {max-width: 920px; margin: 0 auto;}",
-        ".rich-text__content {text-align: left; display: grid; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); gap: clamp(2rem, 7vw, 7rem); align-items: start;}",
-        ".rich-text__heading {font-size: clamp(2rem, 4vw, 3.5rem); line-height: .98; letter-spacing: -.04em; margin: 0; max-width: 9ch;}",
-        ".rich-text__text {font-size: 1.05rem; line-height: 1.75; max-width: 620px;}",
-        ".rich-text__text p:first-child {margin-top: 0;}",
-        ".rich-text__text p + p {margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(170,159,144,.55);}",
-        "@media screen and (max-width: 749px) {.rich-text__content {display: block;}.rich-text__heading {max-width: none; margin-bottom: 2rem;}.rich-text__text {font-size: .98rem;}}"
-      ],
-      "disabled": false,
       "name": "WHY KĀMOKU?",
       "settings": {
         "container": "container-narrow",
@@ -300,18 +249,6 @@
         "stage_2",
         "stage_3"
       ],
-      "custom_css": [
-        ".f-multicolumn__header {max-width: 920px; margin-left: auto; margin-right: auto;}",
-        ".f-multicolumn__header h2 {font-size: clamp(1.8rem, 3vw, 2.8rem); letter-spacing: -.035em;}",
-        ".f-grid > .f-column {border-top: 1px solid rgba(170,159,144,.7);}",
-        ".multicolumn-card__info {padding: 1.6rem 0 0;}",
-        ".multicolumn-card__info:before {content: '0' counter(item); counter-increment: item; display: block; font-family: var(--font-heading-family); font-size: .75rem; letter-spacing: .12em; opacity: .6; margin-bottom: 2.5rem;}",
-        ".f-grid {counter-reset: item;}",
-        ".multicolumn-card__info h5 {font-size: 1.2rem; line-height: 1.15; letter-spacing: -.02em; margin-bottom: 1rem; max-width: 16ch;}",
-        ".multicolumn-card__info p {font-size: .95rem; line-height: 1.65; opacity: .78; max-width: 30ch;}",
-        "@media screen and (max-width: 749px) {.f-grid > .f-column + .f-column {margin-top: 1.5rem;}.multicolumn-card__info:before {margin-bottom: 1.5rem;}}"
-      ],
-      "disabled": false,
       "name": "WHY KĀMOKU? — 3 stages",
       "settings": {
         "container": "container",
@@ -336,6 +273,59 @@
         "column_mobile": "1",
         "padding_top": 20,
         "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_nQJWVP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9eqLyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "FROM THE STUDIO TO AFTERCARE",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_RfEgrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>During your session, Hydro Gel provides smooth glide to help reduce friction as your artist works.</p><p>Afterward, a thin layer delivers lightweight moisture to help keep freshly tattooed skin feeling comfortable.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9eqLyE",
+        "text_RfEgrF"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/ChatGPTImageAug6_2026_12_07_38PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -455,65 +445,6 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": false
-      }
-    },
-    "image_with_text_nQJWVP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9eqLyE": {
-          "type": "heading",
-          "settings": {
-            "heading": "FROM THE STUDIO TO AFTERCARE",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2"
-          }
-        },
-        "text_RfEgrF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>During your session, Hydro Gel provides smooth glide to help reduce friction as your artist works.</p><p>Afterward, a thin layer delivers lightweight moisture to help keep freshly tattooed skin feeling comfortable.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9eqLyE",
-        "text_RfEgrF"
-      ],
-      "disabled": false,
-      "custom_css": [
-        ".image-with-text__media {height: 100%; min-height: 520px;}",
-        ".image-with-text__media img {height: 100%; object-fit: cover;}",
-        ".image-with-text__content {max-width: 560px; margin: 0 auto; padding-top: clamp(3rem, 8vw, 7rem); padding-bottom: clamp(3rem, 8vw, 7rem);}",
-        ".image-with-text__heading {font-size: clamp(2rem, 4vw, 3.4rem); line-height: .98; letter-spacing: -.04em; max-width: 8ch; margin-bottom: 2.5rem;}",
-        ".image-with-text__content .rte p {font-size: 1rem; line-height: 1.7; padding: 1.35rem 0; margin: 0; border-top: 1px solid rgba(255,255,255,.35);}",
-        ".image-with-text__content .rte p:last-child {border-bottom: 1px solid rgba(255,255,255,.35);}",
-        "@media screen and (max-width: 749px) {.image-with-text__media {min-height: 360px;}.image-with-text__heading {max-width: none; margin-bottom: 2rem;}.image-with-text__content {padding-top: 3rem; padding-bottom: 3.5rem;}}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPTImageAug6_2026_12_07_38PM.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 50,
-        "padding_right": 50,
-        "align_content_container": "none",
-        "mobile_padding_left": 13,
-        "mobile_padding_right": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 18,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "multicolumn_4ijHwd": {
@@ -868,7 +799,6 @@
     },
     "testimonials_FcqFjd": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonial_dkXHLB": {
           "type": "testimonial",
@@ -945,6 +875,7 @@
         "testimonial_tUweFx",
         "testimonial_6VYtEh"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
