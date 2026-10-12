@@ -150,16 +150,15 @@
     },
     "mocra_statement_home": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "container": "container",
-        "color_schema": "background-1",
+        "color_schema": "background-2",
         "custom_liquid": "{% render 'mocra-statement', homepage: true %}",
         "padding_top": 0,
         "padding_bottom": 20,
         "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": ""
+        "divider_width": "container"
       }
     },
     "collection_tabs_X9GTqT": {
@@ -495,9 +494,9 @@
             "bottom_icon_text_size": 12,
             "bottom_icon_1_text": "Botanical ingredients",
             "bottom_icon_2_text": "Circadian recovery",
-            "bottom_icon_3_text": "Tattoo-safe",
+            "bottom_icon_3_text": "Ink safe",
             "bottom_icon_4_text": "Ethically sourced",
-            "background_color": "#ded8c8",
+            "background_color": "#efece7",
             "heading_color": "#000000",
             "text_color": "#444444",
             "icon_color": "#9aa791",

@@ -45,7 +45,7 @@
         "hydro_benefits": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"hydro-benefits\"><ul><li>Smooth Glide During Tattooing</li><li>Powered by Botanical Oils</li><li>Supports a Smoother Recovery Experience</li><li>Helps relieve damaged skin</li><li>Lightweight Finish, breathable barrier</li><li>Soothes redness &amp; irritation</li></ul><p class=\"hydro-ambassador\">&rarr; Are you a Pro Artist? <a href=\"/pages/ambassador\">Apply</a> to our Ambassador program and save up to 40% off.</p></div>"
+            "custom_liquid": "<div class=\"hydro-benefits\"><ul><li>Smooth Glide During Tattooing</li><li>Powered by Botanical Oils</li><li>Supports a Smoother Recovery Experience</li><li>Helps relieve damaged skin</li><li>Lightweight Finish, breathable barrier</li><li>Soothes redness &amp; irritation</li></ul></div>"
           }
         },
         "variant_picker": {
@@ -69,12 +69,6 @@
             "show_atc_button": true,
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
-          }
-        },
-        "care_note": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div class=\"hydro-care-note\"><div class=\"hydro-care-note__mark\"><span></span><span></span><span></span></div><div class=\"hydro-care-note__copy\"><strong>56 points = $56.00</strong><p>Earn loyalty points with this product*</p></div></div>"
           }
         },
         "shipping_TqiCge": {
@@ -123,34 +117,12 @@
             "default_open": false
           }
         },
-        "44a0cb66-4d76-437d-a088-4170647fb088": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "PRODUCT BENEFITS",
-            "content": "<ul><li>Smooth glide to help reduce friction during tattooing</li><li>Lightweight botanical hydration without a heavy, greasy feel</li><li>Helps maintain the skin’s natural moisture barrier</li><li>Helps keep freshly tattooed skin feeling calm and comfortable</li></ul>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
         "stage_how_to_use": {
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
             "heading": "HOW TO USE",
             "content": "<p><strong>During tattooing:</strong> Apply a small amount to the skin as needed to provide glide and hydration during the tattooing process.</p><p><strong>After tattooing:</strong> Apply a thin layer to clean tattooed skin as needed during the initial care stage.</p><p>Use externally only and follow the aftercare guidance provided by your tattoo artist.</p>",
-            "liquid": "",
-            "page": "",
-            "default_open": false
-          }
-        },
-        "collapsible_tab_8Q3FGx": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "heading": "Testing & Safety",
-            "content": "<p><strong>Cruelty-Free</strong></p><p>Never tested on animals.</p>",
             "liquid": "",
             "page": "",
             "default_open": false
@@ -167,14 +139,11 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "care_note",
         "shipping_TqiCge",
         "complementary_WGHcVt",
         "0202d9f6-9275-431a-be80-93368ef98507",
         "collapsible_tab_YfYLeV",
-        "44a0cb66-4d76-437d-a088-4170647fb088",
-        "stage_how_to_use",
-        "collapsible_tab_8Q3FGx"
+        "stage_how_to_use"
       ],
       "custom_css": [],
       "settings": {
@@ -213,12 +182,12 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "custom_css": [],
-      "disabled": false,
       "name": "WHY KĀMOKU?",
       "settings": {
         "container": "container-narrow",
-        "color_schema": "background-2",
+        "color_schema": "inverse",
         "text_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 40,
@@ -235,9 +204,9 @@
         "stage_1": {
           "type": "column",
           "settings": {
-            "show_image": false,
+            "show_image": true,
             "image_link": "",
-            "title": "·Smooth Glide",
+            "title": "Smooth Glide",
             "heading_size": "h5",
             "text": "<p>Designed for the tattooing process, Hydro Gel provides smooth glide to help reduce friction and support smoother application as your artist works.</p>",
             "text_size": "medium",
@@ -249,9 +218,9 @@
         "stage_2": {
           "type": "column",
           "settings": {
-            "show_image": false,
+            "show_image": true,
             "image_link": "",
-            "title": "·Lightweight, Non-Sticky Moisture",
+            "title": "Lightweight, Non-Sticky Moisture",
             "heading_size": "h5",
             "text": "<p>Formulated with Kiwi Seed Oil, Kakadu Plum Seed Oil, and other botanical oils, Hydro Gel spreads easily to deliver lightweight hydration with a smooth, non-sticky feel—without a heavy, greasy finish.</p>",
             "text_size": "medium",
@@ -263,9 +232,9 @@
         "stage_3": {
           "type": "column",
           "settings": {
-            "show_image": false,
+            "show_image": true,
             "image_link": "",
-            "title": "·Moisture Barrier & Aftercare Support",
+            "title": "Moisture Barrier & Aftercare Support",
             "heading_size": "h5",
             "text": "<p>During initial aftercare, a thin layer helps maintain the skin’s natural moisture barrier and keep freshly tattooed skin hydrated and comfortable as it recovers.</p>",
             "text_size": "medium",
@@ -281,11 +250,10 @@
         "stage_3"
       ],
       "custom_css": [],
-      "disabled": false,
       "name": "WHY KĀMOKU? — 3 stages",
       "settings": {
         "container": "container",
-        "color_schema": "background-2",
+        "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "CARE FOR FRESH INK",
@@ -310,6 +278,123 @@
         "divider_width": "container",
         "custom_id": "",
         "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_nQJWVP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9eqLyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "FRESH INK. CHANGING NEEDS.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_RfEgrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The needs of tattooed skin change from the session to the care that follows. Smooth glide matters during tattooing. Afterward, the focus shifts to maintaining moisture and keeping skin feeling comfortable.</p><p>Hydro Gel is designed for this transition. A smooth, lightweight formula that provides glide during tattooing and supports the skin’s natural moisture barrier during initial aftercare, without a heavy, greasy feel.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9eqLyE",
+        "text_RfEgrF"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-1",
+        "image": "shopify://shop_images/ChatGPTImageAug6_2026_12_07_38PM.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hydro_studio_aftercare": {
+      "type": "multicolumn",
+      "blocks": {
+        "during_session": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Smooth glide for the artist.",
+            "heading_size": "h3",
+            "text": "<p>During your session, Hydro Gel provides smooth glide to help reduce friction as your artist works.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "initial_aftercare": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image_link": "",
+            "title": "Lightweight care for your skin.",
+            "heading_size": "h3",
+            "text": "<p>Afterward, a thin layer delivers lightweight moisture to help keep freshly tattooed skin feeling comfortable.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "during_session",
+        "initial_aftercare"
+      ],
+      "name": "FROM THE STUDIO TO AFTERCARE",
+      "settings": {
+        "container": "container",
+        "color_schema": "background-1",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "From the studio to aftercare",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "left",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 2,
+        "column_gap": "large",
+        "row_gap": "large",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "hydro-studio-aftercare",
         "animations": "inherit"
       }
     },
@@ -425,57 +510,6 @@
         "custom_class": "",
         "animations": "inherit",
         "enable_bg_zoom_effect": false
-      }
-    },
-    "image_with_text_nQJWVP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9eqLyE": {
-          "type": "heading",
-          "settings": {
-            "heading": "FROM THE STUDIO TO AFTERCARE",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2"
-          }
-        },
-        "text_RfEgrF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>During your session, Hydro Gel provides smooth glide to help reduce friction as your artist works.</p><p>Afterward, a thin layer delivers lightweight moisture to help keep freshly tattooed skin feeling comfortable.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9eqLyE",
-        "text_RfEgrF"
-      ],
-      "disabled": false,
-      "custom_css": [],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "image": "shopify://shop_images/ChatGPTImageAug6_2026_12_07_38PM.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 50,
-        "padding_right": 50,
-        "align_content_container": "none",
-        "mobile_padding_left": 13,
-        "mobile_padding_right": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 18,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
       }
     },
     "multicolumn_4ijHwd": {
@@ -830,7 +864,6 @@
     },
     "testimonials_FcqFjd": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonial_dkXHLB": {
           "type": "testimonial",
@@ -907,6 +940,7 @@
         "testimonial_tUweFx",
         "testimonial_6VYtEh"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -1017,7 +1051,7 @@
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
-        "custom_class": ""
+        "custom_class": "hydro-care-benefits"
       }
     },
     "178097190519f4e5ad": {
@@ -1086,6 +1120,7 @@
       "block_order": [
         "ai_gen_block_e307e07_tM89Vm"
       ],
+      "disabled": true,
       "settings": {}
     },
     "product-recommendations": {
@@ -1155,6 +1190,7 @@
     "why_kamoku",
     "why_kamoku_stages",
     "image_with_text_nQJWVP",
+    "hydro_studio_aftercare",
     "why_kamoku_closing",
     "rich_text_K88amW",
     "hero_L8ErTV",

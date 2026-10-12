@@ -1,5 +1,23 @@
 {{ 'mocra-statement.css' | asset_url | stylesheet_tag }}
 <div class="mocra-statement{% if homepage %} mocra-statement--homepage{% endif %}" role="note">
-  <h2>FDA Listed under MoCRA</h2>
-  <p>Cosmetic products listed with the U.S. FDA in accordance with MoCRA requirements.</p>
+  {% unless homepage %}
+    <div class="mocra-statement__row">
+      <span class="mocra-statement__logo">
+        <img
+          src="{{ 'fda-mocra-logo.svg' | asset_url }}"
+          alt="FDA MoCRA Regulations"
+          width="520"
+          height="365"
+          loading="lazy"
+        >
+      </span>
+      <div>
+        <h2>FDA Listed under MoCRA</h2>
+        <p>Cosmetic products listed with the U.S. FDA in accordance with MoCRA requirements.</p>
+      </div>
+    </div>
+  {% else %}
+    <h2>FDA Listed under MoCRA</h2>
+    <p>Cosmetic products listed with the U.S. FDA in accordance with MoCRA requirements.</p>
+  {% endunless %}
 </div>

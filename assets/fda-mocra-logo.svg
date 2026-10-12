@@ -1,0 +1,9 @@
+<svg width="520" height="365" viewBox="0 0 520 365" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="520" height="365" fill="#243F70"/>
+  <rect width="175" height="20" fill="#F4514A"/>
+  <path d="M407 345H520V365H407V345Z" fill="#1674E8"/>
+  <text x="59" y="204" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="174" font-weight="700" letter-spacing="-8">FDA</text>
+  <path d="M70 238H469" stroke="white" stroke-width="2"/>
+  <text x="66" y="286" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">MoCRA Regulations</text>
+  <path d="M70 306H469" stroke="white" stroke-width="2"/>
+</svg>

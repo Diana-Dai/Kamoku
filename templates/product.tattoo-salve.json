@@ -983,6 +983,7 @@
     },
     "178097190519f4e5ad": {
       "type": "_blocks",
+      "disabled": true,
       "blocks": {
         "ai_gen_block_e307e07_tM89Vm": {
           "type": "ai_gen_block_e307e07",

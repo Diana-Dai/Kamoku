@@ -31,6 +31,12 @@
             <div class="rte">
               {{ block.settings.text }}
             </div>
+            {% unless template.suffix == 'hydro-gel' %}<div class="comfort-mist-artist-banner">
+              <div class="comfort-mist-artist-banner__content">
+                <div><strong>ARE YOU A PRO ARTIST?</strong><p>Apply to our wholesale program and<br>save up to 40% off.</p></div>
+                <a href="{{ routes.root_url }}pages/ambassador" title="Partner with us">Apply Now <span aria-hidden="true">→</span></a>
+              </div>
+            </div>{% endunless %}
           {% endif %}
         {%- when 'image' -%}
           {% if block.settings.image != blank %}
@@ -232,6 +238,14 @@
           </ul>
         {%- when 'custom_liquid' -%}
           {{ block.settings.custom_liquid }}
+          {% if template.suffix == 'hydro-gel' and block.id == 'hydro_benefits' %}
+            <div class="comfort-mist-artist-banner">
+              <div class="comfort-mist-artist-banner__content">
+                <div><strong>ARE YOU A PRO ARTIST?</strong><p>Apply to our wholesale program and<br>save up to 40% off.</p></div>
+                <a href="{{ routes.root_url }}pages/ambassador" title="Partner with us">Apply Now <span aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          {% endif %}
         {%- when 'divider' -%}
           <hr>
         {%- when 'custom_field' -%}
@@ -741,7 +755,15 @@
                 {%- endform -%}
               </product-form>
             {% endif %}
-            {% render 'mocra-statement' %}
+            {%- assign loyalty_variant_price = product.selected_or_first_available_variant.price -%}
+            {%- assign loyalty_points = loyalty_variant_price | divided_by: 100.0 | round -%}
+            <div class="hydro-care-note">
+              <div class="hydro-care-note__mark"><span></span><span></span><span></span></div>
+              <div class="hydro-care-note__copy">
+                <strong>{{ loyalty_points }} points = {{ loyalty_variant_price | money }}</strong>
+                <p>Earn loyalty points with this product*</p>
+              </div>
+            </div>
             <link
               rel="stylesheet"
               href="{{ 'pickup-availability.css' | asset_url }}"
@@ -1035,4 +1057,6 @@
       {%- endcase -%}
     </div>
   {%- endfor -%}
+            {% render 'mocra-statement' %}
+
 </div>

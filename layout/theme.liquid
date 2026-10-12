@@ -121,6 +121,9 @@
     {% if template.name == 'product' and template.suffix == 'hydro-gel' %}
       {{ 'hydro-gel-custom.css' | asset_url | stylesheet_tag }}
     {% endif %}
+    {% if template.name == 'product' and template.suffix == 'comfort-mist' %}
+      {{ 'comfort-mist-custom.css' | asset_url | stylesheet_tag }}
+    {% endif %}
     <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
 
     {%- if settings.cart_recommendations_enable -%}
@@ -237,6 +240,28 @@
     {%- endif -%}
     {%- if request.design_mode -%}
       <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+    {%- endif -%}
+    {%- if template.suffix == 'ambassador' -%}
+      <script>
+        (() => {
+          const start = new Date('2026-10-12T00:00:00+08:00');
+          const base = 118;
+          const updateTrustedCount = () => {
+            const weeks = Math.max(0, Math.floor((Date.now() - start.getTime()) / (7 * 24 * 60 * 60 * 1000)));
+            const count = base + weeks * 2;
+            document.querySelectorAll('.rte p, .f-text-blocks p').forEach((paragraph) => {
+              if (paragraph.textContent.includes('TRUSTED BY')) {
+                paragraph.innerHTML = paragraph.innerHTML.replace(/TRUSTED BY\s*[\d,]+/, `TRUSTED BY ${count.toLocaleString()}`);
+              }
+            });
+          };
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', updateTrustedCount);
+          } else {
+            updateTrustedCount();
+          }
+        })();
+      </script>
     {%- endif -%}
   </body>
 </html>

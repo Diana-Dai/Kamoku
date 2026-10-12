@@ -7201,12 +7201,12 @@ shopify-account::part(signed-out-avatar) {
 
   }
   }
-  .h1{
-    line-height:1.4;
-  }
-  .f-article-card__title a{
-    color:inherit;
-  }
+.h1{
+  line-height:1.4;
+}
+.f-article-card__title a{
+  color:inherit;
+}
 
 
 .banner-logo__content-wrapper  .f-text-blocks{
@@ -7218,4 +7218,66 @@ shopify-account::part(signed-out-avatar) {
 
 #smile-ui-lite-container{
   z-index: 99 !important;
+}
+
+.comfort-mist-artist-banner{
+  margin: 20px 0;
+  padding: 1rem 1.5rem;
+  border: 1px solid #e5e0d4;
+  background: #F6F5E8;
+}
+.comfort-mist-artist-banner__content{display:flex;align-items:center;justify-content:space-between;gap:2rem}.comfort-mist-artist-banner strong{display:block;letter-spacing:.24em;font-size:.78rem}.comfort-mist-artist-banner p{font-size:1rem;margin:.45rem 0 0;color:#686c66;line-height:1.35}.comfort-mist-artist-banner a{font-size:1rem;color:#343832;text-decoration:underline;text-underline-offset:.2em;white-space:nowrap}.comfort-mist-artist-banner a span{display:inline-block;margin-left:1.1rem;text-decoration:none;font-size:1.4em}
+@media screen and (max-width:749px){.comfort-mist-artist-banner{padding:.9rem 1rem}.comfort-mist-artist-banner__content{gap:1rem}.comfort-mist-artist-banner strong{font-size:1rem;letter-spacing:.16em}.comfort-mist-artist-banner p{font-size:.82rem}.comfort-mist-artist-banner a span{margin-left:.4rem}}
+}
+
+.hydro-care-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin: 2rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  background: #F6F5E8;
+  border: 1px solid rgba(170, 159, 144, 0.28);
+}
+
+.hydro-care-note__mark {
+  position: relative;
+  flex: 0 0 78px;
+  height: 54px;
+  overflow: hidden;
+  background: #d7ddd2;
+}
+
+.hydro-care-note__mark span {
+  position: absolute;
+  display: block;
+  width: 44px;
+  height: 70px;
+  border-radius: 50%;
+  transform: rotate(35deg);
+}
+
+.hydro-care-note__mark span:nth-child(1) { left: -8px; top: 10px; background: #82937a; }
+.hydro-care-note__mark span:nth-child(2) { left: 17px; top: -22px; background: #b9aa78; }
+.hydro-care-note__mark span:nth-child(3) { left: 45px; top: 13px; background: #465345; }
+
+.hydro-care-note__copy { text-align: right; }
+.hydro-care-note__copy strong {
+  display: block;
+  font-family: var(--font-heading-family);
+  font-weight: 500;
+  line-height: 1.2;
+}
+.hydro-care-note__copy p {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+  line-height: 1.45;
+  opacity: 0.72;
+}
+
+@media screen and (max-width: 749px) {
+  .hydro-care-note { gap: 1rem; padding: 0.85rem 1rem; }
+  .hydro-care-note__mark { flex-basis: 64px; height: 48px; }
+  .hydro-care-note__copy p { font-size: 0.74rem; }
 }

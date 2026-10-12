@@ -1,0 +1,17 @@
+<svg width="680" height="110" viewBox="0 0 680 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="678" height="108" rx="16" fill="#F1EEE5" stroke="#E8E3D7" stroke-width="2"/>
+  <g opacity="0.72" fill="#7E8579">
+    <path d="M590 0C612 24 635 61 666 104L680 110V0H590Z" opacity="0.12"/>
+    <path d="M615 0C622 28 637 66 666 105" stroke="#858B80" stroke-width="2"/>
+    <path d="M630 20C648 20 661 15 678 5" stroke="#858B80" stroke-width="2"/>
+    <path d="M639 39C655 40 668 35 679 28" stroke="#858B80" stroke-width="2"/>
+    <path d="M649 59C661 60 671 57 680 52" stroke="#858B80" stroke-width="2"/>
+    <path d="M657 78C666 79 674 77 680 74" stroke="#858B80" stroke-width="2"/>
+  </g>
+  <text x="31" y="34" fill="#343832" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3.5">ARE YOU A PRO ARTIST?</text>
+  <text x="31" y="64" fill="#686C66" font-family="Arial, Helvetica, sans-serif" font-size="18">Apply to our wholesale program and</text>
+  <text x="31" y="88" fill="#686C66" font-family="Arial, Helvetica, sans-serif" font-size="18">save up to 40% off.</text>
+  <text x="438" y="69" fill="#343832" font-family="Arial, Helvetica, sans-serif" font-size="17" text-decoration="underline">Apply Now</text>
+  <path d="M438 73H520" stroke="#343832" stroke-width="1"/>
+  <path d="M548 62H570M570 62L562 55M570 62L562 69" stroke="#343832" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
