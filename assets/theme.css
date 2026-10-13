@@ -7247,6 +7247,8 @@ shopify-account::part(signed-out-avatar) {
   height: 54px;
   overflow: hidden;
   background: #d7ddd2;
+  width: 78px;
+  max-width: 78px;
 }
 
 .hydro-care-note__mark span {
@@ -7280,4 +7282,26 @@ shopify-account::part(signed-out-avatar) {
   .hydro-care-note { gap: 1rem; padding: 0.85rem 1rem; }
   .hydro-care-note__mark { flex-basis: 64px; height: 48px; }
   .hydro-care-note__copy p { font-size: 0.74rem; }
+}
+
+.f-product-single__block--richtext .rte ul {
+  display: grid;
+  gap: .8rem;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.f-product-single__block--richtext .rte ul li {
+  position: relative;
+  padding-left: 2rem;
+  line-height: 1.4;
+}
+.f-product-single__block--richtext .rte ul li::before {
+  position: absolute;
+  top: .15em;
+  left: 0;
+  width: 1.45rem;
+  height: 1.45rem;
+  content: "";
+  background: url("icon-check-circle-kamoku.svg") center / contain no-repeat;
 }
