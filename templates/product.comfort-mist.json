@@ -39,7 +39,7 @@
         "richtext_APTFht": {
           "type": "richtext",
           "settings": {
-            "text": "<h2>Recovery + Manuka Honey Hydration &amp; Comfort Care</h2><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p><p>✓ &nbsp; Easy, hygienic spray application<br/>✓ &nbsp; Mānuka honey hydration + antioxidant support<br/>✓ &nbsp; Soothes dry, tight-feeling skin<br/>✓ &nbsp; Helps calm visible redness &amp; irritation<br/>✓ &nbsp; Supports the skin’s natural moisture barrier<br/>✓ &nbsp; Fragrance-free for sensitive recovery stages</p>"
+            "text": "<p><strong>Recovery + Manuka Honey Hydration & Comfort Care</strong></p><p>As tattooed skin moves into the recovery stage, it may begin to feel dry, tight, or uncomfortable. COMFORT MIST provides lightweight hydration with an easy spray application, helping minimize unnecessary hand contact with the tattooed area.</p><ul><li>Easy, hygienic spray application</li><li>Mānuka honey hydration + antioxidant support</li><li>Soothes dry, tight-feeling skin</li><li>Helps calm visible redness & irritation</li><li>Supports the skin’s natural moisture barrier</li><li>Fragrance-free for sensitive recovery stages</li></ul>"
           }
         },
         "variant_picker": {
@@ -149,6 +149,395 @@
         "enable_image_zoom": true,
         "enable_video_looping": true,
         "show_featured_media": true
+      }
+    },
+    "image_with_text_nQJWVP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9eqLyE": {
+          "type": "heading",
+          "settings": {
+            "heading": "PEELING SKIN NEEDS MORE THAN MOISTURE.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_RfEgrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>During the peeling and regeneration stage, tattooed skin can feel dry, tight, itchy, and sensitive. This is when soothing hydration and antioxidant support become especially important.</p><p>At the heart of Comfort Mist is Mānuka Honey, valued for its naturally occurring antioxidant, soothing, and protective properties. The fine mist delivers lightweight moisture directly to the skin, helping maintain comfort and hydration while minimizing unnecessary contact.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9eqLyE",
+        "text_RfEgrF"
+      ],
+      "custom_css": [
+        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
+        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/dbaa4d57-f05b-4232-ba4a-adddf3321db2.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "multicolumn_4ijHwd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3GaEmp": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/17686d30-bd42-4910-a4ff-5c13f4da3cec.png",
+            "image_link": "",
+            "title": "NEW ZEALAND BOTANICAL COMFORT COMPLEX",
+            "heading_size": "h5",
+            "text": "<p>A calming botanical blend of Mānuka Honey, Mānuka Oil, Kanuka Oil, and Blue Cypress Oil brings together naturally soothing, antioxidant, anti-inflammatory, and protective properties to help calm visible redness and irritation while supporting comfort through the peeling and regeneration stage.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_AmTjEM": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/3202fdf7-675e-412f-9630-4c1b481c4354.png",
+            "image_link": "",
+            "title": "ANTIOXIDANT BOTANICAL COMPLEX",
+            "heading_size": "h5",
+            "text": "<p>Kakadu Plum Seed Oil, Kiwi Seed Oil, Olive Leaf, Calendula, and Cucumber extracts work together to provide antioxidant-rich botanical care, helping condition stressed-looking skin, support softness, and defend against everyday oxidative stress during recovery.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_fxYEKT": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/a627d0cc-5485-4e3b-b6b7-cbc8dc859034.png",
+            "image_link": "",
+            "title": "MULTI-HYDRATION COMPLEX",
+            "heading_size": "h5",
+            "text": "<p>A multi-level moisture system combining Aloe Vera, Glycerin, Sodium PCA, Panthenol, and Xylitol-derived humectants helps attract and retain moisture, relieving dry, tight-feeling skin while delivering lightweight, lasting hydration without heaviness.</p>",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_3GaEmp",
+        "column_AmTjEM",
+        "column_fxYEKT"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container-fluid",
+        "color_schema": "background-2",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "Nature With Purpose.",
+        "highlight_style": "none",
+        "enable_highlight_text_color": true,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "<p>Every ingredient is chosen not for trend, but for function — supporting the skin through every stage of healing.</p>",
+        "layout": "vertical",
+        "text_alignment": "left",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 3,
+        "column_gap": "extra-small",
+        "row_gap": "large",
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_8E97jX": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_aiWeLX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tactile Interaction"
+          }
+        },
+        "heading_m7GWaD": {
+          "type": "heading",
+          "settings": {
+            "heading": "\"A soft hydro-gel texture that melts effortlessly into the skin. Lightweight and breathable, itspreads smoothly to form a comfortable protective layer without feeling greasy, sticky, or heavy.\"",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h3"
+          }
+        },
+        "text_dnyEhA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>REFRESHING</li><li>LIGHTWEIGHT</li><li>NON-STICKY</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_aiWeLX",
+        "heading_m7GWaD",
+        "text_dnyEhA"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
+        "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
+        ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
+        "h2 {padding: 4rem 0;}",
+        "@media (max-width: 767px) {ul {gap: 10px; align-items: center; justify-content: center; } ul li {padding: 0.5rem 1rem; font-size: 1rem; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-1",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_44_24_PM.png",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "natural_botanical_aroma": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "NATURAL BOTANICAL AROMA",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A calming, spa-inspired aroma naturally derived from Mānuka, Kānuka, and Blue Cypress essential oils.</p><p>Reminiscent of the fresh, herbal notes of tea tree, with a softer, subtly woody finish. Clean, refreshing, and naturally sophisticated.</p><p>Pure botanical aroma. No added synthetic fragrance.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "name": "Natural Botanical Aroma",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "background-1",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_44_24_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_K88amW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VHk8X9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rooted in Polynesian Culture",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h0",
+            "heading_color": ""
+          }
+        },
+        "text_Hf8RFH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
+          }
+        },
+        "button_87gxdh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Our story",
+            "button_link": "shopify://pages/about",
+            "button_style": "btn--secondary",
+            "button_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VHk8X9",
+        "text_Hf8RFH",
+        "button_87gxdh"
+      ],
+      "custom_css": [
+        "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
+        "p {max-width: 500px; margin: 0 auto; opacity: 0.7;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container-narrow",
+        "color_schema": "background-2",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "hero_L8ErTV": {
+      "type": "hero",
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_46_39_PM.png",
+        "image_overlay_opacity": 0,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": true,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "container": "container",
+        "color_schema": "accent",
+        "remove_params": false,
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "You may also like",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "description": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "double-extra-small",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "show_nav": true,
+        "show_dots": false,
+        "enable_swipe_mobile": true,
+        "column_mobile": "1",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ce9BMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ce9BMK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
       }
     },
     "why_kamoku": {
@@ -305,333 +694,6 @@
         "text_alignment": "center",
         "padding_top": 20,
         "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "rich_text_K88amW": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VHk8X9": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rooted in Polynesian Culture",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h0",
-            "heading_color": ""
-          }
-        },
-        "text_Hf8RFH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For generations, tattooing has been more than decoration—it has been identity, lineage, and personal history carried on the skin. Kamoku draws from that foundation, combining botanical ingredients and modern skin science to support tattooed skin from fresh ink to long-term care.</p>"
-          }
-        },
-        "button_87gxdh": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Our story",
-            "button_link": "shopify://pages/about",
-            "button_style": "btn--secondary",
-            "button_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_VHk8X9",
-        "text_Hf8RFH",
-        "button_87gxdh"
-      ],
-      "custom_css": [
-        "h4 {border-bottom: 1px solid #aa9f90; padding-bottom: 2rem; margin-bottom: 2rem;}",
-        "p {max-width: 500px; margin: 0 auto; opacity: 0.7;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "container": "container-narrow",
-        "color_schema": "background-2",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "hero_L8ErTV": {
-      "type": "hero",
-      "name": "t:sections.hero.presets.name",
-      "settings": {
-        "container": "container-full",
-        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_46_39_PM.png",
-        "image_overlay_opacity": 0,
-        "hero_height": "large",
-        "content_in_container": false,
-        "content_position": "center",
-        "text_alignment": "center",
-        "text_color": "#ffffff",
-        "hero_height_mobile": "large",
-        "content_position_mobile": "center",
-        "show_text_below": true,
-        "text_alignment_mobile": "center",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit",
-        "enable_bg_zoom_effect": false
-      }
-    },
-    "image_with_text_nQJWVP": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9eqLyE": {
-          "type": "heading",
-          "settings": {
-            "heading": "WHY IT WORKS",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2"
-          }
-        },
-        "text_RfEgrF": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>Continuous Hydration</h5><p>A blend of humectants and botanical extracts helps replenish moisture and support skin comfort throughout the peeling phase.</p><h5>Relieves Dryness & Tightness</h5><p>Helps maintain hydration and comfort as tattooed skin begins to peel and regenerate.</p><h5>Comfort Through Peeling</h5><p>Helps calm feelings of irritation and discomfort during the recovery process, reducing the urge to scratch or overwork the skin.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9eqLyE",
-        "text_RfEgrF"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "h5 {list-style: none; padding-left: 0; padding-top: 3rem;}",
-        "h5 + p {padding-bottom: 1.5rem; border-bottom: 1px solid #aa9f90; font-family: var(--font-heading-family);}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "accent",
-        "image": "shopify://shop_images/212.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 50,
-        "padding_right": 50,
-        "align_content_container": "none",
-        "mobile_padding_left": 13,
-        "mobile_padding_right": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 18,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "multicolumn_4ijHwd": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_3GaEmp": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/161.png",
-            "image_link": "",
-            "title": "Mānuka honey",
-            "heading_size": "h5",
-            "text": "<p>Deeply nourishes and helps support the skin's natural healing process.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_AmTjEM": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/168.png",
-            "image_link": "",
-            "title": "Kiwi Seed Oil",
-            "heading_size": "h5",
-            "text": "<p>Rich in antioxidants to hydrate, soothe, and protect delicate skin.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_fxYEKT": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/166.png",
-            "image_link": "",
-            "title": "Mānuka oil",
-            "heading_size": "h5",
-            "text": "<p>Naturally purifies and helps defend the skin against environmental stressors.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_AkTkep": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/167.png",
-            "image_link": "",
-            "title": "Blue Cypress",
-            "heading_size": "h5",
-            "text": "<p>Calms irritation while helping reduce redness and discomfort.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_VqHd7A": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/163_2.png",
-            "image_link": "",
-            "title": "Kakadu plum",
-            "heading_size": "h5",
-            "text": "<p>Packed with natural vitamin C to brighten and support healthy-looking skin.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        },
-        "column_Dnxxti": {
-          "type": "column",
-          "settings": {
-            "show_image": true,
-            "image": "shopify://shop_images/164.png",
-            "image_link": "",
-            "title": "Kakadu oil",
-            "heading_size": "h5",
-            "text": "<p>Lightweight botanical oil that deeply moisturizes and restores skin balance.</p>",
-            "text_size": "medium",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "column_3GaEmp",
-        "column_AmTjEM",
-        "column_fxYEKT",
-        "column_AkTkep",
-        "column_VqHd7A",
-        "column_Dnxxti"
-      ],
-      "disabled": true,
-      "name": "t:sections.multicolumn.name",
-      "settings": {
-        "container": "container-fluid",
-        "color_schema": "background-2",
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "Nature With Purpose.",
-        "highlight_style": "none",
-        "enable_highlight_text_color": true,
-        "heading_size": "h2",
-        "heading_color": "",
-        "subheading": "",
-        "description": "<p>Every ingredient is chosen not for trend, but for function — supporting the skin through every stage of healing.</p>",
-        "layout": "vertical",
-        "text_alignment": "left",
-        "image_width": "fullwidth",
-        "custom_image_width": 80,
-        "columns": 6,
-        "column_gap": "extra-small",
-        "row_gap": "large",
-        "enable_swipe_mobile": true,
-        "column_mobile": "1",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
-    },
-    "image_with_text_8E97jX": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_aiWeLX": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Tactile Interaction"
-          }
-        },
-        "heading_m7GWaD": {
-          "type": "heading",
-          "settings": {
-            "heading": "\"A soft hydro-gel texture that melts effortlessly into the skin. Lightweight and breathable, itspreads smoothly to form a comfortable protective layer without feeling greasy, sticky, or heavy.\"",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h3"
-          }
-        },
-        "text_dnyEhA": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>REFRESHING</li><li>LIGHTWEIGHT</li><li>NON-STICKY</li></ul>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_aiWeLX",
-        "heading_m7GWaD",
-        "text_dnyEhA"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "ul {padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 20px;}",
-        "ul li {letter-spacing: 2px; padding: 1rem 2rem; border-radius: 20px; background: #767960; color: white; font-size: 1.2rem;}",
-        ".mega-subtitle {letter-spacing: 3px; font-size: 1rem;}",
-        "h2 {padding: 4rem 0;}",
-        "@media (max-width: 767px) {ul {gap: 10px; align-items: center; justify-content: center; } ul li {padding: 0.5rem 1rem; font-size: 1rem; }}"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "container": "container-full",
-        "color_schema": "background-1",
-        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_44_24_PM.png",
-        "image_width": "50%",
-        "image_position": "right",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 50,
-        "padding_right": 50,
-        "align_content_container": "none",
-        "mobile_padding_left": 13,
-        "mobile_padding_right": 13,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 18,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -869,6 +931,7 @@
         "testimonial_tUweFx",
         "testimonial_6VYtEh"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -902,7 +965,6 @@
     },
     "178097190519f4e5ad": {
       "type": "_blocks",
-      "disabled": true,
       "blocks": {
         "ai_gen_block_e307e07_tM89Vm": {
           "type": "ai_gen_block_e307e07",
@@ -967,38 +1029,8 @@
       "block_order": [
         "ai_gen_block_e307e07_tM89Vm"
       ],
-      "settings": {}
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
       "disabled": true,
-      "settings": {
-        "container": "container",
-        "color_schema": "accent",
-        "remove_params": false,
-        "section_header_padding_bottom": "medium",
-        "section_header_content_spacing": "medium",
-        "heading": "You may also like",
-        "highlight_style": "none",
-        "enable_highlight_text_color": false,
-        "heading_size": "h2",
-        "heading_color": "",
-        "description": "",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": "double-extra-small",
-        "row_gap": "medium",
-        "enable_slider": true,
-        "show_nav": true,
-        "show_dots": false,
-        "enable_swipe_mobile": true,
-        "column_mobile": "1",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "animations": "inherit"
-      }
+      "settings": {}
     },
     "gallery_images_n7N9gp": {
       "type": "gallery-images",
@@ -1078,6 +1110,7 @@
         "image_cEjarh",
         "image_Lxaz6J"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container-full",
@@ -1112,55 +1145,25 @@
         "custom_class": "",
         "animations": "inherit"
       }
-    },
-    "rich_text_tMaMPn": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_ce9BMK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Conscious cellular recovery for the lifecycle of your ink.",
-            "highlight_style": "none",
-            "enable_highlight_text_color": false,
-            "heading_size": "h2",
-            "heading_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ce9BMK"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "container": "container",
-        "color_schema": "inverse",
-        "text_alignment": "center",
-        "padding_top": 80,
-        "padding_bottom": 80,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      }
     }
   },
   "order": [
     "main",
-    "why_kamoku",
-    "why_kamoku_stages",
-    "why_kamoku_closing",
-    "rich_text_K88amW",
-    "hero_L8ErTV",
     "image_with_text_nQJWVP",
     "multicolumn_4ijHwd",
     "image_with_text_8E97jX",
+    "natural_botanical_aroma",
+    "rich_text_K88amW",
+    "hero_L8ErTV",
+    "product-recommendations",
+    "rich_text_tMaMPn",
+    "why_kamoku",
+    "why_kamoku_stages",
+    "why_kamoku_closing",
     "multicolumn_eX6pK6",
     "collapsible_tabs_3AL9CK",
     "testimonials_FcqFjd",
     "178097190519f4e5ad",
-    "product-recommendations",
-    "gallery_images_n7N9gp",
-    "rich_text_tMaMPn"
+    "gallery_images_n7N9gp"
   ]
 }

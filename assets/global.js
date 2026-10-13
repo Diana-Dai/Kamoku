@@ -183,7 +183,7 @@ function renderHeroTitleLineBreaks() {
   });
 }
 
-function renderAmbassadorCounter() {
+function renderAmbassadorCounter(retryCount = 0) {
   const heroSection = document.querySelector('[data-section-type="hero-section"]');
   if (!heroSection) return;
 
@@ -194,12 +194,24 @@ function renderAmbassadorCounter() {
     item.textContent.includes("TRUSTED BY")
   );
 
+  if (!paragraph && retryCount < 20) {
+    window.setTimeout(() => renderAmbassadorCounter(retryCount + 1), 150);
+    return;
+  }
+
   if (!paragraph || heroSection.querySelector(".ambassador-trust-badge")) return;
 
   const badge = document.createElement("div");
   badge.className = "ambassador-trust-badge";
-  badge.setAttribute("data-counter-target", "7017");
-  badge.setAttribute("data-counter-start", "6900");
+  const baseCount = 118;
+  const countStart = new Date("2026-10-12T00:00:00+08:00");
+  const weeksSinceStart = Math.max(
+    0,
+    Math.floor((Date.now() - countStart.getTime()) / (7 * 24 * 60 * 60 * 1000))
+  );
+  const targetCount = baseCount + weeksSinceStart;
+  badge.setAttribute("data-counter-target", String(targetCount));
+  badge.setAttribute("data-counter-start", String(targetCount));
   badge.innerHTML = `
     <span class="ambassador-trust-badge__label">TRUSTED BY</span>
     <div class="ambassador-trust-badge__number" aria-live="polite" data-counter-display>0</div>
