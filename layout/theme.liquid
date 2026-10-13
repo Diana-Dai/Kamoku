@@ -124,6 +124,9 @@
     {% if template.name == 'product' and template.suffix == 'comfort-mist' %}
       {{ 'comfort-mist-custom.css' | asset_url | stylesheet_tag }}
     {% endif %}
+    {% if template.name == 'product' and template.suffix == 'tattoo-salve' %}
+      {{ 'tattoo-salve-custom.css' | asset_url | stylesheet_tag }}
+    {% endif %}
     <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
 
     {%- if settings.cart_recommendations_enable -%}

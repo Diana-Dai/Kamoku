@@ -181,7 +181,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "container": "container-full",
-        "color_schema": "accent",
+        "color_schema": "background-1",
         "image": "shopify://shop_images/dbaa4d57-f05b-4232-ba4a-adddf3321db2.png",
         "image_width": "50%",
         "image_position": "left",
@@ -261,7 +261,7 @@
       "name": "t:sections.multicolumn.name",
       "settings": {
         "container": "container-fluid",
-        "color_schema": "background-2",
+        "color_schema": "background-1",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
         "heading": "Nature With Purpose.",

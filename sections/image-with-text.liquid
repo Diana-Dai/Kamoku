@@ -67,7 +67,9 @@
           data-motion="{{ animation_effect }}"
           class="image-with-text__media f-card block"
         >
-          {%- if section.settings.image != blank -%}
+          {%- if section.settings.shopify_video != blank -%}
+            {{ section.settings.shopify_video | video_tag: autoplay: true, muted: true, loop: true, controls: false, playsinline: true, preload: 'metadata' }}
+          {%- elsif section.settings.image != blank -%}
             {% render 'responsive-image',
               image: section.settings.image,
               alt: alt,
@@ -200,6 +202,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "video",
+      "id": "shopify_video",
+      "label": "t:sections.video.settings.shopify_video.label"
     },
     {
       "type": "select",
