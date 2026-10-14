@@ -291,7 +291,7 @@
         "button_pBHh9y": {
           "type": "button",
           "settings": {
-            "button_label": "Add to Ritual — $42",
+            "button_label": "Add to Ritual",
             "button_link": "shopify://products/hydro-gel",
             "button_style": "btn--primary",
             "button_size": ""
@@ -361,7 +361,7 @@
         "button_VFcAfp": {
           "type": "button",
           "settings": {
-            "button_label": "Add to Ritual — $38",
+            "button_label": "Add to Ritual",
             "button_link": "shopify://products/recovery-mist",
             "button_style": "btn--primary",
             "button_size": ""
@@ -431,7 +431,7 @@
         "button_wneyn8": {
           "type": "button",
           "settings": {
-            "button_label": "Add to Ritual — $36",
+            "button_label": "Add to Ritual",
             "button_link": "shopify://products/daily-care-balm",
             "button_style": "btn--primary",
             "button_size": ""

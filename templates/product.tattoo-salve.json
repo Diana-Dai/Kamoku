@@ -323,7 +323,7 @@
         "image": "shopify://shop_images/eb701e27-eef4-4bad-8eb6-4de0f96d0fb8.png",
         "shopify_video": "shopify://files/videos/827d81353dca193c031151309f440f49_raw.mp4",
         "image_width": "50%",
-        "image_position": "left",
+        "image_position": "right",
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
@@ -336,6 +336,55 @@
         "padding_bottom": 0,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 18,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "image_with_text_DTkPm6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zmjrJb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>THE SCENT</strong>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_MJD7Tj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bright citrus opens the fragrance with a fresh lift, followed by the warmth of agarwood and a clean marine finish. Smooth, balanced, and subtly addictive.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zmjrJb",
+        "text_MJD7Tj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "shopify_video": "shopify://files/videos/a29b3ec018fd0df3a985993806dc7f73_raw.mp4",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
         "show_section_divider": false,
         "divider_width": "container",
         "custom_id": "",
@@ -622,6 +671,7 @@
     "custom_content_4Y7LQm",
     "image_with_text_nQJWVP",
     "image_with_text_8E97jX",
+    "image_with_text_DTkPm6",
     "silky_salve_video",
     "rich_text_K88amW",
     "hero_L8ErTV",
