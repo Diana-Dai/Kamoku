@@ -914,6 +914,7 @@
         "heading_iqtgFd",
         "text_fRdYdz"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
