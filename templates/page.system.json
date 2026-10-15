@@ -132,7 +132,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/380.png",
+            "image": "shopify://shop_images/377.png",
             "image_link": "",
             "title": "Barrier Disruption",
             "heading_size": "h4",
@@ -177,7 +177,7 @@
           "type": "column",
           "settings": {
             "show_image": true,
-            "image": "shopify://shop_images/377.png",
+            "image": "shopify://shop_images/380.png",
             "image_link": "",
             "title": "Barrier Restoration",
             "heading_size": "h4",
