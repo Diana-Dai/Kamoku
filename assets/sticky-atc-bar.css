@@ -3,7 +3,7 @@ body.template-product.sticky-atc-bar-enabled:not(:has(.sticky-atc-bar.f-hidden))
 }
 
 .sticky-atc-bar {
-  z-index: 29;
+  z-index: 99999;
   background-color: var(--color-background);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.09);
   transition: cubic-bezier(0.4, 0, 0.2, 1) 0.3s all;
