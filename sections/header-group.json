@@ -111,7 +111,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop the SYSTEM",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://collections/best-sellers",
             "button_style": "btn--secondary",
             "button_size": ""
           }
