@@ -870,6 +870,7 @@
         "slide_Kdmiti",
         "slide_NVzR7t"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text-slider.name",
       "settings": {
         "padding_top": 0,
