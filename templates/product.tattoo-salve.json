@@ -349,7 +349,7 @@
         "heading_zmjrJb": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>THE SCENT</strong>",
+            "heading": "THE SCENT",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -631,6 +631,37 @@
         "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "container",
+        "animations": "inherit"
+      }
+    },
+    "rich_text_tMaMPn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ce9BMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE SCENT",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ce9BMK"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "inverse",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
         "animations": "inherit"
       }
     }

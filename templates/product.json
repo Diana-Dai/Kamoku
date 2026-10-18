@@ -749,6 +749,7 @@
         "testimonial_tUweFx",
         "testimonial_6VYtEh"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "container": "container",
@@ -863,7 +864,6 @@
     },
     "178097190519f4e5ad": {
       "type": "_blocks",
-      "disabled": true,
       "blocks": {
         "ai_gen_block_e307e07_tM89Vm": {
           "type": "ai_gen_block_e307e07",
@@ -928,6 +928,7 @@
       "block_order": [
         "ai_gen_block_e307e07_tM89Vm"
       ],
+      "disabled": true,
       "settings": {}
     },
     "product-recommendations": {
