@@ -1091,6 +1091,143 @@
         "show_section_divider": false,
         "divider_width": "container"
       }
+    },
+        "image_with_text_X4qLq7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WCi4cU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Science With Purpose",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2"
+          }
+        },
+        "text_33wANa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nature inspires.</p><p>Science refines.</p><p>Every KĀMOKU formula is developed with a clear purpose—to support the skin through each stage of tattoo recovery using carefully selected ingredients and modern formulation standards.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WCi4cU",
+        "text_33wANa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "accent",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_39_02_PM.png",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 50,
+        "padding_right": 50,
+        "align_content_container": "none",
+        "mobile_padding_left": 13,
+        "mobile_padding_right": 13,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 32,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+        "16542290942ea85dfa": {
+      "type": "hero",
+      "blocks": {
+        "1654229094960f6bc7-0": {
+          "type": "title",
+          "settings": {
+            "title": "Stories Carried Through Skin",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": ""
+          }
+        },
+        "text_FPhpnp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tattooing is more than decoration.</p><p>It is identity, memory, and story carried through skin.</p><p>What we choose to carry deserves care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "1654229094960f6bc7-0",
+        "text_FPhpnp"
+      ],
+      "custom_css": [],
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_23_44_PM.png",
+        "image_overlay_opacity": 62,
+        "hero_height": "adapt",
+        "content_in_container": true,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "mobile-remove-br",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
+    },
+       "hero_96w8RX": {
+      "type": "hero",
+      "blocks": {
+        "title_CQpmKy": {
+          "type": "title",
+          "settings": {
+            "title": "What We Choose To Carry Deserves Care",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": ""
+          }
+        },
+        "text_zQRC7p": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A tattoo evolves over time.</p><p>The relationship we have with it evolves as well.</p><p>KĀMOKU exists to support that journey—from the first day of healing to the years that follow.</p><p>Because the stories we carry deserve lasting care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title_CQpmKy",
+        "text_zQRC7p"
+      ],
+      "name": "t:sections.hero.presets.name",
+      "settings": {
+        "container": "container-full",
+        "image": "shopify://shop_images/ChatGPT_Image_Aug_7_2026_03_33_40_PM.png",
+        "image_overlay_opacity": 58,
+        "hero_height": "large",
+        "content_in_container": false,
+        "content_position": "center",
+        "text_alignment": "center",
+        "text_color": "#ffffff",
+        "hero_height_mobile": "large",
+        "content_position_mobile": "center",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit",
+        "enable_bg_zoom_effect": true
+      }
     }
   },
   "order": [
@@ -1107,6 +1244,9 @@
     "image_with_text_slider_KEBzkK",
     "rich_text_GiX8ff",
     "gallery_images_n7N9gp",
+        "image_with_text_X4qLq7",
+    "16542290942ea85dfa",
+    "hero_96w8RX",
     "165422614227341852",
     "custom_liquid_fELaHT"
   ]
